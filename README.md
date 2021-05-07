@@ -8,7 +8,8 @@ Onderstaand een basis uitleg van de verschillende HTML elementen in onze Canvas 
 
 <br /><br /><br />
 
-:anchor: ## Anchor link
+## Anchor link
+:anchor:
 > Klik op een link en spring naar een andere plek in de pagina
 
 ##### Plain text
@@ -38,7 +39,8 @@ Onderstaand een basis uitleg van de verschillende HTML elementen in onze Canvas 
 ```
 
 <br /><br />
-## Content box :abc:
+## Content box
+:abc:
 > Een simpele content-box met achtergrond
 - ```"content-box"``` voor een vierkante box zonder rand
 - ```"content-box pad-box-mini border border-trbl border-round"``` voor een ronde afwerking met rand
@@ -100,8 +102,9 @@ Onderstaand een basis uitleg van de verschillende HTML elementen in onze Canvas 
 ```
 
 <br /><br />
-## Menu balk :house:
-> Bovenaan iedere pagina een content box met buttons
+## Menu balk
+:house:
+> Bovenaan iedere pagina een header box met buttons
 - Content box over de volle breedte van de pagina = ```cold-md-12```
 - In grid-demo-element ```<div> alle buttons naast elkaar </div>```
 - Canvas icon in iedere button: ```<i class="icon-home"></i>```
