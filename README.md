@@ -5,7 +5,7 @@ Samenwerken:
 - In Github delen we de bestanden (```collaboration```)
 - Wij maken gebruik van de import package ```Teletype``` om in Atom "realtime" samen te werken (Google Drive). Hierdoor zijn er overdag geen conflicten met oude/nieuwe versie van code omdat iedereen realtime de laatste wijzigingen ziet. Vergeet niet aan het einde van de dag de veranderingen te pushen naar Github.
 
-> Push & pull naar Git
+Push & pull naar Git
 Stappen voor opslaan veranderingen in Github:
 1. ```Save``` file
 2. Klik op ```Stage All``` (rechterzijde)
@@ -15,7 +15,7 @@ Stappen voor opslaan veranderingen in Github:
 Ophalen van wijzigingen:
 1. Klik op ```Fetch``` rechts onderin de balk
 
-> Realtime Samenwerken
+Realtime Samenwerken
 1. Klik op het ```antenne icoon``` rechts onderin de balk
 2. Klik op ```Share``` en deel de code (of klik op ```Join``` en vul code in)
 
