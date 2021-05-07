@@ -19,16 +19,13 @@
             </div>
         </div>
         <div class="col-xs-12 col-md-20">
-            <div class="content-box" style="background-color: #ffffff; padding: 15px;">
-                <h5>
-                    <span style="color: #333333; font-size: 20px;"><strong>About the Thesis Workflow</strong></span>
-                </h5>
-                <p>With the Thesis Workflow, students can easily publish their Master Thesis to the UvA Library within Canvas. The workflow consists of a few modules which students have to carefully read and follow one-by-one in order to complete it. By using this structure, students are well-informed about the decisions they have to make, such as which creative commons license to choose or what the official title will be for the published version. By following the workflow module-by-module, students can hand in their thesis according to their own wishes and decisions and their request will be autoamtically pushed to the UvA library. Please read our description below to find out the do's and don'ts in order for the workflow to (technically) work.</p>
+            <div class="content-box" style="background-color: #ffffff; padding: 10px;">
+                <p style="text-align: center;">The Thesis Workflow allows students to easily publish their Master Thesis to the UvA Library within Canvas. The workflow consists of a few modules that students must carefully read and follow one by one to complete the workflow. By using this structure, students are well informed about the decisions they need to make, such as which creative commons license to choose or what the official title will be for the published version. By following the workflow module by module, students can submit their thesis according to their own needs and decisions, and their request will be automatically forwarded to the UvA library. Please read our description below to find out the do's and don'ts in order for the workflow to (technically) work.</p>
             </div>
         </div>
         <div class="col-xs-12 col-md-20">
             <h3 style="text-align: center; margin-bottom: 15px;">
-                <span style="color: #333333;">Checklist for teachers / administrators</span>
+                <span style="color: #34495e;">Checklist for teachers / administrators</span>
             </h3>
         </div>
         <div class="grid-row">
@@ -56,7 +53,7 @@
         <p>&nbsp;</p>
         <div class="col-xs-12 col-md-20">
             <h3 style="text-align: center; margin-bottom: 15px;">
-                <span style="color: #333333;">Canvas view for students</span>
+                <span style="color: #34495e;">Canvas view for students</span>
             </h3>
         </div>
         <div class="grid-row">
@@ -81,14 +78,14 @@
         <p>&nbsp;</p>
         <div class="col-xs-12 col-md-20">
             <h3 style="text-align: center; margin-bottom: 15px;">
-                <span style="color: #333333;">Watch these videos</span>
+                <span style="color: #34495e;">Watch these videos</span>
             </h3>
         </div>
         <div class="col-xs-12 col-md-6" style="margin-top: 15px;">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/4bYhJwJzF08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="YouTube video player" src="https://www.youtube.com/embed/4bYhJwJzF08" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
         </div>
         <div class="col-xs-12 col-md-6" style="margin-top: 15px;">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/-V03oT0b43s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="YouTube video player" src="https://www.youtube.com/embed/-V03oT0b43s" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
         </div>
         <div class="col-xs-12 col-md-20">
             <p>&nbsp;</p>
@@ -99,10 +96,12 @@
         <p>&nbsp;</p>
         <div class="col-xs-12 col-md-20">
             <h3 style="text-align: center; margin-bottom: 15px;">
-                <span style="color: #333333;">View more: <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/uva-thesis-workflow-menu" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/uva-thesis-workflow-menu" data-api-returntype="Page"><i class="icon-copy-course"></i>
-                    <span>&nbsp;Go to Thesis Workflow menu</span>
-                </a>
-              </span>
+                <span style="color: #333333;">
+                    <span style="color: #34495e;">View more:</span>
+                    <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/uva-thesis-workflow-menu" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/uva-thesis-workflow-menu" data-api-returntype="Page"><i class="icon-copy-course"></i>
+                        <span>&nbsp;Go to Thesis Workflow menu</span>
+                    </a>
+                </span>
             </h3>
         </div>
     </div>
