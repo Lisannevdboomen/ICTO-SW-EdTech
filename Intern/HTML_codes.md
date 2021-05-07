@@ -69,7 +69,11 @@
 - ```"content-box pad-box-mini border border-trbl border-round"``` voor een ronde afwerking met rand
 - Gebruik ```margin``` om extra ruimte __buiten__ de content box te maken en ```padding``` voor extra wit ruimte __in__ de box
 ```html
-<div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; padding: 15px; margin-top: 10px; margin-botton: 20px;">
+<div class="content-box" style="padding: 15px; margin-top: 10px; margin-bottom: 20px;">
+    <!-- inhoud -->
+</div>
+
+<div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa;">
     <!-- inhoud -->
 </div>
 ```
