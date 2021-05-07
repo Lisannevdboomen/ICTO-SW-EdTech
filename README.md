@@ -1,8 +1,5 @@
 # ICTO Social Sciences
-- Canvas pagina's (de HTML) bewerken wij met behulp van ```Atom```
-- ```Atom``` is een IDE (codeer editor) van ```Github```.  We kunnen in Atom aan de pagina's werken en veranderingen pushen+pullen van en naar Github.
-- In Github delen we de bestanden via ```collaboration``` tussen onze accounts
-- Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te werken (Google Drive idee). Hierdoor zijn er overdag geen conflicten met oude/nieuwe versie van code omdat iedereen realtime de laatste wijzigingen ziet. Vergeet niet aan het einde van de dag de veranderingen te pushen naar Git.
+In dit project delen we de HTML pagina's van onze Canvas cursus https://canvas.uva.nl/courses/8175. En je kunt hier basic uitleg vinden over de HTML opbouw en structuur.
 
 ## Git & Atom
 In Github delen we de bestanden via een ```collaboration``` tussen onze accounts. Canvas pagina's bewerken we met behulp van ```Atom```. Atom is een IDE (codeer editor) van ```Github```.  We kunnen in Atom aan pagina's werken en veranderingen pushen+pullen van en naar Github.
