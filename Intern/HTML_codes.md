@@ -1,10 +1,10 @@
 # HTML code in onze cursus
 
 
-# Anchor link
+# Anchor link :anchor:
 > Klik op een link & spring naar een andere plek in de pagina
 
-## Plain text anchor link
+:heavy_check_mark: ### Plain text anchor link
 
 ##### Bron
 ```html
@@ -16,7 +16,7 @@
     <a id="stap1"></a>
 </p>
 ```
-## Button anchor link
+:heavy_check_mark: ### Button anchor link
 
 ##### Bron
 ```html
