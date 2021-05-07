@@ -5,7 +5,7 @@
 - Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te werken (Google Drive idee). Hierdoor zijn er overdag geen conflicten met oude/nieuwe versie van code omdat iedereen realtime de laatste wijzigingen ziet. Vergeet niet aan het einde van de dag de veranderingen te pushen naar Git.
 
 ## Git & Atom
-#### Access
+#### Toegang tot mappen
 1. In Atom (eerste keer) -> login op Github account
 2. Klik in Atom links op ```Reopen project``` en selecteer dit project
 3. Klik rechts onderin op ```Git```
@@ -21,6 +21,7 @@
 #### Realtime Samenwerken
 1. Klik op het ```antenne icoon``` rechts onderin de balk
 2. Klik op ```Share``` en deel de code (of klik op ```Join``` en vul code in)
+<br />
 
 ## Basis uitleg van verschillende HTML elementen in Canvas cursus:
 - [Anchor links](#Anchor-link)
