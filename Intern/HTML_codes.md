@@ -4,7 +4,7 @@
 # Anchor link :anchor:
 > Klik op een link & spring naar een andere plek in de pagina
 
-:heavy_check_mark: ### Plain text anchor link
+### Plain text anchor link
 
 ##### Bron
 ```html
@@ -16,7 +16,7 @@
     <a id="stap1"></a>
 </p>
 ```
-:heavy_check_mark: ### Button anchor link
+### Button anchor link
 
 ##### Bron
 ```html
