@@ -7,11 +7,11 @@ Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te we
 #### Toegang tot mappen
 ###### Eerste keer inloggen in Atom:
 1. Account voor collaboration toevoegen aan Github project
-2. In Atom -> login op het Github account en voeg het project toe: ```https://github.com/Lisannevdboomen/ICTO-SW.git```
+2. In Atom -> login op Github account en voeg project toe: ```https://github.com/Lisannevdboomen/ICTO-SW.git```
 ###### Daarna altijd beginnen met:
 1. Klik in Atom links op ```Reopen project``` en selecteer het ICTO-SW project
 2. Klik rechts onderin op ```Git```
-3. Klik op ```Fetch``` rechts onderin de balk (laatste updates/veranderingen ophalen)
+3. Klik op ```Fetch``` rechts onderin (laatste updates/veranderingen ophalen)
 #### Pushen van veranderingen naar Github:
 1. ```Save``` file
 2. Klik op ```Stage All``` (rechterzijde)
@@ -19,11 +19,11 @@ Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te we
 4. Klik op ```Commit to main```
 5. Klik op ```Push``` onderin de balk
 #### Ophalen van wijzigingen naar Atom:
-1. Klik op ```Fetch``` rechts onderin de balk
+1. Klik op ```Fetch``` onderin de balk
 
 #### Realtime Samenwerken
-1. Klik op het ```antenne icoon``` rechts onderin de balk
-2. Klik op ```Share``` en deel de unieke code met collega (of klik op ```Join``` en vul code in)
+1. Klik op het ```antenne icoon``` onderin de balk
+2. Klik op ```Share``` en deel de unieke code met een collega (of klik op ```Join``` en vul code in)
 <br />
 
 ## Basis uitleg van verschillende HTML elementen in Canvas cursus:
@@ -39,8 +39,8 @@ Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te we
 > Hiermee creëer je een layout en structuur aan de inhoud van je pagina. Wil je bijvoorbeeld een tekstvak over de volle breedte van een pagina plaatsen? Of twee tekstvakken naast elkaar?
 
 ##### Er zijn 2 wegen om een grid system te volgen:
-- Je opent een rij en plaatst hierin een-voor-een van links naar rechts elementen van een bepaalde breedte
-- Je opent een kolom en plaats hierin een-voor-een van boven naar beneden elementen onder elkaar
+- Je opent een rij en plaatst hierin een-voor-een van links naar rechts elementen
+- Je opent een kolom en plaatst hierin een-voor-een van boven naar beneden elementen onder elkaar
 
 ##### De volle breedte van een pagina is bij conventie: ```col-md-12 ```
 Dus,
@@ -49,7 +49,7 @@ Dus,
 
 
 ##### Volle breedte
-```een menubalk```
+```een content box (tekstvak)```
 ```html
 <!-- Open een rij -->
 <div class="grid-row">
@@ -96,10 +96,12 @@ Dus,
 </p>
 
 <!-- Destination -->
+
 <p>
     <a id="topmenu"></a>
 </p>
 ```
+
 
 <br /><br />
 ## Content box
@@ -113,14 +115,14 @@ Dus,
 
 ```html
 <!-- voorbeeld 1: -->
-<!-- content box zonder opmaak en padding & margin, om tekst simpelweg om een nette plek te krijgen.  -->
-<div class="content-box" style="padding: 15px; margin-top: 10px; margin-bottom: 20px;">
+<!-- content box zonder opmaak, met padding om tekst simpelweg om een nette plek te krijgen.  -->
+<div class="content-box" style="padding: 15px; margin-bottom: 20px;">
     <!-- inhoud -->
 </div>
 
 <!-- voorbeeld 2 -->
-<!-- content box met achtergrondkleur, border, ronde hoeken -->
-<div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa;">
+<!-- content box met achtergrondkleur, border, ronde hoeken, en margin -->
+<div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; margin-top: 10px;">
     <!-- inhoud -->
 </div>
 ```
