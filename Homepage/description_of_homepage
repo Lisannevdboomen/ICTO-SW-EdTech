@@ -1,0 +1,372 @@
+<!--
+Deze homepage is NIET up to date! De structuur is wel hetzelfde maar de comments heb ik ooit eerder/tussentijds ingevoegd tbv uitleg aan een collega. De comments onderstaand geven nog steeds een bruikbaar inzicht in hoe de homepagina is opgebouwd, maar dit is dus NIET de laatste versie!
+
+Tip:
+   - Zo weinig mogelijk 'float' gebruiken in de html code (voor een div), in de text editor van Canvas kun je namelijk deze elementen dan niet meer zien (div elementen vallen in de text editor over elkaar heen wanneer je float gebruikt)
+   - Comments plaatsen in de HTML heeft weinig zin. Canvas haalt alle comments weg zodra je op "Save" klikt. Helaas is het soms gewoon handiger om even zaken in de Canvas text editor mode aan te passen, waardoor je dus de HTML van Canvas terug naar hier moet plakken en de comments zijn dan weg
+-->
+
+<div class="content-box" style="background-color: #ffffff;">
+    <div class="grid-row">
+
+        <!-- Banner -->
+        <!-- div over de hele breedte van de pagina (col-md-12) -->
+        <!-- "12" is bij conventie de maximale breedte van een pagina. Wil je bijv drie elementen over de pagina verdelen dan is het: 3 keer col-md-4 -->
+        <div class="col-xs-12 col-md-12">
+            <img src="https://canvas.uva.nl/courses/8175/files/4322300/preview" alt="Edtech menu (1).png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4322300" data-api-returntype="File" />
+        </div>
+
+        <!-- Top menu -->
+        <!-- div over de hele breedte van de pagina (col-md-12) -->
+        <div class="col-xs-12 col-md-12">
+            <div class="styleguide-section__grid-demo-element">
+                <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; text-align: center;">
+                    <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/enroll/N3HMY8" data-api-returntype="Page">&nbsp;<i class="icon-discussion-new">&nbsp;</i>Enroll</a>
+                    <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/16651" target="_blank" rel="noopener" data-api-returntype="Page"><i class="icon-heart"></i>
+                        <span>&nbsp;</span>Keep on Teaching
+                    </a>
+                    <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/16651" target="_blank" rel="noopener" data-api-returntype="Page"><i class="icon-instructure"></i>
+                        <span>&nbsp;Canvas Training</span>
+                    </a>
+                    <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/contact" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/contact"><i class="icon-group"></i>
+                        <span>&nbsp;Contact</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Linker kolom over de hele pagina: 'Popular Topics' & 'Explore'. -->
+        <!-- Precies de helft is col-md-6 want col-md-12 is maximum breedte -->
+        <div class="col-xs-20 col-md-6" style="text-align: center;">
+
+            <!-- Menu Popular Topics-->
+            <!-- Voor de gehele column-md-6 moet je per nieuw element een grid-demo-element openen en sluiten -->
+            <div class="styleguide-section__grid-demo-element">
+
+                <!-- Achtergrond content box -->
+                <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; padding: 30px; margin-bottom: 10px; text-align: left;">
+
+                    <!-- Titel in content box -->
+                    <a style="height: 100%; text-decoration: none; color: inherit;">
+                        <span style="font-size: 17pt;">
+                            <span style="color: #ffffff; font-size: 16pt;">
+                                <span style="color: #ffffff;"><em><strong></strong></em>
+                                    <span style="color: #000000; font-size: 16pt;">&nbsp; &nbsp;<span style="color: #7e8c8d;"><em>Popular Topics &nbsp; </em></span>
+                                    </span><em><strong> </strong></em>
+                                </span>
+                            </span><em> </em>
+                        </span>
+                    </a>
+
+                    <!-- Onderstaand menu items als Button--large geïntegreerd.-->
+
+                    <!-- Note: de width van de buttons is echt tricky. Ik heb 85% gedaan omdat in de meeste beeldschermen dan de uitlijning links+rechts het beste klopt (let op: homepage in Canvas course is altijd smaller door het standaar Canvas menu aan de rechterzijde, ik gebruik de "page history" functie van Canvas om steeds te checken hoe de page eruit ziet want daarmee bereik je dezelfde page-width). Ik heb nog niet ontdekt hoe ik de button width 100% kan maken zonder dat de button dan raar uitlijnt rechts. Geprobeerd met margin/padding overal in deze content-box te kijken maar werkt niet. Ik denk omdat Button--large een automatische built-in margin heeft rechts die ik niet kan editen -->
+
+                    <!-- Assignments -->
+                    <p style="text-align: left;">
+                        <span style="font-size: 18pt;">
+                            <a id="" class="Button Button--large" style="width: 85%; height: 20%; text-align: left; margin-left: auto; margin-right: auto;" title="Canvas Assignments / Perusall / Feedbackruits / Plagiarism" href="https://canvas.uva.nl/courses/8175/pages/assignments" target="">
+                                <img id="4321358" src="https://canvas.uva.nl/courses/8175/files/4321358/preview" alt="2.png" width="41" height="40" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4321358" data-api-returntype="File" />
+                                <span style="color: #236fa1;">&nbsp;&nbsp; &nbsp;<span style="color: #000000;">Assignments</span>
+                                </span>
+                            </a>
+                        </span>
+                    </p>
+                    <!-- Exams -->
+                    <p>
+                        <span style="color: #236fa1;">
+                            <span style="font-size: 18pt;">
+                                <a id="" class="Button Button--large" style="width: 85%; height: 20%; text-align: left; margin-left: auto; margin-right: auto;" title="TestVision / Canvas Quizzes / Canvas assignments" href="https://canvas.uva.nl/courses/8175/pages/exams" target="">
+                                    <img id="4321359" src="https://canvas.uva.nl/courses/8175/files/4321359/preview" alt="3.png" width="40" height="40" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4321359" data-api-returntype="File" /> &nbsp; &nbsp; <span style="color: #000000;">Exams</span>
+                                </a>
+                            </span>
+                        </span>
+                    </p>
+                    <!-- Feedback Tools -->
+                    <p style="text-align: left;">
+                        <span style="color: #236fa1;">
+                            <span style="font-size: 18pt;">
+                                <a id="" class="Button Button--large" style="width: 85%; height: 20%; text-align: left; margin-left: auto; margin-right: auto;" title="Perusall / Feedbackfruits / Canvas Peer Review / rubrics  " href="https://canvas.uva.nl/courses/8175/pages/feedback-tools" target="">
+                                    <img id="4321365" src="https://canvas.uva.nl/courses/8175/files/4321365/preview" alt="9.png" width="40" height="40" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4321365" data-api-returntype="File" />&nbsp; &nbsp; &nbsp;<span style="color: #000000;">Feedback tools</span>
+                                </a>
+                            </span>
+                        </span>
+                    </p>
+                    <!-- Grades -->
+                    <p style="text-align: left;">
+                        <span style="color: #236fa1;">
+                            <span style="font-size: 18pt;">
+                                <a id="" class="Button Button--large" style="width: 85%; height: 20%; text-align: left; margin-left: auto; margin-right: auto;" title="Canvas Grades / Final Grades Tool / Plagiarism " href="https://canvas.uva.nl/courses/8175/pages/" target="">
+                                    <img id="4321367" src="https://canvas.uva.nl/courses/8175/files/4321367/preview" alt="13.png" width="40" height="40" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4321367" data-api-returntype="File" />&nbsp; &nbsp; &nbsp;<span style="color: #000000;">Grades</span>
+                                </a>
+                            </span>
+                        </span>
+                    </p>
+                    <!-- Survey Tools -->
+                    <p style="text-align: left;">
+                        <span style="color: #236fa1;">
+                            <span style="font-size: 18pt;">
+                                <a id="" class="Button Button--large" style="width: 85%; height: 20%; text-align: left; margin-left: auto; margin-right: auto;" title="Qualtrics / SendSteps" href="https://canvas.uva.nl/enroll/N3HMY8" target="">
+                                    <img id="4321363" src="https://canvas.uva.nl/courses/8175/files/4321363/preview" alt="7.png" width="40" height="40" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4321363" data-api-returntype="File" />&nbsp; &nbsp; &nbsp;<span style="color: #000000;">Survey tools</span>
+                                </a>
+                            </span>
+                        </span>
+                    </p>
+                    <!-- Video -->
+                    <p style="text-align: left;">
+                        <span style="color: #236fa1;"> </span>
+                        <span style="font-size: 18pt;">
+                            <span style="color: #236fa1;"> </span>
+                            <a id="" class="Button Button--large" style="width: 85%; height: 20%; text-align: left; margin-left: auto; margin-right: auto;" title="Zoom / Kaltura / weblectures " href="https://canvas.uva.nl/enroll/N3HMY8" target="">
+                                <span style="color: #236fa1;">
+                                    <img id="4321360" src="https://canvas.uva.nl/courses/8175/files/4321360/preview" alt="4.png" width="40" height="40" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4321360" data-api-returntype="File" />&nbsp; &nbsp; &nbsp;<span style="color: #000000;">Video</span>
+                                </span>
+                            </a>
+                        </span>
+                    </p>
+                    <!-- end -->
+                </div>
+            </div>
+
+            <!-- Explore --->
+            <div class="styleguide-section__grid-demo-element">
+                <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; padding: 20px; padding-bottom: 40px; padding-right: 25px; text-align: left;">
+
+                    <!-- Titel -->
+                    <a style="display: block; height: 100%; text-decoration: none; color: inherit; padding-right: 25px;">
+                        <span style="font-size: 14pt;">
+                            <span style="color: #ffffff; font-size: 14pt;">
+                                <span style="color: #000000; font-size: 14pt;">
+                                    <img id="4323654" src="https://canvas.uva.nl/courses/8175/files/4323654/preview" alt="25.png" width="45" height="45" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4323654" data-api-returntype="File" />&nbsp; &nbsp; &nbsp;<strong>Explore&nbsp;</strong>
+                                </span>
+                            </span>
+                        </span>
+                    </a>
+                    <br />
+
+                    <!-- simpel gehouden m.b.v. tabel die je in de editor kan invullen -->>
+                    <table style="border-collapse: collapse; width: 92.7174%; border-style: hidden; margin-left: auto; margin-right: auto;" border="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 49.9414%;">
+                                    <span style="font-size: 11pt;">Find out how the Thesis workflow works, view screencasts and discover how your students can easily publish their Master Thesis to the UvA Library.</span>
+                                </td>
+                                <td style="width: 49.9414%;">
+                                    <img src="https://canvas.uva.nl/courses/8175/files/4331175/preview" alt="scriptieworkflowedtech.png" width="170" height="171" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4331175" data-api-returntype="File" />&nbsp;
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p style="text-align: left;">
+                        <a id="" class="Button Button--large" style="width: 85%; height: 30px; text-align: left; margin: 5px;" title="Overview of Online Tools" href="https://canvas.uva.nl/enroll/N3HMY8" target="">
+                            <span style="font-size: 14pt;">&nbsp; <span style="color: #000000;"><i class="icon-arrow-right">&nbsp;&nbsp;&nbsp;&nbsp;</i>Scriptie Workflow</span>
+                            </span>
+                        </a>
+                    </p>
+                    <table style="border-collapse: collapse; width: 92.7174%; border-style: hidden; margin-left: auto; margin-right: auto;" border="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 48.5068%;">
+                                    <img src="https://canvas.uva.nl/courses/8175/files/4331177/preview" alt="Schermafbeelding 2021-03-12 om 10.01.33.png" width="187" height="183" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4331177" data-api-returntype="File" />&nbsp; &nbsp; &nbsp;
+                                </td>
+                                <td style="width: 3.00867%;">
+                                    <span style="font-size: 11pt;">&nbsp;</span>
+                                </td>
+                                <td style="width: 48.3673%;">
+                                    <span style="font-size: 11pt;">Discover how to save time using the Final Grades tool. It has a ton of features and helps you save time AND communicate grades in a GDPR proof manner.</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p style="text-align: left;">
+                        <a id="" class="Button Button--large" style="width: 85%; height: 30px; text-align: left; margin: 5px;" title="Overview of Online Tools" href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool" target="" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/final-grades-tool" data-api-returntype="Page">
+                            <span style="font-size: 14pt;">&nbsp; <span style="color: #000000;"><i class="icon-arrow-right">&nbsp;&nbsp;&nbsp; </i>Final Grades Tool</span>
+                            </span>
+                        </a>
+                    </p>
+                    <table style="border-collapse: collapse; width: 92.7174%; border-style: hidden; margin-left: auto; margin-right: auto;" border="0">
+                        <tbody>
+                            <tr>
+                                <td style="width: 49.9414%;">
+                                    <span style="font-size: 11pt;">Interested in live-polling? Use Sendsteps to get direct feedback from your students. Enhance student interaction with this easy-to-use tool.</span>
+                                </td>
+                                <td style="width: 49.9414%;">
+                                    <img src="https://canvas.uva.nl/courses/8175/files/4331132/preview" alt="sendsteps-presentation-screenphone-2.png" width="220" height="135" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4331132" data-api-returntype="File" />&nbsp;
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p style="text-align: left;">
+                        <a id="" class="Button Button--large" style="width: 85%; height: 30px; text-align: left; margin: 5px;" title="Overview of Online Tools" href="https://canvas.uva.nl/enroll/N3HMY8" target="">
+                            <span style="font-size: 14pt;">&nbsp; <span style="color: #000000;"><i class="icon-arrow-right">&nbsp;&nbsp;&nbsp; </i>SendSteps</span>
+                            </span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Hier begint de rechter kolom over de hele pagina-->
+
+        <div class="col-xs-15 col-md-6">
+
+            <!-- OUD! Dit onderdeel is een afbeelding en die is er nu niet meer -->
+            <!-- let op: bij het begin van een col-md-6 (of ander breedte) i.c.m. een grid-demo-element krijg je een automatische margin-top van 20px in de built-in CSS van Canvas erbij. Omdat ik voor een afbeelding geen grid element gebruik, krijg je dat de afbeelding dus iets te hoog begint in vergelijking tot de kolom links. 20px top-margin zorgt er precies voor dat de afbeelding mooi gelijk uitlijnt met het menu 'Popular Topics' aan de linkerzijde -->
+            <a title="course checklist" href="https://canvas.uva.nl/courses/8175/pages/course-checklist" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/course-checklist" data-api-returntype="Page">
+                <img style="margin-top: 20px;" src="https://canvas.uva.nl/courses/8175/files/4322303/preview" alt="course checklist tegel (5).gif" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4322303" data-api-returntype="File" />
+            </a>
+
+            <!-- icto updates -->
+            <div class="styleguide-section__grid-demo-element">
+
+                <!-- content box met achtergrond -->
+                <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; padding: 20px; padding-bottom: 40px; padding-right: 25px; text-align: left;">
+
+                    <!-- Titel -->
+                    <a style="display: block; height: 100%; text-decoration: none; color: inherit; padding-right: 25px;">
+                        <span style="font-size: 15pt;">
+                            <span style="color: #ffffff; font-size: 15pt;">
+                                <span style="color: #000000; font-size: 15pt;">
+                                    <img id="4321361" src="https://canvas.uva.nl/courses/8175/files/4321361/preview" alt="5.png" width="46" height="46" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4321361" data-api-returntype="File" />&nbsp; &nbsp; <strong>Search</strong>
+                                </span><em><strong> </strong></em>
+                            </span>
+                        </span><em> </em>
+                    </a>
+
+                    <!-- Button -->
+                    <p style="text-align: left;">
+                        <span style="font-size: 22pt;">
+                            <a id="" class="Button Button--large" style="width: 85%; height: 30px; float: left; text-align: left; margin: 5px;" title="Overview of Online Tools" href="https://canvas.uva.nl/courses/8175/pages/a-z" target="" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/a-z" data-api-returntype="Page">
+                                <span style="color: #236fa1;">&nbsp;&nbsp;<span style="color: #000000;"><i class="icon-arrow-right">&nbsp;&nbsp;&nbsp;&nbsp;</i>Topics A-Z</span>
+                                </span>
+                            </a>
+                        </span>
+                    </p>
+                </div>
+
+                <!-- ICTO updates -->
+                <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; padding: 15px;"><em> </em><strong>
+                        <!-- Titel -->
+                        <a style="display: block; height: 100%; text-decoration: none; color: inherit;">
+                            <span style="font-size: 17pt;">
+                                <span style="color: #ffffff; font-size: 15pt;">
+                                    <span style="color: #000000;">
+                                        <img id="4322105" src="https://canvas.uva.nl/courses/8175/files/4331327/preview" alt="icto updates icon.png" width="55" height="46" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4331327" data-api-returntype="File" />&nbsp; &nbsp;Icto updates
+                                    </span>
+                                </span><em> </em>
+                            </span>
+                        </a>
+                    </strong><em> </em>
+
+                    <!-- updates in nieuwe content boxes in content box (inception!!) -->
+                    <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #f5f5f5; padding: 15px;">
+                        <span style="color: #3598db;">
+                            <span style="color: #000000;">
+                                <span style="font-size: 11pt;"><em>An unknown third party has gained access to the ICT environments</em></span>
+                            </span>
+                            <br />
+                            <span style="font-size: 11pt;"><strong>
+                                    <a class="instructure_file_link inline_disabled" style="color: #3598db;" href="https://www.uva.nl/en/current/cybersecurity/faqs.html" target="_blank" rel="noopener"><i class="icon-arrow-right"> &nbsp;Read more </i></a>
+                                </strong> </span>
+                        </span>
+                    </div>
+                    <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #f5f5f5; padding: 15px;">
+                        <span style="color: #3598db; font-size: 11pt;">
+                            <span style="color: #000000;"> <em>New platform available for online polling: Sendsteps!</em></span>
+                            <br /><strong>
+                                <a class="instructure_file_link inline_disabled" style="color: #3598db;" href="https://www.uva.nl/en/current/cybersecurity/faqs.html" target="_blank" rel="noopener"><i class="icon-arrow-right"> &nbsp;Read more </i></a>
+                            </strong>
+                            <br />
+                        </span>
+                    </div>
+                    <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #f5f5f5; padding: 15px;">
+                        <span style="color: #3598db; font-size: 11pt;">
+                            <span style="color: #000000;"> <em>Qualtrics Surveys has a new environment</em></span>
+                            <br /><strong>
+                                <a class="instructure_file_link inline_disabled" style="color: #3598db;" href="https://www.uva.nl/en/current/cybersecurity/faqs.html" target="_blank" rel="noopener"><i class="icon-arrow-right">&nbsp;Read more</i></a>
+                            </strong>
+                        </span>
+                    </div>
+                    <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #f5f5f5; padding: 15px;">
+                        <span style="color: #ffffff;">
+                            <span style="font-size: 11pt;">
+                                <span style="color: #3598db;"> </span>
+                            </span>
+                            <span style="color: #000000;">
+                                <span style="font-size: 11pt;">
+                                    <span style="color: #3598db;">
+                                        <span style="color: #000000;"><em>The plagiarism checker Urkund has replaced Turnitin</em></span>
+                                    </span>
+                                </span><strong>
+                                    <span style="font-size: 11pt;">
+                                        <span style="color: #3598db;"> </span>
+                                    </span>
+                                    <span style="color: #000000;">
+                                        <span style="font-size: 11pt;">
+                                            <span style="color: #3598db;"> </span>
+                                        </span>
+                                        <br />
+                                        <span style="color: #3598db;">
+                                            <span style="font-size: 11pt;">
+                                                <a class="instructure_file_link inline_disabled" style="color: #3598db;" href="https://www.uva.nl/en/current/cybersecurity/faqs.html" target="_blank" rel="noopener"><i class="icon-arrow-right">&nbsp;Read more</i></a>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </strong>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- More -->
+                <div class="styleguide-section__grid-demo-element">
+                    <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; padding: 20px; padding-bottom: 40px; padding-right: 25px; text-align: left;">
+
+                        <!-- Titel -->
+                        <a style="display: block; height: 100%; text-decoration: none; color: inherit; padding-right: 25px;">
+                            <span style="font-size: 15pt;">
+                                <span style="color: #ffffff; font-size: 15pt;">
+                                    <span style="color: #000000; font-size: 15pt;">
+                                        <img id="4322958" src="https://canvas.uva.nl/courses/8175/files/4322958/preview" alt="19.png" width="43" height="43" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4322958" data-api-returntype="File" /> &nbsp; &nbsp;&nbsp;<strong>More</strong>
+                                    </span>
+                                </span>
+                            </span>
+                        </a>
+
+                        <!-- Buttons -->
+                        <p style="text-align: left;">
+                            <span style="font-size: 22pt;">
+                                <a id="" class="Button Button--large" style="width: 85%; height: 50px; float: left; text-align: left; margin: 5px; vertical-align: middle;" title="Overview of Online Tools" href="https://canvas.uva.nl/enroll/N3HMY8" target="">
+                                    <span style="color: #236fa1;">&nbsp;&nbsp;<span style="color: #000000;"><i class="icon-arrow-right">&nbsp;&nbsp;&nbsp;&nbsp;</i>Staff Page</span>
+                                    </span>
+                                </a>
+                            </span>
+                        </p>
+                        <p style="text-align: left;">
+                            <span style="font-size: 22pt;">
+                                <a id="" class="Button Button--large" style="width: 85%; height: 50px; float: left; text-align: left; margin: 5px; vertical-align: middle;" title="Overview of Online Tools" href="https://canvas.uva.nl/enroll/N3HMY8" target="">
+                                    <span style="color: #000000; vertical-align: center;">&nbsp;&nbsp;<i class="icon-arrow-right">&nbsp;&nbsp;&nbsp;&nbsp;</i>Sandbox course</span>
+                                </a>
+                            </span>
+                        </p>
+                        <p style="text-align: left;">
+                            <span style="font-size: 22pt;">
+                                <a id="" class="Button Button--large" style="width: 85%; height: 50px; float: left; text-align: left; margin: 5px; vertical-align: middle;" title="Overview of Online Tools" href="https://canvas.uva.nl/enroll/N3HMY8" target="">
+                                    <span style="color: #000000; text-align: middle;">&nbsp;&nbsp;<i class="icon-arrow-right">&nbsp;&nbsp;&nbsp;&nbsp;</i>Student tools</span>
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <!-- einde More -->
+                &nbsp;
+
+            </div>
+            <!-- einde grid-element -->
+        </div>
+        <!-- einde column-6 -->
+
+    </div>
+    <p>&nbsp;</p>
+</div>
