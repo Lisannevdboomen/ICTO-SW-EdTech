@@ -2,15 +2,15 @@
 
 
 # Anchor link
-> Klik op een link & spring naar een andere plek in de pagina
+``` Klik op een link & spring naar een andere plek in de pagina ```
 
 ## Plain text link__
 
-#### Bron/link
+###### Bron/link
 ```html
 <a href="#menu1">Inloggen in TestVision</a>
 ```
-#### Destination/anchor
+###### Destination/anchor
 ```html
 <p>
     <a id="menu1"></a>
@@ -18,11 +18,11 @@
 ```
 ## Button
 
-#### Bron/link
+###### Bron/link
 ```html
 <a href="#menu1">Inloggen in TestVision</a>
 ```
-#### Destination/anchor
+###### Destination/anchor
 ```html
 <p>
     <a id="menu1"></a>
