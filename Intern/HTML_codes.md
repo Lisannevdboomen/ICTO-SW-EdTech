@@ -77,18 +77,19 @@
     <!-- inhoud -->
 </div>
 ```
-> Content box naast elkaar
+
+> Content boxes naast elkaar plaatsen
 - De maximale breedte van een pagina is bij conventie: ```cold-md-12```
 - Voor twee even grote content boxes naast elkaar: ```cold-md-6``` & ```cold-md-6```
 - Content boxes naast elkaar plaats je binnen dezelfde ```grid-row```
 ```html
-<!-- 3 boxes naast elkaar -->
+<!-- Voorbeeld: content box 3 keer naast elkaar -->
 <div class="grid-row">
 
     <div class="col-xs-12 col-md-4">
-        <div class="styleguide-section__grid-demo-element">
+        <div class="styleguide-section__grid-demo-element"> <!-- hiermee kun je meerdere elementen onder elkaar plaatsen in de eerste kolom -->
             <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: 410px; background-color: #f6f7f8;">
-                <!-- Box 1 -->
+                <!-- Kolom 1 -->
             </div>
         </div>
     </div>
@@ -96,7 +97,7 @@
     <div class="col-xs-12 col-md-4">
         <div class="styleguide-section__grid-demo-element">
             <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: 410px; background-color: #f6f7f8;">
-                <!-- Box 2 -->
+                <!-- Kolom 2 -->
             </div>
         </div>
     </div>
@@ -104,7 +105,7 @@
     <div class="col-xs-12 col-md-4">
         <div class="styleguide-section__grid-demo-element">
             <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: 410px; background-color: #f6f7f8;">
-                <!-- Box 3 -->
+                <!-- Kolom 3 -->
             </div>
         </div>
     </div>
