@@ -6,7 +6,7 @@
 
 ## Git & Atom
 #### Toegang tot mappen
-1. In Atom (eerste keer) -> login op Github account
+1. In Atom (eerste keer) -> login op Github account en vul in ```https://github.com/Lisannevdboomen/ICTO-SW.git```
 2. Klik in Atom links op ```Reopen project``` en selecteer dit project
 3. Klik rechts onderin op ```Git```
 #### Pushen van veranderingen naar Github:
