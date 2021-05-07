@@ -36,12 +36,12 @@
 
 # Menu balk :house:
 > Bovenaan iedere pagina een content box met buttons
-- Content box over de volle breedte van de pagina: ```cold-md-20```
+- Content box over de volle breedte van de pagina: ```cold-md-12```
 - In grid-demo-element ```<div> alle buttons naast elkaar in een grid-row </div>```
 - Canvas icon in iedere button: ```<i class="icon-home"></i>```
 ```html
 <div class="grid-row">
-    <div class="col-xs-12 col-md-20">
+    <div class="col-xs-12 col-md-12">
         <div class="styleguide-section__grid-demo-element">
             <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; text-align: center;">
                 <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175"><i class="icon-home"></i>
@@ -65,11 +65,11 @@
 
 # Content box :abc:
 > Een simpele content-box met achtergrond
-- ```content-box``` voor een vierkante box zonder rand
-- ```content-box border``` voor een ronde afwerking met rand
-- Gebruik ```margin``` om ruimte __buiten__ de box te maken en ```padding``` voor ruimte __in__ de box
+- ```"content-box"``` voor een vierkante box zonder rand
+- ```"content-box pad-box-mini border border-trbl border-round"``` voor een ronde afwerking met rand
+- Gebruik ```margin``` om extra ruimte __buiten__ de content box te maken en ```padding``` voor extra wit ruimte __in__ de box
 ```html
 <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; padding: 15px; margin-top: 10px; margin-botton: 20px;">
-    <p>Inhoud</p>
+    <!-- inhoud -->
 </div>
 ```
