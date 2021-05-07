@@ -5,30 +5,27 @@ Onderstaand een basis uitleg van de verschillende HTML elementen in onze Canvas 
 ## Anchor link :anchor:
 > Klik op een link en spring naar een andere plek in de pagina
 
-### **_Plain text_**
-
-##### Bron
+##### Plain text
 ```html
+<!-- Link -->
 <a href="#stap1">Inloggen in TestVision</a>
-```
-##### Destination/anchor
-```html
+
+<!-- Destination -->
 <p>
     <a id="stap1"></a>
 </p>
 ```
-### **_Button_**
 
-##### Bron
+##### Button
 ```html
+<!-- Link -->
 <p>
     <a class="btn Button" style="margin: 5px;" href="#topmenu">
         <span> Go back to menu </span>
     </a>
 </p>
-```
-##### Destination/anchor
-```html
+
+<!-- Destination -->
 <p>
     <a id="topmenu"></a>
 </p>
