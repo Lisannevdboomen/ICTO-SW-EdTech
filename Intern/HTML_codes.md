@@ -1,10 +1,10 @@
 # HTML code in onze cursus
 
 
-## Anchor link
-Klik op een link & spring naar een andere plek in de pagina
+# Anchor link
+> Klik op een link & spring naar een andere plek in de pagina
 
-__Plain text link__
+## Plain text link__
 
 #### Bron/link
 ```html
@@ -16,7 +16,7 @@ __Plain text link__
     <a id="menu1"></a>
 </p>
 ```
-__button__
+## Button
 
 #### Bron/link
 ```html
