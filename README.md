@@ -5,10 +5,10 @@ In dit project delen we de HTML pagina's van onze Canvas cursus https://canvas.u
 In Github delen we de bestanden via een ```collaboration``` tussen onze accounts. Canvas pagina's bewerken we met behulp van ```Atom```. Atom is een IDE (codeer editor) van ```Github```.  We kunnen in Atom aan pagina's werken en veranderingen pushen+pullen van en naar Github.
 Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te werken (het idee van een Google Drive). Hierdoor zijn er overdag geen conflicten met oude/nieuwe versie van code omdat iedereen realtime de laatste wijzigingen ziet. Vergeet niet aan het einde van de dag de veranderingen te pushen naar Git.
 #### Toegang tot mappen
-###### Eerste keer:
+###### Eerste keer inloggen in Atom:
 1. Account voor collaboration toevoegen aan Github project
 2. In Atom -> login op het Github account en voeg het project toe: ```https://github.com/Lisannevdboomen/ICTO-SW.git```
-###### Daarna:
+###### Daarna altijd beginnen met:
 1. Klik in Atom links op ```Reopen project``` en selecteer het ICTO-SW project
 2. Klik rechts onderin op ```Git```
 3. Klik op ```Fetch``` rechts onderin de balk (laatste updates/veranderingen ophalen)
