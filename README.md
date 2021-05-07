@@ -27,6 +27,7 @@ Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te we
 <br />
 
 ## Basis uitleg van verschillende HTML elementen in Canvas cursus:
+- [Grid system](#Grid-system)
 - [Anchor links](#Anchor-link)
 - [Content box](#Content-box)
 - [Menu balk](#Menu-balk)
@@ -34,6 +35,24 @@ Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te we
 
 <br /><br /><br />
 
+## Grid system
+> Hiermee creëer je een layout en structuur aan de inhoud van je pagina. Wil je een tekstvak of foto over de volle breedte van een pagina plaatsen, of voor een even groot deel naast elkaar?
+
+##### Volle breedte
+```volle breedte```
+```html
+<!--  -->
+<a href="#stap1">Inloggen in TestVision</a>
+
+<!-- Destination -->
+<p>
+    <a id="stap1"></a>
+</p>
+```
+```naast elkaar```
+
+
+<br /><br />
 ## Anchor link
 :anchor:
 > Klik op een link en spring naar een andere plek in de pagina
@@ -72,35 +91,40 @@ Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te we
 - ```"content-box pad-box-mini border border-trbl border-round"``` voor een ronde afwerking met rand
 - ```padding``` voor extra witruimte __binnen__ de content box
 - ```margin``` voor extra witruimte __buiten__ de content box
+- Voeg styling toe zoals een achtergrond #hex color code: ```style="background-color: #fafafa;"```
 
 ```html
-<!-- voorbeeld 1 -->
+<!-- voorbeeld 1: -->
+<!-- content box zonder opmaak en padding & margin, om tekst simpelweg om een nette plek te krijgen.  -->
 <div class="content-box" style="padding: 15px; margin-top: 10px; margin-bottom: 20px;">
     <!-- inhoud -->
 </div>
 
 <!-- voorbeeld 2 -->
+<!-- content box met achtergrondkleur, border, ronde hoeken -->
 <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa;">
     <!-- inhoud -->
 </div>
 ```
 
 > Content boxes naast elkaar plaatsen
-- De maximale breedte van een pagina is bij conventie: ```cold-md-12```
-- Voor twee even grote content boxes naast elkaar: ```cold-md-6``` & ```cold-md-6```
-- Content boxes naast elkaar plaats je binnen dezelfde ```grid-row```
+- Content boxes zet je naast elkaar door ze binnen dezelfde ```grid-row``` te plaatsen
+- De maximale breedte van een pagina is bij conventie: ```col-md-12```
+- Voor twee even grote content boxes naast elkaar: ```col-md-6``` & ```col-md-6```
+
+Voorbeeld: content box 3 keer naast elkaar
 ```html
-<!-- Voorbeeld: content box 3 keer naast elkaar -->
+<!-- Open grid row -->
 <div class="grid-row">
 
     <!-- Kolom 1 -->
     <div class="col-xs-12 col-md-4">
 
-        <!-- M.b.v. een grid-demo-element kun je meerdere elementen onder elkaar plaatsen in de kolom -->
+        <!-- M.b.v. een grid-demo-element kun je (eventueel) meerdere elementen onder elkaar plaatsen in deze kolom -->
         <div class="styleguide-section__grid-demo-element">
 
             <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: 410px; background-color: #f6f7f8;">
-                <!-- Box 1 -->
+                <!-- Inhoud -->
             </div>
 
         </div>
@@ -110,7 +134,7 @@ Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te we
     <div class="col-xs-12 col-md-4">
         <div class="styleguide-section__grid-demo-element">
             <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: 410px; background-color: #f6f7f8;">
-                <!-- Box 2 -->
+                <!-- Inhoud -->
             </div>
         </div>
     </div>
@@ -119,22 +143,23 @@ Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te we
     <div class="col-xs-12 col-md-4">
         <div class="styleguide-section__grid-demo-element">
             <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: 410px; background-color: #f6f7f8;">
-                <!-- Box 3 -->
+                <!-- Inhoud -->
             </div>
         </div>
     </div>
 
+<!-- Sluit grid row -->
 </div>        
 ```
 
 <br /><br />
 ## Menu balk
 :house:
-> Bovenaan iedere pagina een header box met buttons
+> Bovenaan iedere pagina een header met buttons
 - Content box over de volle breedte van de pagina = ```cold-md-12```
-- In grid-demo-element ```<div> alle buttons naast elkaar </div>```
-- Canvas icon in iedere button: ```<i class="icon-home"></i>```
-- Ik begin de code met ```grid row``` omdat je hierna weer een nieuwe grid-row kunt maken
+- Met grid-demo-element ```<div> plaats je alle buttons naast elkaar </div>```
+- Er zit een canvas icon in iedere button: ```<i class="icon-home"></i>```
+- Ik begin de code met ```grid row``` omdat ik hierna vaak weer met een nieuwe grid-row begin op pagina's
 ```html
 <div class="grid-row">
     <div class="col-xs-12 col-md-12">
