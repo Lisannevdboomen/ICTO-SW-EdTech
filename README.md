@@ -42,11 +42,6 @@ Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te we
 - Je opent een rij en plaatst hierin een-voor-een van links naar rechts elementen van een bepaalde breedte
 - Je opent een kolom en plaats hierin een-voor-een van boven naar beneden elementen onder elkaar
 
-##### Dit betekent
-- Je verdeelt de pagina als het ware over vakken waaraan je afwisselende inhoud kunt invoegen (tekstvak, menu, foto's, videos, etc.)
-- Het makkelijkste is om met rijen te werken. Je begint bijvoorbeeld met een header (met daarin buttons of een foto), daarna een tekstvak met een introductie over de volle breedte van de pagina, daarna 2 embedded video's naast elkaar, enzovoorts.
-- De homepagina van onze ICTO cursus is juist vanuit kolommen gemaakt (1 links, 1 rechts): aan de linkerkolom een-voor-een inhoud onder elkaar geplaatst en daarna hetzelfde voor de rechterkolom.
-
 ##### De volle breedte van een pagina is bij conventie: ```col-md-12 ```
 Dus,
 - 2 tekstvakken naast elkaar is: ```col-md-6``` & ```col-md-6```
