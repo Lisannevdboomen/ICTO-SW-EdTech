@@ -2,7 +2,7 @@
 
 
 # Anchor link :anchor:
-> Klik op een link & spring naar een andere plek in de pagina
+> Klik op een link en spring naar een andere plek in de pagina
 
 ### Plain text anchor link
 
@@ -36,7 +36,7 @@
 
 # Menu balk :house:
 > Bovenaan iedere pagina een content box met buttons
-- Content box over de volle breedte van de pagina: ```cold-md-12```
+- Content box over de volle breedte van de pagina = ```cold-md-12```
 - In grid-demo-element ```<div> alle buttons naast elkaar in een grid-row </div>```
 - Canvas icon in iedere button: ```<i class="icon-home"></i>```
 ```html
@@ -67,7 +67,7 @@
 > Een simpele content-box met achtergrond
 - ```"content-box"``` voor een vierkante box zonder rand
 - ```"content-box pad-box-mini border border-trbl border-round"``` voor een ronde afwerking met rand
-- Gebruik ```margin``` om extra ruimte __buiten__ de content box te maken en ```padding``` voor extra wit ruimte __in__ de box
+- Gebruik ```margin``` voor extra ruimte __buiten__ de content box, en ```padding``` voor extra witruimte __binnen__ de content box
 ```html
 <div class="content-box" style="padding: 15px; margin-top: 10px; margin-bottom: 20px;">
     <!-- inhoud -->
