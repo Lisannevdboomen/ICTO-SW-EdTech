@@ -7,11 +7,11 @@ Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te we
 #### Toegang tot mappen
 ###### Eerste keer:
 1. Account voor collaboration toevoegen aan Github project
-2. In Atom -> login op het Github account en open het project ```https://github.com/Lisannevdboomen/ICTO-SW.git```
+2. In Atom -> login op het Github account en voeg het project toe: ```https://github.com/Lisannevdboomen/ICTO-SW.git```
 ###### Daarna:
 1. Klik in Atom links op ```Reopen project``` en selecteer het ICTO-SW project
 2. Klik rechts onderin op ```Git```
-3. Klik op ```Fetch``` recht onderin de balk
+3. Klik op ```Fetch``` rechts onderin de balk (laatste updates/veranderingen ophalen)
 #### Pushen van veranderingen naar Github:
 1. ```Save``` file
 2. Klik op ```Stage All``` (rechterzijde)
