@@ -1,5 +1,11 @@
 # Ed-Tech beschrijving
-Onderstaand een basis uitleg van de verschillende HTML elementen in onze Canvas cursus
+Onderstaand een basis uitleg van de verschillende HTML elementen in onze Canvas cursus:
+- [Anchor links](#Anchor-link)
+- [Content box](#Content-box-:abc:)
+- [Menu balk](#Menu-balk)
+
+
+
 <br /><br /><br />
 
 ## Anchor link :anchor:
