@@ -1,9 +1,8 @@
-# Ed-Tech beschijving
+# Ed-Tech beschrijving
+Onderstaand een basis uitleg van de verschillende HTML elementen in onze cursus
+nbsp;nbsp;
 
-> Onderstaand een basis uitleg van de verschillende HTML elementen in onze cursus
-
-
-# Anchor link :anchor:
+## Anchor link :anchor:
 > Klik op een link en spring naar een andere plek in de pagina
 
 ### **_Plain text_**
@@ -36,7 +35,7 @@
 ```
 
 
-# Menu balk :house:
+## Menu balk :house:
 > Bovenaan iedere pagina een content box met buttons
 - Content box over de volle breedte van de pagina = ```cold-md-12```
 - In grid-demo-element ```<div> alle buttons naast elkaar in een grid-row </div>```
@@ -65,7 +64,7 @@
 </div>
 ```
 
-# Content box :abc:
+## Content box :abc:
 > Een simpele content-box met achtergrond
 - ```"content-box"``` voor een vierkante box zonder rand
 - ```"content-box pad-box-mini border border-trbl border-round"``` voor een ronde afwerking met rand
