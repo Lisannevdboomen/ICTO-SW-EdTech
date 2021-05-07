@@ -67,7 +67,7 @@
 > Een simpele content-box met achtergrond
 - ```"content-box"``` voor een vierkante box zonder rand
 - ```"content-box pad-box-mini border border-trbl border-round"``` voor een ronde afwerking met rand
-- Gebruik ```margin``` voor extra ruimte __buiten__ de content box, en ```padding``` voor extra witruimte __binnen__ de content box
+- Gebruik ```margin``` voor extra witruimte __buiten__ de content box en ```padding``` voor extra witruimte __binnen__ de content box
 ```html
 <div class="content-box" style="padding: 15px; margin-top: 10px; margin-bottom: 20px;">
     <!-- inhoud -->
