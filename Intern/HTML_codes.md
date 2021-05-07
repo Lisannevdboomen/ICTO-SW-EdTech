@@ -37,8 +37,8 @@
 # Menu balk :hash:
 > Boven aan iedere pagina
 - Content box over de volle breedte van de pagina: cold-md-20
-- Grid-demo-element <div> alle buttons naast elkaar in een grid-row </div>
-- Canvas icon in iedere button: <i class="icon-home"></i>
+- Grid-demo-element ```html<div> alle buttons naast elkaar in een grid-row </div>```
+- Canvas icon in iedere button: ```html<i class="icon-home"></i>```
 ```html
 <div class="grid-row">
     <div class="col-xs-12 col-md-20">
