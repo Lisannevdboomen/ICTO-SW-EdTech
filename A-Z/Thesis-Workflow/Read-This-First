@@ -23,17 +23,19 @@
                 <h5>
                     <span style="color: #333333; font-size: 20px;"><strong>About the Thesis Workflow</strong></span>
                 </h5>
-                <p>With the Thesis Workflow, students can easily publish their Master Thesis to the UvA Library within Canvas. The workflow consists of a few modules within each course in which, according to our settings, students have to carefully read and follow one-by-one in order to complete it. By using this structure, students are well-informed about the decisions they have to make, such as which creative commons licenses they can choose of. By following the workflow module-by-module, students can hand in their thesis according to their wishes and decisions.</p>
+                <p>With the Thesis Workflow, students can easily publish their Master Thesis to the UvA Library within Canvas. The workflow consists of a few modules which students have to carefully read and follow one-by-one in order to complete it. By using this structure, students are well-informed about the decisions they have to make, such as which creative commons license to choose or what the official title will be for the published version. By following the workflow module-by-module, students can hand in their thesis according to their own wishes and decisions and their request will be autoamtically pushed to the UvA library. Please read our description below to find out the do's and don'ts in order for the workflow to (technically) work.</p>
             </div>
+        </div>
+        <div class="col-xs-12 col-md-20">
+            <h3 style="text-align: center; margin-bottom: 15px;">
+                <span style="color: #333333;">Checklist for teachers / administrators</span>
+            </h3>
         </div>
         <div class="grid-row">
             <div class="col-xs-12 col-md-7">
                 <img style="width: 100%; margin-top: 10px;" src="https://canvas.uva.nl/courses/8175/files/2758416/download?wrap=1" alt="Canvas view teachers" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/2758416" data-api-returntype="File" />
             </div>
-            <div class="col-xs-12 col-md-4">
-                <h2>
-                    <span style="color: #333333; font-size: 20px;"><strong>Workflow checklist</strong></span>
-                </h2>
+            <div class="col-xs-12 col-md-4" style="margin-top: 15px;">
                 <div class="alert alert-success" style="width: 100%; margin-bottom: 20px;">
                     <p>You are welcome to <strong>edit due dates</strong> of the assignments.</p>
                 </div>
@@ -51,160 +53,65 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="content-box" style="background-color: #ffffff;">
-    <div class="grid-row">
+        <p>&nbsp;</p>
         <div class="col-xs-12 col-md-20">
-            <div class="styleguide-section__grid-demo-element">
-                <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fcfcfc; padding: 20px;">
-                    <p class="x_MsoNoSpacing">Dear teachers,</p>
-                    <p class="x_MsoNoSpacing">
-                        <span lang="EN-US">We hope this email finds you well - we want to inform you about the The Thesis Workflow in your course. This is an UvA wide method for the Final Thesis Submission to the UvA Library.
-                            <br />ICTO Social Sciences implemented the flow in Semester 2 of 2020 and this year we're reaching out to you with a reminder of how it works and how to use it (and how not to).&nbsp;
-                            <br />
-                        </span>
-                    </p>
-                    <p class="x_MsoNoSpacing">&nbsp;</p>
-                    <p class="x_MsoNoSpacing">
-                        <span lang="EN-US"><strong>Quick overview</strong>
-                            <br />To gain a quick overview of Thesis Workflow, check out<span>&nbsp;</span>
-                            <a href="https://www.youtube.com/playlist?list=PLdqh3iVhzW1SWyn7loiUIaAr3KNy4rkb4" target="_blank" rel="noopener">
-                                <span>these videos</span>
-                            </a>.
-                        </span>
-                    </p>
-                    <p class="x_MsoNoSpacing">&nbsp;</p>
-                    <p class="x_MsoNoSpacing"><strong>
-                            <span lang="EN-US">The basics
-                                <br />
-                            </span>
-                        </strong>
-                        <span lang="EN-US">To ensure students upload their thesis correctly, they have to take four these which are known as the <strong>Thesis Workflow</strong>:</span>
-                    </p>
-                    <ol>
-                        <li class="x_MsoNoSpacing">
-                            <span lang="EN-US">Students start with submitting the thesis title for their diploma supplement</span>
-                        </li>
-                        <li class="x_MsoNoSpacing">
-                            <span lang="EN-US">Then there are one or two surveys/quizzes, depending on whether a student wants to publish their thesis in the UvA Library or not</span>
-                        </li>
-                        <li class="x_MsoNoSpacing">
-                            <span lang="EN-US">After that they can upload their thesis in PDF</span>
-                        </li>
-                        <li class="x_MsoNoSpacing">
-                            <span lang="EN-US">Finally there's a webpage to notify them that they've successfully uploaded their thesis.</span>
-                        </li>
-                    </ol>
-                    <p class="x_MsoNoSpacing">
-                        <span lang="EN-US">To see what it looks like in terms of Canvas assignments, quizzes and pages, check out the <strong>screenshots below</strong>.</span>
-                    </p>
-                    <p class="x_MsoNoSpacing">&nbsp;</p>
-                    <p class="x_MsoNoSpacing"><strong>
-                            <span lang="EN-US">Three important notes:</span>
-                        </strong></p>
-                    <p class="x_MsoNoSpacing">
-                        <span lang="EN-US">a. When the theses are uploaded, do <strong>not use Canvas&rsquo;s Gradebook</strong> but grade them as usual. Use the regular evaluation form for grading (&ldquo;beoordelingsformulier&rdquo;) and use SpeedGrader to find out what the<span>&nbsp;</span>
-                            <a class="instructure_file_link inline_disabled" href="https://canvas.uva.nl/courses/8175/pages/urkund-homepage" target="_blank" rel="noopener" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/urkund-homepage" data-api-returntype="Page">
-                                <span>plagiarism score</span>
-                            </a>
-                            <span>&nbsp;</span>is.
-                        </span>
-                    </p>
-                    <p class="x_MsoNoSpacing">
-                        <span lang="EN-US">b. <strong>Email <a class="instructure_file_link inline_disabled" href="https://canvas.uva.nl/courses/8175/pages/uva-thesis-workflow-information#menu3" target="_blank" rel="noopener" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/uva-thesis-workflow-information%23menu3" data-api-returntype="Page">this text</a> to your students</strong> (or use an announcement) to inform students of the changes.</span>
-                    </p>
-                    <p class="x_MsoNoSpacing"><strong>
-                            <span lang="EN-US">c. It's imperative that you do not change any settings</span>
-                        </strong>
-                        <span lang="EN-US">. Here's the&nbsp;<a class="instructure_file_link inline_disabled" href="https://canvas.uva.nl/courses/8175/pages/uva-thesis-workflow-information#menu2" target="_blank" rel="noopener" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/uva-thesis-workflow-information%23menu2" data-api-returntype="Page">detailed explanation</a>, below is the rundown:</span>
-                    </p>
-                    <ul>
-                        <li>
-                            <p>
-                                <span>Don't use 'Syllabus' or 'Assignments' as your homepage.
-                                    <br />
-                                </span>
-                            </p>
-                            <ul>
-                                <li>
-                                    <p>
-                                        <span>The Assignments and Syllabus menus have to be invisible for students. </span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <span>Work with 'Modules' (Because 'Assignments' aren't visible for students) and </span>
-                                        <span>add a new assignments, pages or quizzes. </span>
-                                        <span>
-                                            <a class="Hyperlink  BCX0 SCXW95220523" href="https://community.canvaslms.com/docs/DOC-26329-how-do-i-add-course-content-as-module-items" target="_blank" rel="noopener">
-                                                <span class="TextRun Underlined  BCX0 SCXW95220523" lang="EN-US" data-contrast="none">
-                                                    <span class="NormalTextRun  BCX0 SCXW95220523" data-ccp-charstyle="Hyperlink">Here's how.</span>
-                                                </span>
-                                            </a>
-                                        </span>
-                                    </p>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <p>
-                                <span>Don't change the Assignment codes. The workflow only works if the assignments related to the Thesis Workflow remain </span>
-                                <span>published</span>
-                            </p>
-                            <ul>
-                                <li>
-                                    <p>
-                                        <span>All assignments within an assignment group starting with: reporting.id[...]</span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <span>All assignments within an assignment group starting with: publication.id[...] </span>
-                                    </p>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <p>
-                                <span>Don't turn off the Mastery Paths.&nbsp; They are turned on in the Settings menu.</span>
-                            </p>
-                        </li>
-                    </ul>
-                    <p class="x_MsoNoSpacing">&nbsp;</p>
-                    <p class="x_MsoNoSpacing">
-                        <span lang="EN-US">All the best,</span>
-                    </p>
-                    <p class="x_MsoNoSpacing">
-                        <span lang="EN-US">Rik Versteeg,</span>
-                    </p>
-                    <p class="x_MsoNoSpacing"><em>
-                            <span lang="EN-US">ICTO Social Sciences</span>
-                        </em></p>
-                    <p><strong>
-                            <br />Any questions?
-                        </strong>
-                        <br />For more information, click&nbsp;<a href="https://canvas.uva.nl/courses/8175/pages/uva-thesis-workflow-information" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/uva-thesis-workflow-information" data-api-returntype="Page">here</a>
-                        <br />Or email us at&nbsp;<a href="mailto:icto-csw@uva.nl">icto-csw@uva.nl</a>
-                    </p>
-                    <p>&nbsp;</p>
-                    <h3 style="text-align: center;">Screenshots</h3>
-                    <p><strong>Canvas view for teachers</strong></p>
-                    <p><strong>
-                            <img src="https://canvas.uva.nl/courses/8175/files/2758416/download?wrap=1" alt="Canvas view teachers" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/2758416" data-api-returntype="File" />
-                        </strong></p>
-                    <p>&nbsp;</p>
-                    <p><strong>Canvas view for students</strong></p>
-                    <p><strong>
-                            <img src="https://canvas.uva.nl/courses/8175/files/2758419/download?wrap=1" alt="Canvas view students" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/2758419" data-api-returntype="File" />
-                        </strong></p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <div class="button-group">
-                        <a class="btn Button" style="background-color: #ffffff;" href="https://canvas.uva.nl/courses/8175/pages/uva-thesis-workflow-information" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/uva-thesis-workflow-information"><i class="icon-home"></i> Back to Thesis Workflow Information Page</a>
-                    </div>
+            <h3 style="text-align: center; margin-bottom: 15px;">
+                <span style="color: #333333;">Canvas view for students</span>
+            </h3>
+        </div>
+        <div class="grid-row">
+            <div class="col-xs-12 col-md-7">
+                <img style="width: 100%; margin-top: 10px;" src="https://canvas.uva.nl/courses/8175/files/2758419/download?wrap=1" alt="Canvas view students" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/2758419" data-api-returntype="File" />
+            </div>
+            <div class="col-xs-12 col-md-4" style="margin-top: 15px;">
+                <div class="alert alert-info" style="width: 100%; margin-bottom: 20px;">
+                    <p>1. Students start with submitting the thesis title for their diploma supplement</p>
+                </div>
+                <div class="alert alert-info" style="width: 100%; margin-bottom: 20px;">
+                    <p>2. Then there are one or two surveys/quizzes, depending on whether a student wants to publish their thesis in the UvA Library or not</p>
+                </div>
+                <div class="alert alert-info" style="width: 100%; margin-bottom: 20px;">
+                    <p>3. After that they can upload their thesis in PDF</p>
+                </div>
+                <div class="alert alert-info" style="width: 100%; margin-bottom: 20px;">
+                    <p>4. Finally there's a webpage to notify them that they've successfully uploaded their thesis.</p>
                 </div>
             </div>
         </div>
+        <p>&nbsp;</p>
+        <div class="col-xs-12 col-md-20">
+            <h3 style="text-align: center; margin-bottom: 15px;">
+                <span style="color: #333333;">Watch these videos</span>
+            </h3>
+        </div>
+        <div class="col-xs-12 col-md-6" style="margin-top: 15px;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4bYhJwJzF08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-xs-12 col-md-6" style="margin-top: 15px;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/-V03oT0b43s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-xs-12 col-md-20">
+            <p>&nbsp;</p>
+        </div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <div class="col-xs-12 col-md-20">
+            <h3 style="text-align: center; margin-bottom: 15px;">
+                <span style="color: #333333;">View more: <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/uva-thesis-workflow-menu" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/uva-thesis-workflow-menu" data-api-returntype="Page"><i class="icon-copy-course"></i>
+                    <span>&nbsp;Go to Thesis Workflow menu</span>
+                </a>
+              </span>
+            </h3>
+        </div>
     </div>
 </div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
