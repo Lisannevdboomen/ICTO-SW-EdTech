@@ -40,17 +40,17 @@ Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te we
 
 ##### Er zijn 2 wegen om een grid system te volgen:
 - Je opent een rij en plaatst hierin een-voor-een van links naar rechts elementen van een bepaalde breedte
-- Je opent een kolom en plaats hierin van boven-naar-beneden elementen onder elkaar
+- Je opent een kolom en plaats hierin een-voor-een van boven naar beneden elementen onder elkaar
 
-##### Tips
-- Het makkelijkste is om met rijen te werken. Je begint bijvoorbeeld met een header (met buttons of een foto). Daarna een tekstvak met een introductie over de volle breedte van de pagina. En daarna bijvoorbeeld embedded 2 video's naast elkaar, enzovoorts. De homepagina van onze ICTO cursus is echter van links-naar-rechts gemaakt: aan de linkerzijde eerst inhoud een-voor-een onder elkaar geplaatst en daarna verder met de rechterzijde.
-- Je verdeelt de pagina als het ware over vakken waarin je afwisselende inhoud kan toevoegen (tekstvak met achtergrond, een menu-rij met buttons, foto's, video's, etc.)
+##### Dit betekent
+- Je verdeelt de pagina als het ware over vakken waaraan je afwisselende inhoud kunt invoegen (tekstvak, menu, foto's, videos, etc.)
+- Het makkelijkste is om met rijen te werken. Je begint bijvoorbeeld met een header (met daarin buttons of een foto), daarna een tekstvak met een introductie over de volle breedte van de pagina, daarna 2 embedded video's naast elkaar, enzovoorts.
+- De homepagina van onze ICTO cursus is juist vanuit kolommen gemaakt (1 links, 1 rechts): aan de linkerkolom een-voor-een inhoud onder elkaar geplaatst en daarna hetzelfde voor de rechterkolom.
 
-> Volle breedte van pagina is bij conventie: ```col-md-12```
-
+##### De volle breedte van een pagina is bij conventie: ```col-md-12 ```
 Dus,
-2 tekstvakken naast elkaar, is: ```col-md-6``` & ```col-md-6```
-3 foto's naast elkaar, is: ```col-md-4``` & ```col-md-4``` & ```col-md-4```
+- 2 tekstvakken naast elkaar is: ```col-md-6``` & ```col-md-6```
+- 3 foto's naast elkaar is: ```col-md-4``` & ```col-md-4``` & ```col-md-4```
 
 
 ##### Volle breedte
@@ -59,7 +59,7 @@ Dus,
 <!-- Open een rij -->
 <div class="grid-row">
 
-    <!-- Deze rij mag over de breedte van de hele pagina -->
+    <!-- Deze rij mag over de volle breedte van de pagina -->
     <div class="col-xs-12 col-md-12">
 
         <!--  Maak een testvak (content box) -->
@@ -72,12 +72,6 @@ Dus,
     </div>
 
 </div>    
-```
-
-##### Een menubox (zie linksboven homepagina of A-Z)
-```een menubalk```
-```html
-komt nog   
 ```
 
 
