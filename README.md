@@ -1,10 +1,12 @@
-# HTML code in onze cursus
+# Ed-Tech beschijving
+
+> Onderstaand een basis uitleg van de verschillende HTML elementen in onze cursus
 
 
 # Anchor link :anchor:
 > Klik op een link en spring naar een andere plek in de pagina
 
-### Plain text anchor link
+### **_Plain text_**
 
 ##### Bron
 ```html
@@ -16,7 +18,7 @@
     <a id="stap1"></a>
 </p>
 ```
-### Button anchor link
+### **_Button_**
 
 ##### Bron
 ```html
