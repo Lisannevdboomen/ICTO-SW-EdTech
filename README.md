@@ -1,6 +1,6 @@
 # Ed-Tech beschrijving
 Onderstaand een basis uitleg van de verschillende HTML elementen in onze Canvas cursus
-<br />
+<br /><br />
 
 ## Anchor link :anchor:
 > Klik op een link en spring naar een andere plek in de pagina
