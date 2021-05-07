@@ -1,6 +1,6 @@
 # Ed-Tech beschrijving
 Onderstaand een basis uitleg van de verschillende HTML elementen in onze Canvas cursus
-<br /><br />
+<br /><br /><br />
 
 ## Anchor link :anchor:
 > Klik op een link en spring naar een andere plek in de pagina
@@ -34,7 +34,7 @@ Onderstaand een basis uitleg van de verschillende HTML elementen in onze Canvas 
 </p>
 ```
 
-
+<br /><br /><br />
 ## Menu balk :house:
 > Bovenaan iedere pagina een content box met buttons
 - Content box over de volle breedte van de pagina = ```cold-md-12```
@@ -63,7 +63,7 @@ Onderstaand een basis uitleg van de verschillende HTML elementen in onze Canvas 
     </div>
 </div>
 ```
-
+<br /><br /><br />
 ## Content box :abc:
 > Een simpele content-box met achtergrond
 - ```"content-box"``` voor een vierkante box zonder rand
