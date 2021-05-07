@@ -36,20 +36,49 @@ Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te we
 <br /><br /><br />
 
 ## Grid system
-> Hiermee creëer je een layout en structuur aan de inhoud van je pagina. Wil je een tekstvak of foto over de volle breedte van een pagina plaatsen, of voor een even groot deel naast elkaar?
+> Hiermee creëer je een layout en structuur aan de inhoud van je pagina. Wil je bijvoorbeeld een tekstvak over de volle breedte van een pagina plaatsen? Of twee tekstvakken naast elkaar?
+
+##### Er zijn 2 wegen om een grid system te volgen:
+- Je opent een rij en plaatst hierin een-voor-een van links naar rechts elementen van een bepaalde breedte
+- Je opent een kolom en plaats hierin van boven-naar-beneden elementen onder elkaar
+
+##### Tips
+- Het makkelijkste is om met rijen te werken. Je begint bijvoorbeeld met een header (met buttons of een foto). Daarna een tekstvak met een introductie over de volle breedte van de pagina. En daarna bijvoorbeeld embedded 2 video's naast elkaar, enzovoorts. De homepagina van onze ICTO cursus is echter van links-naar-rechts gemaakt: aan de linkerzijde eerst inhoud een-voor-een onder elkaar geplaatst en daarna verder met de rechterzijde.
+- Je verdeelt de pagina als het ware over vakken waarin je afwisselende inhoud kan toevoegen (tekstvak met achtergrond, een menu-rij met buttons, foto's, video's, etc.)
+
+> Volle breedte van pagina is bij conventie: ```col-md-12```
+
+Dus,
+2 tekstvakken naast elkaar, is: ```col-md-6``` & ```col-md-6```
+3 foto's naast elkaar, is: ```col-md-4``` & ```col-md-4``` & ```col-md-4```
+
 
 ##### Volle breedte
-```volle breedte```
+```een menubalk```
 ```html
-<!--  -->
-<a href="#stap1">Inloggen in TestVision</a>
+<!-- Open een rij -->
+<div class="grid-row">
 
-<!-- Destination -->
-<p>
-    <a id="stap1"></a>
-</p>
+    <!-- Deze rij mag over de breedte van de hele pagina -->
+    <div class="col-xs-12 col-md-12">
+
+        <!--  Maak een testvak (content box) -->
+        <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; text-align: center;">
+
+            <!-- inhoud -->
+
+        </div>
+
+    </div>
+
+</div>    
 ```
-```naast elkaar```
+
+##### Een menubox (zie linksboven homepagina of A-Z)
+```een menubalk```
+```html
+komt nog   
+```
 
 
 <br /><br />
