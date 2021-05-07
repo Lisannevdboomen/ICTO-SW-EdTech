@@ -34,7 +34,7 @@ Onderstaand een basis uitleg van de verschillende HTML elementen in onze Canvas 
 </p>
 ```
 
-<br /><br /><br />
+<br /><br />
 ## Menu balk :house:
 > Bovenaan iedere pagina een content box met buttons
 - Content box over de volle breedte van de pagina = ```cold-md-12```
@@ -63,7 +63,7 @@ Onderstaand een basis uitleg van de verschillende HTML elementen in onze Canvas 
     </div>
 </div>
 ```
-<br /><br /><br />
+<br /><br />
 ## Content box :abc:
 > Een simpele content-box met achtergrond
 - ```"content-box"``` voor een vierkante box zonder rand
@@ -87,26 +87,33 @@ Onderstaand een basis uitleg van de verschillende HTML elementen in onze Canvas 
 <!-- Voorbeeld: content box 3 keer naast elkaar -->
 <div class="grid-row">
 
+    <!-- Kolom 1 -->
     <div class="col-xs-12 col-md-4">
-        <div class="styleguide-section__grid-demo-element"> <!-- hiermee kun je meerdere elementen onder elkaar plaatsen in de eerste kolom -->
+
+        <!-- M.b.v. een grid-demo-element kun je meerdere elementen onder elkaar plaatsen in de eerste kolom -->
+        <div class="styleguide-section__grid-demo-element">
+
             <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: 410px; background-color: #f6f7f8;">
-                <!-- Kolom 1 -->
+                <!-- Box 1 -->
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Kolom 2 -->
+    <div class="col-xs-12 col-md-4">
+        <div class="styleguide-section__grid-demo-element">
+            <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: 410px; background-color: #f6f7f8;">
+                <!-- Box 2 -->
             </div>
         </div>
     </div>
 
+    <!-- Kolom 3 -->
     <div class="col-xs-12 col-md-4">
         <div class="styleguide-section__grid-demo-element">
             <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: 410px; background-color: #f6f7f8;">
-                <!-- Kolom 2 -->
-            </div>
-        </div>
-    </div>
-
-    <div class="col-xs-12 col-md-4">
-        <div class="styleguide-section__grid-demo-element">
-            <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: 410px; background-color: #f6f7f8;">
-                <!-- Kolom 3 -->
+                <!-- Box 3 -->
             </div>
         </div>
     </div>
