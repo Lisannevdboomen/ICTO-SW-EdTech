@@ -4,26 +4,30 @@
 # Anchor link
 > Klik op een link & spring naar een andere plek in de pagina
 
-## Plain text link
+## Plain text anchor link
 
-##### Bron/link
+##### Bron
 ```html
-<a href="#menu1">Inloggen in TestVision</a>
+<a href="#stap1">Inloggen in TestVision</a>
 ```
 ##### Destination/anchor
 ```html
 <p>
-    <a id="menu1"></a>
+    <a id="stap1"></a>
 </p>
 ```
-## Button
+## Button anchor link
 
-##### Bron/link
+##### Bron
 ```html
-<a href="#menu1">Inloggen in TestVision</a>
+<p>
+    <a class="btn Button" style="margin: 5px;" href="#topmenu">
+        <span> Go back to menu </span>
+    </a>
+</p>
 ```
 ##### Destination/anchor
 ```html
 <p>
-    <a id="menu1"></a>
+    <a id="topmenu"></a>
 </p>
