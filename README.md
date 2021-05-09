@@ -1,13 +1,15 @@
 # ICTO Social Sciences
 In dit project delen we de HTML pagina's van onze Canvas cursus https://canvas.uva.nl/courses/8175. En je kunt hier basic uitleg vinden over de HTML opbouw en structuur.
 
+
+
 ## Git & Atom
 In Github delen we de bestanden via een ```collaboration``` tussen onze accounts. Canvas pagina's bewerken we met behulp van ```Atom```. Atom is een IDE (codeer editor) van ```Github```.  We kunnen in Atom aan pagina's werken en veranderingen pushen+pullen van en naar Github.
 Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te werken (het idee van een Google Drive). Hierdoor zijn er overdag geen conflicten met oude/nieuwe versie van code omdat iedereen realtime de laatste wijzigingen ziet. Vergeet niet aan het einde van de dag de veranderingen te pushen naar Git.
 #### Toegang tot mappen
 ###### Eerste keer inloggen in Atom:
-1. Account voor collaboration toevoegen aan Github project
-2. In Atom -> login op Github account en voeg project toe: ```https://github.com/Lisannevdboomen/ICTO-SW.git```
+1. Account voor collaboration toevoegen aan Github project (Lisanne)
+2. In Atom2.0 -> login op Github account en voeg project toe: ```https://github.com/Lisannevdboomen/ICTO-SW.git```
 ###### Daarna altijd beginnen met:
 1. Klik in Atom links op ```Reopen project``` en selecteer het ICTO-SW project
 2. Klik rechts onderin op ```Git```
@@ -26,15 +28,16 @@ Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te we
 2. Klik op ```Share``` en deel de unieke code met een collega (of klik op ```Join``` en vul code in)
 <br />
 
+
+
 ## Basis uitleg van verschillende HTML elementen in Canvas cursus:
 - [Grid system](#Grid-system)
 - [Anchor links](#Anchor-link)
 - [Content box](#Content-box)
-- [Menu balk](#Menu-balk)
+- [Menubalk](#Menubalk)
 
 
 <br /><br /><br />
-
 ## Grid system
 > Hiermee creëer je een layout en structuur aan de inhoud van je pagina. Wil je bijvoorbeeld een tekstvak over de volle breedte van een pagina plaatsen? Of twee tekstvakken naast elkaar?
 
@@ -47,9 +50,7 @@ Dus,
 - 2 tekstvakken naast elkaar is: ```col-md-6``` & ```col-md-6```
 - 3 foto's naast elkaar is: ```col-md-4``` & ```col-md-4``` & ```col-md-4```
 
-
 ##### Volle breedte
-```een content box (tekstvak)```
 ```html
 <!-- Open een rij -->
 <div class="grid-row">
@@ -61,6 +62,11 @@ Dus,
         <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; text-align: center;">
 
             <!-- inhoud -->
+            <p>begin content box<p>
+
+                <!-- open de canvas text editor en schrijf je tekst -->
+
+            <p>einde content box</p>
 
         </div>
 
@@ -71,44 +77,11 @@ Dus,
 
 
 <br /><br />
-## Anchor link
-:anchor:
-> Klik op een link en spring naar een andere plek in de pagina
-
-##### Plain text
-```html
-<!-- Link -->
-<a href="#stap1">Inloggen in TestVision</a>
-
-<!-- Destination -->
-<p>
-    <a id="stap1"></a>
-</p>
-```
-
-##### Button
-```html
-<!-- Link -->
-<p>
-    <a class="btn Button" style="margin: 5px;" href="#topmenu">
-        <span> Go back to menu </span>
-    </a>
-</p>
-
-<!-- Destination -->
-
-<p>
-    <a id="topmenu"></a>
-</p>
-```
-
-
-<br /><br />
 ## Content box
 :abc:
 > Een simpele content-box met achtergrond
 - ```"content-box"``` voor een vierkante box zonder rand
-- ```"content-box pad-box-mini border border-trbl border-round"``` voor een ronde afwerking met rand
+- ```"content-box pad-box-mini border border-trbl border-round"``` met rand en ronde hoeken
 - ```padding``` voor extra witruimte __binnen__ de content box
 - ```margin``` voor extra witruimte __buiten__ de content box
 - Voeg styling toe zoals een achtergrond #hex color code: ```style="background-color: #fafafa;"```
@@ -116,14 +89,16 @@ Dus,
 ```html
 <!-- voorbeeld 1: -->
 <!-- content box zonder opmaak, met padding om tekst simpelweg om een nette plek te krijgen.  -->
-<div class="content-box" style="padding: 15px; margin-bottom: 20px;">
+<div class="content-box" style="padding: 15px;">
     <!-- inhoud -->
+    <p>tekst</p>
 </div>
 
 <!-- voorbeeld 2 -->
-<!-- content box met achtergrondkleur, border, ronde hoeken, en margin -->
-<div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; margin-top: 10px;">
+<!-- content box met achtergrondkleur, border, padding, en margin -->
+<div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; padding-left: 15px; margin-top: 25px;">
     <!-- inhoud -->
+    <p>tekst</p>
 </div>
 ```
 
@@ -145,6 +120,7 @@ Voorbeeld: content box 3 keer naast elkaar
 
             <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: 410px; background-color: #f6f7f8;">
                 <!-- Inhoud -->
+                <p>tekst</p>
             </div>
 
         </div>
@@ -155,6 +131,7 @@ Voorbeeld: content box 3 keer naast elkaar
         <div class="styleguide-section__grid-demo-element">
             <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: 410px; background-color: #f6f7f8;">
                 <!-- Inhoud -->
+                <p>tekst</p>
             </div>
         </div>
     </div>
@@ -164,6 +141,7 @@ Voorbeeld: content box 3 keer naast elkaar
         <div class="styleguide-section__grid-demo-element">
             <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: 410px; background-color: #f6f7f8;">
                 <!-- Inhoud -->
+                <p>tekst</p>
             </div>
         </div>
     </div>
@@ -172,13 +150,14 @@ Voorbeeld: content box 3 keer naast elkaar
 </div>        
 ```
 
+
 <br /><br />
-## Menu balk
+## Menubalk
 :house:
 > Bovenaan iedere pagina een header met buttons
-- Content box over de volle breedte van de pagina = ```cold-md-12```
+- Content box over de volle breedte van de pagina ```cold-md-12```
 - Met grid-demo-element ```<div> plaats je alle buttons naast elkaar </div>```
-- Er zit een canvas icon in iedere button: ```<i class="icon-home"></i>```
+- Er zit een canvas icon in iedere button, bijv ```<i class="icon-home"></i>```
 - Ik begin de code met ```grid row``` omdat ik hierna vaak weer met een nieuwe grid-row begin op pagina's
 ```html
 <div class="grid-row">
@@ -202,4 +181,37 @@ Voorbeeld: content box 3 keer naast elkaar
         </div>
     </div>
 </div>
+```
+
+
+<br /><br />
+## Anchor link
+:anchor:
+> Klik op een link en spring naar een andere plek in de pagina
+
+##### Plain text
+```html
+<!-- Link -->
+<a href="#stap1">Inloggen in TestVision</a>
+
+<!-- Destination -->
+<p>
+    <a id="stap1"></a>
+</p>
+```
+
+<br /><br />
+##### Button
+```html
+<!-- Link -->
+<p>
+    <a class="btn Button" style="margin: 5px;" href="#topmenu">
+        <span> Go back to menu </span>
+    </a>
+</p>
+
+<!-- Destination -->
+<p>
+    <a id="topmenu"></a>
+</p>
 ```
