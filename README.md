@@ -3,13 +3,13 @@ In dit project delen we de HTML pagina's van onze Canvas cursus https://canvas.u
 
 
 
-## Git & Atom
-In Github delen we de bestanden via een ```collaboration``` tussen onze accounts. Canvas pagina's bewerken we met behulp van ```Atom```. Atom is een IDE (codeer editor) van ```Github```.  We kunnen in Atom aan pagina's werken en veranderingen pushen+pullen van en naar Github.
-Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te werken (het idee van een Google Drive). Hierdoor zijn er overdag geen conflicten met oude/nieuwe versie van code omdat iedereen realtime de laatste wijzigingen ziet. Vergeet niet aan het einde van de dag de veranderingen te pushen naar Git.
+## Samenwerken in Git & Atom
+In Github bestanden delen via een ```collaboration``` tussen onze accounts. Canvas pagina's bewerken we met behulp van ```Atom``` (dit is een IDE ofwel codeer editor van ```Github```).  We kunnen in Atom aan pagina's werken en veranderingen pushen + pullen van en naar Github.
+We kunnen gebruik maken van ```Teletype``` (package) om in Atom "realtime" samen te werken (het idee van een Google Drive). Hierdoor zijn er overdag geen conflicten met oude/nieuwe versie van code omdat iedereen realtime de laatste wijzigingen ziet. Vergeet niet aan het einde van de dag de veranderingen te pushen naar Git.
 #### Toegang tot mappen
 ###### Eerste keer inloggen in Atom:
 1. Account voor collaboration toevoegen aan Github project (Lisanne)
-2. In Atom2.0 -> login op Github account en voeg project toe: ```https://github.com/Lisannevdboomen/ICTO-SW.git```
+2. In Atom2.0 -> login op Github account en clone het project: ```https://github.com/Lisannevdboomen/ICTO-SW.git```
 ###### Daarna altijd beginnen met:
 1. Klik in Atom links op ```Reopen project``` en selecteer het ICTO-SW project
 2. Klik rechts onderin op ```Git```
@@ -41,10 +41,6 @@ Wij maken gebruik van ```Teletype``` (package) om in Atom "realtime" samen te we
 ## Grid system
 > Hiermee creëer je een layout en structuur aan de inhoud van je pagina. Wil je bijvoorbeeld een tekstvak over de volle breedte van een pagina plaatsen? Of twee tekstvakken naast elkaar?
 
-##### Er zijn 2 wegen om een grid system te volgen:
-- Je opent een rij en plaatst hierin een-voor-een van links naar rechts elementen
-- Je opent een kolom en plaatst hierin een-voor-een van boven naar beneden elementen onder elkaar
-
 ##### De volle breedte van een pagina is bij conventie: ```col-md-12 ```
 Dus,
 - 2 tekstvakken naast elkaar is: ```col-md-6``` & ```col-md-6```
@@ -64,7 +60,7 @@ Dus,
             <!-- inhoud -->
             <p>begin content box<p>
 
-                <!-- open de canvas text editor en schrijf je tekst -->
+                <!-- open de canvas text editor en schrijf hier je tekst -->
 
             <p>einde content box</p>
 
