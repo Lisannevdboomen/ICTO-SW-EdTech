@@ -1,5 +1,5 @@
 # ICTO Social Sciences
-In dit project delen we de HTML pagina's van onze Canvas cursus https://canvas.uva.nl/courses/8175. En je kunt hier basic uitleg vinden over de HTML opbouw en structuur.
+In dit project delen we de HTML pagina's van onze Canvas cursus https://canvas.uva.nl/courses/8175. En je kunt hier basic uitleg vinden over de HTML opbouw en structuur. 
 
 
 
