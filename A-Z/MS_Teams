@@ -1,18 +1,62 @@
-<div class="grid-row">
+<p>
+    <a id="topmenu"></a>
+</p>
+
+<div class="content-box" style="background-color: #ffffff;">
+
+  <div class="grid-row">
+      <div class="col-xs-12 col-md-12">
+          <div class="styleguide-section__grid-demo-element">
+              <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fcfcfc; padding: 20px;">
+                  <div class="content-box" style="border: #F9FAFA; padding: 0px 25px 15px 15px;">
+                      <h3>About Microsoft Teams</h3>
+                      <p>
+                          <span style="font-size: 12pt;">Microsoft Teams is a great way to collaborate or communicate with fellow colleagues or even students. MS Teams offers a variety of ways and tools to ...</span>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="grid-row">
+        <div class="col-xs-12 col-md-12">
+            <div class="styleguide-section__grid-demo-element">
+                <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; text-align: center;">
+                    <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175"><i class="icon-home"></i>
+                        <span>&nbsp;Home</span>
+                    </a>
+                    <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/a-z" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/a-z" data-api-returntype="Page"><i class="icon-copy-course"></i>
+                        <span>&nbsp;View all topics (A-Z)</span>
+                    </a>
+                    <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/enroll/N3HMY8" data-api-returntype="Page">&nbsp;<i class="icon-discussion-new">&nbsp;</i>Enroll in this course</a>
+                    <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/contact" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/contact"><i class="icon-group"></i>
+                        <span>&nbsp;Contact</span>
+                    </a>
+                    <a class="btn Button" style="margin: 5px;" href="https://uvasocialsciences.eu.qualtrics.com/jfe/form/SV_6LN3bIFUlzyJ95k" target="_blank" rel="noopener" data-api-returntype="Page"><i class="icon-compose"></i>
+                        <span>&nbsp;</span>Send us your feedback
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fcfcfc; padding: 2px 15px 15px 15px;">
+  <div class="grid-row">
     <div class="col-xs-20 col-md-6" style="text-align: center;">
       <div class="styleguide-section__grid-demo-element">
         <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; padding: 30px; margin-bottom: 10px; text-align: left;">
-                <a style="height: 100%; text-decoration: none; color: inherit;">
-                      <span style="font-size: 17pt;">
-                          <span style="color: #ffffff; font-size: 16pt;">
-                              <span style="color: #ffffff;">
-                                <em><strong></strong></em>
-                                <span style="color: #000000; font-size: 16pt;">&nbsp; &nbsp;<span style="color: #7e8c8d;"><em>Overview &nbsp; </em></span>
-                                  </span><em><strong> </strong></em>
-                              </span>
-                          </span><em> </em>
-                      </span>
-                  </a>
+            <a style="height: 100%; text-decoration: none; color: inherit;">
+                  <span style="font-size: 17pt;">
+                      <span style="color: #ffffff; font-size: 16pt;">
+                          <span style="color: #ffffff;">
+                            <em><strong></strong></em>
+                            <span style="color: #000000; font-size: 16pt;">&nbsp; &nbsp;<span style="color: #7e8c8d;"><em>Sidebar tabs &nbsp; </em></span>
+                              </span><em><strong> </strong></em>
+                          </span>
+                      </span><em> </em>
+                  </span>
+              </a>
                   <p style="text-align: left;">
                       <span style="font-size: 18pt;">
                           <a id="" class="Button Button--large" style="width: 85%; height: 20%; text-align: left; margin-left: auto; margin-right: auto;" title="Canvas Assignments / Perusall / Feedbackruits / Plagiarism" href="" target="">
@@ -33,7 +77,70 @@
                             </span>
                           </p>
 
+                          <p style="text-align: left;">
+                              <span style="font-size: 18pt;">
+                                  <a id="" class="Button Button--large" style="width: 85%; height: 20%; text-align: left; margin-left: auto; margin-right: auto;" title="Canvas Assignments / Perusall / Feedbackruits / Plagiarism" href="" target="">
+                                    <img id="4668250" src="https://canvas.uva.nl/courses/8175/files/4668250/preview" alt="Schermafbeelding 2021-05-12 om 16.46.36.png" width="41" height="40"/>
+                                    <span style="color: #236fa1;">&nbsp;&nbsp; &nbsp;<span style="color: #000000;">Activity</span>
+                                    </span>
+                                  </a>
+                                </span>
+                          </p>
+                          <p style="text-align: left;">
+                              <span style="font-size: 18pt;">
+                                  <a id="" class="Button Button--large" style="width: 85%; height: 20%; text-align: left; margin-left: auto; margin-right: auto;" title="Canvas Assignments / Perusall / Feedbackruits / Plagiarism" href="" target="">
+                                    <img id="4668250" src="https://canvas.uva.nl/courses/8175/files/4668250/preview" alt="Schermafbeelding 2021-05-12 om 16.46.36.png" width="41" height="40"/>
+                                    <span style="color: #236fa1;">&nbsp;&nbsp; &nbsp;<span style="color: #000000;">Calender</span>
+                                    </span>
+                                  </a>
+                                </span>
+                          </p>
+                          <p style="text-align: left;">
+                              <span style="font-size: 18pt;">
+                                  <a id="" class="Button Button--large" style="width: 85%; height: 20%; text-align: left; margin-left: auto; margin-right: auto;" title="Canvas Assignments / Perusall / Feedbackruits / Plagiarism" href="" target="">
+                                    <img id="4668250" src="https://canvas.uva.nl/courses/8175/files/4668250/preview" alt="Schermafbeelding 2021-05-12 om 16.46.36.png" width="41" height="40"/>
+                                    <span style="color: #236fa1;">&nbsp;&nbsp; &nbsp;<span style="color: #000000;">Calls</span>
+                                    </span>
+                                  </a>
+                                </span>
+                          </p>
+                          <p style="text-align: left;">
+                              <span style="font-size: 18pt;">
+                                  <a id="" class="Button Button--large" style="width: 85%; height: 20%; text-align: left; margin-left: auto; margin-right: auto;" title="Canvas Assignments / Perusall / Feedbackruits / Plagiarism" href="" target="">
+                                    <img id="4668250" src="https://canvas.uva.nl/courses/8175/files/4668250/preview" alt="Schermafbeelding 2021-05-12 om 16.46.36.png" width="41" height="40"/>
+                                    <span style="color: #236fa1;">&nbsp;&nbsp; &nbsp;<span style="color: #000000;">Files</span>
+                                    </span>
+                                  </a>
+                                </span>
+                          </p>
         </div>
       </div>
     </div>
+        <div class="col-xs-20 col-md-6" style="text-align: center;">
+          <div class="styleguide-section__grid-demo-element">
+            <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; padding: 30px; margin-bottom: 10px; text-align: left;">
+                <a style="height: 100%; text-decoration: none; color: inherit;">
+                      <span style="font-size: 17pt;">
+                          <span style="color: #ffffff; font-size: 16pt;">
+                              <span style="color: #ffffff;">
+                                <em><strong></strong></em>
+                                <span style="color: #000000; font-size: 16pt;">&nbsp; &nbsp;<span style="color: #7e8c8d;"><em>Guide &nbsp; </em></span>
+                                  </span><em><strong> </strong></em>
+                              </span>
+                          </span><em> </em>
+                      </span>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+
+  </div>
+
+
+
+</div>
+
+
+
 </div>
