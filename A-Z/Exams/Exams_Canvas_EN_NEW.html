@@ -1,3 +1,6 @@
+<p>
+    <a id="topmenu"></a>
+</p>
 <div class="grid-row">
     <div class="col-xs-12 col-md-20">
         <div class="styleguide-section__grid-demo-element">
@@ -6,7 +9,7 @@
                     <span>&nbsp;Home</span>
                 </a>
                 <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/a-z" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/a-z" data-api-returntype="Page"><i class="icon-copy-course"></i>
-                    <span>&nbsp;View all topics (A-Z)</span>
+                    <span>&nbsp;All topics (A-Z)</span>
                 </a>
                 <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/enroll/N3HMY8" data-api-returntype="Page">&nbsp;<i class="icon-discussion-new">&nbsp;</i>Enroll</a>
                 <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/handleiding-canvas-assessments" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/handleiding-canvas-assessments"><i class="icon-flag"></i>
@@ -53,7 +56,7 @@
                         <h4 style="text-align: left;"><strong>
                                 <span style="color: #ffffff;">
                                     <span style="font-size: 14pt;">
-                                        <span style="color: #ffffff;">Preparations &nbsp;</span><i class="icon-discussion"></i>
+                                        <span style="color: #ffffff;">Examination &nbsp;</span><i class="icon-peer-review"></i>
                                     </span>
                                 </span>
                             </strong></h4>
@@ -106,69 +109,152 @@
             <div class="styleguide-section__grid-demo-element">
                 <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #ffffff; padding: 30px; padding-top: 5px; padding-right: 2px; height: 590px, auto; background-color: #ebf0f5;">
                     <div class="content-box">
-                            <h3>Try to reduce the risk of fraud</h3>
-                            <br />
-                            <span class="element_toggler " aria-controls="deel_plag_1" aria-label="Toggler toggle list visibility" aria-expanded="false">
-                                <span style="color: #003366; font-size: 14pt;">An online exam requires knowledge of a higher order</span><i class="icon-mini-arrow-down"></i>
+                        <h3>Try to reduce the risk of fraud</h3>
+                        <br />
+                        <span class="element_toggler " aria-controls="deel_plag_1" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                            <span style="color: #003366; font-size: 14pt;">An online exam requires knowledge of a higher order</span><i class="icon-mini-arrow-down"></i>
+                        </span>
+                        <ul id="deel_plag_1" style="list-style: none; display: none;">
+                            <li>
+                                <div class="content-box">
+                                    <div class="grid-row">
+                                        <div class="col-xs-1">&nbsp;</div>
+                                        <div class="col-xs-10" style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
+                                            <div class="styleguide-section__grid-demo-element">
+                                                <p>Unaudited, online exams are by definition open book. Nothing prevents students from using resources such as the Internet, textbooks and notes. Your exam must be designed for this. In an unshielded testing environment, the student can share screenshots via whatsapp and other social media, or google. An online exam requires knowledge of a higher order (deeper understanding, application, analyzing, evaluating) and is preferably strictly timed, which makes collaboration and plagiarism unattractive. (<a href="https://canvas.uva.nl/courses/16651/pages/exams" target="_blank" rel="noopener" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/16651/pages/exams" data-api-returntype="Page">source</a>).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>
+                            <span class="element_toggler " aria-controls="deel_plag_2" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                                <span style="color: #003366; font-size: 14pt;">Here are some practical tips!</span><i class="icon-mini-arrow-down"></i>
                             </span>
-                            <ul id="deel_plag_1" style="list-style: none; display: none;">
-                                <li>
-                                    <div class="content-box">
-                                        <div class="grid-row">
-                                            <div class="col-xs-1">&nbsp;</div>
-                                            <div class="col-xs-10" style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                                                <div class="styleguide-section__grid-demo-element">
-                                                    <p>Unaudited, online exams are by definition open book. Nothing prevents students from using resources such as the Internet, textbooks and notes. Your exam must be designed for this. In an unshielded testing environment, the student can share screenshots via whatsapp and other social media, or google. An online exam requires knowledge of a higher order (deeper understanding, application, analyzing, evaluating) and is preferably strictly timed, which makes collaboration and plagiarism unattractive. (<a href="https://canvas.uva.nl/courses/16651/pages/exams" target="_blank" rel="noopener" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/16651/pages/exams" data-api-returntype="Page">source</a>).</p>
-                                                </div>
+                        </p>
+                        <ul id="deel_plag_2" style="list-style: none; display: none;">
+                            <li>
+                                <div class="content-box">
+                                    <div class="grid-row">
+                                        <div class="col-xs-1">&nbsp;</div>
+                                        <div class="col-xs-10" style="background-color: #ffffff; padding-left: 30px; padding-top: 10px; padding-bottom: 10px; border-left: 5px solid #e1e9f4;">
+                                            <div class="styleguide-section__grid-demo-element">
+                                                <ol>
+                                                    <li>Use a strict time limit at the exam</li>
+                                                    <li>Offer questions in a random order</li>
+                                                    <li>Offer answer options in a random order</li>
+                                                    <li>Show one question at a time</li>
+                                                    <li>Students are only allowed to answer the question once, block the question after it has been answered</li>
+                                                    <li>Make each test unique: create a larger pool of multiple choice questions (e.g. 50 questions in a Question Bank) and let students answer a random combination of these (e.g. 25 questions)</li>
+                                                    <li>The Question Banks are also important in order to cover all course content in an exam. If you have 4 main topics, then you create 4 Question Banks, so that each student gets the same number of questions about each main topic.&nbsp;</li>
+                                                </ol>
                                             </div>
                                         </div>
                                     </div>
-                                </li>
-                            </ul>
-                            <p>
-                                <span class="element_toggler " aria-controls="deel_plag_2" aria-label="Toggler toggle list visibility" aria-expanded="false">
-                                    <span style="color: #003366; font-size: 14pt;">Here are some practical tips!</span><i class="icon-mini-arrow-down"></i>
-                                </span>
-                            </p>
-                            <ul id="deel_plag_2" style="list-style: none; display: none;">
-                                <li>
-                                    <div class="content-box">
-                                        <div class="grid-row">
-                                            <div class="col-xs-1">&nbsp;</div>
-                                            <div class="col-xs-10" style="background-color: #ffffff; padding-left: 30px; padding-top: 10px; padding-bottom: 10px; border-left: 5px solid #e1e9f4;">
-                                                <div class="styleguide-section__grid-demo-element">
-                                                    <ol>
-                                                        <li>Use a strict time limit at the exam</li>
-                                                        <li>Offer questions in a random order</li>
-                                                        <li>Offer answer options in a random order</li>
-                                                        <li>Show one question at a time</li>
-                                                        <li>Students are only allowed to answer the question once, block the question after it has been answered</li>
-                                                        <li>Make each test unique: create a larger pool of multiple choice questions (e.g. 50 questions in a Question Bank) and let students answer a random combination of these (e.g. 25 questions)</li>
-                                                        <li>The Question Banks are also important in order to cover all course content in an exam. If you have 4 main topics, then you create 4 Question Banks, so that each student gets the same number of questions about each main topic.&nbsp;</li>
-                                                    </ol>
-                                                </div>
-                                            </div>
-                                        </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>&nbsp;</p>
+                        <h3>Copy a pre-made exam to your canvas course</h3>
+                        <div class="content-box" style="margin-right: 30px; margin-top: 5px; margin-bottom: 2px;">
+                            <blockquote>
+                                <p>
+                                    <span style="font-size: 11pt;">A great timesaving and error proof option is to copy an exam made by ICTO. Each exam contains a #ToDo list for teachers, an instructions page for students, and the official exam as Assignment or Quiz. Most of the settings are already done. Round up a few missing elements by checking out our #ToDo list.&nbsp;</span>
+                                </p>
+                            </blockquote>
+                        </div>
+                        <div class="grid-row">
+                            <div class="col-xs-12 col-md-4">
+                                <div class="styleguide-section__grid-demo-element">
+                                    <div class="content-box pad-box-mini border border-b" style="margin-top: 0px; margin-right: 5px; margin-left: 2px;">
+                                        <h4><strong> </strong>
+                                            <span style="color: #e67e23;">
+                                                <span style="font-size: 13pt; color: #34495e;">Open Questions</span>
+                                            </span><strong> </strong>
+                                        </h4>
                                     </div>
-                                </li>
-                            </ul>
-                        <p>&nbsp;</p>
-                        <h3>Copy these pre-made exams to your course</h3>
-                        <p>We provide each exam as a module with the following content: a page with instructions for teachers | technical roadmap for students | instruction text for the exam | the official exam </p>
-                        <a id="" class="Button Button" style="background-color: #F98933; border-color: #DC894B; width: 60%; height: 30px; text-align: left; margin-left: auto; margin-right: auto; margin-top: 10px;" title="Advanced" href="#advanced-grade-setup">&nbsp;
-                            <span style="color: #ffffff; font-size: 20pt; padding-left: 3px; line-height: 100%;"><strong>></strong></span>
-                            <span style="color: #ffffff; font-size: 14pt; padding-left: 8px; line-height: 95%;"><strong>Import Exam</strong> with open questions</span>
-                        </a>
-                        <a id="" class="Button Button" style="background-color: #F98933; border-color: #DC894B; width: 60%; height: 30px; text-align: left; margin-left: auto; margin-right: auto; margin-top: 10px;" title="Advanced" href="#advanced-grade-setup">&nbsp;
-                            <span style="color: #ffffff; font-size: 20pt; padding-left: 3px; line-height: 100%;"><strong>></strong></span>
-                            <span style="color: #ffffff; font-size: 14pt; padding-left: 8px; line-height: 95%;"><strong>Import Exam</strong> with closed questions</span>
-                        </a>
-                        <a id="" class="Button Button" style="background-color: #F98933; border-color: #DC894B; width: 60%; height: 30px; text-align: left; margin-left: auto; margin-right: auto; margin-top: 10px;" title="Advanced" href="#advanced-grade-setup">&nbsp;
-                            <span style="color: #ffffff; font-size: 20pt; padding-left: 3px; line-height: 100%;"><strong>></strong></span>
-                            <span style="color: #ffffff; font-size: 14pt; padding-left: 8px; line-height: 95%;"><strong>Import Exam</strong> (combination)</span>
-                        </a>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
+                                    <p style="text-align: left;">
+                                        <span style="font-size: 16pt;">
+                                            <a id="" class="Button Button--large" style="width: auto; height: 20%; text-align: left; margin-left: 10px; margin-right: auto;" title="Canvas" href="#from-canvas">
+                                                <span style="color: #236fa1;">
+                                                    <span style="color: #000000;">Preview</span>
+                                                </span>
+                                            </a>
+                                        </span>
+                                        <span style="color: #236fa1;"> </span>
+                                    </p>
+                                    <p style="text-align: left;">
+                                        <span style="font-size: 16pt;">
+                                            <a style="font-family: inherit;" href="https://canvas.uva.nl/courses/8175/pages/kaltura-faqs-how-tos-and-tips-and-tricks-2" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/kaltura-faqs-how-tos-and-tips-and-tricks-2" data-api-returntype="Page"> </a>
+                                            <a id="" class="Button Button--large" style="width: auto; height: 20%; text-align: left; margin-left: 10px; margin-right: auto; background-color: #d77118;" title="Manually" href="#add-manually">
+                                                <span style="color: #ffffff;">Import exam</span>
+                                            </a>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-4">
+                                <div class="styleguide-section__grid-demo-element">
+                                    <div class="content-box pad-box-mini border border-b" style="margin-top: 0px; margin-right: 2px; margin-left: 2px;">
+                                        <h4><strong> </strong>
+                                            <span style="color: #e67e23;">
+                                                <span style="font-size: 13pt; color: #34495e;">Closed Questions</span>
+                                            </span><strong> </strong>
+                                        </h4>
+                                    </div>
+                                    <p style="text-align: left;">
+                                        <span style="font-size: 16pt;">
+                                            <a id="" class="Button Button--large" style="width: auto; height: 20%; text-align: left; margin-left: 10px; margin-right: auto;" title="Canvas" href="#from-canvas">
+                                                <span style="color: #236fa1;">
+                                                    <span style="color: #000000;">Preview</span>
+                                                </span>
+                                            </a>
+                                        </span>
+                                        <span style="color: #236fa1;"> </span>
+                                    </p>
+                                    <p style="text-align: left;">
+                                        <span style="font-size: 16pt;">
+                                            <a style="font-family: inherit;" href="https://canvas.uva.nl/courses/8175/pages/kaltura-faqs-how-tos-and-tips-and-tricks-2" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/kaltura-faqs-how-tos-and-tips-and-tricks-2" data-api-returntype="Page"> </a>
+                                            <a id="" class="Button Button--large" style="width: auto; height: 20%; text-align: left; margin-left: 10px; margin-right: auto; background-color: #d77118;" title="Manually" href="#add-manually">
+                                                <span style="color: #ffffff;">Import exam</span>
+                                            </a>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-4">
+                                <div class="styleguide-section__grid-demo-element">
+                                    <div class="content-box pad-box-mini border border-b" style="margin-top: 0px; margin-right: 5px; margin-left: 2px;">
+                                        <h4>
+                                            <span style="color: #ba372a;">
+                                                <span style="color: #236fa1;"> </span>
+                                                <span style="font-size: 13pt; color: #34495e;">Combination</span>
+                                                <span style="color: #236fa1;"> </span>
+                                            </span>
+                                        </h4>
+                                    </div>
+                                    <p style="text-align: left;">
+                                        <span style="font-size: 16pt;">
+                                            <a id="" class="Button Button--large" style="width: auto; height: 20%; text-align: left; margin-left: 10px; margin-right: auto;" title="Canvas" href="#from-canvas">
+                                                <span style="color: #236fa1;">
+                                                    <span style="color: #000000;">Preview</span>
+                                                </span>
+                                            </a>
+                                        </span>
+                                        <span style="color: #236fa1;"> </span>
+                                    </p>
+                                    <p style="text-align: left;">
+                                        <span style="font-size: 16pt;">
+                                            <a style="font-family: inherit;" href="https://canvas.uva.nl/courses/8175/pages/kaltura-faqs-how-tos-and-tips-and-tricks-2" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/kaltura-faqs-how-tos-and-tips-and-tricks-2" data-api-returntype="Page"> </a>
+                                            <a id="" class="Button Button--large" style="width: auto; height: 20%; text-align: left; margin-left: 10px; margin-right: auto; background-color: #d77118;" title="Manually" href="#add-manually">
+                                                <span style="color: #ffffff;">Import exam</span>
+                                            </a>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -225,7 +311,7 @@
                         <h4 style="text-align: left;"><strong>
                                 <span style="color: #ffffff;">
                                     <span style="font-size: 14pt;">
-                                        <span style="color: #ffffff;">Preparations &nbsp;</span><i class="icon-discussion"></i>
+                                        <span style="color: #ffffff;">Examination &nbsp;</span><i class="icon-peer-review"></i>
                                     </span>
                                 </span>
                             </strong></h4>
@@ -278,13 +364,57 @@
             <div class="styleguide-section__grid-demo-element">
                 <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #ffffff; padding: 30px; padding-top: 5px; padding-right: 2px; height: 590px; background-color: #ebf0f5;">
                     <div class="content-box">
-                        <h3>Closed questions</h3>
+                        <a class="btn Button--secondary" style="margin: 5px; margin-right: 30px; float: right;" href="#topmenu"><i class="icon-arrow-up"></i>
+                            <span>&nbsp;Back to top</span>
+                        </a>
+                        <h2>Closed questions</h2>
                         <br />
-
-                        <p>tekst</p>
-                        <p>einde tekst</p>
-
-                        <p>&nbsp;</p>
+                        <p>
+                            <span style="font-size: 12pt; color: #000000;"><strong>Step 1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Create a question bank</strong>&nbsp; &nbsp;<i class="icon-compose"></i></span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <span style="color: #003366;">How to create a question bank</span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <span style="color: #003366;">Add questions to the question bank</span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <span style="color: #003366;">(Alternative option) Import questions from Word with Respondus</span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt; color: #000000;"><strong>
+                                    <br />Step 2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Add question bank to Quiz
+                                </strong>&nbsp; &nbsp;<i class="icon-import-content"></i></span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <span style="color: #003366;">How to link the question bank to a Quiz</span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt; color: #000000;"><strong>
+                                    <br />Step 3&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Quiz details
+                                </strong>&nbsp; &nbsp;<i class="icon-assignment"></i></span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <span style="color: #003366;">Due dates &amp; time limit</span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <span style="color: #003366;">Extra-time students</span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt; color: #000000;"><strong>
+                                    <br />Step 4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Final check
+                                </strong>&nbsp; &nbsp;<i class="icon-quiz"></i></span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <span style="color: #003366;">Publish the Quiz</span>
+                        </p>
                         <p>&nbsp;</p>
                     </div>
                 </div>
@@ -342,7 +472,7 @@
                         <h4 style="text-align: left;"><strong>
                                 <span style="color: #ffffff;">
                                     <span style="font-size: 14pt;">
-                                        <span style="color: #ffffff;">Preparations &nbsp;</span><i class="icon-discussion"></i>
+                                        <span style="color: #ffffff;">Examination &nbsp;</span><i class="icon-peer-review"></i>
                                     </span>
                                 </span>
                             </strong></h4>
@@ -395,13 +525,52 @@
             <div class="styleguide-section__grid-demo-element">
                 <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #ffffff; padding: 30px; padding-top: 5px; padding-right: 2px; height: 590px; background-color: #ebf0f5;">
                     <div class="content-box">
-                        <h3>Open questions</h3>
+                        <a class="btn Button--secondary" style="margin: 5px; margin-right: 30px; float: right;" href="#topmenu"><i class="icon-arrow-up"></i>
+                            <span>&nbsp;Back to top</span>
+                        </a>
+                        <h2>Open questions</h2>
                         <br />
-
-                        <p>tekst</p>
-                        <p>einde tekst</p>
-
-                        <p>&nbsp;</p>
+                        <p>
+                            <span style="font-size: 12pt; color: #000000;"><strong>Step 1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Create an Assignment</strong>&nbsp; &nbsp;<i class="icon-compose"></i></span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <span style="color: #003366;">How to create a new Assignment</span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <span style="color: #003366;">Add a plagiarism check</span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <span style="color: #003366;">Due dates &amp; time limit</span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <span style="color: #003366;">Extra-time students</span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt; color: #000000;"><strong>
+                                    <br />Step 2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Examination details
+                                </strong>&nbsp; &nbsp;<i class="icon-assignment"></i></span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <span style="color: #003366;">Include a document with questions</span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <span style="color: #003366;">Write a proper instruction</span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt; color: #000000;"><strong>
+                                    <br />Step 3&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Final check
+                                </strong>&nbsp; &nbsp;<i class="icon-quiz"></i></span>
+                        </p>
+                        <p>
+                            <span style="font-size: 12pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                            <span style="color: #003366;">Publish the Assignment</span>
+                        </p>
                         <p>&nbsp;</p>
                     </div>
                 </div>
@@ -459,7 +628,7 @@
                         <h4 style="text-align: left;"><strong>
                                 <span style="color: #ffffff;">
                                     <span style="font-size: 14pt;">
-                                        <span style="color: #ffffff;">Preparations &nbsp;</span><i class="icon-discussion"></i>
+                                        <span style="color: #ffffff;">Examination &nbsp;</span><i class="icon-peer-review"></i>
                                     </span>
                                 </span>
                             </strong></h4>
@@ -512,14 +681,18 @@
             <div class="styleguide-section__grid-demo-element">
                 <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #ffffff; padding: 30px; padding-top: 5px; padding-right: 2px; height: 590px; background-color: #ebf0f5;">
                     <div class="content-box">
-                        <h3>Instructions</h3>
-                        <br />
-
-                        <p>tekst</p>
-                        <p>einde tekst</p>
-
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
+                        <a class="btn Button--secondary" style="margin: 5px; margin-right: 30px; float: right;" href="#topmenu"><i class="icon-arrow-up"></i>
+                            <span>&nbsp;Back to top</span>
+                        </a>
+                        <h2>Instructions</h2>
+                        <div class="content-box" style="margin-right: 30px;">
+                            <blockquote>
+                                <p>You want to make sure that all students fully understand what to do when starting the exam. Create a proper instructions page and share it along a few days before the exam starts. You can use our instructions so you don't have to worry about getting more work done. In addition, we strongly recommended to inform students on how to technically prepare themselves before the exam, so we included the most helpful preparations and tips to the instructions as well.</p>
+                            </blockquote>
+                        </div>
+                        <p>&nbsp;&nbsp; Exam Instructions (open ended questions)</p>
+                        <p>&nbsp;&nbsp; Exam Instructions (close ended questions)</p>
+                        <p>&nbsp;&nbsp; Exam Instructions (combination)</p>
                     </div>
                 </div>
             </div>
@@ -576,7 +749,7 @@
                         <h4 style="text-align: left;"><strong>
                                 <span style="color: #ffffff;">
                                     <span style="font-size: 14pt;">
-                                        <span style="color: #ffffff;">Preparations &nbsp;</span><i class="icon-discussion"></i>
+                                        <span style="color: #ffffff;">Examination &nbsp;</span><i class="icon-peer-review"></i>
                                     </span>
                                 </span>
                             </strong></h4>
@@ -629,14 +802,18 @@
             <div class="styleguide-section__grid-demo-element">
                 <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #ffffff; padding: 30px; padding-top: 5px; padding-right: 2px; height: 590px; background-color: #ebf0f5;">
                     <div class="content-box">
-                        <h3>Support during exam</h3>
-                        <br />
-
-                        <p>tekst</p>
-                        <p>einde tekst</p>
-
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
+                        <a class="btn Button--secondary" style="margin: 5px; margin-right: 30px; float: right;" href="#topmenu"><i class="icon-arrow-up"></i>
+                            <span>&nbsp;Back to top</span>
+                        </a>
+                        <h2>Support during exam</h2>
+                        <div class="content-box" style="margin-right: 30px;">
+                            <blockquote>
+                                <p>The moment of the exam can get on your nerves. Will everything go well? Will everyone be able to access the exam on Canvas properly? In case of emergency, you can follow these few tips to fix any errors and glitches.</p>
+                            </blockquote>
+                        </div>
+                        <p>&nbsp;&nbsp; Support during the exam (open ended questions)</p>
+                        <p>&nbsp;&nbsp; Support during the exam (close ended questions)</p>
+                        <p>&nbsp;&nbsp; Support during the exam (combination)</p>
                     </div>
                 </div>
             </div>
@@ -693,7 +870,7 @@
                         <h4 style="text-align: left;"><strong>
                                 <span style="color: #ffffff;">
                                     <span style="font-size: 14pt;">
-                                        <span style="color: #ffffff;">Preparations &nbsp;</span><i class="icon-discussion"></i>
+                                        <span style="color: #ffffff;">Examination &nbsp;</span><i class="icon-peer-review"></i>
                                     </span>
                                 </span>
                             </strong></h4>
@@ -746,12 +923,13 @@
             <div class="styleguide-section__grid-demo-element">
                 <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #ffffff; padding: 30px; padding-top: 5px; padding-right: 2px; height: 590px; background-color: #ebf0f5;">
                     <div class="content-box">
-                        <h3>Assess & Grade</h3>
+                        <a class="btn Button--secondary" style="margin: 5px; margin-right: 30px; float: right;" href="#topmenu"><i class="icon-arrow-up"></i>
+                            <span>&nbsp;Back to top</span>
+                        </a>
+                        <h2>Assess &amp; Grade</h2>
                         <br />
-
                         <p>tekst</p>
                         <p>einde tekst</p>
-
                         <p>&nbsp;</p>
                         <p>&nbsp;</p>
                     </div>
@@ -798,7 +976,6 @@
                             </a>
                         </span>
                     </p>
-                    <p>HALLO</p>
                     <p style="text-align: left;">
                         <span style="font-size: 11pt;">
                             <a id="" class="Button Button" style="width: 85%; height: 17px; text-align: left; margin-left: auto; margin-right: auto;" title="Advanced" href="#open-questions">&nbsp; <span style="color: #236fa1;">
@@ -811,7 +988,7 @@
                         <h4 style="text-align: left;"><strong>
                                 <span style="color: #ffffff;">
                                     <span style="font-size: 14pt;">
-                                        <span style="color: #ffffff;">Preparations &nbsp;</span><i class="icon-discussion"></i>
+                                        <span style="color: #ffffff;">Examination &nbsp;</span><i class="icon-peer-review"></i>
                                     </span>
                                 </span>
                             </strong></h4>
@@ -864,12 +1041,13 @@
             <div class="styleguide-section__grid-demo-element">
                 <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #ffffff; padding: 30px; padding-top: 5px; padding-right: 2px; height: 590px; background-color: #ebf0f5;">
                     <div class="content-box">
-                        <h3>Inspection</h3>
+                        <a class="btn Button--secondary" style="margin: 5px; margin-right: 30px; float: right;" href="#topmenu"><i class="icon-arrow-up"></i>
+                            <span>&nbsp;Back to top</span>
+                        </a>
+                        <h2>Inspection</h2>
                         <br />
-
                         <p>tekst</p>
                         <p>einde tekst</p>
-
                         <p>&nbsp;</p>
                         <p>&nbsp;</p>
                     </div>
