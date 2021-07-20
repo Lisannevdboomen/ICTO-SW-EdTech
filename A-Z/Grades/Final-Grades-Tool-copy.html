@@ -419,7 +419,7 @@
                             </span>
                         </p>
                         <p>
-                            <span style="font-size: 13pt;">2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#basic2">Add retake grades</a>
+                            <span style="font-size: 13pt;">2&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#basic2">Setup of retake grades</a>
                             </span>
                         </p>
                     </div>
@@ -611,11 +611,11 @@
                                 </em></span>
                         </p>
                         <p>
-                            <span style="font-size: 13pt;">&nbsp; <a href="#excel-guide1">Import partial grades</a>
+                            <span style="font-size: 13pt;"><a href="#excel-guide1">Import partial grades</a>
                             </span>
                         </p>
                         <p>
-                            <span style="font-size: 13pt;">&nbsp; <a href="#basic2">Setup of retake grades</a>
+                            <span style="font-size: 13pt;"><a href="#basic2">Setup of retake grades</a>
                             </span>
                         </p>
                         <br />
@@ -625,7 +625,7 @@
                                 </em></span>
                         </p>
                         <p>
-                            <span style="font-size: 13pt;">&nbsp; <a href="#excel-guide">Import final grades</a>
+                            <span style="font-size: 13pt;"><a href="#excel-guide">Import final grades</a>
                             </span>
                         </p>
                     </div>
@@ -1297,7 +1297,7 @@
                 <td style="width: 7%; border-style: hidden; height: auto;"><strong>
                         <span style="font-size: 14pt;">1.</span>
                     </strong></td>
-                <td style="width: 90%; border-style: hidden; height: auto;"><strong>Go to the <span style="text-decoration: underline;">Final Grades</span> menu and open the <span style="text-decoration: underline;">Grade Calculation Setup</span></strong>
+                <td style="width: 90%; border-style: hidden; height: auto;"><strong>Go to the <span style="text-decoration: underline;">Final Grades</span> menu and open the grade <span style="text-decoration: underline;">Calculation Setup</span></strong>
                 </td>
             </tr>
             <tr style="height: 201px; padding-bottom: 8px;">
@@ -1407,7 +1407,7 @@
                                     <span style="text-decoration: underline; color: #6096e6;">No</span> if your grading setup is basic
                                 </span>
                             </strong></p>
-                        <p style="padding-left: 40px; color: #6096e6;">A basic setup means: adding several grades/assignments to the setup, assigning weight to these compononents, and then calculating the final grade.</p>
+                        <p style="padding-left: 40px; color: #6096e6;">A basic setup means: adding several grades/assignments to the setup, assigning weight to these items, and then calculating the final grade from there on.</p>
                         <p style="margin-bottom: 0in; color: #6096e6; line-height: 100%;" lang="nl-NL">
                             <span style="color: #6096e6; font-family: inherit; font-size: 1rem;"><strong>
                                     <span style="text-decoration: underline; color: #6096e6;">Yes</span> if you would like to do advanced calculations
@@ -2024,13 +2024,13 @@
                 <td style="width: 90%; border-style: hidden; height: auto;">
                     <p><em>Wait for it to load, it may take some time</em></p>
                     <p>
-                        <span class="element_toggler" role="button" aria-controls="Desktop_Content_8" aria-expanded="False">
+                        <span class="element_toggler" role="button" aria-controls="Desktop_Content_7" aria-expanded="False">
                             <span style="color: #6096e6;"><em>
                                     <a class="icon-question"></a>Can't see this course menu?
                                 </em></span>
                         </span>
                     </p>
-                    <div id="Desktop_Content_8" style="display: none; color: #6096e6;">
+                    <div id="Desktop_Content_7" style="display: none; color: #6096e6;">
                         <ol>
                             <li>
                                 <p style="margin-bottom: 0in; color: #6096e6; line-height: 100%;" lang="nl-NL">Go to <u>Settings</u> at the bottom of your course menu</p>
@@ -2103,24 +2103,72 @@
                     <span style="font-size: 14pt;"><strong>&nbsp;</strong></span>
                 </td>
                 <td style="width: 90%; border-style: hidden; height: auto;">
+                    <ul>
+                        <li>
+                            <!-- Format of excel file -->
+                            <p>
+                                <span class="element_toggler" role="button" aria-controls="Excel1" aria-expanded="False">
+                                    <span style="color: #6096e6;"><em>
+                                            <a class="icon-question"></a>Format of excel file
+                                        </em></span>
+                                </span>
+                            </p>
+                            <div id="Excel1" style="display: none; color: #6096e6;">
+                                <p>If you already have an Excel file with grades ready, then please pay particular attention to the first row of your Excel file.
+                                    <br />Your spreadsheet should at least contain the following titles: <strong><em>"Student ID", "Name", "Last name", "Group"</em></strong></p>
+                                <img id="5080715" src="https://canvas.uva.nl/courses/8175/files/5080715/preview" alt="Excelexample1strow.png" />
+                                <br />
+                            </div>
+                        </li>
 
+                        <!-- Vlookup -->
+                        <p>
+                            <span class="element_toggler" role="button" aria-controls="Excel2" aria-expanded="False">
+                                <span style="color: #6096e6;"><em>
+                                        <a class="icon-question"></a>Vlookup
+                                    </em></span>
+                            </span>
+                        </p>
+                        <div id="Excel2" style="display: none; color: #6096e6;">
+                            <div>Here's a quick and efficient way to get your grades from one excel file to another using Vlookup</div>
+                            <iframe title="YouTube video player" src="https://www.youtube.com/embed/AK4w-xIh4-Y" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                            <br />
+                        </div>
+
+                    <!-- Round -->
+                    <p>
+                        <span class="element_toggler" role="button" aria-controls="Excel3" aria-expanded="False">
+                            <span style="color: #6096e6;"><em>
+                                    <a class="icon-question"></a>Vlookup
+                                </em></span>
+                        </span>
+                    </p>
+                    <div id="Excel3" style="display: none; color: #6096e6;">
+                        <div>You may get a window asking if the tool should round the grades for you</div>
+                        <div>
+                            <img id="4445983" src="https://canvas.uva.nl/courses/8175/files/4445983/preview" alt="fgw-exc-07.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4445983" data-api-returntype="File" />
+                        <br />
+                    </div>
+
+                    <!--
                     <br />
-                    <strong><h5>Format of excel file</h5></strong>
+                    <h5><strong>Format of excel file</strong></h5>
                     <p>If you already have an Excel file with grades ready, then please pay particular attention to the first row of your Excel file.
-                        Your spreadsheet should at least contain the following titles:<br /> "Student ID", "Name", "Last name", "Group"</p>
+                        <br />Your spreadsheet should at least contain the following titles: <strong><em>"Student ID", "Name", "Last name", "Group"</em></strong></p>
                     <img id="5080715" src="https://canvas.uva.nl/courses/8175/files/5080715/preview" alt="Excelexample1strow.png" />
                     <br /><br />
 
-                    <strong><h5>Vlookup</h5></strong>
+                    <h5><strong>Vlookup</strong></h5>
                     <div>Here's a quick and efficient way to get your grades from one excel file to another using Vlookup</div>
                     <iframe title="YouTube video player" src="https://www.youtube.com/embed/AK4w-xIh4-Y" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                     <br /><br />
 
-                    <strong><h5>Round to one decimal</h5></strong>
+                    <h5><strong>Round to one decimal</strong></h5>
                     <div>You may get a window asking if the tool should round the grades for you</div>
                     <div>
                         <img id="4445983" src="https://canvas.uva.nl/courses/8175/files/4445983/preview" alt="fgw-exc-07.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/4445983" data-api-returntype="File" />
                     <br />
+                    -->
 
                 </td>
             </tr>
