@@ -1,0 +1,223 @@
+<!-- Banner -->
+<p><img style="width: 100%;" src="https://canvas.uva.nl/courses/8175/files/5129479/preview" alt="2021:22bannertvo-1.jpg" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/5129479" data-api-returntype="File" /></p>
+
+<!-- Back to top -->
+<p><a id="topmenu"></a></p>
+
+<!-- Menubalk -->
+<div class="grid-row">
+    <div class="col-xs-12 col-md-12">
+        <div class="styleguide-section__grid-demo-element">
+            <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; text-align: center;">
+                <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175"><i class="icon-home"></i> <span>&nbsp;Home</span> </a>
+                <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/testvision" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/courses/8175/pages/testvision"><span style="color: #08a8a2;"><i class="icon-home"></i><strong>&nbsp;TestVision homepage</strong></span></a>
+                <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/inspection" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/courses/8175/pages/inspection"><span style="color: #08a8a2;"><i class="icon-student-view"></i><strong>&nbsp;Inspection</strong></span></a>
+                <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/overview-testvision-manuals" data-api-returntype="Page">&nbsp;<i class="icon-collection">&nbsp;</i>Extensive instructions</a>
+                <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/contact" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/contact"><i class="icon-group"></i><span>&nbsp;Contact</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--<h3 style="text-align: center;">TestVision instructions</h3>-->
+
+<div class="grid-row">
+
+    <!-- Questions + test -->
+    <div class="col-xs-20 col-md-4">
+        <div class="styleguide-section__grid-demo-element">
+            <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #ffffff; padding: 20px; text-align: left; height: 200px;">
+                <div class="content-box pad-box-mini border border-b">
+                    <h4><span style="color: #34495e; font-size: 14pt;"><em>Creating the exam</em></span></h4>
+                </div>
+                <a id="" class="Button Button--large" style="border-width: 1.5px; width: 85%; height: auto; text-align: left; margin-left: auto; margin-right: auto; margin-top: 5px; padding-bottom: 10px;" title="" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test" target="" data-api-endpoint="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test" data-api-returntype="Page">
+                    <h5><span style="font-size: 13pt; color: #000000;">View instructions <i class="icon-document"></i></span></h5>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Moment of examination -->
+    <div class="col-xs-20 col-md-4">
+        <div class="styleguide-section__grid-demo-element">
+            <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #ffffff; padding: 20px; text-align: left; height: 200px;">
+                <div class="content-box pad-box-mini border border-b">
+                    <h4><span style="color: #34495e; font-size: 14pt;"><em>Moment of examination</em></span></h4>
+                </div>
+                <a id="" class="Button Button--large" style="border-width: 1.5px; width: 85%; height: auto; text-align: left; margin-left: auto; margin-right: auto; margin-top: 5px; padding-bottom: 10px;" title="" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-examination" target="" data-api-endpoint="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-examination" data-api-returntype="Page">
+                    <h5><span style="font-size: 13pt; color: #000000;">View FAQ <i class="icon-document"></i></span></h5>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Assessments -->
+    <div class="col-xs-20 col-md-4">
+        <div class="styleguide-section__grid-demo-element">
+            <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; border-color: #0645ad; border-width: 1.5px; padding-top: 30px; padding-right: 30px; padding-left: 30px; text-align: left; height: 200px;">
+                <h4><span style="color: #000000; font-size: 14pt;"><strong><em>Assessment and grades</em>  <i class="icon-document"></i></strong></span></h4>
+                <p><span style="color: #34495e;"><span style="font-size: 11pt;"><em>Read how you can review the exam, how to analyze and adjust the exam scores and how to find the TestVision grades in your Canvas Final Grades menu.</em></span></span></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="grid-row">
+    <!-- rechterzijde -->
+    <div class="col-xs-20 col-md-12">
+        <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #0645ad; border-width: 1.5px; padding: 30px; padding-top: 35px; padding-bottom: 35px; height: auto; background-color: #fafafa;">
+
+            <h3><p style="text-align: center;"><span style="color: #000000; font-size: 14pt;"><strong><em>Reviewing the exam</em>  <i class="icon-document"></i></strong></span></p></h3>
+            <p style="text-align: center;"><span style="font-size: 13pt;"><a href="#FAQ_R1">Item 1</a></span></p>
+            <p style="text-align: center;"><span style="font-size: 13pt;"><a href="#FAQ_R2">Item 2</a></span></p>
+            <br>
+            <h3><p style="text-align: center;"><span style="color: #000000; font-size: 14pt;"><strong><em>Access scores and grades</em>  <i class="icon-document"></i></strong></span></p></h3>
+            <p style="text-align: center;"><span style="font-size: 13pt;"><a href="#FAQ_S1">Item 1</a></span></p>
+            <p style="text-align: center;"><span style="font-size: 13pt;"><a href="#FAQ_S2">Item 2</a></span></p>
+            <br>
+        </div>
+    </div>
+</div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fbfbfc; text-align: center;">
+    <h4><strong>Reviewing the exam</strong></h4>
+</div>
+<div class="content-box pad-box-mini border border-trbl border-round" style="padding-bottom: 30px; padding-right: 25px;">
+    <table style="height: auto; width: 100%; border-collapse: collapse; border-style: hidden;" border="1">
+        <tbody>
+            <tr style="height: auto;">
+                <td style="width: 7%; border-style: hidden; height: auto; text-align: center;">
+                    <p>&nbsp;</p>
+                    <strong> <span style="font-size: 14pt;">1.</span> </strong>
+                </td>
+                <td style="width: 90%; border-style: hidden; height: auto;">
+                    <p>&nbsp;</p>
+                    <strong>Text</strong>
+                </td>
+            </tr>
+            <tr style="height: 40px; padding-bottom: 8px;">
+                <td style="width: 7%; border-style: hidden; height: auto; text-align: center;"><strong> <span style="font-size: 14pt;">&nbsp;</span> </strong></td>
+                <td style="width: 90%; border-style: hidden; height: auto;">
+                    <p>&nbsp;</p>
+                </td>
+            </tr>
+            <tr style="height: 45px;">
+                <td style="width: 10.4059%; height: 40px; border-style: hidden; text-align: center;">
+                    <p><span style="font-size: 14pt;"><strong>2.</strong></span></p>
+                </td>
+                <td style="width: 89.5941%; height: 40px; border-style: hidden;">
+                    <p><strong>Select for whom you want to submit grades<br /></strong></p>
+                </td>
+            </tr>
+            <tr style="height: auto;">
+                <td style="width: 10.4059%; border-style: hidden; height: auto;">
+                    <p><span style="font-size: 14pt;"><strong>&nbsp;</strong></span></p>
+                </td>
+                <td style="width: 89.5941%; border-style: hidden; height: auto;">
+                    <p>If you are the examiner of the whole course, select <span style="text-decoration: underline;"><strong>All students</strong></span>.</p>
+                    <p><img id="6528361" src="https://canvas.uva.nl/courses/8175/files/6528361/preview" alt="FGT_selectall.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/6528361" data-api-returntype="File" /></p>
+                    <p>&nbsp;</p>
+                    <p>If you are the examiner of a certain section, select <span style="text-decoration: underline;"><strong>Section</strong></span>.</p>
+                    <p>If you would like to select certain students, then use the red boxes in front of students' names.</p>
+                    <p>&nbsp;</p>
+                </td>
+            </tr>
+            <tr style="height: 30px;">
+                <td style="width: 10.4059%; border-style: hidden; height: auto; text-align: center;"><span style="font-size: 14pt;"><strong>3.</strong></span></td>
+                <td style="width: 89.5941%; border-style: hidden; height: auto;"><strong>Click the <span style="text-decoration: underline;">Submit grades</span> button at the right side of the page</strong></td>
+            </tr>
+            <tr style="height: 30px;">
+                <td style="width: 10.4059%; border-style: hidden; height: auto;"><span style="font-size: 14pt;"><strong>&nbsp;</strong></span></td>
+                <td style="width: 89.5941%; border-style: hidden; height: auto;"><br /><img id="6529250" style="width: 30%;" src="https://canvas.uva.nl/courses/8175/files/6529250/preview" alt="FGT_submgrades.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/6529250" data-api-returntype="File" />
+                    <p>&nbsp;</p>
+                </td>
+            </tr>
+            <tr style="height: 30px;">
+                <td style="width: 10.4059%; border-style: hidden; height: auto; text-align: center;"><span style="font-size: 14pt;"><strong>4.</strong></span></td>
+                <td style="width: 89.5941%; border-style: hidden; height: auto;"><strong>Select <span style="text-decoration: underline;">Final grade</span> or <span style="text-decoration: underline;">Retake grade</span> from the dropdown box at the top and press <span style="text-decoration: underline;">Submit</span>.</strong></td>
+            </tr>
+            <tr style="height: 30px;">
+                <td style="width: 10.4059%; border-style: hidden; height: auto;"><span style="font-size: 14pt;"><strong>&nbsp;</strong></span></td>
+                <td style="width: 89.5941%; border-style: hidden; height: auto;"><img id="6528360" style="width: 90%;" src="https://canvas.uva.nl/courses/8175/files/6528360/preview" alt="FGT_gradelist.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/6528360" data-api-returntype="File" />
+                    <p>&nbsp;</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 10.4059%; border-style: hidden; text-align: center;"><span style="font-size: 14pt;"><strong>5.</strong></span></td>
+                <td style="width: 89.5941%; border-style: hidden; height: auto;"><strong>A pop-up window will open, after which you'll be redirected to a new window to start the 2FA process and sign the gradelist.</strong></td>
+            </tr>
+            <tr>
+                <td style="width: 10.4059%; border-style: hidden; height: auto;"><span style="font-size: 14pt;"><strong>&nbsp;</strong></span></td>
+                <td style="width: 89.5941%; border-style: hidden; height: auto;">
+                    <p>(Please make sure your browser enables pop-ups.)&nbsp;</p>
+                    <p><img id="6530094" src="https://canvas.uva.nl/courses/8175/files/6530094/preview" alt="FGT_signingpending.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/6530094" data-api-returntype="File" /></p>
+                    <p>If you're not automatically redirected to the 2FA process, open the page manually.</p>
+                    <p><a id="2FA" class="Button Button--link" style="width: auto; height: 20%; text-align: right; margin-left: auto; margin-right: auto;" href="https://medewerker.uva.nl/en/content-secured/az/two-steps-authentication/surf/surf.html"> <span style="color: #6096e6;"> <i class="icon-question"></i> &nbsp; &nbsp; <span style="text-decoration: underline;">What is Two Factor Authentication (2FA)?</span> </span> </a></p>
+                    <p>&nbsp;</p>
+                </td>
+            </tr>
+            <tr style="height: auto;">
+                <td style="width: 10.4059%; border-style: hidden; height: auto; text-align: center;"><span style="font-size: 14pt;"><strong>6.</strong></span></td>
+                <td style="width: 89.5941%; border-style: hidden; height: auto;">
+                    <p><strong>Sign the gradelist with 2FA, using your <span style="text-decoration: underline;">Tiqr-app</span> (or <span style="text-decoration: underline;">YubiKey</span>)</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 10.4059%; border-style: hidden; height: auto;"><span style="font-size: 14pt;"><strong>&nbsp;</strong></span></td>
+                <td style="width: 89.5941%; border-style: hidden; height: auto;">
+                    <p><img id="6528359" style="width: 65%;" src="https://canvas.uva.nl/courses/8175/files/6528359/preview" alt="FGT_2FA.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/6528359" data-api-returntype="File" /></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 10.4059%; border-style: hidden; height: auto;"><span style="font-size: 14pt;"><strong>&nbsp;</strong></span></td>
+                <td style="width: 89.5941%; border-style: hidden; height: auto;"><strong>&nbsp;</strong></td>
+            </tr>
+            <tr>
+                <td style="width: 10.4059%; border-style: hidden; height: auto; text-align: center;"><span style="font-size: 14pt;"><strong>7.</strong></span></td>
+                <td style="width: 89.5941%; border-style: hidden; height: auto;">
+                    <p><strong>Confirmation and optional download of grade list</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 10.4059%; border-style: hidden; height: auto;"><span style="font-size: 14pt;"><strong>&nbsp;</strong></span></td>
+                <td style="width: 89.5941%; border-style: hidden; height: auto;">
+                    <p>The gradelist has been signed successfully when the following message appears:<br /><br /><em>"This grade list has been signed and confirmed."</em></p>
+                    <p>&nbsp;</p>
+                    <p><img id="6528771" src="https://canvas.uva.nl/courses/8175/files/6528771/preview" alt="FGT_signingconfirmed.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/6528771" data-api-returntype="File" /></p>
+                    <p>&nbsp;</p>
+                    <p>If desired, <strong>download</strong> the grade list in the form of a <span style="text-decoration: underline;">PDF file</span>.</p>
+                    <p>&nbsp;</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 10.4059%; border-style: hidden; height: auto; text-align: center;"><span style="font-size: 14pt;"><strong>8.</strong></span></td>
+                <td style="width: 89.5941%; border-style: hidden; height: auto;">
+                    <p><strong>You're done! Click the <span style="text-decoration: underline;">Final grades</span> button menu to reload the page</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 10.4059%; border-style: hidden; height: auto;"><span style="font-size: 14pt;">&nbsp;</span></td>
+                <td style="width: 89.5941%; border-style: hidden; height: auto;">
+                    <p>The gradelist will now display symbols in front of students' names. You do not need to act on these, the administration office will contact you when you do.</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
