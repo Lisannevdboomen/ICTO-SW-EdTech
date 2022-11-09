@@ -1,0 +1,57 @@
+
+<!---------------------- 1/2 Docent email NIET ingevoerd, naar: ICTO ---------------------->
+
+Beste collega,<br>
+<br>
+<strong>Het e-mailadres van de docent is vorige week niet ingevuld! E-mail de docent zelf om een reminder te sturen over de toets/inzage.</strong><br>
+Indien je dit nog niet hebt gedaan, zet ook de vragen, toets, en koppeling naar de afname klaar. <a href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/SitePages/Digitaal-Toetsen(2).aspx">Zie hier de stappen</a>.<br>
+<br>
+<hr>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+
+
+<!---------------------- 2/2 Docent email WEL ingevoerd, naar: DOCENT ---------------------->
+
+Beste docent,<br>
+<br>
+Over 4 weken vindt een TestVision toets plaats voor jouw vak: @{items('Apply_to_each_-_send_e-mails')?['field_6']}
+(@{items('Apply_to_each_-_send_e-mails')?['field_7']}). Inloggen in TestVision kan via <a href="https://uva.testvision.nl/online/fe/login_tvb.htm">deze link</a> (log in via de SurfConext knop en gebruik je mobiele telefoon voor tweestapsverificatie).<br>
+<br>
+<strong>Hoe ga ik aan de slag?</strong><br>
+Bekijk <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test">deze instructie</a>. Er staan kopieën van de vragen van vorig jaar klaar in TestVision, zodate je deze gemakkelijk kan bewerken. Vraaginhoud kan gemakkelijk tot op het laatste moment worden aangepast, mits er geen grote wijzigingen worden aangebracht zoals het toevoegen van nieuwe vragen of het wijzigen van de algehele structuur van de toets. Dergelijke wijzigingen kun je tot minimaal één week voor aanvang van de toets doorgeven aan ICTO.<br>
+<br>
+Het is mogelijk om <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">een afspraak in te plannen</a> met het ICTO-team. Tijdens de afspraak is er ruimte om vragen te stellen over digitaal toetsen in TestVision. Daarnaast is er de gelegenheid om samen door de toetsinstellingen te lopen.<br>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+<strong>Inzagemoment</strong><br>
+Na een digitale toets komt een digitale inzage. Lees <a href="https://canvas.uva.nl/courses/8175/pages/inspection">hier</a> alles over het inzagemoment.<br>
+<br>
+Met vriendelijke groet,<br>
+Het ICTO-team Sociale Wetenschappen

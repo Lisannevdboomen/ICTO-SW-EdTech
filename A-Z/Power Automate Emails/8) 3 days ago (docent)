@@ -1,0 +1,35 @@
+<!------------------------ 1/1 TOETS, naar: DOCENT ------------------------->
+
+Beste docent, <br>
+<br>
+3 dagen geleden vond een TestVision toets plaats voor jouw vak @{items('Apply_to_each_-_send_e-mails')?['field_6']}
+(@{items('Apply_to_each_-_send_e-mails')?['field_7']}). We hebben je rechten gegeven in TestVision om te beginnen met nakijken. Inloggen in TestVision kan via <a href="https://uva.testvision.nl/online/fe/login_tvb.htm">deze link</a> (log
+in via de SurfConext knop en gebruik je mobiele telefoon voor tweestapsverificatie).<br>
+<br>
+<strong>Hoe ga ik aan de slag?</strong><br>
+Bekijk <a href="https://canvas.uva.nl/courses/8175/pages/overview-testvision-manuals#menu14">deze instructie</a>, waarin
+stap voor stap wordt uitgelegd hoe nakijken in TestVision in zijn werk gaat. Kijken er meer mensen na? Stuur ons dan een
+e-mail met het vak en de e-mailadressen van de overige beoordelaars. Wij zullen ons best doen om ze z.s.m. toevoegen.<br>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+Het is mogelijk om <a
+    href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">een afspraak
+    in te plannen</a> met het ICTO-team. Tijdens de afspraak is er ruimte om vragen te stellen over de mogelijkheden bij het nakijken en analyseren van resultaten in TestVision.<br>
+<br>
+Met vriendelijke groet,<br>
+Het ICTO-team Sociale Wetenschappen
+
+

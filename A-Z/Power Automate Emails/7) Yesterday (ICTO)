@@ -1,0 +1,31 @@
+<!------------------------- 1/1 TOETS, naar: ICTO -------------------------->
+
+Beste collega,<br>
+<br>
+Onderstaande toets vond gisteren plaats en mag afgesloten worden in TestVision.<br>
+<br>
+<strong>Onderneem de volgende stappen:</strong>
+<ol>
+    <li>Sluit de toets en sessies af volgens <a
+            href="https://amsuni.sharepoint.com/:w:/r/sites/FMG_EDU_Soc_Wet/_layouts/15/Doc.aspx?sourcedoc=%7BBE021FB4-0358-4E65-B11D-EBFECA12206F%7D&file=Sessies%20be%C3%ABndigen%20%2B%20Toets%20afsluiten.docx&wdLOR=c436A8D73-5E92-457B-B494-2AEC275AED8C&action=default&mobileredirect=true">deze
+            instructie.</a></li>
+    <li>Zet daarna in <a
+            href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/Lists/Geboekte%20Digitoetsen%202223/Alle%20digitoetsen.aspx?env=WebViewList&FilterFields1=Storing&FilterValues1=1%3B%230&FilterTypes1=Boolean&viewid=0c7d21cf%2D1e78%2D4e38%2Da395%2Df36a57873c80">het
+            overzicht</a> de status van de toets op 'Toets afgesloten'.</li>
+</ol>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+
+

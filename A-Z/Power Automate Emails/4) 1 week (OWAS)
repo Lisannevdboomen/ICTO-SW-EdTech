@@ -1,0 +1,82 @@
+<!------------------------ 1/2 INZAGE, naar: OWAS ------------------------->
+
+Beste collega van de onderwijsadministratie,<br>
+<br>
+Over een week vindt de inzage @{items('Apply_to_each_-_send_e-mails')?['Title']} - @{items('Apply_to_each_-_send_e-mails')?['field_6']} plaats. Je kunt de inzage klaarzetten als dat nog moet.<br>
+<br>
+<strong>Het inzagewachtwoord is: @{substring(item()?['Title'], 1)}</strong>.<br>
+<br>
+Bij voorbaat dank!<br>
+<br>
+<hr>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Inzagewachtwoord</strong>: @{substring(item()?['Title'], 1)}</li>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+<strong>Bekijk de volgende informatie:</strong>
+<ul>
+    <li><a
+            href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/Gedeelde%20documenten/Forms/AllItems.aspx?id=%2Fsites%2FFMG%5FEDU%5FSoc%5FWet%2FGedeelde%20documenten%2FGeneral%2F4%2E%20Digitaal%20Toetsen%2FTeams%20%26%20instructies%2FOnderwijsadministratie%2FInstructies%2FTestVision%20Toets%20Inzage%20Instellen%2Epdf&parent=%2Fsites%2FFMG%5FEDU%5FSoc%5FWet%2FGedeelde%20documenten%2FGeneral%2F4%2E%20Digitaal%20Toetsen%2FTeams%20%26%20instructies%2FOnderwijsadministratie%2FInstructies">Instructies
+            inzage klaarzetten</a></li>
+    <li><a
+            href="https://amsuni.sharepoint.com/:u:/r/sites/FMG_ORG_AFD_EOSS/SitePages/OWAS-Digitaal-Toetsen.aspx?csf=1&web=1&e=21Y5eC">Voortgang
+            bijhouden</a></li>
+</ul>
+<br>
+Met vriendelijke groet,<br>
+Het ICTO-team Sociale Wetenschappen
+
+
+
+<!------------------------ 2/2 TOETS, naar: OWAS ------------------------->
+
+Beste collega van de onderwijsadministratie,<br>
+<br>
+Over een week vindt de toets @{items('Apply_to_each_-_send_e-mails')?['Title']} -
+@{items('Apply_to_each_-_send_e-mails')?['field_6']} plaats. Je kunt de afname klaarzetten als dat nog moet.<br> 
+<br>
+<strong>Het toetswachtwoord is: @{substring(item()?['Title'], 1)}</strong><br>
+<br>
+Bij voorbaat dank!<br>
+<br>
+<hr>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Toetswachtwoord</strong>: @{substring(item()?['Title'], 1)}</li>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+<strong>Bekijk de volgende informatie:</strong>
+<ul>
+    <li><a
+            href="https://amsuni.sharepoint.com/:u:/r/sites/FMG_ORG_AFD_EOSS/SitePages/OWAS-Digitaal-Toetsen.aspx?csf=1&web=1&e=21Y5eC">Instructies
+            toets klaarzetten</a></li>
+    <li><a
+            href="https://amsuni.sharepoint.com/:u:/r/sites/FMG_ORG_AFD_EOSS/SitePages/OWAS-Digitaal-Toetsen.aspx?csf=1&web=1&e=21Y5eC">Voortgang
+            bijhouden</a></li>
+</ul>
+<br>
+Met vriendelijke groet,<br>
+Het ICTO-team Sociale Wetenschappen

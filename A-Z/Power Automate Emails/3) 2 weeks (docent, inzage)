@@ -1,0 +1,38 @@
+
+<!------------------------ 1/1 INZAGE, naar: DOCENT ------------------------->
+
+Beste docent, <br>
+<br>
+Over 2 weken vindt een TestVision inzage plaats voor jouw vak: @{items('Apply_to_each_-_send_e-mails')?['field_6']}
+(@{items('Apply_to_each_-_send_e-mails')?['field_7']}).<br>
+<br>
+<strong>Wat kan ik verwachten?</strong><br>
+Net als bij de toets zullen er Assistant Floor Managers (AFM'ers) op locatie aanwezig zijn. Zij zullen de technische
+aspecten van de inzage verzorgen. Jij hoeft alleen aanwezig te zijn voor het inhoudelijke aspect van de inzage. De
+inzage is voorzien van een wachtwoord die de AFM'er op jouw akkoord zal delen met de studenten, waarna de studenten de
+vragen, hun antwoorden en het aantal toegekende punten kunnen inzien.<br>
+<br>
+<strong>Hoe ga ik aan de slag?</strong><br>
+Bekijk <a href="https://canvas.uva.nl/courses/8175/pages/inspection">onze FAQ</a>, waar veelgestelde vragen over
+digitale inzagen beschreven staan. Op deze pagina kun je tevens kijken naar de standaardinstellingen bij een inzage. Je
+kunt ICTO mailen indien je gebruik wilt maken van andere instellingen.<br>
+<br>
+<strong>Inzageinformatie:</strong>
+<ul>
+    <li><strong>Naam van inzage in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+Het is ook mogelijk om <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">een afspraak in te plannen</a> met het ICTO-team. Tijdens de afspraak is er ruimte om vragen te stellen en om samen door de inzageinstellingen te lopen.<br>
+<br>
+Met vriendelijke groet,<br>
+Het ICTO-team Sociale Wetenschappen
+

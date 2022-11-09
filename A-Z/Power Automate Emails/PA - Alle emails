@@ -1,0 +1,462 @@
+<!--------------- 1. 5 weken (inzage), naar ICTO ---------------->
+
+<!-- Case - 5 weeks (ICTO) - INZAGE -->
+
+Beste ICTO collega,<br>
+<br>
+Over 5 weken is er een inzage. <strong>Zorg dat <u>deze week</u> de volgende taken zijn volbracht:</strong>
+<ol>
+    <li>Vul het e-mailadres van de docent in de <a
+            href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/Lists/Geboekte%20Digitoetsen%202223/Agenda.aspx?env=WebViewList&viewid=ebcc36b3%2Dba6d%2D40b1%2D9a21%2Db5a8ae34dfff">list</a>,
+        zodat Power Automate de docent herinneringen kan sturen.</li>
+    <li>Is het een inzage zonder ondersteuning? Vul in de <a
+            href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/Lists/Geboekte%20Digitoetsen%202223/Agenda.aspx?env=WebViewList&viewid=ebcc36b3%2Dba6d%2D40b1%2D9a21%2Db5a8ae34dfff">list</a>
+        onder de W-nummer kolom voor deze inzage "E[wachtwoord_hier]" in. Het wachtwoord zal gebruikt worden de
+        communicatie met de docent en OWAS.</li>
+    <li>Houd de voortgang bij in onze <a
+            href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/Lists/Geboekte%20Digitoetsen%202223/Agenda.aspx?env=WebViewList&viewid=0c7d21cf%2D1e78%2D4e38%2Da395%2Df36a57873c80">geboekte
+            digitale toetsen list</a>.</li>
+</ol>
+<br>
+<hr>
+<br>
+<strong>Inzageinformatie:</strong>
+<ul>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+
+
+
+<!-- Case - 5 weeks (ICTO) - TOETS -->
+
+Beste ICTO collega,<br>
+<br>
+Over 5 weken is er een digitoets. <strong>Zorg dat <u>deze week</u> de volgende taken zijn volbracht:</strong>
+<ol>
+    <li>Vul het e-mailadres van de docent in de <a
+            href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/Lists/Geboekte%20Digitoetsen%202223/Agenda.aspx?env=WebViewList&viewid=ebcc36b3%2Dba6d%2D40b1%2D9a21%2Db5a8ae34dfff">list</a>,
+        zodat Power Automate de docent herinneringen kan sturen.</li>
+    <li>Zet de vragen, toets, koppeling naar de afname en de final grades koppeling klaar. <a
+            href="https://amsuni.sharepoint.com/:w:/r/sites/FMG_EDU_Soc_Wet/_layouts/15/Doc.aspx?sourcedoc=%7B22278E91-FB8D-4025-9BEE-AAB6358D5EE1%7D&file=Intake%20checklist.docx&action=default&mobileredirect=true&CID=F6E03274-2545-4C37-A8D8-F09043F46A65&wdLOR=c59564D40-1348-4379-955C-7DA0E5FF7E8D">Zie
+            hier de stappen</a>.</li>
+    <li>Als je klaar bent, houd de voortgang dan bij in onze <a
+            href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/Lists/Geboekte%20Digitoetsen%202223/Agenda.aspx?env=WebViewList&viewid=0c7d21cf%2D1e78%2D4e38%2Da395%2Df36a57873c80">geboekte
+            digitale toetsen list</a>.</li>
+</ol>
+<br>
+<hr>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+
+
+
+
+<!------------ 2. Case - 4 weeks (TOETS) ------------->
+
+<!-- Docent email niet ingevoerd: Ja, naar ICTO -->
+
+Beste collega,<br>
+<br>
+<strong>Het e-mailadres van de docent is vorige week niet ingevuld! E-mail de docent zelf om een reminder te sturen over de toets/inzage.</strong><br>
+Indien je dit nog niet hebt gedaan, zet ook de vragen, toets, en koppeling naar de afname klaar. <a href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/SitePages/Digitaal-Toetsen(2).aspx">Zie hier de stappen</a>.<br>
+<br>
+<hr>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+
+
+<!-- Docent email niet ingevoerd: Nee, naar DOCENT -->
+
+Beste docent,<br>
+<br>
+Over 4 weken vindt een TestVision toets plaats voor jouw vak: @{items('Apply_to_each_-_send_e-mails')?['field_6']}
+(@{items('Apply_to_each_-_send_e-mails')?['field_7']}). Inloggen in TestVision kan via <a href="https://uva.testvision.nl/online/fe/login_tvb.htm">deze link</a> (log in via de SurfConext knop en gebruik je mobiele telefoon voor tweestapsverificatie).<br>
+<br>
+<strong>Hoe ga ik aan de slag?</strong><br>
+Bekijk <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test">deze instructie</a>. Er staan kopieën van de vragen van vorig jaar klaar in TestVision, zodate je deze gemakkelijk kan bewerken. Vraaginhoud kan gemakkelijk tot op het laatste moment worden aangepast, mits er geen grote wijzigingen worden aangebracht zoals het toevoegen van nieuwe vragen of het wijzigen van de algehele structuur van de toets. Dergelijke wijzigingen kun je tot minimaal één week voor aanvang van de toets doorgeven aan ICTO.<br>
+<br>
+Het is mogelijk om <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">een afspraak in te plannen</a> met het ICTO-team. Tijdens de afspraak is er ruimte om vragen te stellen over digitaal toetsen in TestVision. Daarnaast is er de gelegenheid om samen door de toetsinstellingen te lopen.<br>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+<strong>Inzagemoment</strong><br>
+Na een digitale toets komt een digitale inzage. Lees <a href="https://canvas.uva.nl/courses/8175/pages/inspection">hier</a> alles over het inzagemoment.<br>
+<br>
+Met vriendelijke groet,<br>
+Het ICTO-team Sociale Wetenschappen
+
+
+
+<!------------ 3. Case - 2 weeks (INZAGE) ------------->
+
+Beste docent, <br>
+<br>
+Over 2 weken vindt een TestVision inzage plaats voor jouw vak: @{items('Apply_to_each_-_send_e-mails')?['field_6']}
+(@{items('Apply_to_each_-_send_e-mails')?['field_7']}).<br>
+<br>
+<strong>Wat kan ik verwachten?</strong><br>
+Net als bij de toets zullen er Assistant Floor Managers (AFM'ers) op locatie aanwezig zijn. Zij zullen de technische
+aspecten van de inzage verzorgen. Jij hoeft alleen aanwezig te zijn voor het inhoudelijke aspect van de inzage. De
+inzage is voorzien van een wachtwoord die de AFM'er op jouw akkoord zal delen met de studenten, waarna de studenten de
+vragen, hun antwoorden en het aantal toegekende punten kunnen inzien.<br>
+<br>
+<strong>Hoe ga ik aan de slag?</strong><br>
+Bekijk <a href="https://canvas.uva.nl/courses/8175/pages/inspection">onze FAQ</a>, waar veelgestelde vragen over
+digitale inzagen beschreven staan. Op deze pagina kun je tevens kijken naar de standaardinstellingen bij een inzage. Je
+kunt ICTO mailen indien je gebruik wilt maken van andere instellingen.<br>
+<br>
+<strong>Inzageinformatie:</strong>
+<ul>
+    <li><strong>Naam van inzage in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+Het is ook mogelijk om <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">een afspraak in te plannen</a> met het ICTO-team. Tijdens de afspraak is er ruimte om vragen te stellen en om samen door de inzageinstellingen te lopen.<br>
+<br>
+Met vriendelijke groet,<br>
+Het ICTO-team Sociale Wetenschappen
+
+
+
+<!------------ 4a. Case - 1 week (INZAGE), naar OWAS ------------->
+
+Beste collega van de onderwijsadministratie,<br>
+<br>
+Over een week vindt de inzage @{items('Apply_to_each_-_send_e-mails')?['Title']} - @{items('Apply_to_each_-_send_e-mails')?['field_6']} plaats. Je kunt de inzage klaarzetten als dat nog moet.<br>
+<br>
+<strong>Het inzagewachtwoord is: @{substring(item()?['Title'], 1)}</strong>.<br>
+<br>
+Bij voorbaat dank!<br>
+<br>
+<hr>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Inzagewachtwoord</strong>: @{substring(item()?['Title'], 1)}</li>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+<strong>Bekijk de volgende informatie:</strong>
+<ul>
+    <li><a
+            href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/Gedeelde%20documenten/Forms/AllItems.aspx?id=%2Fsites%2FFMG%5FEDU%5FSoc%5FWet%2FGedeelde%20documenten%2FGeneral%2F4%2E%20Digitaal%20Toetsen%2FTeams%20%26%20instructies%2FOnderwijsadministratie%2FInstructies%2FTestVision%20Toets%20Inzage%20Instellen%2Epdf&parent=%2Fsites%2FFMG%5FEDU%5FSoc%5FWet%2FGedeelde%20documenten%2FGeneral%2F4%2E%20Digitaal%20Toetsen%2FTeams%20%26%20instructies%2FOnderwijsadministratie%2FInstructies">Instructies
+            inzage klaarzetten</a></li>
+    <li><a
+            href="https://amsuni.sharepoint.com/:u:/r/sites/FMG_ORG_AFD_EOSS/SitePages/OWAS-Digitaal-Toetsen.aspx?csf=1&web=1&e=21Y5eC">Voortgang
+            bijhouden</a></li>
+</ul>
+<br>
+Met vriendelijke groet,<br>
+Het ICTO-team Sociale Wetenschappen
+
+
+
+<!------------ 4b. Case - 1 week (TOETS), naar OWAS ------------->
+
+Beste collega van de onderwijsadministratie,<br>
+<br>
+Over een week vindt de toets @{items('Apply_to_each_-_send_e-mails')?['Title']} -
+@{items('Apply_to_each_-_send_e-mails')?['field_6']} plaats. Je kunt de afname klaarzetten als dat nog moet.<br> 
+<br>
+<strong>Het toetswachtwoord is: @{substring(item()?['Title'], 1)}</strong><br>
+<br>
+Bij voorbaat dank!<br>
+<br>
+<hr>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Toetswachtwoord</strong>: @{substring(item()?['Title'], 1)}</li>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+<strong>Bekijk de volgende informatie:</strong>
+<ul>
+    <li><a
+            href="https://amsuni.sharepoint.com/:u:/r/sites/FMG_ORG_AFD_EOSS/SitePages/OWAS-Digitaal-Toetsen.aspx?csf=1&web=1&e=21Y5eC">Instructies
+            toets klaarzetten</a></li>
+    <li><a
+            href="https://amsuni.sharepoint.com/:u:/r/sites/FMG_ORG_AFD_EOSS/SitePages/OWAS-Digitaal-Toetsen.aspx?csf=1&web=1&e=21Y5eC">Voortgang
+            bijhouden</a></li>
+</ul>
+<br>
+Met vriendelijke groet,<br>
+Het ICTO-team Sociale Wetenschappen
+
+
+
+<!------------ 5. Case - 3 days (TOETS), naar DOCENT (of ICTO) ------------->
+
+<!-- (TOETS/INZAGE) Docent email is leeg: Ja, naar ICTO -->
+
+Beste collega,<br>
+<br>
+<strong>Het e-mailadres van de docent is nog niet ingevuld! Stuur de docent zelf om een e-mail om hem te herinneren aan de toets/inzage.</strong><br>
+<br>
+Indien je dit nog niet hebt gedaan, zet ook de vragen, toets en koppeling naar de afname klaar. <a href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/SitePages/Digitaal-Toetsen(2).aspx">Zie hier de stappen</a>.<br>
+<br>
+<hr>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}
+        (@{items('Apply_to_each_-_send_e-mails')?['field_22']})</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+
+
+<!-- (INZAGE, MET ondersteuning) Docent email is leeg: Nee, naar DOCENT -->
+
+Beste docent, <br>
+<br>
+Over 3 dagen vindt een TestVision inzage plaats voor jouw vak: @{items('Apply_to_each_-_send_e-mails')?['field_6']} (@{items('Apply_to_each_-_send_e-mails')?['field_7']}).<br>
+<br>
+<strong>Wat kan ik verwachten?</strong><br>
+Net als bij de toets zullen er Assistant Floor Managers (AFM'ers) op locatie aanwezig zijn. Zij zullen de technische aspecten van de inzage verzorgen. Jij hoeft alleen aanwezig te zijn voor het inhoudelijke aspect van de inzage. De inzage is voorzien van een wachtwoord. De AFM'er zal deze op jouw akkoord delen met de studenten, waarna de studenten de vragen, hun antwoorden en het aantal toegekende punten kunnen inzien.<br>
+<br>
+<strong>Hoe ga ik aan de slag?</strong>
+<ol>
+    <li>Bekijk <a href="https://canvas.uva.nl/courses/8175/pages/inspection">onze FAQ</a>, waar veelgestelde vragen over digitale inzagen beschreven staan. Op deze pagina kun je tevens kijken naar de standaardinstellingen bij een inzage. Je kunt ICTO mailen indien je gebruik wilt maken van andere instellingen.</li>
+    <li>Deel <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">deze pagina</a> met je studenten. Hierop staan veelgestelde vragen en instructies voor het inloggen in TestVision.</li>
+</ol>
+<br>
+<strong>Inzageinformatie:</strong>
+<ul>
+    <li><strong>Naam van inzage in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+Het is mogelijk om <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">een afspraak in te plannen</a> met het ICTO-team. Tijdens de afspraak is er ruimte om vragen te stellen en om samen door de inzageinstellingen te lopen.<br>
+<br>
+Met vriendelijke groet,<br>
+Het ICTO-team Sociale Wetenschappen
+
+
+
+<!-- (INZAGE, ZONDER ondersteuning) Docent email is leeg: Nee, naar DOCENT -->
+
+Beste docent, <br>
+<br>
+Over 3 dagen vindt een TestVision inzage zonder ondersteuning plaats voor jouw vak:
+@{items('Apply_to_each_-_send_e-mails')?['field_6']} (@{items('Apply_to_each_-_send_e-mails')?['field_7']})<br>
+<br>
+<strong>Wat kan ik verwachten?</strong><br>
+Bij deze inzage is geen ondersteuning aangevraagd. Dit betekent dat er geen laptopruimte/-kar is gereserveerd en dat ergeen Assistant Floor Manager aanwezig zal zijn voor technische ondersteuning. Studenten moeten dus hun eigen toestelmeenemen!<br>
+<strong>De inzage is beveiligd met het wachtwoord: @{substring(item()?['Title'], 1)} </strong><br>
+Wanneer een student dit wachtwoord binnen de onderstaande start- en eindtijd invoert, zal hij/zij toegang krijgen tot zijn/haar toetsresultaten. Buiten deze periode hebben studenten geen toegang tot de inzage. Je kan de toetsresultaten ook <a href="https://canvas.uva.nl/courses/8175/files/7279458?wrap=1">printen</a>.<br>
+<br>
+<strong>Hoe ga ik aan de slag?</strong>
+<ol>
+    <li>Bekijk <a href="https://canvas.uva.nl/courses/8175/pages/inspection">onze FAQ</a>, waar veelgestelde vragen over digitale inzagen beschreven staan. Op deze pagina kun je tevens kijken naar de standaardinstellingen bij een inzage. Je kunt ICTO mailen indien je gebruik wilt maken van andere instellingen.</li>
+    <li>Deel <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">deze pagina</a> met je studenten. Hierop staan veelgestelde vragen en instructies voor het inloggen in TestVision.</li>
+    <li>Deel het inzagewachtwoord (@{substring(item()?['Title'], 1)}) met je studenten op het gewenste moment.</li>
+</ol>
+<br>
+<strong>Inzageinformatie:</strong>
+<ul>
+    <li><strong>Inzagewachtwoord</strong>: @{substring(item()?['Title'], 1)}</li>
+    <li><strong>Naam van inzage in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: n.v.t., geen ondersteuning</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+Het is mogelijk om <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">een afspraak in te plannen</a> met het ICTO-team. Tijdens de afspraak is er ruimte om vragen te stellen en om samen door de inzageinstellingen te lopen.<br>
+<br>
+Met vriendelijke groet,<br>
+Het ICTO-team Sociale Wetenschappen
+
+
+
+
+
+<!------------ 6. Case - Today (TOETS), naar ICTO ------------->
+
+Beste collega,<br>
+<br>
+<strong>@{items('Apply_to_each_-_send_e-mails')?['Title']}</strong> vindt vandaag plaats.<br>
+<br>
+<strong>Details:</strong>
+<ul>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+
+
+
+
+<!------------ 7. Case - Yesterday (TOETS), naar ICTO ------------->
+
+Beste collega,<br>
+<br>
+Onderstaande toets vond gisteren plaats en mag afgesloten worden in TestVision.<br>
+<br>
+<strong>Onderneem de volgende stappen:</strong>
+<ol>
+    <li>Sluit de toets en sessies af volgens <a
+            href="https://amsuni.sharepoint.com/:w:/r/sites/FMG_EDU_Soc_Wet/_layouts/15/Doc.aspx?sourcedoc=%7BBE021FB4-0358-4E65-B11D-EBFECA12206F%7D&file=Sessies%20be%C3%ABndigen%20%2B%20Toets%20afsluiten.docx&wdLOR=c436A8D73-5E92-457B-B494-2AEC275AED8C&action=default&mobileredirect=true">deze
+            instructie.</a></li>
+    <li>Zet daarna in <a
+            href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/Lists/Geboekte%20Digitoetsen%202223/Alle%20digitoetsen.aspx?env=WebViewList&FilterFields1=Storing&FilterValues1=1%3B%230&FilterTypes1=Boolean&viewid=0c7d21cf%2D1e78%2D4e38%2Da395%2Df36a57873c80">het
+            overzicht</a> de status van de toets op 'Toets afgesloten'.</li>
+</ol>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+
+
+
+
+<!------------ 8. Case - 3 days ago (TOETS), naar DOCENT ------------->
+
+Beste docent, <br>
+<br>
+3 dagen geleden vond een TestVision toets plaats voor jouw vak @{items('Apply_to_each_-_send_e-mails')?['field_6']}
+(@{items('Apply_to_each_-_send_e-mails')?['field_7']}). We hebben je rechten gegeven in TestVision om te beginnen met nakijken. Inloggen in TestVision kan via <a href="https://uva.testvision.nl/online/fe/login_tvb.htm">deze link</a> (log
+in via de SurfConext knop en gebruik je mobiele telefoon voor tweestapsverificatie).<br>
+<br>
+<strong>Hoe ga ik aan de slag?</strong><br>
+Bekijk <a href="https://canvas.uva.nl/courses/8175/pages/overview-testvision-manuals#menu14">deze instructie</a>, waarin
+stap voor stap wordt uitgelegd hoe nakijken in TestVision in zijn werk gaat. Kijken er meer mensen na? Stuur ons dan een
+e-mail met het vak en de e-mailadressen van de overige beoordelaars. Wij zullen ons best doen om ze z.s.m. toevoegen.<br>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+Het is mogelijk om <a
+    href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">een afspraak
+    in te plannen</a> met het ICTO-team. Tijdens de afspraak is er ruimte om vragen te stellen over de mogelijkheden bij het nakijken en analyseren van resultaten in TestVision.<br>
+<br>
+Met vriendelijke groet,<br>
+Het ICTO-team Sociale Wetenschappen
+
+
+
+
+
+
