@@ -1,4 +1,4 @@
-<!------------------ 1/3 TOETS/INZAGE (Docent email LEEG) naar: ICTO ------------------>
+<!------------------ 1/4 TOETS/INZAGE (Docent email LEEG) naar: ICTO ------------------>
 
 Beste collega,<br>
 <br>
@@ -25,7 +25,7 @@ Indien je dit nog niet hebt gedaan, zet ook de vragen, toets en koppeling naar d
 <br>
 
 
-<!------------------------ 2/3 INZAGE, naar: DOCENT ------------------------>
+<!------------------------ 3/4 INZAGE, naar: DOCENT ------------------------>
 
 Beste docent, <br>
 <br>
@@ -60,7 +60,7 @@ Met vriendelijke groet,<br>
 Het ICTO-team Sociale Wetenschappen
 
 
-<!------------------------ 3/3 TOETS, naar: DOCENT ------------------------>
+<!------------------------ 3/4 INZAGE, naar: DOCENT ------------------------>
 
 Beste docent, <br>
 <br>
@@ -98,3 +98,72 @@ Het is mogelijk om <a href="https://outlook.office365.com/owa/calendar/ICTOSocia
 <br>
 Met vriendelijke groet,<br>
 Het ICTO-team Sociale Wetenschappen
+
+
+
+
+<!------------------------ 4/4 TOETS, naar: DOCENT ------------------------>
+
+
+Beste docent,<br>
+<br>
+Over 3 dagen vindt een TestVision toets plaats voor jouw vak: @{items('Apply_to_each_-_send_e-mails')?['field_6']} (@{items('Apply_to_each_-_send_e-mails')?['field_7']}).<br>
+<br>
+<strong>Wat kan ik verwachten?</strong><br>
+Er zullen Assistant Floor Managers (AFM'ers) aanwezig zijn tijdens de toets. Zij helpen je om de toets nog eenmaal ter controle door te nemen en zorgen ervoor dat alle technische aspecten correct zijn voorbereid. Jij hoeft dus enkel aanwezig te zijn voor het inhoudelijke aspect van het tentamen. Zorg ervoor dat je ten minste 30-45 minuten voor de start van het tentamen aanwezig bent en stel jezelf even voor aan de AFM'ers en eventuele surveillanten. Het tentamen is beveiligd met een wachtwoord, waardoor studenten pas met het tentamen kunnen beginnen nadat zij dit wachtwoord op hun computer hebben ingevoerd. De AFM'er zal dit wachtwoord met de studenten delen wanneer het tijd is om te beginnen.<br>
+<br>
+<strong>Wat kan ik nog doen?</strong><br>
+Deel <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">deze pagina</a> met je studenten. Hierop staan veelgestelde vragen en instructies voor het inloggen in TestVision. Op de <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-examination">FAQ voor docenten</a> kun je alle belangrijke informatie vinden over de toetsafname. Mocht je nog vragen hebben, mail ons gerust.</li><br>
+<br>
+<strong>Toetsinformatie:</strong>
+<ul>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Locatie(s)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+Succes met het digitale tentamen!<br>
+<br>
+Met vriendelijke groet,<br>
+Het ICTO-team Sociale Wetenschappen<br>
+<br>
+<hr>
+<br>
+<strong>----- English -----</strong><br>
+<br>
+Dear teacher,<br>
+<br>
+In 3 days your digital exam for the course @{items('Apply_to_each_-_send_e-mails')?['field_6']}
+(@{items('Apply_to_each_-_send_e-mails')?['field_7']}) will take place.<br>
+<br>
+<strong>What can I expect?</strong><br>
+There will be at least one Assistant Floor Manager (AFM'er) present on site. You only have to be present to assist students with questions related to the exam content, the AFM'er will ensure the technical aspects of the exam are set up properly. Please arrive at the exam location at least 30-45 minutes prior to the start of the exam and introduce yourself to the AFM'er and the surveillants that are present. The exam is password protected, so students will only be able to access the exam once they enter the password. The AFM'er will share the password with the students when it is time to start the exam.<br>
+<br>
+<strong>Anything I can do?</strong><br>
+Share <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">this page</a> with your students. This page contains an FAQ for students and instructions on how to log in to TestVision at the exam location. On the <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">FAQ for teachers</a> you will find the most important information regarding moment of examination. Should you have any further questions, please send us an e-mail.<br>
+<br>
+<strong>Exam information:</strong>
+<ul>
+    <li><strong>Exam name in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>W-number</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
+    <li><strong>Course</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
+    <li><strong>Course code</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
+    <li><strong>End</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
+    <li><strong>Location(s)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
+    <li><strong>Teacher(s)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+</ul>
+<br>
+Good luck with the digital exam!<br>
+<br>
+Kind regards,<br>
+The ICTO-team Social Sciences<br>
