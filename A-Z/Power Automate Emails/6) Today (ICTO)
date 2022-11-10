@@ -6,7 +6,7 @@ Beste collega,<br>
 <br>
 <strong>Details:</strong>
 <ul>
-    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
+    <li><strong>Naam van toets/inzage in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
     <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
     <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
     <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
