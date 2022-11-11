@@ -25,7 +25,7 @@ Indien je dit nog niet hebt gedaan, zet ook de vragen, toets en koppeling naar d
 <br>
 
 
-<!------------------------ 3/4 INZAGE, naar: DOCENT ------------------------>
+<!------------------------ 2/4 INZAGE, naar: DOCENT ------------------------>
 
 Beste docent, <br>
 <br>
@@ -68,7 +68,8 @@ Over 3 dagen vindt een TestVision inzage zonder ondersteuning plaats voor jouw v
 @{items('Apply_to_each_-_send_e-mails')?['field_6']} (@{items('Apply_to_each_-_send_e-mails')?['field_7']})<br>
 <br>
 <strong>Wat kan ik verwachten?</strong><br>
-Bij deze inzage is geen ondersteuning aangevraagd. Dit betekent dat er geen laptopruimte/-kar is gereserveerd en dat ergeen Assistant Floor Manager aanwezig zal zijn voor technische ondersteuning. Studenten moeten dus hun eigen toestelmeenemen!<br>
+Bij deze inzage is geen ondersteuning aangevraagd. Dit betekent dat er geen laptopruimte/-kar is gereserveerd en dat ergeen Assistant Floor Manager aanwezig zal zijn voor technische ondersteuning. Studenten moeten dus hun eigen toestel meenemen!<br>
+<br>
 <strong>De inzage is beveiligd met het wachtwoord: @{substring(item()?['Title'], 1)} </strong><br>
 Wanneer een student dit wachtwoord binnen de onderstaande start- en eindtijd invoert, zal hij/zij toegang krijgen tot zijn/haar toetsresultaten. Buiten deze periode hebben studenten geen toegang tot de inzage. Je kan de toetsresultaten ook <a href="https://canvas.uva.nl/courses/8175/files/7279458?wrap=1">printen</a>.<br>
 <br>
@@ -110,7 +111,7 @@ Beste docent,<br>
 Over 3 dagen vindt een TestVision toets plaats voor jouw vak: @{items('Apply_to_each_-_send_e-mails')?['field_6']} (@{items('Apply_to_each_-_send_e-mails')?['field_7']}).<br>
 <br>
 <strong>Wat kan ik verwachten?</strong><br>
-Er zullen Assistant Floor Managers (AFM'ers) aanwezig zijn tijdens de toets. Zij helpen je om de toets nog eenmaal ter controle door te nemen en zorgen ervoor dat alle technische aspecten correct zijn voorbereid. Jij hoeft dus enkel aanwezig te zijn voor het inhoudelijke aspect van het tentamen. Zorg ervoor dat je ten minste 30-45 minuten voor de start van het tentamen aanwezig bent en stel jezelf even voor aan de AFM'ers en eventuele surveillanten. Het tentamen is beveiligd met een wachtwoord, waardoor studenten pas met het tentamen kunnen beginnen nadat zij dit wachtwoord op hun computer hebben ingevoerd. De AFM'er zal dit wachtwoord met de studenten delen wanneer het tijd is om te beginnen.<br>
+Er zullen Assistant Floor Managers (AFM'ers) aanwezig zijn tijdens de toets. Zij helpen je om de toets nog eenmaal ter controle door te nemen en zorgen ervoor dat alle technische aspecten correct zijn voorbereid. Jij hoeft dus enkel aanwezig te zijn voor het inhoudelijke aspect van het tentamen. Zorg ervoor dat je ten minste 45 minuten voor de start van het tentamen aanwezig bent en stel jezelf even voor aan de AFM'ers en eventuele surveillanten. Het tentamen is beveiligd met een wachtwoord, waardoor studenten pas met het tentamen kunnen beginnen nadat zij dit wachtwoord op hun computer hebben ingevoerd. De AFM'er zal dit wachtwoord met de studenten delen wanneer het tijd is om te beginnen.<br>
 <br>
 <strong>Wat kan ik nog doen?</strong><br>
 Deel <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">deze pagina</a> met je studenten. Hierop staan veelgestelde vragen en instructies voor het inloggen in TestVision. Op de <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-examination">FAQ voor docenten</a> kun je alle belangrijke informatie vinden over de toetsafname. Mocht je nog vragen hebben, mail ons gerust.</li><br>
@@ -144,7 +145,7 @@ In 3 days your digital exam for the course @{items('Apply_to_each_-_send_e-mails
 (@{items('Apply_to_each_-_send_e-mails')?['field_7']}) will take place.<br>
 <br>
 <strong>What can I expect?</strong><br>
-There will be at least one Assistant Floor Manager (AFM'er) present on site. You only have to be present to assist students with questions related to the exam content, the AFM'er will ensure the technical aspects of the exam are set up properly. Please arrive at the exam location at least 30-45 minutes prior to the start of the exam and introduce yourself to the AFM'er and the surveillants that are present. The exam is password protected, so students will only be able to access the exam once they enter the password. The AFM'er will share the password with the students when it is time to start the exam.<br>
+There will be at least one Assistant Floor Manager (AFM'er) present on site. You only have to be present to assist students with questions related to the exam content, the AFM'er will ensure the technical aspects of the exam are set up properly. Please arrive at the exam location at least 45 minutes prior to the start of the exam and introduce yourself to the AFM'er and the surveillants that are present. The exam is password protected, so students will only be able to access the exam once they enter the password. The AFM'er will share the password with the students when it is time to start the exam.<br>
 <br>
 <strong>Anything I can do?</strong><br>
 Share <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">this page</a> with your students. This page contains an FAQ for students and instructions on how to log in to TestVision at the exam location. On the <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">FAQ for teachers</a> you will find the most important information regarding moment of examination. Should you have any further questions, please send us an e-mail.<br>
