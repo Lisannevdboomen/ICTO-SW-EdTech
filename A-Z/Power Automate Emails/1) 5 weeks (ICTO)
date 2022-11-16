@@ -15,7 +15,6 @@ Over 5 weken is er een inzage. <strong>Zorg dat <u>deze week</u> de volgende tak
 <br>
 <strong>Inzageinformatie:</strong>
 <ul>
-    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
     <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
     <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
     <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>

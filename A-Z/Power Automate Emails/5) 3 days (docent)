@@ -42,7 +42,6 @@ Net als bij de toets zullen er Assistant Floor Managers (AFM'ers) op locatie aan
 <br>
 <strong>Inzageinformatie:</strong>
 <ul>
-    <li><strong>Naam van inzage in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
     <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
     <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
     <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
@@ -83,7 +82,6 @@ Wanneer een student dit wachtwoord binnen de onderstaande start- en eindtijd inv
 <strong>Inzageinformatie:</strong>
 <ul>
     <li><strong>Inzagewachtwoord</strong>: @{substring(item()?['Title'], 1)}</li>
-    <li><strong>Naam van inzage in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
     <li><strong>W-nummer</strong>: n.v.t., geen ondersteuning</li>
     <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
     <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
