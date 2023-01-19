@@ -5,27 +5,27 @@ Beste ICTO collega,<br>
 <br>
 Over 5 weken is er een inzage. <strong>Zorg dat <u>deze week</u> de volgende taken zijn volbracht:</strong>
 <ol>
-    <li>Vul het e-mailadres van de docent in de <a href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/Lists/Geboekte%20Digitoetsen%202223/Agenda.aspx?env=WebViewList&viewid=ebcc36b3%2Dba6d%2D40b1%2D9a21%2Db5a8ae34dfff">list</a>, zodat Power Automate de docent herinneringen kan sturen.</li>
-    <li>Is het een inzage zonder ondersteuning? Vul in de <a href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/Lists/Geboekte%20Digitoetsen%202223/Agenda.aspx?env=WebViewList&viewid=ebcc36b3%2Dba6d%2D40b1%2D9a21%2Db5a8ae34dfff">list</a>
-        onder de W-nummer kolom voor deze inzage "E[wachtwoord_hier]" in. Het wachtwoord zal gebruikt worden de communicatie met de docent en OWAS.</li>
-    <li>Houd de voortgang bij in onze <a href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/Lists/Geboekte%20Digitoetsen%202223/Agenda.aspx?env=WebViewList&viewid=0c7d21cf%2D1e78%2D4e38%2Da395%2Df36a57873c80">geboekte digitale toetsen list</a>.</li>
+    <li>Zet het e-mailadres van de docent(en) in de <a href="https://amsuni.sharepoint.com/sites/FMG_ORG_AFD_EOSS/Lists/EOSS%20Toetsenoverzicht/Alle%20items%20aankomend.aspx?env=WebViewList">EOSS toetsenlijst</a>, zodat Power Automate de docent herinneringen kan sturen.</li>
+    <li>Is het een inzage <b>zonder</b> ondersteuning? Controleer in de <a href="https://amsuni.sharepoint.com/sites/FMG_ORG_AFD_EOSS/Lists/EOSS%20Toetsenoverzicht/Alle%20items%20aankomend.aspx?env=WebViewList">EOSS toetsenlijst</a>
+        onder de W-nummer kolom of er "E[getal_hier]" staat. Het getal zal gebruikt worden als wachtwoord voor de inzage en gecommuniceerd worden naar de docent en OWAS.</li>
+    <li>Houd de voortgang bij in de <a href="https://amsuni.sharepoint.com/sites/FMG_ORG_AFD_EOSS/Lists/EOSS%20Toetsenoverzicht/Alle%20items%20aankomend.aspx?env=WebViewList">EOSS toetsenlijst</a>.</li>
 </ol>
 <br>
 <hr>
 <br>
 <strong>Inzageinformatie:</strong>
 <ul>
-    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
-    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
-    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
-    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
-    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
-    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
-    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
-    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
-    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
+    <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+    <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
 </ul>
-
 
 
 <!---------------------- 2/2 TOETS, naar: ICTO ---------------------->
@@ -34,24 +34,25 @@ Beste ICTO collega,<br>
 <br>
 Over 5 weken is er een digitoets. <strong>Zorg dat <u>deze week</u> de volgende taken zijn volbracht:</strong>
 <ol>
-    <li>Vul het e-mailadres van de docent in de <a href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/Lists/Geboekte%20Digitoetsen%202223/Agenda.aspx?env=WebViewList&viewid=ebcc36b3%2Dba6d%2D40b1%2D9a21%2Db5a8ae34dfff">list</a>, zodat Power Automate de docent herinneringen kan sturen.</li>
+    <li>Zet het e-mailadres van de docent(en) in de <a href="https://amsuni.sharepoint.com/sites/FMG_ORG_AFD_EOSS/Lists/EOSS%20Toetsenoverzicht/Alle%20items%20aankomend.aspx?env=WebViewList">EOSS toetsenlijst</a>, zodat Power Automate de docent herinneringen kan sturen.</li>
     <li>Zet de vragen, toets, koppeling naar de afname en de final grades koppeling klaar. <a href="https://amsuni.sharepoint.com/:w:/r/sites/FMG_EDU_Soc_Wet/_layouts/15/Doc.aspx?sourcedoc=%7B22278E91-FB8D-4025-9BEE-AAB6358D5EE1%7D&file=Intake%20checklist.docx&action=default&mobileredirect=true&CID=F6E03274-2545-4C37-A8D8-F09043F46A65&wdLOR=c59564D40-1348-4379-955C-7DA0E5FF7E8D">Zie hier de stappen</a>.</li>
-    <li>Als je klaar bent, houd de voortgang dan bij in onze <a href="https://amsuni.sharepoint.com/sites/FMG_EDU_Soc_Wet/Lists/Geboekte%20Digitoetsen%202223/Agenda.aspx?env=WebViewList&viewid=0c7d21cf%2D1e78%2D4e38%2Da395%2Df36a57873c80">geboekte digitale toetsen list</a>.</li>
+    <li>Als je klaar bent, houd de voortgang dan bij in de <a href="https://amsuni.sharepoint.com/sites/FMG_ORG_AFD_EOSS/Lists/EOSS%20Toetsenoverzicht/Alle%20items%20aankomend.aspx?env=WebViewList">EOSS toetsenlijst</a>.</li>
 </ol>
 <br>
 <hr>
 <br>
 <strong>Toetsinformatie:</strong>
 <ul>
-    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_20']}</li>
-    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['Title']}</li>
-    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_6']}</li>
-    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_7']}</li>
-    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_9']}</li>
-    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_10']}</li>
-    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_14']}</li>
-    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_5']}</li>
-    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_13']}</li>
-    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['field_12']}</li>
+    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['NaamTestVision']}</li>
+    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
+    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
+    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
+    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
+    <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+    <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
+    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
+    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
+    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
 </ul>
 
