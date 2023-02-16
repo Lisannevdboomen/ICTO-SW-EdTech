@@ -3,8 +3,7 @@
 
 Beste docent, <br>
 <br>
-Over 2 weken vindt een TestVision inzage plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}
-(@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}).<br>
+Over 2 weken vindt een TestVision inzage plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}).<br>
 <br>
 <strong>Wat kan ik verwachten?</strong><br>
 Net als bij de toets zullen er Assistant Floor Managers (AFM'ers) op locatie aanwezig zijn. Zij zullen het technische aspect van de inzage verzorgen, jij hoeft alleen aanwezig te zijn voor het inhoudelijke deel. De inzage is voorzien van een wachtwoord die de AFM'er op jouw akkoord zal delen met de studenten, waarna de studenten de vragen, hun antwoorden en het aantal toegekende punten kunnen inzien.<br>
@@ -20,6 +19,7 @@ Bekijk <a href="https://canvas.uva.nl/courses/8175/pages/inspection">onze FAQ</a
     <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
     <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
     <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+    <li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
     <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
     <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
     <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>

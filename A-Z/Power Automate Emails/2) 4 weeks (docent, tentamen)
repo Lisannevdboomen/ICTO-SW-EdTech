@@ -17,6 +17,7 @@ Indien je dit nog niet hebt gedaan, zet ook de vragen, toets, en koppeling naar 
     <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
     <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
     <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+    <li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
     <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
     <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
     <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
@@ -28,7 +29,7 @@ Indien je dit nog niet hebt gedaan, zet ook de vragen, toets, en koppeling naar 
 
 Beste docent,<br>
 <br>
-Over 4 weken vindt een TestVision toets plaats voor jouw vak: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}
+Over 4 weken vindt een TestVision toets plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}
 (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}). Inloggen op TestVision kan via <a href="https://uva.testvision.nl/online/fe/login_tvb.htm">deze link</a> (gebruik je mobiele telefoon voor tweestapsverificatie).<br>
 <br>
 <strong>Hoe ga ik aan de slag?</strong><br>
@@ -43,6 +44,7 @@ Bekijk <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions
     <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
     <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
     <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+    <li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
     <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
     <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
     <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>

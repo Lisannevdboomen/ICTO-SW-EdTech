@@ -16,20 +16,22 @@ Indien je dit nog niet hebt gedaan, zet ook de vragen, toets en koppeling naar d
     <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
     <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
     <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+    <li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
     <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
     <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
     <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
     <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
 </ul>
 
-<!---------------------- 2/4 TOETS, naar: ICTO ---------------------->
+
+<!---------------------- 2/4 TOETS, naar: DOCENT ---------------------->
 
 Beste docent,<br>
 <br>
-Over 3 dagen vindt een TestVision toets plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}  (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}).<br>
+Over 3 dagen vindt een TestVision toets plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}).<br>
 <br>
 <strong>Wat kan ik verwachten?</strong><br>
-Op voorhand en tijdens de toets zal er minstens één assistant floor manager (AFM'er) aanwezig zijn op locatie, stel je even aan hen voor bij binnenkomst. De AFM'er zal samen met jou de toets ter controle doornemen en ervoor zorgen dat alle technische aspecten correct zijn voorbereid. Het is belangrijk dat je ten minste <u>1 uur tot 45 minuten voor de start</u> van het tentamen aanwezig bent, zodat er voldoende tijd is om de toets te controleren. Nadat deze laatste controle is afgerond, hoef je enkel aanwezig te zijn voor het inhoudelijke aspect van het tentamen. Het tentamen is beveiligd met een wachtwoord, waardoor studenten pas met het tentamen kunnen beginnen nadat zij dit wachtwoord op hun computer hebben ingevoerd. De AFM'er zal dit wachtwoord delen met de studenten wanneer het tijd is om te beginnen.<br>
+Op voorhand en tijdens de toets zal er minstens één assistant floor manager (AFM'er) aanwezig zijn op locatie, stel je even aan hen voor bij binnenkomst. De AFM'er zal samen met jou de toets ter controle doornemen en ervoor zorgen dat alle technische aspecten correct zijn voorbereid. Het is belangrijk dat je ten minste <u>1 uur tot 45 minuten voor de start</u> van het tentamen aanwezig bent, zodat er voldoende tijd is om de toets te controleren. Nadat deze laatste controle is afgerond, hoef je enkel aanwezig te zijn voor het inhoudelijke aspect van het tentamen. Het tentamen is beveiligd met een wachtwoord, waardoor studenten pas met het tentamen kunnen beginnen nadat zij dit wachtwoord op hun computer hebben ingevoerd. De AFM'er zal dit wachtwoord met de studenten delen wanneer het tijd is om te beginnen.<br>
 <br>
 <strong>Wat kan ik nog doen?</strong><br>
 Deel <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">deze pagina</a> met je studenten. Hierop staan veelgestelde vragen en instructies voor het inloggen in TestVision. Op de <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-examination">FAQ voor docenten</a> kun je alle belangrijke informatie vinden over de toetsafname. Mocht je nog vragen hebben, mail ons gerust.</li><br>
@@ -43,6 +45,7 @@ Deel <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-studen
     <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
     <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
     <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+    <li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
     <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
     <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
     <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
@@ -60,8 +63,7 @@ Het ICTO-team Sociale Wetenschappen<br>
 <br>
 Dear teacher,<br>
 <br>
-In 3 days your digital exam for the course @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}
-(@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}) will take place.<br>
+Your digital exam for the course @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}) will take place in 3 days.<br>
 <br>
 <strong>What can I expect?</strong><br>
 There will be at least one assistant floor manager (AFM'er) present on site, please introduce yourself to them on arrival. Before the exam starts, an AFM'er will walk you through the exam to confirm everything is set up correctly. Please arrive at the exam location <u>1 hour to 45 minutes prior to the exam</u> to ensure this final check can be performed. After this, you'll only have to be present to assist students with questions related to the contents of the exam. The AFM'er(s) will ensure the technical aspects of the exam are configured properly. The exam is password protected, so students will only be able to access the exam once they enter the password. The AFM'er will share the password with the students when it is time to start the exam.<br>
@@ -78,6 +80,7 @@ Share <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-stude
     <li><strong>Course code</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
     <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
     <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+    <li><strong>Date</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
     <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
     <li><strong>End</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
     <li><strong>Location</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
@@ -93,7 +96,7 @@ The ICTO-team Social Sciences<br>
 
 Beste docent, <br>
 <br>
-Over 3 dagen vindt een TestVision inzage plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}  (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}).<br>
+Over 3 dagen vindt een TestVision inzage plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}).<br>
 <br>
 <strong>Wat kan ik verwachten?</strong><br>
 Net als bij de toets zullen er Assistant Floor Managers (AFM'ers) op locatie aanwezig zijn. Zij zullen de technische aspecten van de inzage verzorgen. Jij hoeft alleen aanwezig te zijn voor het inhoudelijke aspect van de inzage. De inzage is voorzien van een wachtwoord dat de AFM'er op jouw akkoord zal delen met de studenten. Hierna kunnen de studenten de vragen, hun antwoorden en het aantal toegekende punten inzien.<br>
@@ -112,6 +115,7 @@ Net als bij de toets zullen er Assistant Floor Managers (AFM'ers) op locatie aan
     <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
     <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
     <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+    <li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
     <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
     <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
     <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
@@ -152,6 +156,7 @@ Wanneer een student dit wachtwoord binnen de onderstaande start- en eindtijd inv
     <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
     <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
     <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+    <li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
     <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
     <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
     <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
@@ -162,3 +167,4 @@ Het is mogelijk om <a href="https://outlook.office365.com/owa/calendar/ICTOSocia
 <br>
 Met vriendelijke groet,<br>
 Het ICTO-team Sociale Wetenschappen
+

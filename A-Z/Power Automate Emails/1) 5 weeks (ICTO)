@@ -21,6 +21,7 @@ Over 5 weken is er een inzage. <strong>Zorg dat <u>deze week</u> de volgende tak
     <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
     <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
     <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+    <li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
     <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
     <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
     <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
@@ -50,9 +51,11 @@ Over 5 weken is er een digitoets. <strong>Zorg dat <u>deze week</u> de volgende 
     <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
     <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
     <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+    <li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
     <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
     <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
     <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
     <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
 </ul>
+
 
