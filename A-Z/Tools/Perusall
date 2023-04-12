@@ -9,58 +9,125 @@
 </div>
 <blockquote style="padding-top: 10px; padding-bottom: 10px;">
     <p>Perusall is a tool which enables students to collaboratively annotate documents of your choice.
-        Students can start a new annotation thread in Perusall by simply posting a question or comment to a selected piece of text or image, 
-        which other students can reply to or upvote. This guide will help you configure Perusall for your course, so that your students will
-        never show up to a lecture unprepared again.</p>
+    Students can start a new annotation thread in Perusall by simply posting a question or comment to a selected piece of text or image, 
+    which other students can reply to or upvote.<br><br>
+    Only the &nbsp;<i class="icon-quiz"></i> quick start has to be completed to set up Perusall for your course. 
+    If you need help or advice, don't hesitate to <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank">book an appointment</a> with ICTO!</p>
 </blockquote>
-<br><h3><i class="icon-quiz"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Set up</strong></span></h3>
-<h3><span class="element_toggler " aria-controls="FAQ1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How do I create a Perusall assignment in Canvas?</a></span></span></h3>
+<br><h3><i class="icon-quiz"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Quick start</strong></span></h3>
+<h3><span class="element_toggler " aria-controls="FAQ1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>1. Create a Perusall assignment in Canvas</a></span></span></h3>
 <ul id="FAQ1" style="list-style: none; display: none;">
     <li>
         <div class="content-box">
             <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                <p>There are roughly two ways to do the inspection: you can have an inspection with technical support at location or without support.</p>
-                <p><strong>The advantage of an inspection <u>with</u> technical support</strong> is that it increases the possibility of reusing test questions. Without support, students can easily take a picture, screenshot or copy the test questions via laptop or phone. If you decide to print the students' results you can control this more easily, but this can be difficult in large courses with more than 200 students.</p>
-                <p><strong>The advantage of an inspection <u>without</u> technical support</strong> is that you can <a href="mailto:icto-csw@uva.nl">email ICTO</a> and decide to do the inspection at your own time and place. We will set up the inspection in TestVision and send you the login instructions for students.</p>
-                <p>In the picture below, all options for booking an inspection are shown: <br /><br /></p>
-                <p style="text-align: center;"><img src="https://canvas.uva.nl/courses/8175/files/7274551/preview" alt="inspection.png" width="85%" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/7274551" data-api-returntype="File" /></p>
-                <p>&nbsp;</p>
+                <p><b>Please do not skip any of the steps below. If you do, your Perusall set up might not function.</b></p>
+                <ol>
+                    <li>Go to the Assignments page in your Canvas course.</li>
+                    <li>Click on <u>+ Assignment</u>.</li>
+                    <li>Fill in <u>10</u> points as the maximum number of points.</li>
+                    <li>Select <u>External tool</u> as the submission type.</li>
+                    <li>Select <u>Perusall</u> from the list of external tools.</li>
+                    <li>Select <u>Load this tool in a new tab</u>. Your submission type should now be set up like in the image below.
+                        <img src="/courses/8175/files/8525497/preview" alt="submission_type_perusall" /></li>
+                    <li>Assign the assignment to everyone, fill in a due date and click <u>Save</u>.</li>
+                </ol>
+                <p>You've created a Canvas assignment for Perusall! The next step is to go to Perusall, add a document and create an assignment in there.</p>
             </div>
         </div>
     </li>
 </ul>
-<h3><span class="element_toggler " aria-controls="FAQ2" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How do I add assignments and documents to Perusall? </a></span> </span></h3>
+<h3><span class="element_toggler " aria-controls="FAQ2" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>2. Add assignments and documents to Perusall</a></span> </span></h3>
 <ul id="FAQ2" style="list-style: none; display: none;">
     <li>
         <div class="content-box">
             <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                <p>If you book an inspection with technical support, a location with UvA laptops or desktops will be provided. Additionally Assistant Floor Managers will be present. They are responsible for preparing and technically supporting the inspection for you.</p>
-                <p>If you'd like to do an inspection with support, you need to notify your programme coordinator way in advance (at least 7 weeks prior to the inspection date). The coordinator will notify ICTO, after which we'll book the technical support for the inspection.</p>
-                <p>&nbsp;</p>
-                The deadlines for booking an inspection with support can be found on this <a href="https://canvas.uva.nl/courses/8175/pages/testvision" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/testvision" data-api-returntype="Page">page</a> (subsection: Applying for TestVision).
-                <p>&nbsp;</p>
+            <ol>
+                <li>Before you can create an assignment in Perusall, you'll have to upload the documents which students have to annotate to your Perusall library.</li>
+                <ol>
+                    <li>Go to the Perusall assignment you've just created in Canvas.</li>
+                    <li>Click on <u>Load [assignment name here] in a new window</u> to open Perusall.</li>
+                    <li>Go to the <u>Library</u> tab and click <u>+ Add content</u>.</li>
+                    <li>Select how you want to upload your document. You can upload documents from your own computer by clicking on <u>Documents from my device</u>, but feel free to try out the other options!
+                        <img src="/courses/8175/files/8526428/preview" alt="add_content" /></li>
+                    <li>Select the document you wish to upload to Perusall.</li><br>
+                </ol>
+                
+                <li>You've added your document to Perusall! The next step is to create an assignment to which the document is attached.</li>
+                <ol>
+                    <li>Go to the <u>Assignments</u> tab.</li>
+                    <li>Click on <u>+ Add assignment</u>.
+                        <img src="/courses/8175/files/8526889/preview" alt="add_assignment_perusall" /></li>
+                    <li>Select the document you wish to couple to this assignment. You can add as many documents to an assignment as you wish.</li>
+                    <li>Click on <u>Next step</u> to go the options tab.</li>
+                    <li>Set your submission deadline to the <u>same deadline</u> as in Canvas. If these do not match, you will not be able to automatically export your grades to Canvas!</li>
+                    <li>Fill in the <u>exact same assignment name</u> as in Canvas. Again, if these do not match, you will not be able to automatically export your grades to Canvas!
+                        <img src="/courses/8175/files/8527270/preview" alt="assignment_name_and_date" /></li>
+                    <li>Customize the other settings to your liking and click on <u>OK</u> to create the assignment.</li>
+                </ol>
+            </ol>
             </div>
         </div>
     </li>
 </ul>
-<h3><span class="element_toggler " aria-controls="FAQ3" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How do I create groups within Perusall?</a></span></span></h3>
+<h3><span class="element_toggler " aria-controls="FAQ3" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>3. Create groups within Perusall</a></span></span></h3>
 <ul id="FAQ3" style="list-style: none; display: none;">
     <li>
         <div class="content-box">
             <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                <p>In case you missed the deadline for booking an inspection with technical support, your only option is to <a href="#FAQ_T4">book an inspection without support</a>. If you you'd like to do the test inspection at <i>very</i> short notice and ICTO cannot arrange for the inspection to be accessible on TestVision, you could always choose to print the inspection.</p>
-                <p><i class="icon-question"></i> <a href="#FAQ_T6">How do I print a test for an inspection?</a></p>
+                <p>If all students were to annotate one and the same document in Perusall, it'd quickly turn unreadable because of all the yellow highlights. To prevent this, Perusall has a grouping feature which distributes students across groups. Students can only see the annotations of their fellow group members.</p>
+                <ol>
+                    <li>Go to the <u>Settings</u> menu in Perusall.</li>
+                    <li>Go to the <u>Grouping</u> tab.
+                        <img src="/courses/8175/files/8528236/preview" alt="grouping" /></li>
+                    <li>You can choose to either let Perusall <u>distribute students randomly</u> or <u>specify groups</u> yourself. 
+                        <br><b>a) Distribute students randomly:</b> Simply fill in the number of students in your course and the desired group size. <u><b>Note:</b></u> Perusall will create new group distributions for every single document when using the automatic group distribution feature. If you want students to stay in the same group throughout the course, you must specify the groups yourself. 
+                        <br><b>b) Specify groups:</b> Simply fill in a group number in front of the student name to assign a student to that group. <u><b>Note:</b></u> You will not see any students, until they have opened Perusall. You can only manually assign students to a group once they've openend Perusall. It's advised to have students open Perusall at least once before they can access the assignments, so that you can distribute them across groups beforehand.</li>
+                    <li>Click <u>Save changes</u> to save the group settings.</li>
+                </ol>
             </div>
         </div>
     </li>
 </ul>
+<h3><span class="element_toggler " aria-controls="FAQ4" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>4. Configure the grade calculation</a></span></span></h3>
+<ul id="FAQ4" style="list-style: none; display: none;">
+    <li>
+        <div class="content-box">
+            <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
+                <p>Perusall has an automatic grading feature, which can be used configured on multiple criteria: annotation quality, opening of the assignment, reading to the end of the assignment, active engagement time, receiving responses, upvoting and quizzes. determines whether a comment is high, medium or low quality, solely based on the comment's content.</p>
+                <ol>
+                    <li>Go to the <u>Settings</u> in Perusall.</li>
+                    <li>Select your desired annotation language.</li>
+                    <li>Click <u>Save changes</u> at the bottom of the page.</li>
+                </ol>
+            </div>
+        </div>
+    </li>
+</ul>
+<h3><span class="element_toggler " aria-controls="FAQ5" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>5. Select the correct annotation language</a></span></span></h3>
+<ul id="FAQ5" style="list-style: none; display: none;">
+    <li>
+        <div class="content-box">
+            <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
+                <p>Perusall's automatic grading supports both Dutch and English, so it's important to select the correct one before your course starts.</p>
+                <ol>
+                    <li>Go to the <u>Settings</u> in Perusall.</li>
+                    <li>Select your desired annotation language.</li>
+                    <li>Click <u>Save changes</u> at the bottom of the page.</li>
+                </ol>
+            </div>
+        </div>
+    </li>
+</ul>
+
 <br><h3><i class="icon-standards"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Copyright</strong></span></h3>
-<h3><span class="element_toggler " aria-controls="FAQ9" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>Am I allowed to use this document in Perusall?</a></span> </span></h3>
+<h3><span class="element_toggler " aria-controls="FAQ9" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>What documents am I allowed to use in Perusall?</a></span> </span></h3>
 <ul id="FAQ9" style="list-style: none; display: none;">
     <li>
         <div class="content-box">
             <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                <p>On <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/28129/pages/digital-exams-faq-students" data-api-returntype="Page">the following page</a>, which you can share with your students, an FAQ for students about digital exams can be found. It also states how students can log in on TestVision for the inspection.</p>
+                <p>You can check for potential copyright issues when uploading the reading material using this <a href="https://h5p.org/node/570927" target="_blank">Dutch</a> or <a href="https://tinyurl.com/45ej8dj2" target="_blank">English</a> decision tree.
+                Please note that it's always permitted to use 25% (or less) of a book or journal issue up to a maximum of 50 pages, due to an exception for educational institutions. 
+                </p>
             </div>
         </div>
     </li>
@@ -163,6 +230,13 @@
             </div>
         </div>
     </li>
+</ul>
+<br><h3><i class="icon-question"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Need help or advice?</strong></span></h3>
+    <div class="content-box">
+        <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
+            <p><a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank">Book an appointment</a> with ICTO!</p>
+        </div>
+    </div>
 </ul>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
