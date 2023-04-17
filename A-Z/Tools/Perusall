@@ -84,7 +84,7 @@
                         <img src="/courses/8175/files/8528236/preview" alt="grouping" /></li>
                     <li>You can choose to either let Perusall <u>distribute students randomly</u> or <u>specify groups</u> yourself. 
                         <br><b>a) Distribute students randomly:</b> Simply fill in the number of students in your course and the desired group size. <u><b>Note:</b></u> Perusall will create new group distributions for every single document when using the automatic group distribution feature. If you want students to stay in the same group throughout the course, you must specify the groups yourself. 
-                        <br><b>b) Specify groups:</b> Simply fill in a group number in front of the student name to assign a student to that group. <u><b>Note:</b></u> You will not see any students until they have opened Perusall. Thus, you can only manually assign students to a group once they've openend Perusall. It's recommended to ask students to open Perusall at least once using a practice assignment, so that you can distribute them across groups before the graded assignments start.</li>
+                        <br><b>b) Specify groups:</b> Simply fill in a group number in front of the student name to assign a student to that group. <u><b>Note:</b></u> Students cannot be shown in Perusall until they have actually opened it. Thus, you can only manually assign students to a group once they've openend Perusall. It's recommended to ask students to open Perusall before the first assignment is available, so that you can distribute them across groups beforehand.</li>
                     <li>Click <u>Save changes</u> to save the group settings.</li>
                 </ol>
             </div>
@@ -102,14 +102,15 @@
                     <li>Go to the <u>Scoring</u> tab.</li>
                     <li>Set release score to students to either:
                         <br>a) <u>only after instructor manually releases</u> if you want to press a button in the Perusall gradebook to release the grades or
-                        <br>b) <u>after the assignment deadline has passed, including any late annotation period and post-deadline reply window</u> if you want the grades to be automatically released in Perusall once the assignment deadline has passed. 
-                        (Please note that it can take up to two hours before the grades are automatically sent to Canvas.)</li>
-                    <li>Make sure the <u>lowest possible score is 0</u> and the <u>maximum score is equal to the amount of points the assignment is worth in Canvas</u>. 
+                        <br>b) <u>after the assignment deadline has passed, including any late annotation period and post-deadline reply window</u> if you want the grades to be automatically released in Perusall once the assignment deadline has passed.
+                        Releasing the scores immediately after submitting is discouraged, as this incentivizes students to game Perusall's scoring before the deadline.
+                    </li>
+                    <li>Make sure the <u>lowest possible score is 0</u> and the <u>maximum score is equal to the amount of points the assignment is worth in Canvas</u>. (10 in this quick start guide.) 
                         If these numbers do not match, the grades in Perusall and Canvas will differ!</li>
                     <li>Set grade sync to LMS to either:
                         <br>a) <u>Manually sync assignment scores to LMS</u> if you want to press a button in the Perusall gradebook to send the grades to Canvas or
                         <br>b) <u>Automatically sync assignment score to LMS</u> if you want the grades to be automatically sent to Canvas once the assignment deadline has passed. 
-                        (Please note that it can take up to two hours before the grades are automatically sent to Canvas.) At this point, your scoring settings should look somethings like the image below.
+                        (Please note that it can take up to two hours before the grades are automatically sent to Canvas.) The image below shows our recommended scoring set up.
                         <img src="/courses/8175/files/8530959/preview" alt="scoring_settings" /></li>
                 </ol>
                     <p>Now that the general scoring settings have been configured, you can start configuring the automatic grading.
@@ -117,15 +118,15 @@
                     <li>Select a scoring preset. <u>Hollistic</u> is generally a good starting point.</li>
                     <li>Tweak the scoring preset. We suggest the following:
                         <ul>
-                            <li>Check whether the <u>options</u> of all scoring criteria fit your texts. For example, if your texts are very short, you might want to lower the active reading time.</li>
-                            <li>Have the <u>scoring weights exceed 100%</u> by about 10 to 40 percent, so that students have various ways to earn full credits.</li>
-                            <li>Modify <u>the number of high-quality comments</u> under the annotation content options to a number of comments that fits the length, complexity and discussability of your text.</li>
-                            <li>Have <u>annotation content</u>, <u>getting responses</u> and <u>upvoting</u> make up the largest bulk of your scoring.</li>
-                            <li>Some students might prefer to read on paper rather than from Perusall. Make sure it's possible to attain a (near) 100% score without <u>active reading time</u>, <u>reading to the end</u> and <u>opening the assignment</u>.</li>
+                            <li><b>Check whether the options of all scoring criteria fit your texts.</b> For example, if your texts are very short, you might want to lower the active engagement time and the number of required comments.</li>
+                            <li><b>Have the scoring weights exceed 100% by about 10 to 40 percent</b>, so that students have various ways to earn full credits.</li>
+                            <li><b>Modify the number of high-quality comments under the annotation content options</b> to a number of comments that fits the length, complexity and discussability of your text.</li>
+                            <li><b>Have annotation content, getting responses and upvoting make up the largest bulk of your scoring.</b></li>
+                            <li>Some students might prefer to read on paper rather than from Perusall. <b>Make sure it's possible to attain a (near) 100% score without active reading time, reading to the end and opening the assignment</b>.</li>
                             <li>You can also modify your scoring per assignment in the assignment settings instead, in case your texts vary greatly.</li>
                         </ul>
                 </ol>
-                <p>When done, your scoring criteria might look something like in the image below. 
+                <p>The image below shows and example of a recommended scoring set up. 
                     <img src="/courses/8175/files/8531004/preview" alt="grading" /></p>            
             </div>
         </div>
@@ -136,10 +137,12 @@
     <li>
         <div class="content-box">
             <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                <p>Perusall can automatically score both both Dutch and English annotation content, so it's important to select the correct one before your course starts.</p>
+                <p>Perusall can automatically score both Dutch and English annotation content, so it's important to select the correct language before your assignments start.</p>
                 <ol>
                     <li>Go to the <u>Settings</u> in Perusall.</li>
-                    <li>Select your desired annotation language.</li>
+                    <li>Select your desired annotation language.
+                        <img src="/courses/8175/files/8547839/preview" alt="annotation_language" />
+                    </li>
                     <li>Click <u>Save changes</u> at the bottom of the page.</li>
                 </ol>
             </div>
@@ -151,7 +154,7 @@
     <li>
         <div class="content-box">
             <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                <p>Since many students might not have used a program like Perusall before, it's important to properly inform the students on what is expected of them. We recommend the following:</p>
+                <p>Since many students might not have used a application like Perusall before, it's important to properly inform the students about how Perusall works and what is expected of them. We recommend the following:</p>
                 <ul>
                     <li><b>Communicate the number of high-quality comments needed</b> to receive the maximum score on annotation content.</li>
                     <li><b>Do not inform students of the other criteria thresholds for a maximum score.</b> You don't have to specify exactly how many minutes students should spend reading a document, as this might invite students to try to game the system. It's also beyond the purpose of Perusall, i.e. starting discussions and asking questions.</li>
@@ -159,7 +162,7 @@
                     <li><b>Advise students to annotate well before the deadline</b>, as they are unlikely to receive responses and/or upvotes when placing comments a few hours before the deadline.</li>
                     <li><b>Instruct students to flag comments in cases of plagiarism or inappropriate comments</b>. You will receive an e-mail with the flagged comment, so you can assess it.</li>
                     <li><b>Inform students that they can view how their annotations were scored</b> when the deadline has passed under 'My scores' in Perusall.</li>
-                    <li><b>Communicate to students that you will be reading the comments for your lectures</b> and manually adjusting ratings (if applicable).</li>
+                    <li><b>Communicate to students that you will be reading the comments</b> to use them for your lectures and to manually adjust scores (if applicable).</li>
                     <li><b>Stress that students have to open Perusall via the link in the Canvas assignment.</b> If they don't, their grade might not propagate to the Canvas gradebook, in which case you'll have to do this manually.</li>
                 </ul>
             </div>
