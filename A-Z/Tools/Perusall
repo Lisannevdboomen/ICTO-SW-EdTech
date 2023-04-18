@@ -10,7 +10,7 @@
 <blockquote style="padding-top: 10px; padding-bottom: 10px;">
     <p>Perusall is a tool which enables students to collaboratively annotate documents of your choice.
     Students can start a new annotation thread in Perusall by simply selecting a piece of text or an image and typing a question or comment, 
-    which other students can reply to or upvote. Perusall's intended use it stimulate students to complete the required reading before lectures, 
+    which other students can reply to or upvote. Perusall's intended use is stimulate students to complete the required reading before lectures, 
     so that you can continue discussions or address questions from the annotations during the lecture itself. <br><br>
     Only the &nbsp;<i class="icon-quiz"></i> quick start has to be completed to set up Perusall for your course. 
     If you need help or advice, don't hesitate to <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank">book an appointment</a> with ICTO!</p>
@@ -160,7 +160,7 @@
                     <li><b>Do not inform students of the other criteria thresholds for a maximum score.</b> You don't have to specify exactly how many minutes students should spend reading a document, as this might invite students to try to game the system. It's also beyond the purpose of Perusall, i.e. starting discussions and asking questions.</li>
                     <li><b>Define what a high quality comment is.</b> You can share <a href="https://support.perusall.com/hc/en-us/articles/360034824694-How-is-annotation-quality-defined-in-Perusall-">this page</a> with students, which contains multiple annotations of varying quality and explains how Perusall determines the quality of a comment.</li>
                     <li><b>Advise students to annotate well before the deadline</b>, as they are unlikely to receive responses and/or upvotes when placing comments a few hours before the deadline.</li>
-                    <li><b>Instruct students to flag comments in cases of plagiarism or inappropriate comments</b>. You will receive an e-mail with the flagged comment, so you can assess it.</li>
+                    <li><b>Instruct students to flag annotatoins in cases of plagiarism or inappropriate content</b>. You will receive an e-mail with the flagged comment, so you can assess it.</li>
                     <li><b>Inform students that they can view how their annotations were scored</b> when the deadline has passed under 'My scores' in Perusall.</li>
                     <li><b>Communicate to students that you will be reading the comments</b> to use them for your lectures and to manually adjust scores (if applicable).</li>
                     <li><b>Stress that students have to open Perusall via the link in the Canvas assignment.</b> If they don't, their grade might not propagate to the Canvas gradebook, in which case you'll have to do this manually.</li>
@@ -230,7 +230,7 @@
         </div>
     </li>
 </ul>
-<h3><span class="element_toggler " aria-controls="FAQanalysis2" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How do I view all comments on an assignment by a specific student?</a></span> </span></h3>
+<h3><span class="element_toggler " aria-controls="FAQanalysis2" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How do I view all comments by a specific student?</a></span> </span></h3>
 <ul id="FAQanalysis2" style="list-style: none; display: none;">
     <li>
         <div class="content-box">
@@ -266,8 +266,8 @@
                 </ul>
                 <p>Besides annotation quality, all other criteria are configured and scored fairly straightforward (e.g. opening the assignment is simply the number of times a student opened the assignment in Perusall).
                     Annotations are either assigned a low, medium or high quality rating by Perusall's algorithm. You can choose how many points should be assigned to each quality level, with the default being 0, 1/2 and 1 points respectively.
-                    By default, Perusall also deducts up to 10% maximum if the comments are not spread throughout the document. We recommend leaving the aforementioned settings as is 
-                    and only configuring the number of required high quality comments for a full score on the annotation quality. 
+                    By default, Perusall also deducts up to 10% if comments are not spread throughout the document. <b>We recommend leaving the aforementioned settings as is 
+                    and only configuring the number of required high quality comments for a full score on the annotation quality criteria.</b>                     
                 </p>
                 <p>According to <a href="https://support.perusall.com/hc/en-us/articles/360034824694-How-is-annotation-quality-defined-in-Perusall-" target="_blank">Perusall's documentation</a> their algorithm 
                     <i>"... uses linguistic features of the text to create a predictive model for the score a human instructor would give. 
@@ -280,59 +280,100 @@
                       <strong><i class="icon-warning"></i> Note:</strong> Keep in mind that Perusall's algorithm does not take the content of your document into account when calculating the annotation quality. 
                       It is simply trained to recognize the linguistic features of low, medium and high quality annotations based on its training set. Students could game Perusall by placing 
                       linguistically elaborate annotations that are completely off-topic and still receive in high quality ratings. Thus, it's important to scroll through 
-                      and sample some of the annotations that your students have made.
+                      and sample some of the annotations that your students have made every once in a while.
                     </div>
                   </p>
             </div>
         </div>
     </li>
 </ul>
-<h3><span class="element_toggler " aria-controls="FAQgrading2" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How do I overwrite the automatically calculated grade?</a></span> </span></h3>
+<h3><span class="element_toggler " aria-controls="FAQgrading2" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>Where can I see how an automatic grade was calculated?</a></span> </span></h3>
 <ul id="FAQgrading2" style="list-style: none; display: none;">
     <li>
         <div class="content-box">
             <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                <p>On <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/28129/pages/digital-exams-faq-students" data-api-returntype="Page">the following page</a>, which you can share with your students, an FAQ for students about digital exams can be found. It also states how students can log in on TestVision for the inspection.</p>
+                <ol>
+                    <li>Go to the <u>Gradebook</u> in Perusall.</li>
+                    <li>Click on the grade of which you wish to see the calculation.</li>
+                    <li>The calculation will be shown right below. Note how this student still scored 103.2% (= 10), despite not attaining a perfect score on the annotation quality. 
+                        This is the intended effect of having a scoring set up which exceeds 100% (115% in this case), as Perusall should not be used 
+                        to assess students' annotations, but to stimulate students to read and discuss course material prior to lectures.
+                        <img src="/courses/8175/files/8559031/preview" alt="grade_calculation" />
+                    </li>
+                </ol>            
             </div>
         </div>
     </li>
 </ul>
-<h3><span class="element_toggler " aria-controls="FAQgrading3" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>Where can I see how an automatic grade was calculated?</a></span> </span></h3>
+<h3><span class="element_toggler " aria-controls="FAQgrading3" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How do I overwrite the automatically calculated assignment grade?</a></span> </span></h3>
 <ul id="FAQgrading3" style="list-style: none; display: none;">
     <li>
         <div class="content-box">
             <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                <p>On <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/28129/pages/digital-exams-faq-students" data-api-returntype="Page">the following page</a>, which you can share with your students, an FAQ for students about digital exams can be found. It also states how students can log in on TestVision for the inspection.</p>
+                <p><b>Please note that this article explains how to overwrite the assignment grade, not the annotation quality rating.</b></p> 
+                <ol>
+                    <li>Go to the <u>Gradebook</u> in Perusall.</li>
+                    <li>Click on the grade you wish to edit.</li>
+                    <li>Enter the new grade. You can navigate to the next student with the arrows at the top right.
+                        <img src="/courses/8175/files/8558983/preview" alt="change_grade" />
+                    </li>
+                </ol>    
             </div>
         </div>
     </li>
 </ul>
-<h3><span class="element_toggler " aria-controls="FAQgrading4" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>Can I disable automatic grading?</a></span> </span></h3>
+<h3><span class="element_toggler " aria-controls="FAQgrading4" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How do I overwrite the automatically calculated annotation quality rating?</a></span> </span></h3>
 <ul id="FAQgrading4" style="list-style: none; display: none;">
     <li>
         <div class="content-box">
             <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                <p>On <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/28129/pages/digital-exams-faq-students" data-api-returntype="Page">the following page</a>, which you can share with your students, an FAQ for students about digital exams can be found. It also states how students can log in on TestVision for the inspection.</p>
+                <p>Like the assignment grade, the annotation quality rating can also be overwritten. </p>
+                <ol>
+                    <li>Go to the <u>Gradebook</u> in Perusall.</li>
+                    <li>Click on the grade that belongs to the assignment of which you wish to change the annotation quality scores. If you want to go through all students for this assignment, simply click on the first student to start there.</li>
+                    <li>Go to the <u>Comments submitted</u> tab.</li>
+                    <li>Change the annotation quality by clicking on it and selecting a new rating. You can navigate to the next student using the arrows at the top right.
+                        <img src="/courses/8175/files/8558965/preview" alt="change_annotation_quality" />
+                    </li>
+                </ol>
             </div>
         </div>
     </li>
 </ul>
-<h3><span class="element_toggler " aria-controls="FAQgrading5" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>What percentage of the final grade is recommended for my Perusall assignments?</a></span> </span></h3>
+<h3><span class="element_toggler " aria-controls="FAQgrading5" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>Can I disable automatic grading?</a></span> </span></h3>
 <ul id="FAQgrading5" style="list-style: none; display: none;">
     <li>
         <div class="content-box">
             <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                <p>On <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/28129/pages/digital-exams-faq-students" data-api-returntype="Page">the following page</a>, which you can share with your students, an FAQ for students about digital exams can be found. It also states how students can log in on TestVision for the inspection.</p>
+                <p>Yes, you can either disable automatic grading and opt for manual grading or disable grading altogether under Perusall's general <u>Settings</u>. We recommend against opting for manual grading, unless you have a very small number of students.</p>
             </div>
         </div>
     </li>
 </ul>
-<h3><span class="element_toggler " aria-controls="FAQgrading6 aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How do I export the grades to Canvas?</a></span> </span></h3>
+<h3><span class="element_toggler " aria-controls="FAQgrading6" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>What percentage of the final grade is recommended for my Perusall assignments?</a></span> </span></h3>
 <ul id="FAQgrading6" style="list-style: none; display: none;">
     <li>
         <div class="content-box">
             <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                <p>On <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/28129/pages/digital-exams-faq-students" data-api-returntype="Page">the following page</a>, which you can share with your students, an FAQ for students about digital exams can be found. It also states how students can log in on TestVision for the inspection.</p>
+                <p>We generally recommend to have the average of all Perusall assignments make up approximately 5% of the final grade, with an ultimate maximum of 10%. In the webinar below, TLC recommends to have Perusall make up 2% of your final grade.
+                    <br><br>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HhEWUoDCFQk?start=2489" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </p>
+            </div>
+        </div>
+    </li>
+</ul>
+<h3><span class="element_toggler " aria-controls="FAQgrading7" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How do I export the grades to Canvas?</a></span> </span></h3>
+<ul id="FAQgrading7" style="list-style: none; display: none;">
+    <li>
+        <div class="content-box">
+            <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
+                <ol>
+                    <li>Go to the <u>Gradebook</u> in Perusall.</li>
+                    <li>Click on <u>Release to students</u> to release the grades in Perusall. If you've configured Perusall to release these automatically when the assignment ends in the quick start, you can skip this step.</li>
+                    <li>Click on <u>Sync to LMS</u> to sync the grades to Canvas. Your students grades should appear in the Canvas gradebook shortly after.
+                        <img src="/courses/8175/files/8559516/preview" alt="sync_to_lms" /></li>
+                </ol>
             </div>
         </div>
     </li>
@@ -345,8 +386,16 @@
     <li>
         <div class="content-box">
             <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                <p>It is important to ask yourself whether you would like students to enter any comments they might have in TestVision. It is also possible for you to discuss any questions or comments with students on the spot. During an inspection, the option to enter comments is turned off by default. This way, a teacher is not overloaded with questions and comments from students. A big advantage of turning the option on, however, is that a teacher is then able to download all comments from TestVision.</p>
-                <p>Please send an email to <a href="mailto:icto-csw@uva.nl">icto-csw@uva.nl</a> if you'd like to make use of this option.</p>
+                <p>Perusall's own plagiarism detection is very limited. According to <a href="https://support.perusall.com/hc/en-us/articles/360033996014-How-does-Perusall-handle-inappropriate-content-posted-by-students-" target="_blank">Perusall's documentation</a>, 
+                    Perusall <i>"...automatically flag[s] comments that are exact duplicates of comments that have already been posted to Perusall (excepting very short comments like "I agree!" 
+                    which are likely to be repeated). Instructors will receive an email notification if this happens."</i> 
+                </p>
+                <p>Besides this simple feature, plagiarism detection is non-existent. <b>Perusall does not compare posted annotations to online content like dedicated plagiarism detectors (e.g. Turnitin) do. 
+                    Neither does Perusall check for (self-)plagiarism across assignments.</b></p>
+                <p>Because of the above, you will mostly have to rely on good faith that students flag plagiarized comments of others
+                    and routinely sample annotations. It's discouraged to never look at the annotations altogether, as discussing these 
+                    in class can lead to valuable discussions in class.
+                </p>
             </div>
         </div>
     </li>
