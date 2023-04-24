@@ -1,36 +1,3 @@
-
-<!---------------------- 1/2 INZAGE, naar: ICTO ---------------------->
-
-Beste ICTO collega,<br>
-<br>
-Over 5 weken is er een inzage. <strong>Zorg dat <u>deze week</u> de volgende taken zijn volbracht:</strong>
-<ol>
-    <li>Zet het e-mailadres van de docent(en) in de <a href="https://amsuni.sharepoint.com/sites/FMG_ORG_AFD_EOSS/Lists/EOSS%20Toetsenoverzicht/Alle%20items%20aankomend.aspx?env=WebViewList">EOSS toetsenlijst</a>, zodat Power Automate de docent herinneringen kan sturen.</li>
-    <li>Is het een inzage <b>zonder</b> ondersteuning? Controleer in de <a href="https://amsuni.sharepoint.com/sites/FMG_ORG_AFD_EOSS/Lists/EOSS%20Toetsenoverzicht/Alle%20items%20aankomend.aspx?env=WebViewList">EOSS toetsenlijst</a>
-        onder de W-nummer kolom of er "E[getal_hier]" staat. Het getal zal gebruikt worden als wachtwoord voor de inzage en gecommuniceerd worden naar de docent en OWAS.</li>
-    <li>Houd de voortgang bij in de <a href="https://amsuni.sharepoint.com/sites/FMG_ORG_AFD_EOSS/Lists/EOSS%20Toetsenoverzicht/Alle%20items%20aankomend.aspx?env=WebViewList">EOSS toetsenlijst</a>.</li>
-</ol>
-<br>
-<hr>
-<br>
-<strong>Inzageinformatie:</strong>
-<ul>
-    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
-    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
-    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
-    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
-    <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
-    <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
-    <li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
-    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
-    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
-    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
-    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
-</ul>
-
-
-<!---------------------- 2/2 TOETS, naar: ICTO ---------------------->
-
 Beste ICTO collega,<br>
 <br>
 Over 5 weken is er een digitoets. <strong>Zorg dat <u>deze week</u> de volgende taken zijn volbracht:</strong>
@@ -49,13 +16,11 @@ Over 5 weken is er een digitoets. <strong>Zorg dat <u>deze week</u> de volgende 
     <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
     <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
     <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
-    <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
-    <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+    <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+    <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
     <li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
     <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
     <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
     <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
     <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
 </ul>
-
-
