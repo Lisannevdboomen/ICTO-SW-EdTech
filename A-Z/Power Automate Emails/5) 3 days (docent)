@@ -57,6 +57,10 @@ Succes met het digitale tentamen!<br>
 Met vriendelijke groet,<br>
 Het ICTO-team Sociale Wetenschappen<br>
 <br>
+<br>
+<br>
+<i>Dit is een geautomatiseerde mail. Mail ons gerust in het geval van vragen of suggesties. </i>
+<br>
 <hr>
 <br>
 <strong>----- English -----</strong><br>
@@ -91,6 +95,12 @@ Good luck with the digital exam!<br>
 <br>
 Kind regards,<br>
 The ICTO-team Social Sciences<br>
+<br>
+<br>
+<br>
+<br>
+<i>This is an automated e-mail. Feel free to contact us in case of questions or suggestions.</i>
+
 
 <!---------------------- 3/4 Inzage MET ondersteuning, naar: DOCENT ---------------------->
 
@@ -125,13 +135,17 @@ Net als bij de toets zullen er Assistant Floor Managers (AFM'ers) op locatie aan
 Het is mogelijk om <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">een afspraak in te plannen</a> met het ICTO-team. Tijdens de afspraak is er ruimte om vragen te stellen en om samen door de inzageinstellingen te lopen.<br>
 <br>
 Met vriendelijke groet,<br>
-Het ICTO-team Sociale Wetenschappen
+Het ICTO-team Sociale Wetenschappen<br>
+<br>
+<br>
+<br>
+<i>Dit is een geautomatiseerde mail. Mail ons gerust in het geval van vragen of suggesties. </i>
 
 <!---------------------- 4/4 Inzage ZONDER ondersteuning, naar: DOCENT ---------------------->
 
 Beste docent, <br>
 <br>
-Over 3 dagen vindt een TestVision inzage zonder ondersteuning plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']})
+Over 3 dagen vindt een TestVision inzage zonder ondersteuning plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}).
 <br>
 <br>
 <strong>Wat kan ik verwachten?</strong><br>
@@ -166,5 +180,8 @@ Wanneer een student dit wachtwoord binnen de onderstaande start- en eindtijd inv
 Het is mogelijk om <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">een afspraak in te plannen</a> met het ICTO-team. Tijdens de afspraak is er ruimte om vragen te stellen en om samen door de inzageinstellingen te lopen.<br>
 <br>
 Met vriendelijke groet,<br>
-Het ICTO-team Sociale Wetenschappen
-
+Het ICTO-team Sociale Wetenschappen<br>
+<br>
+<br>
+<br>
+<i>Dit is een geautomatiseerde mail. Mail ons gerust in het geval van vragen of suggesties. </i>
