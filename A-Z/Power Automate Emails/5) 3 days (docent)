@@ -36,6 +36,9 @@ Op voorhand en tijdens de toets zal er minstens één assistant floor manager (A
 <strong>Wat kan ik nog doen?</strong><br>
 Deel <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">deze pagina</a> met je studenten. Hierop staan veelgestelde vragen en instructies voor het inloggen in TestVision. Op de <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-examination">FAQ voor docenten</a> kun je alle belangrijke informatie vinden over de toetsafname. Mocht je nog vragen hebben, mail ons gerust.</li><br>
 <br>
+<strong>Kijken er meer mensen na?</strong><br>
+Stuur ons een e-mail met het vak, de toets in kwestie en de namen of e-mailadressen van de overige beoordelaars. Wij zullen ons best doen om ze z.s.m. toevoegen.<br>
+<br>
 <strong>Toetsinformatie:</strong>
 <ul>
     <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['NaamTestVision']}</li>
@@ -59,6 +62,7 @@ Het ICTO-team Sociale Wetenschappen<br>
 <br>
 <br>
 <br>
+<br>
 <i>Dit is een geautomatiseerde mail. Mail ons gerust in het geval van vragen of suggesties. </i>
 <br>
 <hr>
@@ -74,6 +78,9 @@ There will be at least one assistant floor manager (AFM'er) present on site, ple
 <br>
 <strong>Anything I still have to do?</strong><br>
 Share <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">this page</a> with your students. This page contains an FAQ for students and instructions on how to log in to TestVision at the exam location. On the <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">FAQ for teachers</a> you will find the most important information regarding moment of examination. Should you have any further questions, please send us an e-mail.<br>
+<br>
+<strong>Are there other graders besides you?</strong><br>
+Send us an e-mail with the course name, the test in question and the email addresses or full names of the other graders. We will add them as graders as soon as possible.<br>
 <br>
 <strong>Exam information:</strong>
 <ul>
@@ -95,7 +102,6 @@ Good luck with the digital exam!<br>
 <br>
 Kind regards,<br>
 The ICTO-team Social Sciences<br>
-<br>
 <br>
 <br>
 <br>
