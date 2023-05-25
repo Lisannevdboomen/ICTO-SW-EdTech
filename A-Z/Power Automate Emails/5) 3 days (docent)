@@ -146,6 +146,50 @@ Het ICTO-team Sociale Wetenschappen<br>
 <br>
 <br>
 <i>Dit is een geautomatiseerde mail. Mail ons gerust in het geval van vragen of suggesties. </i>
+<br>
+<hr>
+<br>
+<strong>----- English -----</strong><br>
+<br>
+Dear teacher,<br>
+<br>
+In 3 days, your TestVision inspection for @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}) will take place.<br>
+<br>
+<strong>What can I expect?</strong><br>
+As is the case with the test, Assistant Floor Managers (AFM'ers) will be present on site. They will handle the technical aspects of the inspection. You only need to be present for the content aspect of the inspection. To access the inspection, students will need to enter a password, which the AFM'er will share with the students upon your agreement. After this, the students can view the questions, their answers and the number of points awarded.<br>
+<br>
+<strong>How do I get started?</strong>
+<ol>
+    <li>Check out <a href="https://canvas.uva.nl/courses/8175/pages/inspection">our FAQ</a>, where you can find the most frequently asked questions about digital inspections. On this page, you can also look at the default settings for an inspection. E-mail ICTO if you’d like to use other settings.<li>
+    <li>Share <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">this page</a> with your students. It contains some frequently asked questions and instructions on how to log into TestVision.</li>
+</ol>
+<br>
+<strong>Information about the inspection:</strong>
+<ul>
+    <li><strong>W-number</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
+    <li><strong>Course</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
+    <li><strong>Study</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
+    <li><strong>Course code</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
+    <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+    <li><strong>Date</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
+    <li><strong>End</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
+    <li><strong>Location</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
+    <li><strong>Teacher(s)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
+</ul>
+<br>
+It is possible to <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">schedule a meeting</a> with the ICTO-team. During this meeting, there is room to ask questions and to walk through the inspection settings together.<br>
+<br>
+Kind regards,<br>
+The ICTO-team Social Sciences<br>
+<br>
+<br>
+<br>
+<i>This is an automated e-mail. Feel free to contact us in case of questions or suggestions.</i>
+
+
+
 
 <!---------------------- 4/4 Inzage ZONDER ondersteuning, naar: DOCENT ---------------------->
 
@@ -191,3 +235,49 @@ Het ICTO-team Sociale Wetenschappen<br>
 <br>
 <br>
 <i>Dit is een geautomatiseerde mail. Mail ons gerust in het geval van vragen of suggesties. </i>
+<br>
+<hr>
+<br>
+<strong>----- English -----</strong><br>
+<br>
+Dear teacher,<br>
+<br>
+In 3 days, your TestVision inspection without technical support for @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}) will take place.<br>
+<br>
+<strong>What can I expect?</strong><br>
+No support has been requested for this inspection. This means that no space with laptops or laptop carts has been arranged and no Assistant Floor Manager will be present for technical support. In other words, students should bring their own device!<br>
+<br>
+<strong>To access the inspection, students will need to enter the following password: @{substring(item()?['W_x002d_nummer'], 1)} </strong><br>
+When students enter this password in the time frame set below, they will be able to access their test results. Outside this time frame, students will not be able to access the inspection. You can also <a href="https://canvas.uva.nl/courses/8175/files/7279458?wrap=1">print</a> the test results.<br>
+<br>
+<strong>How do I get started?</strong>
+<ol>
+    <li>Check out <a href="https://canvas.uva.nl/courses/8175/pages/inspection">our FAQ</a>, where you can find the most frequently asked questions about digital inspections. On this page, you can also look at the default settings for an inspection. E-mail ICTO if you’d like to use other settings.<li>
+    <li>Share <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">this page</a> with your students. It contains some frequently asked questions and instructions on how to log into TestVision.<li>
+    <li>Share the password (@{substring(item()?['W_x002d_nummer'], 1)}) with your students at your convenience.</li>
+</ol>
+<br>
+<strong>Information about the inspection:</strong>
+<ul>
+    <li><strong>Password</strong>: @{substring(item()?['W_x002d_nummer'], 1)}</li>
+    <li><strong>W-number</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
+    <li><strong>Course</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
+    <li><strong>Study</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
+    <li><strong>Course code</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
+    <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+    <li><strong>Date</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
+    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
+    <li><strong>End</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
+    <li><strong>Location</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
+    <li><strong>Teacher(s)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
+</ul>
+<br>
+It is possible to <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">schedule a meeting</a> with the ICTO-team. During this meeting, there is room to ask questions and to walk through the inspection settings together.<br>
+<br>
+Kind regards,<br>
+The ICTO-team Social Sciences<br>
+<br>
+<br>
+<br>
+<i>This is an automated e-mail. Feel free to contact us in case of questions or suggestions.</i>
