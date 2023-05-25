@@ -1,9 +1,11 @@
-/*  */
+/* Tabs */
 
-
-
-
-
+.enhanceable_content.tabs > a {
+    background-color: #ffffff;
+    margin: 5px;
+    height: 35px;
+    border: #000000;
+}
 
 
 

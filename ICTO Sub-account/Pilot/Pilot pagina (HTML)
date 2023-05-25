@@ -1,0 +1,202 @@
+<!-- Anchor top -->
+<p><a id="topmenu"></a></p>
+
+<!-- Banner -->
+<p><img src="https://canvas.uva.nl/courses/39069/files/8775894/preview" alt="FinalGradesMenuBanner-1.jpg" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775894" data-api-returntype="File" /></p>
+
+<!-- Menubalk -->
+<div class="grid-row">
+    <div class="col-xs-12 col-md-12">
+        <div class="styleguide-section__grid-demo-element">
+            <div class="content-box pad-box-mini border border-trbl border-round">
+                <a class="btn Button" href="https://canvas.uva.nl/courses/39069"><i class="icon-home"></i> <span>&nbsp;Home</span> </a>
+                <a class="btn Button" href="https://canvas.uva.nl/courses/39069/pages/a-z" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/pages/a-z" data-api-returntype="Page"><i class="icon-copy-course"></i> <span>&nbsp;A-Z</span> </a>
+                <a class="btn Button" href="https://canvas.uva.nl/courses/39069/pages/final-grades-support" target="_blank" rel="noopener" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/pages/final-grades-support" data-api-returntype="Page"><span><i class="icon-star"></i> &nbsp;<strong>Sit down with ICTO!</strong></span> </a>
+                <a class="btn Button" href="https://uvasocialsciences.eu.qualtrics.com/jfe/form/SV_6LN3bIFUlzyJ95k" target="_blank" rel="noopener" data-api-returntype="Page"><i class="icon-compose"></i> <span>&nbsp;</span>Send us your feedback </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tabs (2.0)-->
+<div class="enhanceable_content tabs">
+    <ul>
+        <li>
+            <a href="#tab-0">Instructions</a>
+        </li>
+        <li>
+            <a href="#tab-1">About</a>
+        </li>
+        <li>
+            <a href="#tab-2">Videos</a>
+        </li>
+        <li>
+            <a href="#tab-4">Support with calculation setup</a>
+        </li>
+        <li>
+            <a href="#tab-5">Support with SIS grades</a>
+        </li>
+    </ul>
+    
+    <!-- Tab 0 -->
+    <div id="tab-0">
+        <div class="grid-row">
+            <div class="col-xs-12 col-md-4">
+                <div class="styleguide-section__grid-demo-element">
+                    <div class="content-box pad-box-mini border border-trbl border-round">
+                        <div class="content-box pad-box-mini border border-b">
+                            <h4><span><span>Add assignments</span>&nbsp; &nbsp;<i class="icon-arrow-right"></i> </span></h4>
+                            <p><span><em><span>Add assignments or items from Canvas, Excel, or manually enter final grades.</span></em></span></p>
+                        </div>
+                        <p><a id="" class="Button Button--large" href="#from-canvas"> <img id="4377529" src="https://canvas.uva.nl/courses/39069/files/8775099/preview" alt="canvas-logo-1024x1020-1.png" width="30" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775099" data-api-returntype="File" /><span>From Canvas</span> </a></p>
+                        <p><a id="" class="Button Button--large" href="#from-excel"> <img id="4498958" src="https://canvas.uva.nl/courses/39069/files/8775071/preview" alt="Excel-Icon.png" width="30" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775071" data-api-returntype="File" /><span>Excel import</span> </a></p>
+                        <p><a id="" class="Button Button--large" href="#add-manually"> <img id="4570172" src="https://canvas.uva.nl/courses/39069/files/8775127/preview" alt="write by priyanka from the Noun Project.png" width="30" height="33" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775127" data-api-returntype="File" /><span>Insert manually</span> </a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="styleguide-section__grid-demo-element">
+                    <div class="content-box pad-box-mini border border-trbl border-round">
+                        <div class="content-box pad-box-mini border border-b">
+                            <h4><span><span>Calculate final grade</span>&nbsp; &nbsp;<i class="icon-arrow-right"></i> </span></h4>
+                            <p><span><em><span>Add rules and conditions to your grade calculation setup.</span></em></span></p>
+                        </div>
+                        <p><a id="" class="Button Button" href="#assign-weight"> <span><i class="icon-add"></i> Assign weight to grades</span> </a></p>
+                        <p><a id="" class="Button Button" href="#minimum-score"> <span><i class="icon-add"></i> Minimum score required</span> </a></p>
+                        <p><a id="" class="Button Button" href="#mandatory-item"> <span><i class="icon-add"></i> Make item mandatory</span> </a></p>
+                        <p><a id="" class="Button Button" href="#bonus-malus"> <span><i class="icon-add"></i> Add or detract points</span> </a></p>
+                        <p><a id="" class="Button Button" href="#calculate"> <span><em>More options</em></span> </a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="styleguide-section__grid-demo-element">
+                    <div class="content-box pad-box-mini border border-trbl border-round">
+                        <div class="content-box pad-box-mini border border-b">
+                            <h4><span><span>Publish &amp; Submit &nbsp;</span> &nbsp;&nbsp;<i class="icon-check"></i> </span></h4>
+                            <p><span><em><span>Submit grades from Canvas to SIS easily and fast.</span></em></span></p>
+                        </div>
+                        <p><a id="" class="Button Button--large" href="#publish"> <img id="4570190" src="https://canvas.uva.nl/courses/39069/files/8775120/preview" alt="people by allex from the Noun Project.png" width="36" height="30" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775120" data-api-returntype="File" /><span>To students</span> </a></p>
+                        <p><a id="" class="Button Button--large" href="https://canvas.uva.nl/courses/39069/pages/final-grades-tool-sis" target="_blank" rel="noopener" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/pages/final-grades-tool-sis" data-api-returntype="Page"> <img id="4570191" src="https://canvas.uva.nl/courses/39069/files/8775117/preview" alt="noun_sis_3178955.png" width="29" height="36" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775117" data-api-returntype="File" /><span>To SiS</span> </a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Tab 1 -->
+    <div id="tab-1">
+        <h3>About Final Grades</h3>
+        <div class="content-box">
+            <p>From 2021/22 onwards, the Final grades tool saves you a lot of time when submitting grades to SIS. You can use the Final Grades menu to add graded assignments, use a variety of calculation options, and to publish the final grade breakdown to students and the SiS Administration</p>
+            <br><a class="btn Button--primary" href="https://canvas.uva.nl/courses/39069/files/8775265?wrap=1" data-api-returntype="File" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775265">&nbsp;<i class="icon-forward">&nbsp;</i>Final Grades <strong>walk-through</strong></a>
+            <p><img src="https://canvas.uva.nl/courses/39069/files/8775893/preview" alt="FinalGradesMenu.png" width="605" height="341" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775893" data-api-returntype="File"></p>
+        </div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h5><span> <span>How to access:</span> <a class="btn Button" href="#navigation1"> <span><i class="icon-info"></i>&nbsp;&nbsp;Final Grades menu</span> </a> <a class="btn Button" href="#navigation2"> <span><i class="icon-info"></i>&nbsp;&nbsp;Grade calculation setup</span> </a> </span></h5>
+    </div>
+
+    <!-- Tab 2 -->
+    <div id="tab-2">
+        <p><a id="videoplaylist"></a></p>
+        <h3>Videos &amp; Testimonials</h3>
+        <p><iframe title="Final Grades Tool" src="https://canvas.uva.nl/courses/39069/external_tools/retrieve?display=borderless&amp;resource_link_lookup_uuid=a7e96063-a2be-4e91-860c-ceb07c627023&amp;url=https%3A%2F%2Fvideo-kaf.ic.uva.nl%2Fbrowseandembed%2Findex%2Fmedia%2Fentryid%2F0_ec9p05ze%2FshowDescription%2Ffalse%2FshowTitle%2Ffalse%2FshowTags%2Ffalse%2FshowDuration%2Ffalse%2FshowOwner%2Ffalse%2FshowUploadDate%2Ffalse%2FplayerSize%2F400x620%2FplayerSkin%2F23449954%2FisPlaylist%2Ftrue%2F" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *; autoplay *"></iframe></p>
+    </div>
+
+    <!-- Tab 4 -->
+    <div id="tab-4">
+        <h3>Sit down with ICTO</h3>
+        <p><img src="https://canvas.uva.nl/courses/39069/files/8775892/preview" alt="Final grades support website banner.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775892" data-api-returntype="File"></p>
+        <p>&nbsp;</p>
+        <h3>Book an appointment with ICTO</h3>
+        <hr>
+        <p><iframe src="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" width="100%" height="1620px" style="border: 0;"></iframe></p>
+        <p>&nbsp;</p>
+        <h3>Our team</h3>
+        <hr>
+        <div class="content-box">
+            <table style="width: 100%; padding: 15px;">
+                <tbody>
+                    <tr>
+                        <td style="width: 100%;" colspan="4">
+                            <h4>ICTO Social Sciences consists of an enthusiastic team of student-assistants and regular employees. The student-assistants have a variable schedule of 16 hours per week as they combine their studies and ICTO.</h4>
+                            <h4><br></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 15%;"><img src="https://canvas.uva.nl/courses/39069/files/8775620/preview" alt="shoot (231) kopie.jpg" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775620" data-api-returntype="File"></td>
+                        <td style="width: 35%; vertical-align: top; padding: 10px;"><strong>Lisanne van den Boomen</strong> <br><i>ICTO Coordinator <br>Working days: tue - fri</i></td>
+                        <td style="width: 15%;"><img src="https://canvas.uva.nl/courses/39069/files/8775616/preview" alt="olivier.jpg" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775616" data-api-returntype="File"></td>
+                        <td style="width: 35%; vertical-align: top; padding: 10px;"><strong>Olivier Oude Booijink</strong> <br><i>Team member ICTO <br>Working days: mo - thu</i></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 15%;"><img src="https://canvas.uva.nl/courses/39069/files/8775598/preview" alt="afbeeling_Maaike_H_2.jpg" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775598" data-api-returntype="File"></td>
+                        <td style="width: 35%; vertical-align: top; padding: 10px;"><strong>Maaike de Hart</strong> <br><i>Team member ICTO <br>Working days: mo - thu (partially at POW)</i></td>
+                        <td style="width: 15%;"><img src="https://canvas.uva.nl/courses/39069/files/8775596/preview" alt="Robyn.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775596" data-api-returntype="File"></td>
+                        <td style="width: 35%; vertical-align: top; padding: 10px;"><strong>Robyn Hamminga</strong> <br><i>Student-assistant ICTO <br>Variable working days</i></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 15%;"><img src="https://canvas.uva.nl/courses/39069/files/8775595/preview" alt="Piotr.jpg" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775595" data-api-returntype="File"></td>
+                        <td style="width: 35%; vertical-align: top; padding: 10px;"><strong>Piotr Breedveld</strong> <br><i>Student-assistant ICTO <br>Variable working days</i></td>
+                        <td style="width: 15%;"></td>
+                        <td style="width: 35%; vertical-align: top; padding: 10px;"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>&nbsp;</p>
+        <p><a class="btn Button--secondary" href="#topmenu" style="margin: 5px; margin-right: 20px;"><i class="icon-arrow-up"></i> <span>Back to top</span> </a></p>
+        <p>&nbsp;</p>
+    </div>
+    
+    <!-- Tab 5 -->
+    <div id="tab-5">
+        <h3>About SIS</h3>
+        <div class="grid-row">
+            <div class="col-xs-12 col-md-4">
+                <div class="styleguide-section__grid-demo-element">
+                    <div class="content-box pad-box-mini border border-trbl border-round">
+                        <div class="content-box pad-box-mini border border-b">
+                            <h4><strong><span>Get Ready</span></strong></h4>
+                            <p><em><span>Mind the following before you start submitting the grades to SIS</span></em></p>
+                        </div>
+                        <p><img id="4654665" src="https://canvas.uva.nl/courses/39069/files/8775091/preview" alt="Templafy_Smartphone iphone_Icoon.svg" width="25" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775091" data-api-returntype="File"> <strong>Two-factor Authentication</strong></p>
+                        <p><em>Take your mobile phone, you'll need it for Two Factor Authentication (2FA) <a href="https://medewerker.uva.nl/content-secured/az/tweestapsverificatie/surf/surf.html" target="_blank" rel="noopener">(view more)</a></em></p>
+                        <p><img id="4654663" src="https://canvas.uva.nl/courses/39069/files/8775090/preview" alt="Templafy_Internet_Icoon.svg" width="22" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775090" data-api-returntype="File"> <strong>Web browser</strong></p>
+                        <p><em>Chrome or Firefox are the preferred browsers for Canvas. We strongly advise against using Safari or Microsoft Edge <a href="https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Instructure/ta-p/66" target="_blank" rel="noopener">(view more)</a></em></p>
+                        <p><img id="4654663" src="https://canvas.uva.nl/courses/39069/files/8775090/preview" alt="Templafy_Internet_Icoon.svg" width="22" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/files/8775090" data-api-returntype="File"> <strong>Ad-blockers</strong></p>
+                        <p><em>Remove any pop-up blockers present in your URL search bar <a href="http://lexisnexis.custhelp.com/app/answers/answer_view/a_id/1102020/~/disable-pop-up-blockers-in-most-common-internet-browsers" target="_blank" rel="noopener">(view more)</a></em></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="styleguide-section__grid-demo-element">
+                    <div class="content-box pad-box-mini border border-trbl border-round">
+                        <div class="content-box pad-box-mini border border-b">
+                            <h4><strong><span>Contact</span></strong></h4>
+                            <p><em><span>Who to contact when something goes wrong or you have questions</span></em></p>
+                        </div>
+                        <p>If you don't see a <strong><em>red Submit grades button</em></strong>, please get in touch with your <span>Programme Coordinator or Manager</span>. They can give you the 'Examiner' rights in SIS. Please note that only the co&ouml;rdinator of the course can submit grades to SIS.&nbsp;</p>
+                        <p>If you have successfully submitted your grades to SIS, but there is an issue of some sort or if you have a <strong><em>questions about your grades in SIS</em></strong>, please get in touch with the <span>Registrar's office</span> (<a href="mailto:gradeadmin-sw@uva.nl" target="_blank" rel="noopener">gradeadmin-sw@uva.nl</a>).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="styleguide-section__grid-demo-element">
+                    <div class="content-box pad-box-mini border border-trbl border-round">
+                        <div class="content-box pad-box-mini border border-b">
+                            <h4><strong><span>Instructions</span></strong></h4>
+                            <p><em><span>How to submit both final grades (1st try) and retake grades (2nd try) to SIS</span></em></p>
+                        </div>
+                        <p><a id="" class="Button Button" href="https://canvas.uva.nl/courses/39069/pages/final-grades-tool-submit-final-and-retake-grade-to-sis" target="_blank" rel="noopener" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/pages/final-grades-tool-submit-final-and-retake-grade-to-sis" data-api-returntype="Page"><span><i class="icon-arrow-right"></i>&nbsp; &nbsp; Submit Grades to SIS</span></a></p>
+                        <p><a id="" class="Button Button" href="https://canvas.uva.nl/courses/39069/pages/final-grades-tool-sis-correction-for-final-and-retake-grade" target="_blank" rel="noopener" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/39069/pages/final-grades-tool-sis-correction-for-final-and-retake-grade" data-api-returntype="Page"><span><i class="icon-refresh"></i>&nbsp; &nbsp;<span>SIS Grade Correction</span></a></p>
+                        <div id="dialog_for_corrections1" class="enhanceable_content dialog"><strong>Use the correction-mode when:</strong><br><br><strong>You've already submitted grades to SIS, but you need to adjust one or more grades</strong>. For example, after the exam inspection has taken place. If this is the case, a correction must be made in order to submit the correct grades to SIS.<br><br><em>Grades have been submitted to SIS when you see one (1st try) or two (2nd try) green checkmarks in front of the students' names in the Final Grades tool. </em></div>
+                        <p><a id="corrections1" class="Button Button--link" href="#dialog_for_corrections1"><span><i class="icon-question"></i>&nbsp; &nbsp;<em>When to use corrections? </em></span></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div> 
