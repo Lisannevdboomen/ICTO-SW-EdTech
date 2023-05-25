@@ -164,7 +164,12 @@
 
     <div id="QS4" style="display: none;">
         <blockquote style="padding-top: 1px; padding-bottom: 5px; margin-top:10px">
-            <p style="font-size:11pt"><b>Books, book chapters & articles</b>
+            <p style="font-size:11pt">
+                <ul style="list-style-type: none;padding-left:10px">
+                    <li>
+                        <b>Books, book chapters & articles</b>
+                    </li>
+                </ul>
                 <ol style="font-size:11pt">
                     <li style="padding-left:10px">
                         To add sources, click the <u> Add items</u> button in the top right corner.<br>
@@ -184,9 +189,43 @@
                         <img src="/courses/8175/files/8769535/preview" alt="add4.png" style="width:30%; border:1px solid grey "/><br><br>
                     </li>
                     <li style="padding-left:10px">
-                        The tool will then show you the details for this citation, which you can edit or add information to. Make adjustments if necessary:<br><br>
-                    </li>
+                        The tool will then show you the details for this citation, which you can edit or add information to. Make adjustments if necessary:<br>                      
+                        
+                        <!-- Book chapter -->
+                        <p>
+                            <span class="element_toggler" aria-controls="Chapter" aria- label="Toggler toggle list visibility" aria-expanded="false">
+                                <a><span style="float:left; padding-bottom:0px"><i class="icon-mini-arrow-end" style="color:black"></i>&nbsp;&nbsp;Alleen chapter</span></a><br>
+                            </span>
+        
+                            <div id="Chapter" style="display: none;">
+                                Tekst alleen chapter
+                            </div>
+                        </p>
 
+                        <!-- Article -->
+                        <p>
+                            <span class="element_toggler" aria-controls="Article" aria- label="Toggler toggle list visibility" aria-expanded="false">
+                                <a><span style="float:left; padding-bottom:0px"><i class="icon-mini-arrow-end" style="color:black"></i>&nbsp;&nbsp;Article</span></a><br>
+                            </span>
+        
+                            <div id="Article" style="display: none;">
+                                Tekst article
+                            </div>
+                        </p>
+
+                        <!-- Adding a PDF -->
+                        <p>
+                            <span class="element_toggler" aria-controls="PDF" aria- label="Toggler toggle list visibility" aria-expanded="false">
+                                <a><span style="float:left; padding-bottom:0px"><i class="icon-mini-arrow-end" style="color:black"></i>&nbsp;&nbsp;Adding PDF</span></a><br>
+                            </span>
+        
+                            <div id="PDF" style="display: none;">
+                                Tekst pdf
+                            </div>
+                        </p>
+                    </li>
+                   
+                    
                     <li style="padding-left:10px">
                        Select <u>Save</u> at the bottom of the page.
                     </li>
