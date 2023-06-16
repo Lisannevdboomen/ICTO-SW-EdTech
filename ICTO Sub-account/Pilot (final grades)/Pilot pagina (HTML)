@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="C:\Users\rhammin\OneDrive - UvA\Documenten\VScode\ICTO-SW-EdTech\ICTO Sub-account\Pilot (final grades)\CSS-stylesheet-subaccount-ictosw-pilot.css">
+</head>
+<body>
 <!-- Anchor top -->
 <p><a id="topmenu"></a></p>
 
@@ -342,3 +348,5 @@
         </div>
     </div>
 </div>
+</body>
+</html>
