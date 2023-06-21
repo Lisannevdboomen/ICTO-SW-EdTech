@@ -98,7 +98,7 @@
         <!-- New in 2022/23 -->
         <div class="col-xs-20 col-md-6">
             <div class="styleguide-section__grid-demo-element" style="text-align: center;">
-                <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #E6EBED; border-color: #063852; padding: 30px; padding-bottom: 50px; margin-bottom: 10px; text-align: left;">
+                <div id="contentbox" class="content-box pad-box-mini border border-trbl border-round" style="background-color: #E6EBED; border-color: #063852; padding: 30px; padding-bottom: 50px; margin-bottom: 10px; text-align: left;">
 
                     <span style="float: middle; font-size: 18pt; align: center;">
 
