@@ -1,56 +1,39 @@
-<p><img src="/courses/8175/files/8507520/preview" alt="perusall_banner" /></p>
+<p><img src="https://canvas.uva.nl/courses/8175/files/8507520/preview" alt="perusall_banner" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8507520" data-api-returntype="File" /></p>
 <p><a id="topmenu"></a></p>
 <div class="grid-row">
     <div class="col-xs-12 col-md-12">
         <div class="styleguide-section__grid-demo-element">
-            <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; text-align: center;"><a class="btn Button" style="margin: 5px; " href="https://canvas.uva.nl/courses/8175"><i class="icon-home"></i> <span>&nbsp;Home</span> </a> <a class="btn Button" style="margin: 5px; " href="https://canvas.uva.nl/courses/8175/pages/a-z" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/a-z" data-api-returntype="Page"><i class="icon-copy-course"></i> <span>&nbsp;View all topics (A-Z)</span> </a> <a class="btn Button" style="margin: 5px; " href="https://canvas.uva.nl/courses/8175/pages/contact" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/contact"><i class="icon-group"></i> <span>&nbsp;Contact</span> </a> <a class="btn Button" style="margin: 5px; " href="mailto:icto-csw@uva.nl" target="_blank"><i class="icon-compose"></i> <span>&nbsp;</span>Send us your feedback </a></div>
+            <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; text-align: center;"><a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175"><i class="icon-home"></i> <span>&nbsp;Home</span> </a> <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/a-z" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/a-z" data-api-returntype="Page"><i class="icon-copy-course"></i> <span>&nbsp;View all topics (A-Z)</span> </a> <a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/contact" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/contact"><i class="icon-group"></i> <span>&nbsp;Contact</span> </a> <a class="btn Button" style="margin: 5px;" href="mailto:icto-csw@uva.nl" target="_blank" rel="noopener"><i class="icon-compose"></i> <span>&nbsp;</span>Send us your feedback </a><a class="btn Button" style="margin: 5px; background-color: #008ee6; color: #ffffff;" href="https://canvas.uva.nl/courses/8175/assignments/427740" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/assignments/427740" data-api-returntype="Assignment"><i class="icon-student-view"></i> Live example</a></div>
         </div>
     </div>
 </div>
 <blockquote style="padding-top: 10px; padding-bottom: 10px;">
-    <p>Perusall is a tool which enables students to collaboratively annotate documents of your choice.
-    Students can start a new annotation thread in Perusall by simply selecting a piece of text or an image and typing a question or comment, 
-    which other students can reply to or upvote. Perusall's intended use is stimulate students to complete the required reading before lectures, 
-    so that you can continue discussions or address questions from the annotations during the lecture itself. <br><br>
-    Only the &nbsp;<i class="icon-quiz"></i> quick start has to be completed to set up Perusall for your course. 
-    If you need help or advice, don't hesitate to <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank">book an appointment</a> with ICTO!</p>
+    <p>Perusall is a tool which enables students to collaboratively annotate documents of your choice. Students can start a new annotation thread in Perusall by simply selecting a piece of text or an image and typing a question or comment, which other students can reply to or upvote. Perusall's intended use is stimulate students to complete the required reading before lectures, so that you can continue discussions or address questions from the annotations during the lecture itself. <br /><br />Only the &nbsp;<i class="icon-quiz"></i> quick start has to be completed to set up Perusall for your course. If you need help or advice, don't hesitate to <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank" rel="noopener">book an appointment</a> with ICTO!</p>
 </blockquote>
-
 <div class="enhanceable_content tabs">
     <ul>
         <li>
-            <a href="#tab-0" style="background-color: #ffffff;">
-                <div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000;">
-                    <span style="font-size: 13pt;"><strong>Getting started</strong></span>
-                </div>
-            </a>
+            <div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000;"><span style="font-size: 13pt;"><strong><a href="#tab-0">Getting started</a></strong></span></div>
         </li>
         <li>
-            <a href="#tab-1" style="background-color: #ffffff;">
-                <div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000;">
-                    <span style="font-size: 13pt;"><strong>Tips & tricks</strong></span>
-                </div>
-            </a>
+            <div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000;"><span style="font-size: 13pt;"><strong><a href="#tab-1">Tips &amp; tricks</a></strong></span></div>
         </li>
     </ul>
-
-    <div id="tab-0" style="background-color: #ffffff; height: auto; padding: 30px; padding-top: 30px; padding-bottom: 50px;">
-        <!-----------------------QUICK START------------------------>
-        <br><h3><i class="icon-quiz"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Quick start</strong></span></h3>
+    <div id="tab-0" style="background-color: #ffffff; height: auto; padding: 30px; padding-top: 30px; padding-bottom: 50px;"><br />
+        <h3><i class="icon-quiz"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Quick start</strong></span></h3>
         <h3><span class="element_toggler " aria-controls="FAQquick1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>1. Create a Perusall assignment in Canvas</a></span></span></h3>
         <ul id="FAQquick1" style="list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                        <p><b>Please do not skip any of the steps below. If you do, your Perusall set up might not function.</b></p>
+                        <p><strong>Please do not skip any of the steps below. If you do, your Perusall set up might not function.</strong></p>
                         <ol>
                             <li>Go to the Assignments page in your Canvas course.</li>
                             <li>Click on <u>+ Assignment</u>.</li>
                             <li>Fill in <u>10</u> as the maximum number of points.</li>
                             <li>Select <u>External tool</u> as the submission type.</li>
                             <li>Select <u>Perusall</u> from the list of external tools.</li>
-                            <li>Select <u>Load this tool in a new tab</u>. Your submission type should now be set up like in the image below.
-                                <img src="/courses/8175/files/8525497/preview" alt="submission_type_perusall" /></li>
+                            <li>Select <u>Load this tool in a new tab</u>. Your submission type should now be set up like in the image below. <img src="https://canvas.uva.nl/courses/8175/files/8525497/preview" alt="submission_type_perusall" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8525497" data-api-returntype="File" /></li>
                             <li>Assign the assignment to everyone, fill in a due date and click <u>Save</u>.</li>
                         </ol>
                         <p>You've created a Canvas assignment for Perusall! The next step is to go to Perusall, add a document and create an assignment in there.</p>
@@ -63,30 +46,31 @@
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                    <ol>
                         <p>Before you can create an assignment in Perusall, you'll have to upload the documents which students have to annotate to your Perusall library.</p>
                         <ol>
-                            <li>Go to the Perusall assignment you've just created in Canvas.</li>
-                            <li>Click on <u>Load [assignment name here] in a new window</u> to open Perusall.</li>
-                            <li>Go to the <u>Library</u> tab and click <u>+ Add content</u>.</li>
-                            <li>Select how you want to upload your document. You can upload documents from your own computer by clicking on <u>Documents from my device</u>, but feel free to try out the other options!
-                                <img src="/courses/8175/files/8565788/preview" alt="add_content" /></li>
-                            <li>Select the document you wish to upload to Perusall.</li><br>
+                            <ol>
+                                <ol>
+                                    <li>Go to the Perusall assignment you've just created in Canvas.</li>
+                                    <li>Click on <u>Load [assignment name here] in a new window</u> to open Perusall.</li>
+                                    <li>Go to the <u>Library</u> tab and click <u>+ Add content</u>.</li>
+                                    <li>Select how you want to upload your document. You can upload documents from your own computer by clicking on <u>Documents from my device</u>, but feel free to try out the other options! <img src="https://canvas.uva.nl/courses/8175/files/8565788/preview" alt="add_content" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8565788" data-api-returntype="File" /></li>
+                                    <li>Select the document you wish to upload to Perusall.</li>
+                                </ol>
+                            </ol>
                         </ol>
-                        
+                        <br />
                         <p>You've added your document to Perusall! The next step is to create an assignment to which the document is attached.</p>
                         <ol>
-                            <li>Go to the <u>Assignments</u> tab.</li>
-                            <li>Click on <u>+ Add assignment</u>.
-                                <img src="/courses/8175/files/8565787/preview" alt="add_assignment" /></li>
-                            <li>Select the document you wish to couple to this assignment. You can add as many documents to an assignment as you wish.</li>
-                            <li>Click on <u>Next step</u> to go the options tab.</li>
-                            <li>Set your submission deadline to the <u>same deadline</u> as in Canvas. If these do not match, you will not be able to automatically export your grades to Canvas!</li>
-                            <li>Fill in the <u>exact same assignment name</u> as in Canvas. Again, if these do not match, you will not be able to automatically export your grades to Canvas!
-                                <img src="/courses/8175/files/8527270/preview" alt="assignment_name_and_date" /></li>
-                            <li>Customize the other settings to your liking and click on <u>OK</u> to create the assignment.</li>
+                            <ol>
+                                <li>Go to the <u>Assignments</u> tab.</li>
+                                <li>Click on <u>+ Add assignment</u>. <img src="https://canvas.uva.nl/courses/8175/files/8565787/preview" alt="add_assignment" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8565787" data-api-returntype="File" /></li>
+                                <li>Select the document you wish to couple to this assignment. You can add as many documents to an assignment as you wish.</li>
+                                <li>Click on <u>Next step</u> to go the options tab.</li>
+                                <li>Set your submission deadline to the <u>same deadline</u> as in Canvas. If these do not match, you will not be able to automatically export your grades to Canvas!</li>
+                                <li>Fill in the <u>exact same assignment name</u> as in Canvas. Again, if these do not match, you will not be able to automatically export your grades to Canvas! <img src="https://canvas.uva.nl/courses/8175/files/8527270/preview" alt="assignment_name_and_date" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8527270" data-api-returntype="File" /></li>
+                                <li>Customize the other settings to your liking and click on <u>OK</u> to create the assignment.</li>
+                            </ol>
                         </ol>
-                    </ol>
                     </div>
                 </div>
             </li>
@@ -99,11 +83,8 @@
                         <p>If all students were to annotate one and the same document in Perusall, it'd quickly turn unreadable as a result of all the highlighted pieces of text from the annotations. To prevent this, Perusall has a grouping feature which distributes students across groups. Students can only see the annotations of their fellow group members.</p>
                         <ol>
                             <li>Go to the <u>Settings</u> menu in Perusall.</li>
-                            <li>Go to the <u>Grouping</u> tab.
-                                <img src="/courses/8175/files/8565845/preview" alt="grouping" /></li>
-                            <li>You can choose to either let Perusall <u>distribute students randomly</u> or <u>specify groups</u> yourself. 
-                                <br><b>a) Distribute students randomly:</b> Simply fill in the number of students in your course and the desired group size. <u><b>Note:</b></u> Perusall will create new group distributions for every single document when using the automatic group distribution feature. If you want students to stay in the same group throughout the course, you must specify the groups yourself. 
-                                <br><b>b) Specify groups:</b> Simply fill in a group number in front of the student name to assign a student to that group. <u><b>Note:</b></u> Students cannot be shown in Perusall until they have actually opened it. Thus, you can only manually assign students to a group once they've openend Perusall. It's recommended to ask students to open Perusall before the first assignment is available, so that you can distribute them across groups beforehand.</li>
+                            <li>Go to the <u>Grouping</u> tab. <img src="https://canvas.uva.nl/courses/8175/files/8565845/preview" alt="grouping" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8565845" data-api-returntype="File" /></li>
+                            <li>You can choose to either let Perusall <u>distribute students randomly</u> or <u>specify groups</u> yourself. <br /><strong>a) Distribute students randomly:</strong> Simply fill in the number of students in your course and the desired group size. <u><strong>Note:</strong></u> Perusall will create new group distributions for every single document when using the automatic group distribution feature. If you want students to stay in the same group throughout the course, you must specify the groups yourself. <br /><strong>b) Specify groups:</strong> Simply fill in a group number in front of the student name to assign a student to that group. <u><strong>Note:</strong></u> Students cannot be shown in Perusall until they have actually opened it. Thus, you can only manually assign students to a group once they've openend Perusall. It's recommended to ask students to open Perusall before the first assignment is available, so that you can distribute them across groups beforehand.</li>
                             <li>Click <u>Save changes</u> to save the group settings.</li>
                         </ol>
                     </div>
@@ -119,34 +100,25 @@
                         <ol>
                             <li>Go to the <u>Settings</u> menu in Perusall.</li>
                             <li>Go to the <u>Scoring</u> tab.</li>
-                            <li>Set release score to students to either:
-                                <br>a) <u>only after instructor manually releases</u> if you want to press a button in the Perusall gradebook to release the grades or
-                                <br>b) <u>after the assignment deadline has passed, including any late annotation period and post-deadline reply window</u> if you want the grades to be automatically released in Perusall once the assignment deadline has passed.
-                                Releasing the scores immediately after submitting is discouraged, as this incentivizes students to game Perusall's scoring before the deadline.
-                            </li>
-                            <li>Make sure the <u>lowest possible score is 0</u> and the <u>maximum score is equal to the amount of points the assignment is worth in Canvas</u>. (10 in this quick start guide.) 
-                                If these numbers do not match, the grades in Perusall and Canvas will differ!</li>
-                            <li>Set grade sync to LMS to either:
-                                <br>a) <u>Manually sync assignment scores to LMS</u> if you want to press a button in the Perusall gradebook to send the grades to Canvas or
-                                <br>b) <u>Automatically sync assignment score to LMS</u> if you want the grades to be automatically sent to Canvas once the assignment deadline has passed. 
-                                (Please note that it can take up to two hours before the grades are automatically sent to Canvas.) The image below shows our recommended scoring settings.
-                                <img src="/courses/8175/files/8565858/preview" alt="scoring_settings" /></li>
+                            <li>Set release score to students to either: <br />a) <u>only after instructor manually releases</u> if you want to press a button in the Perusall gradebook to release the grades or <br />b) <u>after the assignment deadline has passed, including any late annotation period and post-deadline reply window</u> if you want the grades to be automatically released in Perusall once the assignment deadline has passed. Releasing the scores immediately after submitting is discouraged, as this incentivizes students to game Perusall's scoring before the deadline.</li>
+                            <li>Make sure the <u>lowest possible score is 0</u> and the <u>maximum score is equal to the amount of points the assignment is worth in Canvas</u>. (10 in this quick start guide.) If these numbers do not match, the grades in Perusall and Canvas will differ!</li>
+                            <li>Set grade sync to LMS to either: <br />a) <u>Manually sync assignment scores to LMS</u> if you want to press a button in the Perusall gradebook to send the grades to Canvas or <br />b) <u>Automatically sync assignment score to LMS</u> if you want the grades to be automatically sent to Canvas once the assignment deadline has passed. (Please note that it can take up to two hours before the grades are automatically sent to Canvas.) The image below shows our recommended scoring settings. <img src="https://canvas.uva.nl/courses/8175/files/8565858/preview" alt="scoring_settings" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8565858" data-api-returntype="File" /></li>
                         </ol>
-                            <p>Now that the general scoring settings have been configured, you can start configuring the automatic grading.
+                        <p>Now that the general scoring settings have been configured, you can start configuring the automatic grading.</p>
                         <ol>
                             <li>Select a scoring preset. <u>Hollistic</u> is generally a good starting point.</li>
                             <li>Tweak the scoring preset. We suggest the following:
                                 <ul>
-                                    <li><b>Check whether the options of all scoring criteria fit your texts.</b> For example, if your texts are very short, you might want to lower the active engagement time and the number of required comments.</li>
-                                    <li><b>Have the scoring weights exceed 100% by about 10 to 40 percent</b>, so that students have various ways to earn full credits.</li>
-                                    <li><b>Modify the number of high quality comments under the annotation content options</b> to a number of comments that fits the length, complexity and discussability of your text.</li>
-                                    <li><b>Have annotation content, getting responses and upvoting make up the largest bulk of your scoring.</b></li>
-                                    <li>Some students might prefer to read on paper rather than from Perusall. <b>Make sure it's possible to attain a (near) 100% score without active reading time, reading to the end and opening the assignment</b>.</li>
+                                    <li><strong>Check whether the options of all scoring criteria fit your texts.</strong> For example, if your texts are very short, you might want to lower the active engagement time and the number of required comments.</li>
+                                    <li><strong>Have the scoring weights exceed 100% by about 10 to 40 percent</strong>, so that students have various ways to earn full credits.</li>
+                                    <li><strong>Modify the number of high quality comments under the annotation content options</strong> to a number of comments that fits the length, complexity and discussability of your text.</li>
+                                    <li><strong>Have annotation content, getting responses and upvoting make up the largest bulk of your scoring.</strong></li>
+                                    <li>Some students might prefer to read on paper rather than from Perusall. <strong>Make sure it's possible to attain a (near) 100% score without active reading time, reading to the end and opening the assignment</strong>.</li>
                                     <li>You can also modify your scoring per assignment in the assignment settings instead, in case your texts vary greatly.</li>
                                 </ul>
+                            </li>
                         </ol>
-                        <p>The image below shows and example of a recommended scoring set up. 
-                            <img src="/courses/8175/files/8531004/preview" alt="grading" /></p>            
+                        <p>The image below shows and example of a recommended scoring set up. <img src="https://canvas.uva.nl/courses/8175/files/8531004/preview" alt="grading" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8531004" data-api-returntype="File" /></p>
                     </div>
                 </div>
             </li>
@@ -159,9 +131,7 @@
                         <p>Perusall can automatically score both Dutch and English annotation content, so it's important to select the correct language before your assignments start.</p>
                         <ol>
                             <li>Go to the <u>Settings</u> in Perusall.</li>
-                            <li>Select your desired annotation language.
-                                <img src="/courses/8175/files/8547839/preview" alt="annotation_language" />
-                            </li>
+                            <li>Select your desired annotation language. <img src="https://canvas.uva.nl/courses/8175/files/8547839/preview" alt="annotation_language" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8547839" data-api-returntype="File" /></li>
                             <li>Click <u>Save changes</u> at the bottom of the page.</li>
                         </ol>
                     </div>
@@ -175,48 +145,42 @@
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
                         <p>Since many students might not have used a application like Perusall before, it's important to properly inform the students about how Perusall works and what is expected of them. We recommend the following:</p>
                         <ul>
-                            <li><b>Communicate the number of high quality comments needed</b> to receive the maximum score on annotation content.</li>
-                            <li><b>Do not inform students of the other criteria thresholds for a maximum score.</b> You don't have to specify exactly how many minutes students should spend reading a document, as this might invite students to try to game the system. It's also beyond the purpose of Perusall, i.e. starting discussions and asking questions.</li>
-                            <li><b>Define what a high quality comment is.</b> You can share <a href="https://support.perusall.com/hc/en-us/articles/360034824694-How-is-annotation-quality-defined-in-Perusall-">this page</a> with students, which contains multiple annotations of varying quality and explains how Perusall determines the quality of a comment.</li>
-                            <li><b>Advise students to annotate well before the deadline</b>, as they are unlikely to receive responses and/or upvotes when placing comments a few hours before the deadline.</li>
-                            <li><b>Instruct students to flag annotatoins in cases of plagiarism or inappropriate content</b>. You will receive an e-mail with the flagged comment, so you can assess it.</li>
-                            <li><b>Inform students that they can view how their annotations were scored</b> when the deadline has passed under 'My scores' in Perusall.</li>
-                            <li><b>Communicate to students that you will be reading the comments</b> to use them for your lectures and to manually adjust scores (if applicable).</li>
-                            <li><b>Stress that students have to open Perusall via the link in the Canvas assignment.</b> If they don't, their grade might not propagate to the Canvas gradebook, in which case you'll have to do this manually.</li>
+                            <li><strong>Communicate the number of high quality comments needed</strong> to receive the maximum score on annotation content.</li>
+                            <li><strong>Do not inform students of the other criteria thresholds for a maximum score.</strong> You don't have to specify exactly how many minutes students should spend reading a document, as this might invite students to try to game the system. It's also beyond the purpose of Perusall, i.e. starting discussions and asking questions.</li>
+                            <li><strong>Define what a high quality comment is.</strong> You can share <a href="https://support.perusall.com/hc/en-us/articles/360034824694-How-is-annotation-quality-defined-in-Perusall-">this page</a> with students, which contains multiple annotations of varying quality and explains how Perusall determines the quality of a comment.</li>
+                            <li><strong>Advise students to annotate well before the deadline</strong>, as they are unlikely to receive responses and/or upvotes when placing comments a few hours before the deadline.</li>
+                            <li><strong>Instruct students to flag annotatoins in cases of plagiarism or inappropriate content</strong>. You will receive an e-mail with the flagged comment, so you can assess it.</li>
+                            <li><strong>Inform students that they can view how their annotations were scored</strong> when the deadline has passed under 'My scores' in Perusall.</li>
+                            <li><strong>Communicate to students that you will be reading the comments</strong> to use them for your lectures and to manually adjust scores (if applicable).</li>
+                            <li><strong>Stress that students have to open Perusall via the link in the Canvas assignment.</strong> If they don't, their grade might not propagate to the Canvas gradebook, in which case you'll have to do this manually.</li>
                         </ul>
                     </div>
                 </div>
             </li>
         </ul>
-
-        <!-----------------------COPYRIGHT------------------------>
-        <br><h3><i class="icon-standards"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Copyright</strong></span></h3>
+        <br />
+        <h3><i class="icon-standards"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Copyright</strong></span></h3>
         <h3><span class="element_toggler " aria-controls="FAQcopygright1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>What documents am I allowed to use in Perusall?</a></span> </span></h3>
         <ul id="FAQcopygright1" style="list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                        <p>You can check for potential copyright issues when uploading the reading material using this <a href="https://h5p.org/node/570927" target="_blank">Dutch</a> or <a href="https://tinyurl.com/45ej8dj2" target="_blank">English</a> decision tree.
-                        It's always permitted to use 20% (or less) of a book or journal issue up to a maximum of 40 pages, due to an exception for educational institutions. 
-                        </p>
+                        <p>You can check for potential copyright issues when uploading the reading material using this <a href="https://h5p.org/node/570927" target="_blank" rel="noopener">Dutch</a> or <a href="https://tinyurl.com/45ej8dj2" target="_blank" rel="noopener">English</a> decision tree. It's always permitted to use 20% (or less) of a book or journal issue up to a maximum of 40 pages, due to an exception for educational institutions.</p>
                     </div>
                 </div>
             </li>
         </ul>
-
-        <!-----------------------GROUPING------------------------>
-        <br><h3><i class="icon-group"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Grouping</strong></span></h3>
+        <br />
+        <h3><i class="icon-group"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Grouping</strong></span></h3>
         <h3><span class="element_toggler " aria-controls="FAQgrouping1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How can I adjust the groups for a single document?</a></span> </span></h3>
         <ul id="FAQgrouping1" style="list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                        <p><b>Please note it's not possible to modify groups for an <u>assignment</u>, but only for a <u>document</u>, as groups are inherently coupled to documents.</b></p>
+                        <p><strong>Please note it's not possible to modify groups for an <u>assignment</u>, but only for a <u>document</u>, as groups are inherently coupled to documents.</strong></p>
                         <ol>
                             <li>Go to the <u>Library</u> tab in Perusall.</li>
-                            <li>Select the document for which you want to change the groups and click on <u>Groups</u>.
-                                <img src="/courses/8175/files/8548155/preview" alt="adjust_grouping" />
-                            </li>
+                            <li>Select the document for which you want to change the groups and click on <u>Groups</u>. <img src="https://canvas.uva.nl/courses/8175/files/8548155/preview" alt="adjust_grouping" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8548155" data-api-returntype="File" /></li>
                             <li>Drag student names to the desired groups. The groups will be saved automatically.</li>
                         </ol>
                     </div>
@@ -233,18 +197,14 @@
                 </div>
             </li>
         </ul>
-
-        <!-----------------------ANALYSIS------------------------>
-        <br><h3><i class="icon-stats"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Analysis</strong></span></h3>
+        <br />
+        <h3><i class="icon-stats"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Analysis</strong></span></h3>
         <h3><span class="element_toggler " aria-controls="FAQanalysis1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>Can I get an overview of the most upvoted annotations to use in my lectures?</a></span> </span></h3>
         <ul id="FAQanalysis1" style="list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                        <p>When selecting an assignment, you can view the most upvoted annotations on the bottom right.
-                            <br><br>
-                            <img src="/courses/8175/files/8548052/preview" alt="most_upvoted_comments" />
-                        </p>
+                        <p>When selecting an assignment, you can view the most upvoted annotations on the bottom right. <br /><br /><img src="https://canvas.uva.nl/courses/8175/files/8548052/preview" alt="most_upvoted_comments" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8548052" data-api-returntype="File" /></p>
                     </div>
                 </div>
             </li>
@@ -256,18 +216,15 @@
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
                         <ol>
                             <li>Go to the <u>Students</u> tab in Perusall.</li>
-                            <li>Select the assignment for which you want to see the comments.
-                                <img src="/courses/8175/files/8552310/preview" alt="student_annotations" />
-                            </li>
+                            <li>Select the assignment for which you want to see the comments. <img src="https://canvas.uva.nl/courses/8175/files/8552310/preview" alt="student_annotations" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8552310" data-api-returntype="File" /></li>
                             <li>All comments will be shown right below.</li>
                         </ol>
                     </div>
                 </div>
             </li>
         </ul>
-
-        <!-----------------------GRADING------------------------>
-        <br><h3><i class="icon-assignment"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Grading</strong></span></h3>
+        <br />
+        <h3><i class="icon-assignment"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Grading</strong></span></h3>
         <h3><span class="element_toggler " aria-controls="FAQgrading1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How is annotation quality determined?</a></span> </span></h3>
         <ul id="FAQgrading1" style="list-style: none; display: none;">
             <li>
@@ -283,25 +240,11 @@
                             <li>Upvotes</li>
                             <li>Quizzes</li>
                         </ul>
-                        <p>Besides annotation quality, all other criteria are configured and scored fairly straightforward (e.g. opening the assignment is simply the number of times a student opened the assignment in Perusall).
-                            Annotations are either assigned a low, medium or high quality rating by Perusall's algorithm. You can choose how many points should be assigned to each quality level, with the default being 0, 1/2 and 1 points respectively.
-                            By default, Perusall also deducts up to 10% if comments are not spread throughout the document. <b>We recommend leaving the aforementioned settings as is 
-                            and only configuring the number of required high quality comments for a full score on the annotation quality criteria.</b>                     
-                        </p>
-                        <p>According to <a href="https://support.perusall.com/hc/en-us/articles/360034824694-How-is-annotation-quality-defined-in-Perusall-" target="_blank">Perusall's documentation</a> their algorithm 
-                            <i>"... uses linguistic features of the text to create a predictive model for the score a human instructor would give. 
-                            In other words, instead of trying to figure out a set of rules to measure these things, we create a "training set" consisting of a large number of annotations 
-                            along with grades given by multiple expert human graders that are grading according to the rubric, and then create an algorithm that combines the linguistic 
-                            features to best predict the scores given by the expert human graders. What we found in our validation work is that Perusall agreed with the expert human 
-                            graders about as often as two humans agreed with each other!"</i></p>
-                        <p>
-                            <div class="alert">
-                            <strong><i class="icon-warning"></i> Note:</strong> Keep in mind that Perusall's algorithm does not take the content of your document into account when calculating the annotation quality. 
-                            It is simply trained to recognize the linguistic features of low, medium and high quality annotations based on its training set. Students could game Perusall by placing 
-                            linguistically elaborate annotations that are completely off-topic and still receive in high quality ratings. Thus, it's important to scroll through 
-                            and sample some of the annotations that your students have made every once in a while.
-                            </div>
-                        </p>
+                        <p>Besides annotation quality, all other criteria are configured and scored fairly straightforward (e.g. opening the assignment is simply the number of times a student opened the assignment in Perusall). Annotations are either assigned a low, medium or high quality rating by Perusall's algorithm. You can choose how many points should be assigned to each quality level, with the default being 0, 1/2 and 1 points respectively. By default, Perusall also deducts up to 10% if comments are not spread throughout the document. <strong>We recommend leaving the aforementioned settings as is and only configuring the number of required high quality comments for a full score on the annotation quality criteria.</strong></p>
+                        <p>According to <a href="https://support.perusall.com/hc/en-us/articles/360034824694-How-is-annotation-quality-defined-in-Perusall-" target="_blank" rel="noopener">Perusall's documentation</a> their algorithm <i>"... uses linguistic features of the text to create a predictive model for the score a human instructor would give. In other words, instead of trying to figure out a set of rules to measure these things, we create a "training set" consisting of a large number of annotations along with grades given by multiple expert human graders that are grading according to the rubric, and then create an algorithm that combines the linguistic features to best predict the scores given by the expert human graders. What we found in our validation work is that Perusall agreed with the expert human graders about as often as two humans agreed with each other!"</i></p>
+                        <p>&nbsp;</p>
+                        <div class="alert"><strong><i class="icon-warning"></i> Note:</strong> Keep in mind that Perusall's algorithm does not take the content of your document into account when calculating the annotation quality. It is simply trained to recognize the linguistic features of low, medium and high quality annotations based on its training set. Students could game Perusall by placing linguistically elaborate annotations that are completely off-topic and still receive in high quality ratings. Thus, it's important to scroll through and sample some of the annotations that your students have made every once in a while.</div>
+                        <p>&nbsp;</p>
                     </div>
                 </div>
             </li>
@@ -314,12 +257,8 @@
                         <ol>
                             <li>Go to the <u>Gradebook</u> in Perusall.</li>
                             <li>Click on the grade of which you wish to see the calculation.</li>
-                            <li>The calculation will be shown right below. Note how this student still scored 103.2% (= 10), despite not attaining a perfect score on the annotation quality. 
-                                This is the intended effect of having a scoring set up which exceeds 100% (115% in this case), as Perusall should not be used 
-                                to assess students' annotations, but to stimulate students to read and discuss course material prior to lectures.
-                                <img src="/courses/8175/files/8559031/preview" alt="grade_calculation" />
-                            </li>
-                        </ol>            
+                            <li>The calculation will be shown right below. Note how this student still scored 103.2% (= 10), despite not attaining a perfect score on the annotation quality. This is the intended effect of having a scoring set up which exceeds 100% (115% in this case), as Perusall should not be used to assess students' annotations, but to stimulate students to read and discuss course material prior to lectures. <img src="https://canvas.uva.nl/courses/8175/files/8559031/preview" alt="grade_calculation" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8559031" data-api-returntype="File" /></li>
+                        </ol>
                     </div>
                 </div>
             </li>
@@ -329,14 +268,12 @@
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                        <p><b>Please note that this article explains how to overwrite the assignment grade, not the annotation quality rating.</b></p> 
+                        <p><strong>Please note that this article explains how to overwrite the assignment grade, not the annotation quality rating.</strong></p>
                         <ol>
                             <li>Go to the <u>Gradebook</u> in Perusall.</li>
                             <li>Click on the grade you wish to edit.</li>
-                            <li>Enter the new grade. You can navigate to the next student with the arrows at the top right.
-                                <img src="/courses/8175/files/8558983/preview" alt="change_grade" />
-                            </li>
-                        </ol>    
+                            <li>Enter the new grade. You can navigate to the next student with the arrows at the top right. <img src="https://canvas.uva.nl/courses/8175/files/8558983/preview" alt="change_grade" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8558983" data-api-returntype="File" /></li>
+                        </ol>
                     </div>
                 </div>
             </li>
@@ -346,14 +283,12 @@
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                        <p>Like the assignment grade, the annotation quality rating can also be overwritten. </p>
+                        <p>Like the assignment grade, the annotation quality rating can also be overwritten.</p>
                         <ol>
                             <li>Go to the <u>Gradebook</u> in Perusall.</li>
                             <li>Click on the grade that belongs to the assignment of which you wish to change the annotation quality scores. If you want to go through all students for this assignment, simply click on the first student to start there.</li>
                             <li>Go to the <u>Comments submitted</u> tab.</li>
-                            <li>Change the annotation quality by clicking on it and selecting a new rating. You can navigate to the next student using the arrows at the top right.
-                                <img src="/courses/8175/files/8558965/preview" alt="change_annotation_quality" />
-                            </li>
+                            <li>Change the annotation quality by clicking on it and selecting a new rating. You can navigate to the next student using the arrows at the top right. <img src="https://canvas.uva.nl/courses/8175/files/8558965/preview" alt="change_annotation_quality" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8558965" data-api-returntype="File" /></li>
                         </ol>
                     </div>
                 </div>
@@ -374,10 +309,7 @@
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                        <p>We generally recommend to have the average Perusall grade make up no more than 10% of the final grade or to use it as a bonus. In the webinar below, TLC recommends the same.
-                            <br><br>
-                            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tZILHeewXCE?start=777" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </p>
+                        <p>We generally recommend to have the average Perusall grade make up no more than 10% of the final grade or to use it as a bonus. In the webinar below, TLC recommends the same. <br /><br /><iframe title="YouTube video player" src="https://www.youtube-nocookie.com/embed/tZILHeewXCE?start=777" width="560" height="315" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe></p>
                     </div>
                 </div>
             </li>
@@ -390,52 +322,38 @@
                         <ol>
                             <li>Go to the <u>Gradebook</u> in Perusall.</li>
                             <li>Click on <u>Release to students</u> to release the grades in Perusall. If you've configured Perusall to release these automatically when the assignment ends in the quick start, you can skip this step.</li>
-                            <li>Click on <u>Sync to LMS</u> to sync the grades to Canvas. Your students grades should appear in the Canvas gradebook shortly after.
-                                <img src="/courses/8175/files/8559516/preview" alt="sync_to_lms" /></li>
+                            <li>Click on <u>Sync to LMS</u> to sync the grades to Canvas. Your students grades should appear in the Canvas gradebook shortly after. <img src="https://canvas.uva.nl/courses/8175/files/8559516/preview" alt="sync_to_lms" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8559516" data-api-returntype="File" /></li>
                         </ol>
                     </div>
                 </div>
             </li>
         </ul>
-
-        <!-----------------------PLAGIARISM------------------------>
-        <br><h3><i class="icon-collection"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Plagiarism</strong></span></h3>
+        <br />
+        <h3><i class="icon-collection"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Plagiarism</strong></span></h3>
         <h3><span class="element_toggler " aria-controls="FAQplagiarism1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>Does Perusall have some form of plagiarism detection?</a></span> </span></h3>
         <ul id="FAQplagiarism1" style="list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                        <p>Perusall's own plagiarism detection is very limited. According to <a href="https://support.perusall.com/hc/en-us/articles/360033996014-How-does-Perusall-handle-inappropriate-content-posted-by-students-" target="_blank">Perusall's documentation</a>, 
-                            Perusall <i>"...automatically flag[s] comments that are exact duplicates of comments that have already been posted to Perusall (excepting very short comments like "I agree!" 
-                            which are likely to be repeated). Instructors will receive an email notification if this happens."</i> 
-                        </p>
-                        <p>Besides the above, plagiarism detection is non-existent in Perusall. <b>This means that Perusall does not compare posted annotations to online content like dedicated plagiarism detectors (e.g. Turnitin) do. 
-                            Neither does Perusall check for (self-)plagiarism across assignments.</b></p>
-                        <p>Because of the above, you will mostly have to rely on good faith that students flag plagiarized comments of others
-                            and routinely read annotations yourself. It's discouraged to never look at the annotations altogether, as discussing these 
-                            in class can lead to valuable discussions in class.
-                        </p>
+                        <p>Perusall's own plagiarism detection is very limited. According to <a href="https://support.perusall.com/hc/en-us/articles/360033996014-How-does-Perusall-handle-inappropriate-content-posted-by-students-" target="_blank" rel="noopener">Perusall's documentation</a>, Perusall <i>"...automatically flag[s] comments that are exact duplicates of comments that have already been posted to Perusall (excepting very short comments like "I agree!" which are likely to be repeated). Instructors will receive an email notification if this happens."</i></p>
+                        <p>Besides the above, plagiarism detection is non-existent in Perusall. <strong>This means that Perusall does not compare posted annotations to online content like dedicated plagiarism detectors (e.g. Turnitin) do. Neither does Perusall check for (self-)plagiarism across assignments.</strong></p>
+                        <p>Because of the above, you will mostly have to rely on good faith that students flag plagiarized comments of others and routinely read annotations yourself. It's discouraged to never look at the annotations altogether, as discussing these in class can lead to valuable discussions in class.</p>
                     </div>
                 </div>
             </li>
         </ul>
-
-        <!-----------------------HELP OR ADVICE------------------------>
-        <br><h3><i class="icon-question"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Want help or advice?</strong></span></h3>
-            <div class="content-box">
-                <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                    <p><a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank">Book an appointment</a> with ICTO or <a href="mailto:icto-csw@uva.nl?subject=Perusall">send us an e-mail</a>!</p>
-                </div>
+        <br />
+        <h3><i class="icon-question"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Want help or advice?</strong></span></h3>
+        <div class="content-box">
+            <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
+                <p><a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank" rel="noopener">Book an appointment</a> with ICTO or <a href="mailto:icto-csw@uva.nl?subject=Perusall">send us an e-mail</a>!</p>
             </div>
-        </ul>
+        </div>
         <p>&nbsp;</p>
     </div>
-
     <div id="tab-1" style="background-color: #ffffff; height: auto; padding: 30px; padding-top: 30px; padding-bottom: 50px;">
-
-        <!-- TLC Webinar -->
         <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #063852; padding: 15px; height: auto; background-color: #fafafa;">
-            <table style="border-collapse: collapse; width: 100.812%; border:0">
+            <table style="border-collapse: collapse; width: 100.812%; border: 0;">
                 <tbody>
                     <tr>
                         <td style="width: 19.3883%;">
@@ -462,15 +380,13 @@
                         <td style="width: 1.47733%;">
                             <p><strong>&nbsp;</strong></p>
                         </td>
-                        <td style="width: 26.3964%;"><a class="btn Button inline_disabled" style="margin: 5px;" href="https://www.youtube.com/watch?v=tZILHeewXCE" target="_blank"><i class="icon-arrow-right"></i> &nbsp;Watch </a></td>
+                        <td style="width: 26.3964%;"><a class="btn Button inline_disabled" style="margin: 5px;" href="https://www.youtube.com/watch?v=tZILHeewXCE" target="_blank" rel="noopener"><i class="icon-arrow-right"></i> &nbsp;Watch </a></td>
                     </tr>
                 </tbody>
             </table>
         </div>
-
-        <!-- Gijs Schumacher Perusall tips -->
         <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #063852; padding: 15px; height: auto; background-color: #fafafa;">
-            <table style="border-collapse: collapse; width: 100.812%; border:0">
+            <table style="border-collapse: collapse; width: 100.812%; border: 0;">
                 <tbody>
                     <tr>
                         <td style="width: 19.3883%;">
@@ -494,15 +410,13 @@
                         <td style="width: 1.47733%;">
                             <p><strong>&nbsp;</strong></p>
                         </td>
-                        <td style="width: 26.3964%;"><a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/perusall-tips" target="_blank"><i class="icon-arrow-right"></i> <span>&nbsp;Read more</span> </a></td>
+                        <td style="width: 26.3964%;"><a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/perusall-tips" target="_blank" rel="noopener" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/perusall-tips" data-api-returntype="Page"><i class="icon-arrow-right"></i> <span>&nbsp;Read more</span> </a></td>
                     </tr>
                 </tbody>
             </table>
         </div>
-
-        <!-- TLC Perusall extended manual -->
         <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #063852; padding: 15px; height: auto; background-color: #fafafa;">
-            <table style="border-collapse: collapse; width: 100.812%; border:0">
+            <table style="border-collapse: collapse; width: 100.812%; border: 0;">
                 <tbody>
                     <tr>
                         <td style="width: 19.3883%;">
@@ -526,11 +440,10 @@
                         <td style="width: 1.47733%;">
                             <p><strong>&nbsp;</strong></p>
                         </td>
-                        <td style="width: 26.3964%;"><a class="btn Button" style="margin: 5px;" href="https://eur04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcanvas.uva.nl%2Fcourses%2F6346%2Ffiles%2F2993746%2Fdownload%3Fwrap%3D1&data=04%7C01%7CA.Hakhverdian%40uva.nl%7C2a04ff6b3bce40ba1e8c08d8a28ce9dc%7Ca0f1cacd618c4403b94576fb3d6874e5%7C1%7C0%7C637438073417950427%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=TbW6ONgTQIpfwqa7z84igazbpZnoV%2BSp6URALtXXHY0%3D&reserved=0"><i class="icon-arrow-right"></i> <span>&nbsp;Download</span> </a></td>
+                        <td style="width: 26.3964%;"><a class="btn Button" style="margin: 5px;" href="https://eur04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcanvas.uva.nl%2Fcourses%2F6346%2Ffiles%2F2993746%2Fdownload%3Fwrap%3D1&amp;data=04%7C01%7CA.Hakhverdian%40uva.nl%7C2a04ff6b3bce40ba1e8c08d8a28ce9dc%7Ca0f1cacd618c4403b94576fb3d6874e5%7C1%7C0%7C637438073417950427%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=TbW6ONgTQIpfwqa7z84igazbpZnoV%2BSp6URALtXXHY0%3D&amp;reserved=0"><i class="icon-arrow-right"></i> <span>&nbsp;Download</span> </a></td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
 </div>
-
