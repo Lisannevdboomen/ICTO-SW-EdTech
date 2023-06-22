@@ -1,4 +1,4 @@
-/* Tabs */
+/* ====== TABS ====== */
 
 .enhanceable_content.tabs li {
   background-color: #ffffff;
@@ -6,12 +6,59 @@
 
 a[href*="tab"] {
   background-color: #ffffff;
-  margin: 5px;
-  height: 35px;
   border: #000000;
-  font-weight: bold;
+  font-weight: normal;
 }
 
+a[href*="tab"]:hover {
+  /*background-image: radial-gradient(rgba(241, 241, 241, 0.521), white);*/
+  color: rgb(226, 83, 0);
+}
+
+#tabs a {
+    color: rgb(255, 115, 0);
+  }
+
+
+/* ====== LINKS ====== */
+
+a:hover {
+  color: rgb(255, 115, 0);
+}
+
+.list-view a.active {
+  color: rgb(238, 87, 0);
+  font-weight: bold;
+  border-left: 2px solid rgb(250, 113, 33);
+  border-radius: 0;
+  padding-left: 4px;
+}
+
+/* ====== PAGE TITLE (h1) ====== */
+
+  .theme-preview__page-header {
+    margin-top: 0;
+    font-weight: bold;
+    text-align: center;
+    position: sticky;
+    background-color: #ffffff;
+  }
+
+h1.page-title {
+  position: sticky;
+  top: 15px;
+}
+
+.pages.show .page-title {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ffffff;
+  color: #2d3b45;
+  position: sticky;
+  top: 15px;
+  z-index: 10;
+}
 
 
 
