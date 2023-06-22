@@ -1,0 +1,43 @@
+/* Tabs */
+
+.enhanceable_content.tabs li {
+  background-color: #ffffff;
+}
+
+a[href*="tab"] {
+  background-color: #ffffff;
+  margin: 5px;
+  height: 35px;
+  border: #000000;
+  font-weight: bold;
+}
+
+
+
+
+/* ================ BASE - DO NOT REMOVE OR EDIT ================ */
+
+tr.channel:not(.default) td.email_meta {
+  visibility: hidden;
+}
+
+nav a.collaborations {
+  display: none !important;
+}
+
+table.profile_table.editing
+  > tbody
+  > tr
+  :is(select#default_email_id, label[for="default_email_id"]) {
+  display: none;
+}
+
+/* ===================== END OF BASE ===================== */
+
+/*
+*
+* ==================================================
+* <SUBJECT TITLE (E.G. STYLING SPECIFIC COMPONENT)>
+* ==================================================
+*
+*/

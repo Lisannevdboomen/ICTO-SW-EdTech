@@ -33,7 +33,7 @@ Over 4 weken vindt een TestVision toets plaats voor @{items('Apply_to_each_-_sen
 (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}). Inloggen op TestVision kan via <a href="https://uva.testvision.nl/online/fe/login_tvb.htm">deze link</a> (gebruik je mobiele telefoon voor tweestapsverificatie).<br>
 <br>
 <strong>Hoe ga ik aan de slag?</strong><br>
-Bekijk <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test">deze instructies</a>. Er staan kopieën van de vragen van vorig jaar klaar in TestVision, zodat je deze gemakkelijk kan bewerken. Vraaginhoud kan gemakkelijk tot op het laatste moment worden aangepast, zolang je de wijzigingen opslaat en vervolgens <a hef="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test#RT_2">publiceert</a>. Grote wijzigingen zoals het toevoegen/verwijderen van vragen of het wijzigen van de algehele structuur van de toets kun je tot minimaal één week voor aanvang van de toets doorgeven aan ICTO.<br>
+Bekijk <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test">deze instructies</a>. Er staan kopieën van de vragen van vorig jaar klaar in TestVision, zodat je deze gemakkelijk kan bewerken. Vraaginhoud kan gemakkelijk tot op het laatste moment worden aangepast, zolang je de wijzigingen opslaat en vervolgens <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test#RT_2">publiceert</a>. Grote wijzigingen zoals het toevoegen/verwijderen van vragen of het wijzigen van de algehele structuur van de toets kun je tot minimaal één week voor aanvang van de toets doorgeven aan ICTO.<br>
 <br>
 <strong>Toetsinformatie:</strong>
 <ul>
@@ -62,4 +62,25 @@ Het ICTO-team Sociale Wetenschappen<br>
 <br>
 <br>
 <i>Dit is een geautomatiseerde mail. Mail ons gerust in het geval van vragen of suggesties. </i>
+<br>
+<hr>
+<br>
+<strong>----- English -----</strong><br>
+<br>
+<p>Dear teacher,<br /><br />In 4 weeks, a TestVision exam will take place for @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}). Log in to TestVision using <a href="https://uva.testvision.nl/online/fe/login_tvb.htm">this link</a> (use your mobile phone for two-step verification).<br /><br /><strong>How do I get started?</strong><br />Take a look at <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test">these instructions</a>. There are copies of last year's questions in TestVision, so you can easily edit them to your liking. Question content can easily be changed up to the last minute, as long as you save the changes and then <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test#RT_2">publish them</a>. Major changes such as adding/removing questions or changing the overall structure of the test can be communicated to ICTO until at least one week before the test starts.<br /><br /><strong>Exam information:</strong></p>
+<ul>
+<li><strong>Name of the exam in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['NaamTestVision']}</li>
+<li><strong>W-number</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
+<li><strong>Course</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
+<li><strong>Study</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
+<li><strong>Course code</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
+<li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+<li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+<li><strong>Date</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
+<li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
+<li><strong>End</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
+<li><strong>Location</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
+<li><strong>Teacher(s)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
+</ul>
+<p><br /><strong>Inspection</strong><br />You can choose to schedule a digital inspection of the exam. Read all about the moment of inspection <a href="https://canvas.uva.nl/courses/8175/pages/inspection">here</a>.<br /><br />It is possible to <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">schedule an appointment</a> with the ICTO team. During the appointment, we will answer your questions about digital exams in TestVision or walk through the exam settings together.<br /><br />Kind regards,<br />The ICTO team Sociale Sciences<br /><br /><br /><br /><em>This is an automated e-mail. Feel free to contact us in case of questions or suggestions.</em></p>
 

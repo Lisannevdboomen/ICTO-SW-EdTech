@@ -1,5 +1,3 @@
-<!------------------------ 1/1 TOETS, naar: DOCENT ------------------------->
-
 Beste docent,<br>
 <br>
 3 dagen geleden vond een TestVision toets plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}
@@ -13,7 +11,7 @@ stap voor stap wordt uitgelegd hoe nakijken in TestVision in zijn werk gaat. <br
 Stuur ons een e-mail met het vak, de toets in kwestie en de namen of e-mailadressen van de overige beoordelaars. Wij zullen ons best doen om ze z.s.m. toevoegen.<br>
 <br>
 <strong>Hoe krijg ik de cijfers in Canvas (Final Grades)?</strong><br>
-<a href="https://canvas.uva.nl/courses/8175/pages/final-grades-and-testvision">Deze instructie</a> laat zien hoe je de cijfers vanuit TestVision naar het final grades menu in Canvas exporteert.<br>
+<a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-assessment#FAQ_F1">Deze instructie</a> laat zien hoe je de cijfers vanuit TestVision naar het final grades menu in Canvas exporteert.<br>
 <br>
 <strong>Toetsinformatie:</strong>
 <ul>
@@ -40,4 +38,24 @@ Het ICTO-team Sociale Wetenschappen<br>
 <br>
 <br>
 <i>Dit is een geautomatiseerde mail. Mail ons gerust in het geval van vragen of suggesties. </i>
-
+<br>
+<hr>
+<br>
+<strong>----- English -----</strong><br>
+<br>
+<p>Beste docent,<br /><br />3 days ago, a TestVision exam took place for @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}). We have given you rights in TestVision to start reviewing. You can log into TestVision using <a href="https://uva.testvision.nl/online/fe/login_tvb.htm">this link</a> (use your mobile phone for two-step verification).<br /><br /><strong>How do I get started?</strong><br />Look at <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-assessment">this instruction</a>, which explains how grading in TestVision works step-by-step. <br /><br /><strong>Are more people grading?</strong><br />Send us an e-mail with the course, the test in question and the names or e-mail addresses of the other reviewers. We will do our best to add them as soon as possible.<br /><br /><strong>How do I get the grades in Canvas (Final Grades)?</strong><br /><a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-assessment#FAQ_F1">This instruction</a> shows how to export the grades from TestVision to the final grades menu in Canvas.<br /><br /><strong>Exam information:</strong></p>
+<ul>
+<li><strong>Name of exam in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['NaamTestVision']}</li>
+<li><strong>W-number</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
+<li><strong>Course</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
+<li><strong>Study</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
+<li><strong>Course code</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
+<li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+<li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+<li><strong>Date</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
+<li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
+<li><strong>End</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
+<li><strong>Location</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
+<li><strong>Teacher(s)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
+</ul>
+<p><br />It is possible to <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">schedule an appointment</a> with the ICTO team. During the appointment, there is room to ask questions about the options when reviewing and analysing results in TestVision or the final grades menu.<br /><br />Kind regards,<br />Het ICTO team Sociale Sciences<br /><br /><br /><br /><br /><em>This is an automated e-mail. Feel free to contact us in case of questions or suggestions.</em></pa>
