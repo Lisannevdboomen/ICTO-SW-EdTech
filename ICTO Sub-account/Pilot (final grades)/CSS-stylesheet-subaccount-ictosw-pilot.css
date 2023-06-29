@@ -1,29 +1,43 @@
 /* ====== TABS ====== */
 
-.enhanceable_content.tabs li {
-  background-color: #ffffff;
-}
-
-a[href*="tab"] {
-  background-color: #ffffff;
-  border: #000000;
-  font-weight: normal;
-}
-
-a[href*="tab"]:hover {
-  /*background-image: radial-gradient(rgba(241, 241, 241, 0.521), white);*/
-  color: rgb(226, 83, 0);
-}
-
-#tabs a {
+/* opmaak tabs */
+.ui-tabs .ui-tabs-nav li a {
     color: rgb(255, 115, 0);
+    text-decoration: none !important;
+    padding: 15px;
+    font-weight: bold;
+    transition: color .2s ease-in-out;
   }
 
+/* hover effect: geen tab-borders */
+.ui-tabs .ui-tabs-nav li.ui-state-hover,
+.ui-tabs .ui-tabs-nav li:hover {
+  border-color: transparent;
+}
 
-/* ====== LINKS ====== */
+/* hover effect: underline effect op tab-tekst */
+.ui-tabs .ui-tabs-nav li.ui-state-hover a ,
+.ui-tabs .ui-tabs-nav li:hover a {
+  text-decoration: underline;
+}
 
+/* active tab opmaak */
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+  text-decoration: none;
+}
+
+
+/* ====== LINKS <a> ====== */
+
+/* link tekst opmaak */
+a {
+  transition: color .18s ease-in-out;
+}
+
+/* hover effect: oranje link tekst */
 a:hover {
   color: rgb(255, 115, 0);
+  text-decoration: none !important;
 }
 
 .list-view a.active {
@@ -32,7 +46,26 @@ a:hover {
   border-left: 2px solid rgb(250, 113, 33);
   border-radius: 0;
   padding-left: 4px;
+  cursor: default;
 }
+
+/* ====== BUTTON LINKS <a> ====== */
+
+a.Button {
+  color: #2d3b45;
+  border-color: #063852;
+  text-align: left;
+  background-color: #f5f5f5;
+}
+
+a.Button.btn {
+  text-align: center;
+}
+
+a.btn.Button--primary:hover {
+  background-color: rgb(114, 0, 0);
+  -webkit-box-shadow: 1px 2px 7px 0px #a1a1a14d;
+} 
 
 /* ====== PAGE TITLE (h1) ====== */
 
@@ -40,32 +73,112 @@ a:hover {
     margin-top: 0;
     font-weight: bold;
     text-align: center;
-    position: sticky;
+    /* position: sticky; */
     background-color: #ffffff;
   }
 
-h1.page-title {
-  position: sticky;
-  top: 15px;
-}
-
+/* Page title: opmaak, sticky on scroll */
 .pages.show .page-title {
   margin-top: 15px;
   font-weight: bold;
+  font-size: 1.8em;
   text-align: center;
   background-color: #ffffff;
   color: #2d3b45;
-  position: sticky;
-  top: 15px;
+  /* position: sticky; */
+  top: 0;
   z-index: 10;
 }
 
+.back-to-top a.btn.Button {
+  bottom: 20px;
+  left: 20px;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(165, 23, 23);
+  z-index: 50;
+  -webkit-box-shadow: 1px 2px 7px 0px #a1a1a14d;
+}
 
+
+
+/*
+* =======================================================================
+*                          TOP NAVIGATION BAR
+* =======================================================================
+*/
+
+#nav-bar {
+  text-align: center;
+  background-color: rgb(243, 243, 243);
+  height: ;
+  /* position: sticky !important;
+  top: 40px !important; */
+  z-index: 1;
+
+}
+
+#nav-bar-sticky {
+
+}
+
+#section-title {
+  padding-top: 30px;
+}
+
+
+/*
+* =======================================================================
+*                         PAGE SECTION TITLE
+* =======================================================================
+*/
+
+#section-title {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 10px;
+  top: 8px;
+  position: sticky;
+  z-index: 50;
+  -webkit-box-shadow: 1px 2px 7px 0px #a1a1a14d;
+
+}
+
+/*
+* =======================================================================
+*                         CONTENT - MAIN
+* =======================================================================
+*/
+
+#content-main {
+  top: 8px;
+  padding-bottom: 30px;
+  padding-right: 25px;
+  z-index: 0;
+  overflow-x: hidden;
+}
+
+/*
+* =======================================================================
+*                         MAKE STICKY STICK
+
+* Position: sticky doesn't work if parent(s) of sticky element
+  have overflow (or overflow-x/overflow-y) set to 'auto' or 'hidden'. 
+  Canvas defaults some to 'overflow-x: auto'.
+
+* =======================================================================
+*/
+
+/* Change overflow-x property from [auto] to [visible] for page title */
+.pages.show .show-content, .user-content {
+  overflow-x: visible;
+}
 
 /* ================ BASE - DO NOT REMOVE OR EDIT ================ */
 
 tr.channel:not(.default) td.email_meta {
-  visibility: hidden;
+  visibility: visible;
 }
 
 nav a.collaborations {
