@@ -8,7 +8,7 @@
     </div>
 </div>
 <blockquote style="padding-top: 10px; padding-bottom: 10px;">
-    <p>Perusall is a tool which enables students to collaboratively annotate documents of your choice. Students can start a new annotation thread in Perusall by simply selecting a piece of text or an image and typing a question or comment, which other students can reply to or upvote. Perusall's intended use is stimulate students to complete the required reading before lectures, so that you can continue discussions or address questions from the annotations during the lecture itself. <br /><br />Only the &nbsp;<i class="icon-quiz"></i> quick start has to be completed to set up Perusall for your course. If you need help or advice, don't hesitate to <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank" rel="noopener">book an appointment</a> with ICTO!</p>
+    <p><em>Perusall is a tool which enables students to collaboratively annotate documents of your choice. Students can start a new annotation thread in Perusall by simply selecting a piece of text or an image and typing a question or comment, which other students can reply to or upvote. Perusall's intended use is stimulate students to complete the required reading before lectures, so that you can continue discussions or address questions from the annotations during the lecture itself. </em><br /><br /><em>Only the quick start has to be completed to set up Perusall for your course. If you need help or advice, don't hesitate to <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank" rel="noopener">book an appointment</a> with ICTO!</em></p>
 </blockquote>
 <div class="enhanceable_content tabs">
     <ul>
@@ -22,7 +22,7 @@
     <div id="tab-0" style="background-color: #ffffff; height: auto; padding: 30px; padding-top: 30px; padding-bottom: 50px;"><br />
         <h3><i class="icon-quiz"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Quick start</strong></span></h3>
         <h3><span class="element_toggler " aria-controls="FAQquick1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>1. Create a Perusall assignment in Canvas</a></span></span></h3>
-        <ul id="FAQquick1" style="list-style: none; display: none;">
+        <ul id="FAQquick1" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -42,7 +42,7 @@
             </li>
         </ul>
         <h3><span class="element_toggler " aria-controls="FAQquick2" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>2. Add assignments and documents to Perusall</a></span> </span></h3>
-        <ul id="FAQquick2" style="list-style: none; display: none;">
+        <ul id="FAQquick2" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -76,7 +76,7 @@
             </li>
         </ul>
         <h3><span class="element_toggler " aria-controls="FAQquick3" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>3. Create groups within Perusall</a></span></span></h3>
-        <ul id="FAQquick3" style="list-style: none; display: none;">
+        <ul id="FAQquick3" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -92,7 +92,7 @@
             </li>
         </ul>
         <h3><span class="element_toggler " aria-controls="FAQquick4" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>4. Configure the scoring settings</a></span></span></h3>
-        <ul id="FAQquick4" style="list-style: none; display: none;">
+        <ul id="FAQquick4" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -124,7 +124,7 @@
             </li>
         </ul>
         <h3><span class="element_toggler " aria-controls="FAQquick5" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>5. Select the correct annotation language</a></span></span></h3>
-        <ul id="FAQquick5" style="list-style: none; display: none;">
+        <ul id="FAQquick5" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -139,7 +139,7 @@
             </li>
         </ul>
         <h3><span class="element_toggler " aria-controls="FAQquick6" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>6. Inform your students</a></span></span></h3>
-        <ul id="FAQquick6" style="list-style: none; display: none;">
+        <ul id="FAQquick6" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -161,7 +161,7 @@
         <br />
         <h3><i class="icon-standards"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Copyright</strong></span></h3>
         <h3><span class="element_toggler " aria-controls="FAQcopygright1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>What documents am I allowed to use in Perusall?</a></span> </span></h3>
-        <ul id="FAQcopygright1" style="list-style: none; display: none;">
+        <ul id="FAQcopygright1" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -173,7 +173,7 @@
         <br />
         <h3><i class="icon-group"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Grouping</strong></span></h3>
         <h3><span class="element_toggler " aria-controls="FAQgrouping1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How can I adjust the groups for a single document?</a></span> </span></h3>
-        <ul id="FAQgrouping1" style="list-style: none; display: none;">
+        <ul id="FAQgrouping1" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -188,7 +188,7 @@
             </li>
         </ul>
         <h3><span class="element_toggler " aria-controls="FAQgrouping2" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>Can I safely adjust the groups after students have already placed annotations?</a></span> </span></h3>
-        <ul id="FAQgrouping2" style="list-style: none; display: none;">
+        <ul id="FAQgrouping2" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -200,7 +200,7 @@
         <br />
         <h3><i class="icon-stats"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Analysis</strong></span></h3>
         <h3><span class="element_toggler " aria-controls="FAQanalysis1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>Can I get an overview of the most upvoted annotations to use in my lectures?</a></span> </span></h3>
-        <ul id="FAQanalysis1" style="list-style: none; display: none;">
+        <ul id="FAQanalysis1" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -210,7 +210,7 @@
             </li>
         </ul>
         <h3><span class="element_toggler " aria-controls="FAQanalysis2" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How do I view all comments by a specific student?</a></span> </span></h3>
-        <ul id="FAQanalysis2" style="list-style: none; display: none;">
+        <ul id="FAQanalysis2" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -226,7 +226,7 @@
         <br />
         <h3><i class="icon-assignment"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Grading</strong></span></h3>
         <h3><span class="element_toggler " aria-controls="FAQgrading1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How is annotation quality determined?</a></span> </span></h3>
-        <ul id="FAQgrading1" style="list-style: none; display: none;">
+        <ul id="FAQgrading1" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -250,7 +250,7 @@
             </li>
         </ul>
         <h3><span class="element_toggler " aria-controls="FAQgrading2" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>Where can I see how an automatic grade was calculated?</a></span> </span></h3>
-        <ul id="FAQgrading2" style="list-style: none; display: none;">
+        <ul id="FAQgrading2" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -264,7 +264,7 @@
             </li>
         </ul>
         <h3><span class="element_toggler " aria-controls="FAQgrading3" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How do I overwrite the automatically calculated assignment grade?</a></span> </span></h3>
-        <ul id="FAQgrading3" style="list-style: none; display: none;">
+        <ul id="FAQgrading3" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -279,7 +279,7 @@
             </li>
         </ul>
         <h3><span class="element_toggler " aria-controls="FAQgrading4" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How do I overwrite the automatically calculated annotation quality rating?</a></span> </span></h3>
-        <ul id="FAQgrading4" style="list-style: none; display: none;">
+        <ul id="FAQgrading4" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -295,7 +295,7 @@
             </li>
         </ul>
         <h3><span class="element_toggler " aria-controls="FAQgrading5" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>Can I disable automatic grading?</a></span> </span></h3>
-        <ul id="FAQgrading5" style="list-style: none; display: none;">
+        <ul id="FAQgrading5" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -305,7 +305,7 @@
             </li>
         </ul>
         <h3><span class="element_toggler " aria-controls="FAQgrading6" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>What percentage of the final grade is recommended for my Perusall assignments?</a></span> </span></h3>
-        <ul id="FAQgrading6" style="list-style: none; display: none;">
+        <ul id="FAQgrading6" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -315,7 +315,7 @@
             </li>
         </ul>
         <h3><span class="element_toggler " aria-controls="FAQgrading7" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>How do I export the grades to Canvas?</a></span> </span></h3>
-        <ul id="FAQgrading7" style="list-style: none; display: none;">
+        <ul id="FAQgrading7" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -331,7 +331,7 @@
         <br />
         <h3><i class="icon-collection"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Plagiarism</strong></span></h3>
         <h3><span class="element_toggler " aria-controls="FAQplagiarism1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>Does Perusall have some form of plagiarism detection?</a></span> </span></h3>
-        <ul id="FAQplagiarism1" style="list-style: none; display: none;">
+        <ul id="FAQplagiarism1" style="font-size: 13pt; list-style: none; display: none;">
             <li>
                 <div class="content-box">
                     <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
@@ -343,9 +343,9 @@
             </li>
         </ul>
         <br />
-        <h3><i class="icon-question"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Want help or advice?</strong></span></h3>
+        <h3><i class="icon-question"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Want support?</strong></span></h3>
         <div class="content-box">
-            <div style="background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
+            <div style="font-size: 13pt; background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
                 <p><a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank" rel="noopener">Book an appointment</a> with ICTO or <a href="mailto:icto-csw@uva.nl?subject=Perusall">send us an e-mail</a>!</p>
             </div>
         </div>
