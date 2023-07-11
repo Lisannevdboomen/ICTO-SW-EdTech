@@ -12,14 +12,11 @@
 </blockquote>
 <div class="enhanceable_content tabs">
     <ul>
-        <li>
-            <div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000;"><span style="font-size: 13pt;"><strong><a href="#tab-0">Getting started</a></strong></span></div>
-        </li>
-        <li>
-            <div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000;"><span style="font-size: 13pt;"><strong><a href="#tab-1">Tips &amp; tricks</a></strong></span></div>
-        </li>
+        <li><span style="font-size: 12pt;"><a style="margin: 5px; height: 35px;" href="#tab-0">Getting started</a></span></li>
+        <li><span style="font-size: 12pt;"><a style="margin: 5px; height: 35px;" href="#tab-1">Tips &amp; tricks</a></span></li>
+        <li><span style="font-size: 12pt;"><a style="margin: 5px; height: 35px;" href="#tab-2">Help</a></span></li>
     </ul>
-    <div id="tab-0" style="background-color: #ffffff; height: auto; padding: 30px; padding-top: 30px; padding-bottom: 50px;"><br />
+    <div id="tab-0">
         <h3><i class="icon-quiz"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Quick start</strong></span></h3>
         <h3><span class="element_toggler " aria-controls="FAQquick1" aria-label="Toggler toggle list visibility" aria-expanded="false"> <i class="icon-mini-arrow-right"></i><span style="font-size: 13pt;"><a>1. Create a Perusall assignment in Canvas</a></span></span></h3>
         <ul id="FAQquick1" style="font-size: 13pt; list-style: none; display: none;">
@@ -342,16 +339,8 @@
                 </div>
             </li>
         </ul>
-        <br />
-        <h3><i class="icon-question"></i> <span style="font-size: 18pt; color: #34495e;"><strong>Want support?</strong></span></h3>
-        <div class="content-box">
-            <div style="font-size: 13pt; background-color: #ffffff; padding-left: 30px; border-left: 5px solid #e1e9f4;">
-                <p><a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank" rel="noopener">Book an appointment</a> with ICTO or <a href="mailto:icto-csw@uva.nl?subject=Perusall">send us an e-mail</a>!</p>
-            </div>
-        </div>
-        <p>&nbsp;</p>
     </div>
-    <div id="tab-1" style="background-color: #ffffff; height: auto; padding: 30px; padding-top: 30px; padding-bottom: 50px;">
+    <div id="tab-1">
         <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #063852; padding: 15px; height: auto; background-color: #fafafa;">
             <table style="border-collapse: collapse; width: 100.812%; border: 0;">
                 <tbody>
@@ -445,5 +434,24 @@
                 </tbody>
             </table>
         </div>
+    </div>
+    <div id="tab-2">
+        <h2><i class="icon-question"></i><strong> Support</strong></h2>
+        <p><span style="font-size: 12pt;">&rarr; <a class="inline_disabled" href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank" rel="noopener">Book an appointment with ICTO</a> or <a class="inline_disabled" href="mailto:icto-csw@uva.nl?subject=Perusall" target="_blank" rel="noopener">send us an e-mail</a>!</span></p>
+        <p>&nbsp;</p>
+        <h2><i class="icon-document"></i><strong> Documentation</strong></h2>
+        <p><span style="font-size: 12pt;">&rarr; <a href="https://support.perusall.com/hc/en-us/articles/360034534193-Getting-started">Perusall official documentation</a></span></p>
+        <p><span style="font-size: 12pt;">&rarr; <a href="https://perusall.com/hubfs/downloads/scoring-details.pdf">Scoring documentation</a></span></p>
+        <p><span style="font-size: 12pt;">&rarr; <a href="https://support.perusall.com/hc/en-us/articles/360034824694-How-is-annotation-quality-defined-in-Perusall-">Annotation quality documentation</a></span></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
     </div>
 </div>
