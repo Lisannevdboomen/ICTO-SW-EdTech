@@ -8,8 +8,18 @@
     </div>
 </div>
 <blockquote style="padding-top: 10px; padding-bottom: 10px;">
-    <p><em>Perusall is a tool which enables students to collaboratively annotate documents of your choice. Students can start a new annotation thread in Perusall by simply selecting a piece of text or an image and typing a question or comment, which other students can reply to or upvote. Perusall's intended use is stimulate students to complete the required reading before lectures, so that you can continue discussions or address questions from the annotations during the lecture itself. </em><br /><br /><em>Only the quick start has to be completed to set up Perusall for your course. If you need help or advice, don't hesitate to <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank" rel="noopener">book an appointment</a> with ICTO!</em></p>
+    <p><em>Perusall enables students to collaboratively annotate documents of your choice. Students can start a new annotation thread in Perusall by simply selecting a piece of text or an image and typing a question or comment, which other students can reply to or upvote. Perusall's intended use is to stimulate students to complete the required reading before lectures, so that you can continue discussions or address questions from the annotations during the lecture itself. </em><br /><br /><em>Only the quick start has to be completed to set up Perusall for your course. If you need help or advice, don't hesitate to <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank" rel="noopener">book an appointment</a> with ICTO!</em></p>
 </blockquote>
+<div class="alert alert-alert"><strong><i class="icon-announcement"></i> <i class="icon-warning"></i> New Perusall version:</strong> As of July 18th 2023, the UvA has upgraded their version of Perusall to version 1.3. With the launch of 1.3, all existing 1.1 links are no longer operational. <strong>This means that all of your existing Perusall assignments will have to be reconfigured!</strong> Learn how to reconfigure your Perusall assignments for 1.3 <a href="https://canvas.uva.nl/courses/533/pages/perusall-upgrade-zomer-2023" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/533/pages/perusall-upgrade-zomer-2023" data-api-returntype="Page">in Dutch</a> or <a href="https://canvas.uva.nl/courses/169/pages/perusall-upgrade-summer-2023" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/169/pages/perusall-upgrade-summer-2023" data-api-returntype="Page">in English</a>. Need help? Do not hesitate to <a href="mailto:icto-csw@uva.nl?subject=Perusall%201.3">contact us</a> or <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank" rel="noopener">book an appointment</a>!
+    <p>Version 1.3 brings the following highly requested features:</p>
+    <ul>
+        <li>Students are now visible in Perusall right away, so you can already create groups prior to students opening Perusall.</li>
+        <li>Persuall can now create groups based on Canvas groups.</li>
+        <li>Assignment names no longer have to match between Perusall and Canvas for the grade sync to work.</li>
+        <li>Students no longer have to open Perusall through the assignment link in Canvas for the grade sync to work. Opening Perusall through Canvas just once will suffice.</li>
+    </ul>
+</div>
+<p>&nbsp;</p>
 <div class="enhanceable_content tabs">
     <ul>
         <li><span style="font-size: 12pt;"><a style="margin: 5px; height: 35px;" href="#tab-0">Getting started</a></span></li>
@@ -29,7 +39,7 @@
                             <li>Click on <u>+ Assignment</u>.</li>
                             <li>Fill in <u>10</u> as the maximum number of points.</li>
                             <li>Select <u>External tool</u> as the submission type.</li>
-                            <li>Select <u>Perusall</u> from the list of external tools.</li>
+                            <li>Select <u>Perusall 1.3</u> from the list of external tools.</li>
                             <li>Select <u>Load this tool in a new tab</u>. Your submission type should now be set up like in the image below. <img src="https://canvas.uva.nl/courses/8175/files/8525497/preview" alt="submission_type_perusall" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8525497" data-api-returntype="File" /></li>
                             <li>Assign the assignment to everyone, fill in a due date and click <u>Save</u>.</li>
                         </ol>
@@ -62,10 +72,7 @@
                                 <li>Go to the <u>Assignments</u> tab.</li>
                                 <li>Click on <u>+ Add assignment</u>. <img src="https://canvas.uva.nl/courses/8175/files/8565787/preview" alt="add_assignment" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8565787" data-api-returntype="File" /></li>
                                 <li>Select the document you wish to couple to this assignment. You can add as many documents to an assignment as you wish.</li>
-                                <li>Click on <u>Next step</u> to go the options tab.</li>
-                                <li>Set your submission deadline to the <u>same deadline</u> as in Canvas. If these do not match, you will not be able to automatically export your grades to Canvas!</li>
-                                <li>Fill in the <u>exact same assignment name</u> as in Canvas. Again, if these do not match, you will not be able to automatically export your grades to Canvas! <img src="https://canvas.uva.nl/courses/8175/files/8527270/preview" alt="assignment_name_and_date" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8527270" data-api-returntype="File" /></li>
-                                <li>Customize the other settings to your liking and click on <u>OK</u> to create the assignment.</li>
+                                <li>Customize the settings to your liking and click on <u>OK</u> to create the assignment.</li>
                             </ol>
                         </ol>
                     </div>
@@ -81,7 +88,7 @@
                         <ol>
                             <li>Go to the <u>Settings</u> menu in Perusall.</li>
                             <li>Go to the <u>Grouping</u> tab. <img src="https://canvas.uva.nl/courses/8175/files/8565845/preview" alt="grouping" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8565845" data-api-returntype="File" /></li>
-                            <li>You can choose to either let Perusall <u>distribute students randomly</u> or <u>specify groups</u> yourself. <br /><strong>a) Distribute students randomly:</strong> Simply fill in the number of students in your course and the desired group size. <u><strong>Note:</strong></u> Perusall will create new group distributions for every single document when using the automatic group distribution feature. If you want students to stay in the same group throughout the course, you must specify the groups yourself. <br /><strong>b) Specify groups:</strong> Simply fill in a group number in front of the student name to assign a student to that group. <u><strong>Note:</strong></u> Students cannot be shown in Perusall until they have actually opened it. Thus, you can only manually assign students to a group once they've openend Perusall. It's recommended to ask students to open Perusall before the first assignment is available, so that you can distribute them across groups beforehand.</li>
+                            <li>You can choose to either let Perusall <u>distribute students randomly</u> or <u>specify groups</u> yourself. <br /><strong>a) Distribute students randomly:</strong> Simply fill in the number of students in your course and the desired group size. <u><strong>Note:</strong></u> Perusall will create new group distributions for every single document when using the automatic group distribution feature. If you want students to stay in the same group throughout the course, you must specify the groups yourself. <br /><strong>b) Specify groups:</strong> Simply fill in a group number in front of the student name to assign a student to that group or copy over the groups from Canvas.</li>
                             <li>Click <u>Save changes</u> to save the group settings.</li>
                         </ol>
                     </div>
@@ -149,7 +156,7 @@
                             <li><strong>Instruct students to flag annotatoins in cases of plagiarism or inappropriate content</strong>. You will receive an e-mail with the flagged comment, so you can assess it.</li>
                             <li><strong>Inform students that they can view how their annotations were scored</strong> when the deadline has passed under 'My scores' in Perusall.</li>
                             <li><strong>Communicate to students that you will be reading the comments</strong> to use them for your lectures and to manually adjust scores (if applicable).</li>
-                            <li><strong>Stress that students have to open Perusall via the link in the Canvas assignment.</strong> If they don't, their grade might not propagate to the Canvas gradebook, in which case you'll have to do this manually.</li>
+                            <li><strong>Inform students that they have to open Perusall via Canvas at least once.</strong> If they don't, their grade might not propagate to the Canvas gradebook, in which case you'll have to do this manually.</li>
                         </ul>
                     </div>
                 </div>
@@ -239,9 +246,7 @@
                         </ul>
                         <p>Besides annotation quality, all other criteria are configured and scored fairly straightforward (e.g. opening the assignment is simply the number of times a student opened the assignment in Perusall). Annotations are either assigned a low, medium or high quality rating by Perusall's algorithm. You can choose how many points should be assigned to each quality level, with the default being 0, 1/2 and 1 points respectively. By default, Perusall also deducts up to 10% if comments are not spread throughout the document. <strong>We recommend leaving the aforementioned settings as is and only configuring the number of required high quality comments for a full score on the annotation quality criteria.</strong></p>
                         <p>According to <a href="https://support.perusall.com/hc/en-us/articles/360034824694-How-is-annotation-quality-defined-in-Perusall-" target="_blank" rel="noopener">Perusall's documentation</a> their algorithm <i>"... uses linguistic features of the text to create a predictive model for the score a human instructor would give. In other words, instead of trying to figure out a set of rules to measure these things, we create a "training set" consisting of a large number of annotations along with grades given by multiple expert human graders that are grading according to the rubric, and then create an algorithm that combines the linguistic features to best predict the scores given by the expert human graders. What we found in our validation work is that Perusall agreed with the expert human graders about as often as two humans agreed with each other!"</i></p>
-                        <p>&nbsp;</p>
                         <div class="alert"><strong><i class="icon-warning"></i> Note:</strong> Keep in mind that Perusall's algorithm does not take the content of your document into account when calculating the annotation quality. It is simply trained to recognize the linguistic features of low, medium and high quality annotations based on its training set. Students could game Perusall by placing linguistically elaborate annotations that are completely off-topic and still receive in high quality ratings. Thus, it's important to scroll through and sample some of the annotations that your students have made every once in a while.</div>
-                        <p>&nbsp;</p>
                     </div>
                 </div>
             </li>
