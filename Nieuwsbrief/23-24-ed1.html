@@ -3,36 +3,16 @@
 
 <!-- Stylesheet -->
 <head>
-<style>
-    .container {
-        width: 100%;
-    }
-    .container .parta {
-        width:28%;
-        float:left;
-        text-align:center;
-        max-height:20px    
-    }
-    .container .partb {
-        width:16%;
-        float:left;
-        text-align:center;
-    }
-    .clear {
-        height: 20px;
-        line-height: 0;
-        overflow: hidden;
-        font-size: 0;
-        clear: left;
-    } 
-    table {
-        width:100%;
-    }  
-    td {
-        vertical-align: top;
-        padding:10px
-    }
-</style>
+    <style>
+        .container              {width: 100%;}
+        .container .parta       {width:28%; float:left; text-align:center; max-height:20px;}
+        .container .partb       {width:16%; float:left; text-align:center;}
+        .containerframe         {position:relative; padding-top:28%; width:100%; overflow:hidden;}
+        .containerframe iframe  {position:absolute; top:0; left:0; bottom:0; right:0; width:100%; height:100%;}
+        .clear                  {height: 20px; line-height:0; overflow:hidden; font-size:0; clear:left;} 
+        table                   {width:100%;}  
+        td                      {vertical-align:top; padding:10px}
+    </style>
 </head>
 
 <!-- Menubalk met buttons -->
@@ -46,119 +26,161 @@
 
 <!-- Tabjes per nieuwsbrief -->
 <div class="enhanceable_content tabs">
-  <ul>
-        <!-- Tab 1: September '23 --> <li><a href="#September23" style="background-color: #ffffff; text-decoration: none;"><div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000; text-decoration: none;"><strong>September '23</strong></div></a></li>
-  </ul>
+    <ul>
+        <!-- Tab 1 --> 
+        <li><a href="#TAB1" style="background-color: #ffffff; text-decoration: none;"><div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000; text-decoration: none;"><strong>September '23</strong></div></a></li>
+        
+        <!-- Tab 2 -->
+        <!-- <li><a href="#TAB2" style="background-color: #ffffff; text-decoration: none;"><div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000; text-decoration: none;"><strong>September '23</strong></div></a></li> -->
+    </ul>
 
-<!-- September '23' -->
-<div id="September23" style="background-color: #ffffff;">
+<!-- Tab 1: September '23' -->
+<div id="TAB1" style="background-color: #ffffff;">
 
-        <!-- Inhoud -->
-        <table>
-            <tr>
-                <td style="width:30%; vertical-align: top;">
+    <table style="height:1px">
+        <tr style="height:100%">
+            <td style="width:40%; vertical-align: top; height:100%" rowspan="2">
 
-                    <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #DDE1E4; margin-top:5px; margin-bottom:3px; border-color: #DDE1E4; padding-left: 15px;">
-                    <h3><strong>SEPTEMBER '23</strong></h3>
-                    <p style="font-size: 12pt">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                    
-                        </p>
-                        <p><a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank"><img style="width:100%, " src="https://canvas.uva.nl/courses/8175/files/9205973/preview" alt="plan_meeting.png"></a>
+                <!-- Intro -->
+                <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #DDE1E4; height:100%;margin-top:5px; padding-bottom: 10px; margin-bottom:3px; border-color: #DDE1E4; padding-left: 15px;">
+                <!-- Header -->     <h3><strong>SEPTEMBER '23</strong></h3>
+                <!-- Inhoud -->     <p style="font-size: 12pt">
+                                        Welcome! Thank you for checking out the very first ICTO newsletter of 2023/24! For those of you who don’t know us very well yet: this newsletter is created by the ICTO team. Here we share all kinds of ICT-related news for teachers. 
+                                        <br><br>The Social Sciences ICTO-team consists of five members in total, and our job is to support teachers in the use of Canvas, (Final) grades and digital exams, among other things. On <a href="https://canvas.uva.nl/courses/8175/pages/contact" target="_blank">this page</a>, you can read more about the team and what else we can help you with. If you have questions about any of these topics, please don’t hesitate to contact us!
+                                        <br><br>You can find us at REC B7.08, and you’re free to walk in. Usually there is someone available at the office from Mondays to Thursdays. Of course, you can also e-mail us at icto-csw@uva.nl. We try our best to respond to your messages as soon as possible. If you’d like to make an appointment with the team, you can do so via the button below. 
+                                    </p>
+                <!-- Button -->     <p style="text-align: left;"><a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank"><img style="width:70%" src="https://canvas.uva.nl/courses/8175/files/9205973/preview" alt="plan_meeting.png"></a></p>
+                </div>
 
-                    </p>
-                    </div>
-                </td>
-                <td style="width:70%; ">
-                    <div class="content-box" style="margin-top:5px; margin-left:10px; margin-bottom:2px ">
-                        <img style="width:100%, " src="https://canvas.uva.nl/courses/8175/files/9205841/preview" alt="banner_ans.png">
-                        </div>
-                    <div class="content-box pad-box-mini border border-trbl border-round" style="margin-top:3px; background-color: #E3EEF8; margin-left:10px;border-color: #E3EEF8; padding-left: 15px;">
-                        <h3><strong>Digitaal toetsen + ans</strong></h3>
-                        
-                        <p style="font-size: 12pt">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                    
-                        </p>
-                        <ul class="pill" style="background: #063852; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#063852"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
-                        <ul class="pill" style="background: #063852; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#063852"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
-                        <ul class="pill" style="background: #063852; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#063852"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
-                    </div>
+            </td>
 
+            <td style="width:60%; height:100%">
 
-                </td>
-            </tr>
-       
+                <!-- Digitaal toetsen + ANS-->
+                <!-- Banner -->     <div class="content-box" style="margin-top:5px; margin-left:10px; margin-bottom:-15px "><img style="width:100%, " src="https://canvas.uva.nl/courses/8175/files/9205841/preview" alt="banner_ans.png"></div>
             
+            </td>
+        </tr>
 
-        </table>
+        <tr style="height:100%">
+            <td style="width:60%; height:100%" >
+                <div class="content-box pad-box-mini border border-trbl border-round" style="margin-top:3px; background-color: #E3EEF8; padding-bottom:0px; height:97.5%; margin-left:10px;border-color: #E3EEF8; padding-left: 15px;">
+                <!-- Header -->     <h3><strong>Ans Exam becomes the new digital testing software</strong></h3>
+                <!-- Inhoud -->     <p style="font-size: 12pt">
+                                        Next academic year, the <a href="https://medewerker.uva.nl/en/executive-staff-and-central-service-units/shared-content-secured/medewerkersites/uva-medewerkers/en/news/2023/06/ans-exam-becomes-the-new-online-testing-software.html" target="_blank">UvA will switch</a> to a new software system for digital testing called Ans Exam! After an extensive evaluation, Ans Exam came out on top. The current supplier, TestVision, came in second. This means that all UvA faculties will switch to Ans Exam in phases in the coming academic year.                                    
+                                        <br><br>With Ans Exam, the UvA acquires an innovative partner for the long term with a contract of at least 6 years with an extension option to a maximum of 15 years. This long term is the basis for a stable service and cooperation. Our team is very excited to get started. The many functionalities and friendly design promise great things. During the current academic year we will run pilot exams to get more familiar with the new system, that way we will prepare well for the start next year.
+                                        <br><br>For now, you can use our <a href="https://canvas.uva.nl/courses/8175/pages/testvision" target="_blank">current digital exam instructions</a> on TestVision. The instructions have been completely redesigned and updated!
+                                    </p>
 
-        <table>
-            <tr>
-                <td style="width:50%">
-                    <div class="content-box" style="margin-top:5px;margin-bottom:2px;margin-right:5px; ">
-                        <img style="width:100%, " src="https://canvas.uva.nl/courses/8175/files/9206048/preview" alt="perusall.png">
-                        </div>
-
-                    <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #FFD9BA; margin-top:5px; margin-right:5px; margin-bottom:1px; border-color: #FFD9BA; padding-left: 15px;">
-                        <h3><strong>nieuw: perusall</strong></h3>
-                        <p style="font-size: 12pt">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                    
-                            </p>
-                            <ul class="pill" style="background: #063852; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#063852"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
-                            <ul class="pill" style="background: #063852; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#063852"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
-                            <ul class="pill" style="background: #063852; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#063852"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
-    
-                        </div>
+                <!-- Keywords --> 
+                <ul class="pill" style="background: #063852; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#063852"><li><span style="color: #ffffff;"><strong>ANS Exam</strong></span></li></ul>
+                <ul class="pill" style="background: #063852; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#063852"><li><span style="color: #ffffff;"><strong>digital exams</strong></span></li></ul>
+                <ul class="pill" style="background: #063852; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#063852"><li><span style="color: #ffffff;"><strong>instructions</strong></span></li></ul>
                 
-                </td>
-                <td style="width:50%">
-                    <div class="content-box" style="margin-top:5px; margin-left:5px; margin-bottom:2px ">
-                        <img style="width:100%, " src="https://canvas.uva.nl/courses/8175/files/9206049/preview" alt="feedbackfruits.png">
-                        </div>
+                </div>
 
-                    <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #E0F6DE; margin-left:5px;margin-top:5px; border-color: #E0F6DE; padding-left: 15px;">
-                        <h3><strong>nieuw: fbf</strong></h3>
-                        <p style="font-size: 12pt">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                    
-                            <ul class="pill" style="background: #1F5D1B; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#1F5D1B"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
-                            <ul class="pill" style="background: #1F5D1B; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#1F5D1B"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
-                            <ul class="pill" style="background: #1F5D1B; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#1F5D1B"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
-    
-                        </div>
-                
-                </td>
-            </tr>
-        </table>
+            </td>            
+        </tr>
 
-        <table>
-            <tr>
-                <td style="width:70%">
-                    <div class="content-box" style="margin-top:1px;margin-top:-5px;margin-bottom:3px ">
-                        <img style="width:100%, " src="https://canvas.uva.nl/courses/8175/files/9205994/preview" alt="ear2.png">
-                        </div>
+    </table>
 
-                    <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #DAF4FE; margin-bottom:1px; margin-top:5px; border-color: #DAF4FE; padding-left: 15px;">
-                        <h3><strong>Easy Access II regeling</strong></h3>
-                        <p style="font-size: 12pt">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                    
-                            <ul class="pill" style="background: #EE0F54; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#EE0F54"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
-                            <ul class="pill" style="background: #EE0F54; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#EE0F54"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
-                            <ul class="pill" style="background: #EE0F54; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#EE0F54"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
-                        </p>
-                        </div>
-                
-                </td>
-                <td style="width:30%; vertical-align: middle;">
+    <table>
+        <tr>
+            <td style="width:60%; ">
+
+                <!-- Easy Access Agreemen: copyright checker -->
+                <!-- Banner -->     <div class="content-box" style="margin-top:10px;margin-bottom:7px "><img style="width:100%, " src="https://canvas.uva.nl/courses/8175/files/9205994/preview" alt="ear2.png"></div>
+
+                <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #DAF4FE; margin-bottom:10px; margin-top:5px; border-color: #DAF4FE; padding-left: 15px;">
                     
-                    <img style="width:85%; float:right" src="https://canvas.uva.nl/courses/8175/files/9206394/preview" alt="laptop.png">
-                  
-                
-                </td>
-            </tr>
-        </table>
-<p style="padding-left:4px">
-                          <iframe src="https://canvas.uva.nl/courses/8175/files/9206460/download" height="400px" width="100%"></iframe></p>
+                <!-- Header -->     <h3><strong>New copyright regulations: check your teaching materials!</strong></h3>
+                <!-- Inhoud -->     <p style="font-size: 12pt">
+                                        When using or reusing copyrighted material in education, lecturers have to deal with laws and regulations surrounding copyright. For the 2023-2025 period, <a href="https://uba.uva.nl/en/content/news/2023/06/new-copyright-rules-in-education.html" target="_blank">new rules apply</a> with regard to copyright. Though the new agreement has only just been made public, the arrangements are effective from this year onwards. You are, for example, allowed to copy up to 40 pages (instead of 50) from a publication, provided this constitutes a maximum of 20% of that work. With images and audiovisual material, you must always cite the source. This also applies to, for instance, (PowerPoint) presentations, knowledge clips and web lectures. By using <a href="https://uba.uva.nl/en/support/copyright/lecturers/copyright-checker.html" target="_blank">this copyright checker</a>, you can be sure you are on the right track!                            
+                                    </p>
+                <!-- Keywords --> 
+                <ul class="pill" style="background: #EE0F54; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#EE0F54"><li><span style="color: #ffffff;"><strong>Easy Access Agreement</strong></span></li></ul>
+                <ul class="pill" style="background: #EE0F54; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#EE0F54"><li><span style="color: #ffffff;"><strong>copyright</strong></span></li></ul>
+                </div>
+            
+            </td>
 
-    </div>
-  
+            <td style="width:40%; vertical-align: middle;">
 
-  </div>
+                <!-- Afbeelding laptop-->
+                <img style="width:70%; float:right" src="https://canvas.uva.nl/courses/8175/files/9206394/preview" alt="laptop.png">
+            
+            </td>
+        </tr>
+
+    </table>
+
+    <table style="height:1px">
+        <tr>
+            <td style="width:50%; height:100%">
+
+                <!-- Nieuw: Perusall -->   
+                <!-- Banner -->     <div class="content-box" style="margin-top:5px;margin-bottom:2px;margin-right:8px; "><img style="width:100%" src="https://canvas.uva.nl/courses/8175/files/9206048/preview" alt="perusall.png"></div>
+
+                <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #FFD9BA; height:77%; margin-top:5px; margin-right:8px; margin-bottom:5px; border-color: #FFD9BA; padding-left: 15px;">
+                    
+                <!-- Header -->     <h3><strong>Persuall info page</strong></h3>
+                <!-- Inhoud -->     <p style="font-size: 12pt">
+                                        Have you checked out our <a href="https://canvas.uva.nl/courses/8175/pages/perusall" target="_blank">new Perusall information page</a> yet? Perusall enables your students to collaboratively annotate documents of your choice. Its intended use is to stimulate students to complete the required reading before lectures, so that you can continue discussions or address questions during the lecture itself.
+                                        <br><br>Our recently updated information page explains more about how to get started with this tool through a handy roadmap and useful tips &  tricks. Another great addition to the page is the 'live example’. This shows you an example of the student view of a Perusall assignment. 
+                                        <br><br>Check it out and don't hesitate to contact ICTO if you need more support or would like to brainstorm about the possibilities in the tool.
+                                    </p>
+                <!-- Keywords --> 
+                <ul class="pill" style="background: #063852; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#063852"><li><span style="color: #ffffff;"><strong>Perusall</strong></span></li></ul>
+                <ul class="pill" style="background: #063852; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#063852"><li><span style="color: #ffffff;"><strong>annotating texts</strong></span></li></ul>
+                <ul class="pill" style="background: #063852; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#063852"><li><span style="color: #ffffff;"><strong>live example</strong></span></li></ul>
+                </div>
+            
+            </td>
+
+            <td style="width:50%; height:100%">
+
+                <!-- Nieuw: Perusall -->   
+                <!-- Banner -->     <div class="content-box" style="margin-top:5px;margin-bottom:2px;margin-left:8px; "><img style="width:100%" src="https://canvas.uva.nl/courses/8175/files/9206049/preview" alt="feedbackfruits.png"></div>
+
+                <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #E0F6DE; height:78%; margin-top:5px; margin-left:8px; margin-bottom:5px; border-color: #E0F6DE; padding-left: 15px;">
+                    
+                <!-- Header -->     <h3><strong>FeedbackFruits info page</strong></h3>
+                <!-- Inhoud -->     <p style="font-size: 12pt">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                    
+                                    </p>
+                <!-- Keywords --> 
+                <ul class="pill" style="background: #1F5D1B; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#1F5D1B"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
+                <ul class="pill" style="background: #1F5D1B; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#1F5D1B"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
+                <ul class="pill" style="background: #1F5D1B; margin-top: 10px; margin-right: 2px; margin-bottom: 2px; float:right; border-color:#1F5D1B"><li><span style="color: #ffffff;"><strong>keyword</strong></span></li></ul>
+                </div>
+            
+            </td>
+
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <!-- MS 365 slideshow -->
+                <div class="content-box" style="margin-top:1px;margin-top:-5px;margin-bottom:-5px ">
+                    <div class="containerframe">
+                        <iframe src="https://canvas.uva.nl/courses/8175/files/9219559/download"  scrolling="no"></iframe>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+<!-- Tab 2: -->
+<!-- <div id="TAB2" style="background-color: #ffffff;">
+
+   [Inhoud]
+
+</div>
+-->
+
+</div>
+
+<p>&nbsp;</p>
+
