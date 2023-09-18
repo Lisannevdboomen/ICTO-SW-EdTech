@@ -1,325 +1,79 @@
-<!--
-MASTERPLAN DIGITAAL TOETSEN
---------------------------------------------------------------------------------------------------------
-[_] Homepage
---- [_] Tab 'Login'
-------- [ ] Een button naar TestVision inlog, docenten mailen nu vaak dat ze niet weten waar ze moeten inloggen
---- [_] Tab 'About'
-------- [X] Data toetsen doorgeven iets vroeger zetten
-------- [X] Onderaan pagina meer enters plaatsen zodat je bij Tips&tricks niet naar boven wordt geduwd
-------- [X] Inzage -> wanneer moet je dit uiterlijk hebben doorgegeven?
-------- [Robyn mee bezig] New in TestVision! item toevoegen
---- [X] Tab 'Instructions'
-------- [X] tekstvakken weghalen
-------- [X] Design aanpassen, misschien toch buttons
-------- [X] Je moet iets beter zien wat de bedoeling/proces is
---- [X] Tab 'About the inspection'
---- [X] Tab 'Tips & Tricks'
---------------------------------------------------------------------------------------------------------
-[X] Algemeen:
---- [X] Vragen+Toets & Nakijken is iets anders (want daar moet je iets doen) ten opzichte van de FAQ toetsmoment. Dat willen we inzichtelijker maken.
---- [X] Inzage item moet nog gemaakt worden (iets wat niet echt instructie is maar meer lijkt op een FAQ)
---------------------------------------------------------------------------------------------------------
-[_] Uitgebreide instructie (oude instructie):
---- [_] Stap 1: Design -> weghalen
---- [X] Stap 4: Moment of examination -> vervangen voor link naar huidige FAQ instructie
---- [X] Stap 6: Inzage -> vervangen voor link naar nieuwe FAQ inzage instructie
---------------------------------------------------------------------------------------------------------
-[_] Vragen+Toets:
---- [_] Modifying questions
-------- [_] I'm working with TestVision for the first time. What does the general process look like? (+ waaronder: [_] how do I access TestVision)
-------- [_] How do I edit a question? (+ waaronder: [_] How can I change the name of a question? + [_] PUBLISH changes in de toets)
-------- [_] How can I add a question? -> hieruit moet duidelijk worden dat je ICTO mailt!!!!?!?@?@##@: maar ook linkje uitgebreide instructie hoe je het zelf kunt doen in case of emergency
-------- [_] What kind of question types can I use?
---- [_] Test settings
-------- [_] Which basic settings are there in a test? (+ Instructietekst waar kan ik die zien? dit onderdeel moet mooi, bondig en overzichtelijke checklist zijn)
-------- [_] What if I'd like to use different settings in a test? -> hieruit moet duidelijk worden dat je ICTO mailt maar ook weer linkje uitgebreide instructie hoe je zelf kunt doen in case of emergency
---- [_] Final check
-------- [_] Dit kopje toevoegen
-------- [_] Final check (+ waaronder: tentamen moet op synchroon staan, how to preview the exam)
-------- [_] Twijfel? NEEM CONTACT OP!!!##
---------------------------------------------------------------------------------------------------------
-[X] FAQ moment van toets:
---- [X] Anchor ID iets hoger plaatsen per item zodat tekstvakje iets lager zit in scherm
---------------------------------------------------------------------------------------------------------
-[_] Assessment:
---- [_] Beoordelen (mini toevoeging ergens aan de zijkant/"can't see this menu achtig"-> Geen toegang? Beoordelaars doorgeven per mail aan icto-csw@uva.nl)
---- [_] Resultaten/scores zien? -> Valideren
---- [_] Cijfers
-------- [_] Het staat al in Final Grades: hoe bereik je die? (add existing assignment + retrieve TVO grades)
-------- [_] Optioneel: Hoe maak je een export? (+ Import naar Canvas)
---------------------------------------------------------------------------------------------------------
-[X] Inzage:
---- [_] Info over de inzage instellingen (wat is standaard; en stel je wilt antwoordmodel zichtbaar hebben -> mail naar ICTO)
---- [_] Iets meer informerend naar docenten wat ze kunnen verwachten tijdens inzage (misschien "How do I book" veranderen naar "About" bij met en zonder technical support)
---- [X] Voor design: kijk naar onze oude instructie, moet ongeveer dezelfde inhoud bevatten maar wel hetzelfde design als de FAQ toetsmoment
---- [X] Plus nieuw item toevoegen: overzicht verschil tussen ingeboekte inzage & geen geboekte Inzage
-------- [X] Verschillende levels of inzages met beschrijving voordelen/nadelen, denk aan schema die op de OPC informatie pagina in sharepoint staat
---- [X] Stel je kiest voor eigen inzage:
-------- [X] Stuur een mail naar ICTO met wensen datum + tijd (maakt niet uit wanneer en hoe lang, mag je zelf weten)
-------- [X] ICTO stel inzage in en zet in het eigen overzicht en 3 dagen voor anvang ontvang je een automatische mail met alle instructies en info
-------- [X] Locatie doet er niet toe: je kunt kiezen om het online te doen of om samen ergens met de studenten en eigen laptops te zitten
-------- [X] Ook mogelijkheid om alles geprint te doen, zie instructie X hoe
---- [X] Stel je kiest voor geboekte inzage:
-------- [X] Moet echt op tijd zijn, hier zijn de deadlines
-------- [X] Je kunt gelukkig ook nog printen
---------------------------------------------------------------------------------------------------------
--->
-
-<!-- Banner -->
 <p><img style="width: 100%;" src="https://canvas.uva.nl/courses/8175/files/5129479/preview" alt="2021:22bannertvo-1.jpg" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/5129479" data-api-returntype="File" /></p>
-
-<!-- Back to top -->
 <p><a id="topmenu"></a></p>
-
-<!-- Menubalk
 <div class="grid-row">
     <div class="col-xs-12 col-md-12">
         <div class="styleguide-section__grid-demo-element">
-            <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #063852; background-color: #fafafa; text-align: center;">
-                <a class="btn Button" style="border-color: #063852; margin: 5px;" href="https://canvas.uva.nl/courses/8175"><i class="icon-home"></i> <span>&nbsp;Home</span> </a>
-                <a class="btn Button" style="border-color: #063852; margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/a-z" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/a-z" data-api-returntype="Page"><i class="icon-copy-course"></i> <span>&nbsp;A-Z</span> </a>
-                <a class="btn Button" style="border-color: #063852; margin: 5px;" href="https://canvas.uva.nl/enroll/N3HMY8" data-api-returntype="Page">&nbsp;<i class="icon-discussion-new">&nbsp;</i>Enroll</a>
-                <a class="btn Button" style="border-color: #063852; margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/contact" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/contact"><i class="icon-group"></i>
-                    <span>&nbsp;Contact</span>
-                </a>
-                <a class="btn Button" style="border-color: #063852; margin: 5px;" href="https://uva.testvision.nl/online/fe/login_tvb.htm" target="_blank" rel="noopener" data-api-returntype="Page">Log in</a>
-                <a class="btn Button" style="border-color: #063852; margin: 5px;" href="https://uvasocialsciences.eu.qualtrics.com/jfe/form/SV_6LN3bIFUlzyJ95k" target="_blank" rel="noopener" data-api-returntype="Page"><i class="icon-compose"></i> <span>&nbsp;</span>Send us your feedback</a></div>
-        </div>
-    </div>
-</div>-->
-
-<!-- Menubalk -->
-<div class="grid-row">
-    <div class="col-xs-12 col-md-12">
-        <div class="styleguide-section__grid-demo-element">
-            <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; text-align: center;">
-                <a class="btn Button" style="margin: 5px; background-color:#E5E5E5"><span style="color: #000000;"><i class="icon-home"></i>&nbsp;TestVision</span></a>
-                <a class="btn Button" style="margin: 5px; background-color:#08a8a2;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test"><span style="color: #ffffff;"><i class="icon-edit"></i>&nbsp;&nbsp;Create exam&nbsp;</span></a>
-                <a class="btn Button" style="margin: 5px; background-color:#08a8a2;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-examination" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-examination"><span style="color: #ffffff;"><i class="icon-document"></i>&nbsp;&nbsp;Examination&nbsp;</span></a>
-                <a class="btn Button" style="margin: 5px; background-color:#08a8a2;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-assessment" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-assessment"><span style="color: #ffffff;"><i class="icon-analytics"></i>&nbsp;&nbsp;Assessment & grades&nbsp;</span></a>
-                <a class="btn Button" style="margin: 5px; background-color:#08a8a2;" href="https://canvas.uva.nl/courses/8175/pages/inspection" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/courses/8175/pages/inspection"><span style="color: #ffffff;"><i class="icon-student-view"></i>&nbsp;&nbsp;Inspection&nbsp;</span></a>
-            </div>
+            <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; text-align: center;"><a class="btn Button" style="margin: 5px; background-color: #e5e5e5;"><span style="color: #000000;"><i class="icon-home"></i>&nbsp;TestVision</span></a> <a class="btn Button" style="margin: 5px; background-color: #08a8a2;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/testvision-instructions-%257C-questions-and-test"><span style="color: #ffffff;"><i class="icon-edit"></i>&nbsp;&nbsp;Create exam&nbsp;</span></a> <a class="btn Button" style="margin: 5px; background-color: #08a8a2;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-examination" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/testvision-instructions-%257C-examination"><span style="color: #ffffff;"><i class="icon-document"></i>&nbsp;&nbsp;Examination&nbsp;</span></a> <a class="btn Button" style="margin: 5px; background-color: #08a8a2;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-assessment" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/testvision-instructions-%257C-assessment"><span style="color: #ffffff;"><i class="icon-analytics"></i>&nbsp;&nbsp;Assessment &amp; grades&nbsp;</span></a> <a class="btn Button" style="margin: 5px; background-color: #08a8a2;" href="https://canvas.uva.nl/courses/8175/pages/inspection" data-api-returntype="Page" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/inspection"><span style="color: #ffffff;"><i class="icon-student-view"></i>&nbsp;&nbsp;Inspection&nbsp;</span></a></div>
         </div>
     </div>
 </div>
-
-<!-- Tabs -->
 <div class="enhanceable_content tabs">
     <ul>
         <li>
-            <a href="#tab-0" style="background-color: #ffffff;">
-                <div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000;">
-                    <span style="font-size: 13pt;"><strong>About</strong></span>
-                </div>
-            </a>
-        </li>
-        <!--<li>
-            <a href="#tab-1" style="background-color: #ffffff;">
-                <div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000;">
-                    <span style="font-size: 13pt;"><strong>Instructions</strong></span>
-                </div>
-            </a>
+            <div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000;"><span style="font-size: 13pt;"><strong>About</strong></span></div>
         </li>
         <li>
-            <a href="#tab-2" style="background-color: #ffffff;">
-                <div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000;">
-                    <span style="font-size: 13pt;"><strong>About the inspection</strong></span>
-                </div>
-            </a>
-        </li>-->
-        <li>
-            <a href="#tab-3" style="background-color: #ffffff;">
-                <div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000;">
-                    <span style="font-size: 13pt;"><strong>Tips & Tricks</strong></span>
-                </div>
-            </a>
+            <div class="content-box" style="background-color: #ffffff; margin: 5px; height: 35px; border: #000000;"><span style="font-size: 13pt;"><strong>Tips &amp; Tricks</strong></span></div>
         </li>
     </ul>
-
     <div id="tab-0" style="background-color: #ffffff; height: auto; padding: 30px; padding-top: 30px; padding-bottom: 50px;">
-
         <div class="grid-row">
-
             <div class="col-xs-20 col-md-6">
-                <!-- What is TestVision -->
                 <div class="styleguide-section__grid-demo-element">
                     <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fbfbfc; text-align: center; padding-left: 15px;">
                         <h4 style="text-align: left;"><strong>What is TestVision?</strong></h4>
                     </div>
                     <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: auto; background-color: #ffffff;">
-                        <p>TestVision is testing software that serves the examination process of online exams. It is a comprehensive testing system that supports you in developing, administering, grading, and analyzing tests. We recommend the use of TestVision because:
-                            <ul>
-                                <li>There will be technical guidance present during the exam. Therefore, <span style="color: #079C97;"><strong>students aren't able to plagiarize or commit fraud</strong></span> during the exam.</li>
-                                <li>In creating the exam, <span style="color: #079C97;"><strong>teachers only have to edit questions and no longer have to deal with all the technical aspects</strong></span> of a test. Questions can easily be changed by the teacher until the last moment, provided that no major changes are being made. For instance, when new questions need to be added or the entire structure of the exam needs to change you will need to communicate these changes with ICTO at least 1 week before the exam.</li>
-                                <li>All <span style="color: #079C97;"><strong>results will directly be visible within your Final Grades menu</strong></span>: teachers no longer need to work with an export or import of grades.</li>
-                            </ul>
-                        </p>
+                        <p>TestVision is testing software that serves the examination process of online exams. It is a comprehensive testing system that supports you in developing, administering, grading, and analyzing tests. We recommend the use of TestVision because:</p>
+                        <ul>
+                            <li>There will be technical guidance present during the exam. Therefore, <span style="color: #079c97;"><strong>students aren't able to plagiarize or commit fraud</strong></span> during the exam.</li>
+                            <li>In creating the exam, <span style="color: #079c97;"><strong>teachers only have to edit questions and no longer have to deal with all the technical aspects</strong></span> of a test. Questions can easily be changed by the teacher until the last moment, provided that no major changes are being made. For instance, when new questions need to be added or the entire structure of the exam needs to change you will need to communicate these changes with ICTO at least 1 week before the exam.</li>
+                            <li>All <span style="color: #079c97;"><strong>results will directly be visible within your Final Grades menu</strong></span>: teachers no longer need to work with an export or import of grades.</li>
+                        </ul>
+                        <p>&nbsp;</p>
                     </div>
                 </div>
-                <!-- Book an apppointment -->
                 <div class="styleguide-section__grid-demo-element">
                     <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fbfbfc; text-align: center; padding-left: 15px;">
                         <h4 style="text-align: left;"><strong>Book an appointment with us!</strong></h4>
                     </div>
                     <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: auto; background-color: #ffffff;">
-                        <p>We have heard from teachers that an <span style="color: #079C97;"><strong>(online or onsite) appointment of 15-20 minutes</strong></span> works best: there is time to ask questions, to pass on changes and wishes regarding the test, and to go through the question menu in TestVision together with ICTO. A meeting with ICTO gives teachers some security and we often hear: "Actually, it's not that bad". So please do not hesitate to drop by our office, email us or book an appointment. Take a look at our <a href="https://canvas.uva.nl/courses/8175/pages/contact">contact page</a> to get in touch with us.</p>
+                        <p>We have heard from teachers that an <span style="color: #079c97;"><strong>(online or onsite) appointment of 15-20 minutes</strong></span> works best: there is time to ask questions, to pass on changes and wishes regarding the test, and to go through the question menu in TestVision together with ICTO. A meeting with ICTO gives teachers some security and we often hear: "Actually, it's not that bad". So please do not hesitate to drop by our office, email us or book an appointment. Take a look at our <a href="https://canvas.uva.nl/courses/8175/pages/contact" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/contact" data-api-returntype="Page">contact page</a> to get in touch with us.</p>
                     </div>
                 </div>
             </div>
-
             <div class="col-xs-20 col-md-6">
-                <!-- Deadlines -->
                 <div class="styleguide-section__grid-demo-element">
                     <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fbfbfc; text-align: center; padding-left: 15px;">
                         <h4 style="text-align: left;"><strong>Applying for TestVision</strong></h4>
                     </div>
                     <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: auto; background-color: #ffffff;">
-                        <p>If you want to do an online exam or inspection with TestVision (using technical support), notify your <span style="color: #079C97;"><b>programme coordinator</b></span> as early as possible. Programme coordinators are in charge of scheduling the <span style="color: #079C97;"><b>exam or inspection</b></span> and sending a request for TestVision support to ICTO. Thereafter, our team must book in all details according to the roster at least 7 weeks before the start of the exam, retake or inspection.</p>
-                        <p>The following deadlines apply:
-                            <ul>
-                                <li>Exams or inspections in block 1 --- July, 28 (2023)</li>
-                                <li>Exams or inspections in block 2+3 --- September, 22 (2023)</li>
-                                <li>Exams or inspections in block 4 --- December, 29 (2023)</li>
-                                <li>Exams or inspections in block 5+6 --- February, 23 (2024)</li>
-                            </ul>
-                        </p>
+                        <p>If you want to do an online exam or inspection with TestVision (using technical support), notify your <span style="color: #079c97;"><strong>programme coordinator</strong></span> as early as possible. Programme coordinators are in charge of scheduling the <span style="color: #079c97;"><strong>exam or inspection</strong></span> and sending a request for TestVision support to ICTO. Thereafter, our team must book in all details according to the roster at least 7 weeks before the start of the exam, retake or inspection.</p>
+                        <p>The following deadlines apply:</p>
+                        <ul>
+                            <li>Exams or inspections in block 1 --- August, 25 (2023)</li>
+                            <li>Exams or inspections in block 2+3 --- October, 6 (2023)</li>
+                            <li>Exams or inspections in block 4 --- January, 12 (2024)</li>
+                            <li>Exams or inspections in block 5+6 --- March, 8 (2024)</li>
+                        </ul>
+                        <p>&nbsp;</p>
                     </div>
                 </div>
-                <!-- What to do -->
                 <div class="styleguide-section__grid-demo-element">
                     <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fbfbfc; text-align: center; padding-left: 15px;">
                         <h4 style="text-align: left;"><strong>What do I need to do?</strong></h4>
                     </div>
                     <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: auto; background-color: #ffffff;">
-                        <p>The ICTO team <span style="color: #079C97;"><strong>sets up a copy of last year's exam with copies of last year's questions and test settings</strong></span> – or if this is your first time, we'll set up concept questions and assign basic settings to the exam.</p>
-                        <p>Teachers are solely responsible for <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test#FAQ_Q2" target="_blank">modifying the questions</a> in TestVision. Questions can be changed by teachers until the last moment. A request for adding new questions to the test or changing test settings can be sent to ICTO up to one week before the start of the test. After this deadline, teachers can also do these things themselves with the help of <a href="https://canvas.uva.nl/courses/8175/pages/overview-testvision-manuals" target="_blank">these instructions</a>.</p>
-                    </div>
-                </div>
-
-                <!-- TestVision updates
-                <div class="styleguide-section__grid-demo-element">
-                    <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fbfbfc; text-align: center; padding-left: 15px;">
-                        <h4 style="text-align: left;"><strong>What's new in TestVision?</strong></h4>
-                    </div>
-                    <div class="content-box pad-box-mini border border-trbl border-round" style="padding: 15px; height: auto; background-color: #ffffff;">
-                        <p style="color: #676767;"><i>More info coming soon...</i></p>
-                    </div>
-                </div>-->
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <!--
-    <div id="tab-1" style="background-color: #ffffff; height: auto; padding-bottom: 50px;">
-        <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #ffffff; padding-left: 15px; padding-right: 15px; height: auto; background-color: #ffffff;">
-
-            <div class="grid-row">
-
-                <div class="col-xs-20 col-md-4">
-                    <div class="styleguide-section__grid-demo-element">
-                        <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; border-color: #063852; padding: 30px; padding-bottom: 50px; margin-bottom: 10px; text-align: left; height: 380px;">
-                            <span style="float: middle; font-size: 12pt;">
-
-                                <div class="content-box pad-box-mini border border-b">
-                                    <h4><span style="color: #0645ad; font-size: 14pt;"><em>Exam settings</em></span></h4>
-                                    <p><span style="color: #34495e;"><span style="font-size: 11pt;"><em>We make a <strong>copy of your previous questions and test</strong> (4 weeks in advance).</em></span></span></p>
-                                </div>
-
-
-                                <a id="" class="Button Button--large" style="border-width: 1.5px; border-color: #079C97; width: 85%; height: auto; text-align: left; margin-left: auto; margin-right: auto; margin-top: 20px; padding-bottom: 20px;" title="" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test" target="" data-api-endpoint="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test" data-api-returntype="Page">
-                                    <h5><span style="font-size: 14pt; color: #000000;">View instructions <i class="icon-document"></i></span></h5>
-                                    <span style="font-size: 10pt; color: #34495e;"><em>How to modify questions and preview the exam settings</em></span>
-                                </a>
-
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-20 col-md-4">
-                    <div class="styleguide-section__grid-demo-element">
-                        <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; border-color: #063852; padding: 30px; padding-bottom: 50px; margin-bottom: 10px; text-align: left; height: 380px;">
-                            <span style="float: middle; font-size: 12pt; ">
-
-                                <div class="content-box pad-box-mini border border-b">
-                                    <h4><span style="color: #0645ad; font-size: 14pt;"><em>Moment of examination</em></span></h4>
-                                    <p><span style="color: #34495e;"><span style="font-size: 11pt;"><em>We've listed down the most <strong>Frequently Asked Questions</strong> by teachers.</em></span></span></p>
-                                </div>
-
-                                <a id="" class="Button Button--large" style="border-width: 1.5px; border-color: #079C97; width: 85%; height: auto; text-align: left; margin-left: auto; margin-right: auto; margin-top: 20px; padding-bottom: 20px;" title="" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-examination" target="" data-api-endpoint="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-examination" data-api-returntype="Page">
-                                    <h5><span style="font-size: 14pt; color: #000000;">View FAQ <i class="icon-document"></i></span></h5>
-                                    <span style="font-size: 10pt; color: #34495e;"><em>What can you expect from the online exam at location</em></span>
-                                </a>
-
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-20 col-md-4">
-                    <div class="styleguide-section__grid-demo-element">
-                        <div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #fafafa; border-color: #063852; padding: 30px; padding-bottom: 50px; margin-bottom: 10px; text-align: left; height: 380px;">
-                            <span style="float: middle; font-size: 12pt;">
-
-                                <div class="content-box pad-box-mini border border-b">
-                                    <h4><span style="color: #0645ad; font-size: 14pt;"><em>Assessment and grades</em></span></h4>
-                                    <p><span style="color: #34495e;"><span style="font-size: 11pt;"><em>How to <strong>grade and analyse</strong> the exam and <strong>export the grades to Canvas</strong>.</em></span></span></p>
-                                </div>
-
-                                <a id="" class="Button Button--large" style="border-width: 1.5px; border-color: #079C97; width: 85%; height: auto; text-align: left; margin-left: auto; margin-right: auto; margin-top: 20px; padding-bottom: 20px;" title="" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-assessment" target="" data-api-endpoint="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-assessment" data-api-returntype="Page">
-                                    <h5><span style="font-size: 14pt; color: #000000;">View instructions <i class="icon-document"></i></span></h5>
-                                    <span style="font-size: 10pt; color: #34495e;"><em>How to assess and grade the submission of students</em></span>
-                                </a>
-
-                            </span>
-                        </div>
+                        <p>The ICTO team <span style="color: #079c97;"><strong>sets up a copy of last year's exam with copies of last year's questions and test settings</strong></span> &ndash; or if this is your first time, we'll set up concept questions and assign basic settings to the exam.</p>
+                        <p>Teachers are solely responsible for <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test#FAQ_Q2" target="_blank" rel="noopener" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/testvision-instructions-%257C-questions-and-test%23FAQ_Q2" data-api-returntype="Page">modifying the questions</a> in TestVision. Questions can be changed by teachers until the last moment. A request for adding new questions to the test or changing test settings can be sent to ICTO up to one week before the start of the test. After this deadline, teachers can also do these things themselves with the help of <a href="https://canvas.uva.nl/courses/8175/pages/overview-testvision-manuals" target="_blank" rel="noopener" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/overview-testvision-manuals" data-api-returntype="Page">these instructions</a>.</p>
                     </div>
                 </div>
             </div>
-            <hr />
-            <br>
-            <p style="text-align: center;"><span style="font-size: 13pt; float: middle;">Some of the instructions above are not fully updated yet. If any details are missing, please visit our
-            <a href="https://canvas.uva.nl/courses/8175/pages/overview-testvision-manuals"><strong><em>extensive instructions</em></strong></a>.</span></p>
         </div>
     </div>
-
-    <div id="tab-2" style="background-color: #ffffff; height: auto; padding: 30px; padding-top: 30px; padding-bottom: 50px;">
-        <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #063852; padding: 15px; height: auto; background-color: #fafafa;">
-            <table style="border-collapse: collapse; width: 100.812%;" border="0">
-                <tbody>
-                    <tr>
-                        <td style="width: 19.3883%;">
-                            <p style="text-align: center;"><span style="color: #0645ad; font-size: 15pt;"><em>Inspection</em></span></p>
-                        </td>
-                        <td style="width: 4.404%;">
-                            <p><strong>&nbsp;</strong></p>
-                        </td>
-                        <td style="width: 56.2347%;">
-                            <span style="font-size: 11pt;">
-                                <p>There are roughly two ways to do the inspection: inspection with support or without support. If you want to do an inspection with support you should notify your programme coordinator at least 7 weeks prior to the inspection date (for more info, see the dates on the 'About'-page underneath "Applying for TestVision")</p>
-                                <p><strong>The advantage of an inspection with support</strong> is that it increases the possibility of reusing test questions. Without support, students can easily take a picture, screenshot or copy the test questions via laptop or phone. If you decide to print the students' results you can control this more easily, but this can be difficult in large courses with more than 200 students.</p>
-                                <p><strong>The advantage of an inspection without support</strong> is that you can email us and decide to do the inspection at your own time and place. We will set up the inspection in TestVision and send you the login instructions for students.</p>
-                            </span>
-                        </td>
-                        <td style="width: 4.47733%;">
-                            <p><strong>&nbsp;</strong></p>
-                        </td>
-                        <td style="width: 22.3964%;"><a class="btn Button" style="margin: 5px;" href="https://canvas.uva.nl/courses/8175/pages/inspection" data-api-endpoint="https://canvas.uva.nl/courses/8175/pages/inspection" data-api-returntype="Page"><i class="icon-arrow-right"></i> <span>&nbsp;View more</span> </a></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>-->
-
     <div id="tab-3" style="background-color: #ffffff; height: auto; padding: 30px; padding-top: 30px; padding-bottom: 50px;">
-
-        <!-- TLC -->
         <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #063852; padding: 15px; height: auto; background-color: #fafafa;">
-            <table style="border-collapse: collapse; width: 100.812%; border:0">
+            <table style="border-collapse: collapse; width: 100.812%;">
                 <tbody>
                     <tr>
                         <td style="width: 19.3883%;">
@@ -335,13 +89,13 @@ MASTERPLAN DIGITAAL TOETSEN
                                     <li><span style="color: #ffffff;"><strong>TLC</strong></span></li>
                                 </ul>
                                 <ul class="pill" style="background: #6dd1ce; margin-top: 20px; margin-right: 8px;">
-                                    <li><span style="color: #ffffff;"><strong>Designing & constructing</strong></span></li>
+                                    <li><span style="color: #ffffff;"><strong>Designing &amp; constructing</strong></span></li>
                                 </ul>
                                 <ul class="pill" style="background: #6dd1ce; margin-top: 20px; margin-right: 8px;">
                                     <li><span style="color: #ffffff;"><strong>Inspiration</strong></span></li>
                                 </ul>
                             </div>
-                            <p><span style="color: #5a5a5a;">How do you design effective assessment of student learning? The assessment cycle can help you with this. The cycle consists of seven stages that each have their own place within the assessment process. In each of the chapters, you will find a brief introduction outlining key concerns, followed by frequently asked questions and answers.</i></span></p>
+                            <p><span style="color: #5a5a5a;">How do you design effective assessment of student learning? The assessment cycle can help you with this. The cycle consists of seven stages that each have their own place within the assessment process. In each of the chapters, you will find a brief introduction outlining key concerns, followed by frequently asked questions and answers.</span></p>
                         </td>
                         <td style="width: 4.47733%;">
                             <p><strong>&nbsp;</strong></p>
@@ -351,10 +105,8 @@ MASTERPLAN DIGITAAL TOETSEN
                 </tbody>
             </table>
         </div>
-
-        <!-- Harry Molkenboer-->
         <div class="content-box pad-box-mini border border-trbl border-round" style="border-color: #063852; padding: 15px; height: auto; background-color: #fafafa;">
-            <table style="border-collapse: collapse; width: 100.812%; border:0">
+            <table style="border-collapse: collapse; width: 100.812%;">
                 <tbody>
                     <tr>
                         <td style="width: 19.3883%;">
@@ -386,11 +138,8 @@ MASTERPLAN DIGITAAL TOETSEN
                 </tbody>
             </table>
         </div>
-
     </div>
 </div>
-
-
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
