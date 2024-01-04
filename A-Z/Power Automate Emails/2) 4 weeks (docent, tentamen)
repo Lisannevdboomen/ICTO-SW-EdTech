@@ -1,5 +1,5 @@
 
-<!---------------------- 1/3 Docent email NIET ingevoerd, naar: ICTO ---------------------->
+<!---------------------- Docent email NIET ingevoerd, naar: ICTO ---------------------->
 
 Beste collega,<br>
 <br>
@@ -25,7 +25,7 @@ Indien je dit nog niet hebt gedaan, zet ook de vragen, toets, en koppeling naar 
 </ul>
 
 
-<!---------------------- 2/3 Docent email WEL ingevoerd, toets op ocatie naar: DOCENT ---------------------->
+<!---------------------- TestVision toets, naar: DOCENT ---------------------->
 
 Beste docent,<br>
 <br>
@@ -109,88 +109,68 @@ The ICTO team Social Sciences<br>
 <i>This is an automated e-mail. Feel free to contact us in case of questions or suggestions.</i>
 
 
-<!---------------------- 3/3 Docent email WEL ingevoerd, THUISTOETS naar: DOCENT ---------------------->
+
+<!---------------------- ANS toets, naar: DOCENT ---------------------->
 
 
-Beste docent,<br>
+<p>Beste docent,<br>
 <br>
-Over 3 dagen vindt een TestVision thuistoets plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}).<br>
+Over 4 weken vindt een Ans toets plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}). Inloggen op Ans kan via <a href="https://ans.app/users/sign_in">deze link</a> (gebruik je mobiele telefoon voor tweestapsverificatie).<br>
 <br>
-<strong>Wat kan ik verwachten bij een thuistoets?</strong><br>
-Net als bij een toets op locatie, zal er tijdens de toets een assistant floor manager (AFM'er) aanwezig zijn om het technische aspect te verzorgen. De AFM'er is aanwezig in de live chat op <a href="https://examsupport.uva.nl">https://examsupport.uva.nl</a> voor studenten en in <a href="@{items('Apply_to_each_-_send_e-mails')?['Teamsmeeting']}">een teamsmeeting</a> voor jou. Vlak voor en gedurende de toets wordt verwacht dat je samen met de AFM'er aanwezig bent in <a href="@{items('Apply_to_each_-_send_e-mails')?['Teamsmeeting']}">de teamsmeeting</a> om eventuele inhoudelijke vragen te beantwoorden.<br>
-Het tentamen is beveiligd met een wachtwoord (@{substring(items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer'], 1)}) en een tijdvak (@{items('Apply_to_each_-_send_e-mails')?['Start']} - @{items('Apply_to_each_-_send_e-mails')?['Einde']}). Studenten kunnen pas met het tentamen beginnen nadat zij binnen het ingestelde tijdvak het wachtwoord hebben ingevoerd. Voordat de toets begint, moet je de <a href="https://canvas.uva.nl/courses/28129/files/7187213?wrap=1">TestVision log in instructies</a>, het wachtwoord (@{substring(items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer'], 1)}) en de <a href="https://examsupport.uva.nl">https://examsupport.uva.nl</a> link delen met de studenten op Canvas.<br>
+<strong>Hoe ga ik aan de slag?</strong><br>
+Aangezien Ans een nieuw systeem is, bevelen wij aan <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">een afspraak in te plannen</a> met ICTO. Tijdens de afspraak begeleiden wij je bij het bouwen van jouw toets. Ga je liever zelf aan de slag? Bekijk <a href="https://canvas.uva.nl/courses/8175/pages/ans-exam">onze beknopte Ans instructies</a>.<br>
 <br>
-<strong>Wat kan ik nog meer doen?</strong><br>
-Deel <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">deze pagina</a> met je studenten. Hierop staan veelgestelde vragen en instructies voor het inloggen in TestVision. Op de <a href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-examination">FAQ voor docenten</a> kun je alle belangrijke informatie vinden over de toetsafname. Mocht je nog vragen hebben, mail ons gerust.</li><br>
-<br>
-<strong>Kijken er meer mensen na?</strong><br>
-Stuur ons een e-mail met het vak, de toets in kwestie en de namen of e-mailadressen van de overige beoordelaars. Wij zullen ons best doen om ze z.s.m. toevoegen.<br>
-<br>
-<strong>Toetsinformatie:</strong>
+<strong>Toetsinformatie:</strong></p>
 <ul>
-    <li><strong>Naam van toets in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['NaamTestVision']}</li>
-    <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
-    <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
-    <li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
-    <li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
-    <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
-    <li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
-    <li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
-    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
-    <li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
-    <li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
-    <li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
+<li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
+<li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
+<li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
+<li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
+<li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+<li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+<li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
+<li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
+<li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
+<li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
+<li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
 </ul>
+<p><br>
+<strong>Inzagemoment</strong><br>
+Na een digitale toets komt een digitale inzage. Lees <a href="https://canvas.uva.nl/courses/8175/pages/inspection">hier</a> alles over het inzagemoment.<br>
 <br>
-Succes met de thuistoets!<br>
+Het is mogelijk om <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">een afspraak in te plannen</a> met het ICTO-team. Tijdens de afspraak is er ruimte om vragen te stellen over digitaal toetsen in Ans. Daarnaast is er de gelegenheid om samen door de toetsinstellingen te lopen.<br>
 <br>
 Met vriendelijke groet,<br>
 Het ICTO-team Sociale Wetenschappen<br>
 <br>
 <br>
-<br>
-<br>
-<i>Dit is een geautomatiseerde mail. Mail ons gerust in het geval van vragen of suggesties. </i>
-<br>
-<br>
-<br>
-<strong>----- English -----</strong><br>
-<br>
-Dear teacher,<br>
-<br>
-Your digital exam for the course @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}) will take place in 3 days.<br>
-<br>
-<strong>What can I expect during a take-home exam?</strong><br>
-Just like with an onsite exam, there will be at least one assistant floor manager (AFM'er) present during the exam to take care of the technical aspect. The AFM'er is present in a live chat at <a href="https://examsupport.uva.nl">https://examsupport.uva.nl</a> for students and in <a href="@{items('Apply_to_each_-_send_e-mails')?['Teamsmeeting']}">a Teams meeting</a> for you. Shortly before and during the exam, you're expected to be in <a href="@{items('Apply_to_each_-_send_e-mails')?['Teamsmeeting']}">the Teams meeting</a> together with the AFM'er to answer potential non-technical questions.<br>
-The exam is protected with a password (@{substring(items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer'], 1)}) and a timeslot  (@{items('Apply_to_each_-_send_e-mails')?['Start']} - @{items('Apply_to_each_-_send_e-mails')?['Einde']}). Students can only start with the exam after entering the password within the aforementioned timeslot. Before the exam starts, you'll have to share the <a href="https://canvas.uva.nl/courses/28129/files/7187213?wrap=1">TestVision log in instructions</a>, the password (@{substring(items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer'], 1)}) and the <a href="https://examsupport.uva.nl">https://examsupport.uva.nl</a> link with the students on Canvas.<br>
-<br>
-<strong>Anything else I still have to do?</strong><br>
-Share <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">this page</a> with your students. This page contains an FAQ for students and instructions on how to log in to TestVision at the exam location. On the <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">FAQ for teachers</a> you will find the most important information regarding moment of examination. Should you have any further questions, please send us an e-mail.<br>
-<br>
-<strong>Are there other graders besides you?</strong><br>
-Send us an e-mail with the course name, the test in question and the email addresses or full names of the other graders. We will add them as graders as soon as possible.<br>
-<br>
-<strong>Exam information:</strong>
+<br><em>Dit is een geautomatiseerde mail. Mail ons gerust in het geval van vragen of suggesties. </em>
+</p>
+<hr />
+<p><br><strong>----- English -----</strong><br><br></p>
+<p>Dear teacher,<br /><br />In 4 weeks, an Ans exam will take place for @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}). Log in to Ans using <a href="https://ans.app/users/sign_in">this link</a> (use your mobile phone for two-step verification).<br /><br /><strong>How do I get started?</strong><br />Because Ans is a new system, we recommend <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">booking an appointment</a> with ICTO. During the appointment we will help you build the exam to your specifications. Would you rather start yourself? Have a look at <a href="https://canvas.uva.nl/courses/8175/pages/ans-exam-english">our brief Ans instructions</a>.<br>
+<br >
+<strong>Exam information:</strong></p>
 <ul>
-    <li><strong>Name of the exam in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['NaamTestVision']}</li>
-    <li><strong>W-number</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
-    <li><strong>Course</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
-    <li><strong>Study</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
-    <li><strong>Course code</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
-    <li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
-    <li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
-    <li><strong>Date</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
-    <li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
-    <li><strong>End</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
-    <li><strong>Location</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
-    <li><strong>Teacher(s)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
+<li><strong>Name of the exam in TestVision</strong>: @{items('Apply_to_each_-_send_e-mails')?['NaamTestVision']}</li>
+<li><strong>W-number</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
+<li><strong>Course</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
+<li><strong>Study</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
+<li><strong>Course code</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
+<li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+<li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+<li><strong>Date</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
+<li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
+<li><strong>End</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
+<li><strong>Location</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
+<li><strong>Teacher(s)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
 </ul>
-<br>
-Good luck with the take-home exam!<br>
+<p><br>
+<strong>Inspection</strong><br>You can choose to schedule a digital inspection of the exam. Read all about the moment of inspection <a href="https://canvas.uva.nl/courses/8175/pages/inspection">here</a>.<br /><br />It is possible to <a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/">schedule an appointment</a> with the ICTO team. During the appointment, we will answer your questions about digital exams in Ans or walk through the exam settings together.<br>
 <br>
 Kind regards,<br>
-The ICTO team Social Sciences<br>
+The ICTO team Sociale Sciences<br>
 <br>
 <br>
 <br>
-<i>This is an automated e-mail. Feel free to contact us in case of questions or suggestions.</i>
+<em>This is an automated e-mail. Feel free to contact us in case of questions or suggestions.</em></p>
