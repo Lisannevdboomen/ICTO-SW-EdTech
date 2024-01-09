@@ -347,8 +347,8 @@ When students enter this password in the time frame set below, they will be able
 <br>
 <strong>How do I get started?</strong>
 <ol>
-    <li>Check out <a href="https://canvas.uva.nl/courses/8175/pages/inspection">our FAQ</a>, where you can find the most frequently asked questions about digital inspections. On this page, you can also look at the default settings for an inspection. E-mail ICTO if you’d like to use other settings.<li>
-    <li>Share <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">this page</a> with your students. It contains some frequently asked questions and instructions on how to log into TestVision.<li>
+    <li>Check out <a href="https://canvas.uva.nl/courses/8175/pages/inspection">our FAQ</a>, where you can find the most frequently asked questions about digital inspections. On this page, you can also look at the default settings for an inspection. E-mail ICTO if you’d like to use other settings.</li>
+    <li>Share <a href="https://canvas.uva.nl/courses/28129/pages/digital-exams-faq-students">this page</a> with your students. It contains some frequently asked questions and instructions on how to log into TestVision.</li>
     <li>Share the password (@{substring(item()?['W_x002d_nummer'], 1)}) with your students at your convenience.</li>
 </ol>
 <br>
