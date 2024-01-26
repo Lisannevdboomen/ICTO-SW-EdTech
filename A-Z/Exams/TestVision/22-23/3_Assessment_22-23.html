@@ -1405,7 +1405,19 @@
                 <td style="width: 7%; border-style: hidden; height: auto; text-align: left;"><strong> </strong></td>
                 <td style="width: 90%; border-style: hidden; height: auto; text-align: left;"><strong> </strong>
                     <p>&nbsp;</p>
-                    <div class="alert alert-info"><a class="icon-info"></a><strong> Note: If you choose to export your grades using this method, the grades in the final grades tool might differ from those in TestVision.</strong> This method extracts the points from TestVision and applies its own grade calculation to these. This calculation always includes a chance score for multiple choice questions, which unfortunately cannot be disabled. If you wish to export your grades without a chance score, please <a href="#FAQ_A5">disable the chance score</a> and <a href="#FAQ_F1">export the grades via Excel</a>.</div>
+                    <div class="alert alert-info"><a class="icon-info"></a><strong>Note: If you choose to export your grades using this method, the grades in the final grades tool might differ from those in TestVision.</strong> This method extracts the points from TestVision and applies its own grade calculation, which cannot be disabled:
+                        <ul>
+                            <li>
+                                This calculation always includes a chance score for multiple choice questions.
+                            </li>
+                            <li>
+                                The calculation starts at a minimum grade of 1 (instead of 0) so the curve in the calculation is different (points/score * 9 + 1)
+                            </li>
+                            <li>
+                                The grade calculation is lineair while in some cases, the grade calculation in TestVision is split-lineair.
+                            </li>
+                        </ul>
+                        If you wish to export your grades without these calculations, go to the instructions <a href="#FAQ_F1">export the grades via Excel</a>.</div>
                     <p>&nbsp;</p>
                 </td>
             </tr>
@@ -1436,7 +1448,9 @@
             </tr>
             <tr>
                 <td style="width: 10.4059%; border-style: hidden;"><span style="font-size: 13pt;"><strong>&nbsp;</strong></span></td>
-                <td style="width: 89.5941%; border-style: hidden;">The exam is listed underneath a header called <u>TestVision Online</u>. The exam can also be recognized by the same [date] - [exam type] - [course name] - [course code] format and name as the exam in TestVision.<br /><br /><img src="https://canvas.uva.nl/courses/8175/files/8427695/preview" alt="add_exam" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8427695" data-api-returntype="File" /><br /><br /></td>
+                <td style="width: 89.5941%; border-style: hidden;">The exam is listed underneath a header called <u>TestVision Online</u>. The exam can also be recognized by the same [date] - [exam type] - [course name] - [course code] format and name as the exam in TestVision. <b>If you can't see the exam, please email icto-csw@uva.nl</b>
+                    <br /><br />
+                    <img src="https://canvas.uva.nl/courses/8175/files/8427695/preview" alt="add_exam" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/8427695" data-api-returntype="File" /><br /><br /></td>
             </tr>
             <tr style="height: 45px; padding-bottom: 8px;">
                 <td style="width: 7%; border-style: hidden; height: auto; text-align: center;"><span style="font-size: 13pt;"><strong>4.</strong></span></td>
