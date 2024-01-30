@@ -1,0 +1,2 @@
+# EdTech4Teachers
+In deze Canvas cursus https://canvas.uva.nl/courses/45223 delen we instructies met docenten die openbaar zijn binnen de UvA, d.w.z.: je hebt geen inschrijving nodig om de pagina te bekijken. Dit is handig als we grote, algemene updates willen delen. Vanuit deze cursus proberen we docenten aan te sporen om in te schrijven voor onze ICTO-SW canvas cursus.

@@ -1,0 +1,2 @@
+# Access4Students
+In deze Canvas cursus https://canvas.uva.nl/courses/28129 delen we instructies met studenten die openbaar zijn binnen de UvA, d.w.z.: je hebt geen inschrijving nodig om de pagina te bekijken. Dit is handig voor docenten die instructies moeten delen met studenten.
