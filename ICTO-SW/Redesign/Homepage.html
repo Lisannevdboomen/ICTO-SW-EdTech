@@ -32,7 +32,7 @@
         }
     
     li.active a, li.active a:hover { 
-        background-color:#FB991C; 
+        background-color:#F5871F; 
         }
 
     li.active a { 
@@ -57,32 +57,65 @@
         color: #fff;
         padding: 14px 16px;
         border-radius:30pt; 
-        background-color: #FB991C;
+        background-color: #F5871F;
         }
 
     li.shortcut a:hover {
-        background-color:#CD7300;
+        background-color:#C66B15;
         }
            
     .grid-row {
         margin:0;
+        padding:0;
         }
 
-    .col-xs, .col-xs-3, .col-xs-9 {
+    .col-xs {
         margin:0; 
         padding:0; 
         }
 
+
     .updates { 
-        margin: 15px 15px 0 0 ; 
-        background-color:#FFF1C8; 
+        margin: 15px 10px 0 0 ; 
+        background-color:#D1E6ED; 
         border-radius:5pt; 
         padding:10pt; 
         margin-bottom:20px;
         }
 
+    ul.update {
+        list-style-type: none;
+        padding: 0;
+        margin: 0
+        }
+
+    li.update {
+        margin: 2pt 0;
+        display:inline-block;
+        width:100%;
+        font-size:11pt;
+        }
+
+    li.update a{
+       color: #2D3B45;
+        }
+
+    li.update a:hover {
+       color: #BC0233;
+        }
+
+    .update-date {
+        padding: 0 3pt; 
+        float:right; 
+        border: 1px solid #0A2932;
+        border-radius:30pt;
+        font-size:9pt;
+        background-color: white;
+        cursor:default;
+    }
+
     .block { 
-        background-color:#EBEBEB; 
+        background-color:#FDF3D8; 
         border-radius:5pt; 
         padding:0; 
         }
@@ -99,120 +132,281 @@
         margin:0 0 8px 4px;
         }
    
-    #footer {
-        color:black; 
+    .footer {
+        color:white; 
         background-color:#104352; 
-        padding:50px; 
-        margin-top:40px
+        padding:30px; 
+        margin: 0; 
+        }
+    
+    p.footercontent { 
+        font-size:9pt; 
+        line-height:1em;
+        padding-bottom:10pt;
+        }
+    
+    p.footercontent a { 
+        color: white
+        }
+
+    p.footercontent a:hover { 
+        color: #BC0233
+        }
+
+    ul.footer1 {
+        list-style-type: none; 
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width:100%;
+        font-size:9pt; 
+        line-height:1em
+        }
+
+    li.footer1 { 
+        font-size:10pt;
+        display:inline-block; 
+        width:30%;
+        cursor:default;
+        }
+
+    li.footer1 a {
+        color:white;
+        cursor:pointer;
+        }
+
+    li.footer1 a:hover {
+        color:#BC0233;
+        cursor:pointer;
         }
 
     h1 {
-        font-size:17pt;
+        font-size:15pt;
         padding:0; 
         margin:0; 
         margin-bottom:5px
         }
 
     h2 {
-        font-size: 14pt;
+        font-size: 12pt;
         padding:0; 
         margin:0
         }
+
+    .contentblock {
+        padding:5pt;
+        font-size:10pt;
+        line-height:2em
+    }
+
+    .imgbannerblock {
+        width: 100%; 
+        border-radius:5pt 5pt 0 0
+    }
 
 </style>
 
 
 <body>
 
-    <a id="top"></a> 
+<a id="top"></a> 
 
+<!-- Banner -->
+<img style="width: 100%;" src="https://canvas.uva.nl/courses/8175/files/10453380/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453380" data-api-returntype="File" />
 
-        <img style="width: 100%;" src="https://canvas.uva.nl/courses/8175/files/10447542/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10447542" data-api-returntype="File" />
-
-
+<!-- Navigation bar -->
 <ul class="menubar">
     <li class="menubar active"><a style="text-decoration: none;">Home</a></li>
-    <li class="menubar"><a style="text-decoration: none;" href="news.asp">Enroll</a></li>
-    <li class="menubar"><a style="text-decoration: none;" href="contact.asp">Newsletter</a></li>
-    <li class="menubar"><a style="text-decoration: none;" href="contact.asp">Contact</a></li>
+    <li class="menubar"><a style="text-decoration: none;" href="https://canvas.uva.nl/enroll/N3HMY8">Enroll</a></li>
+    <li class="menubar"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/icto-newsletter">Newsletter</a></li>
+    <li class="menubar"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/contact">Contact</a></li>
 </ul>
 
-
-    
-    
 <div class="grid-row" >
+
+    <!-- Updates-->
     <div class="col-xs updates" >
         <div class="styleguide-section__grid-demo-element" >
+
+            <!-- Updates: header -->
             <h1><strong><i class="icon-star"></i>&nbsp;NEW</strong></h1>
-            inhoud<br /><br />inhoud
+
+            <!-- Updates: content -->
+            <ul class="update">
+                <li class="update"><a href="https://canvas.uva.nl/courses/8175/discussion_topics/795576" style="text-decoration: none;">Newsletter (ed. Feb '24)</a><div class="update-date">04/02/24</div></li>
+                <li class="update">Update<div class="update-date">01/01/24</div></li>
+                <li class="update">Update<div class="update-date">01/01/24</div></li>
+                <li class="update">Update<div class="update-date">01/01/24</div></li>
+            </ul>
+            
         </div>
     </div>
+
+    <!-- Shortcuts -->
     <div class="col-xs" style="margin-top: 15px;">
         <div class="styleguide-section__grid-demo-element">
-            <h1><strong>&nbsp;<i class="icon-pin"></i>&nbsp;Useful shortcuts</strong></h1>
 
+            <!-- Shortcuts: header -->
+            <h1><strong>&nbsp;<i class="icon-bookmark"></i>&nbsp;Useful shortcuts</strong></h1>
 
+            <!-- Shortcuts: buttons-->
             <ul class="shortcut">
-                <li class="shortcut"><a style="text-decoration: none;" href="default.asp">Home</a></li>
-                <li class="shortcut"><a style="text-decoration: none;" href="default.asp">Home</a></li>
-                <li class="shortcut"><a style="text-decoration: none;" href="default.asp">Home</a></li>
-                <li class="shortcut"><a style="text-decoration: none;" href="default.asp">Home</a></li>
-
+                <li class="shortcut"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool"><i class="icon-check-dark"></i>&nbsp;&nbsp;Set up Final Grades</a></li>
+                <li class="shortcut"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test"><i class="icon-quiz"></i>&nbsp;&nbsp;Create a digital exam</a></li>
+                <li class="shortcut"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/course-checklist"><i class="icon-assignment"></i>&nbsp;&nbsp;Course checklist</a></li>
             </ul>
 
         </div>
     </div>
-</div>
-<div class="grid-row">
-    <div class="col-xs block left">
-        <div class="styleguide-section__grid-demo-element">            <img style="width: 100%; border-radius:3pt" src="https://canvas.uva.nl/courses/8175/files/10448111/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10448111" data-api-returntype="File" />
 
-            <h2><strong>Exams</strong></h2>
-            <p>Inhoud</p>
-        </div>
-    </div>
-    <div class="col-xs block middle">
-        <div class="styleguide-section__grid-demo-element">
-            <img style="width: 100%; border-radius:3pt" src="https://canvas.uva.nl/courses/8175/files/10448110/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10448110" data-api-returntype="File" />
-            assignments</div>
-    </div>
-    <div class="col-xs block right">
-        <div class="styleguide-section__grid-demo-element">            <img style="width: 100%; border-radius:5pt 5pt 0 0 " src="https://canvas.uva.nl/courses/8175/files/10448113/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10448113" data-api-returntype="File" />
-            grades</div>
-    </div>
 </div>
+
+<!-- Content blocks: rij 1-->
 <div class="grid-row">
+
+    <!-- Exams -->
     <div class="col-xs block left">
-        <div class="styleguide-section__grid-demo-element">            <img style="width: 100%; border-radius:3pt" src="https://canvas.uva.nl/courses/8175/files/10448112/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10448112" data-api-returntype="File" />
-            feedback tools</div>
-    </div>
-    <div class="col-xs block middle">
-        <div class="styleguide-section__grid-demo-element">            <img style="width: 100%; border-radius:3pt" src="https://canvas.uva.nl/courses/8175/files/10448115/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10448115" data-api-returntype="File" />
-            survey tools</div>
-    </div>
-    <div class="col-xs block right">
-        <div class="styleguide-section__grid-demo-element">            <img style="width: 100%; border-radius:3pt" src="https://canvas.uva.nl/courses/8175/files/10448114/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10448114" data-api-returntype="File" />
-            media</div>
-    </div>
-</div>
-<div class="grid-row">
-    <div class="col-xs">
-        <div class="styleguide-section__grid-demo-element">
-            <div class="grid-row">
-                <div class="col-xs">
-                    <div class="styleguide-section__grid-demo-element">
-                        <div id="footer">inhoud</div>
-                    </div>
-                </div>
-                <div class="col-xs">
-                    <div class="styleguide-section__grid-demo-element">
-                        <div id="footer">inhoud</div>
-                    </div>
-                </div>
+        <div class="styleguide-section__grid-demo-element">            
+            
+            <!-- Banner -->
+            <img class="imgbannerblock" src="https://canvas.uva.nl/courses/8175/files/10453227/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453227" data-api-returntype="File" />
+
+            <!-- Content -->
+            <div class="contentblock">
+                <i class="icon-mini-arrow-end"></i>&nbsp;TestVision<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;Ans Exam<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;The assessment cycle<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;Workshop test design<br>
             </div>
+
         </div>
     </div>
+
+    <!-- Assignments -->
+    <div class="col-xs block middle">
+        <div class="styleguide-section__grid-demo-element">
+
+            <!-- Banner -->
+            <img class="imgbannerblock" src="https://canvas.uva.nl/courses/8175/files/10453226/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453226" data-api-returntype="File" />
+
+            <!-- Content -->
+            <div class="contentblock">
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Grades -->
+    <div class="col-xs block right">
+        <div class="styleguide-section__grid-demo-element">            
+            
+            <!-- Banner -->
+            <img class="imgbannerblock" src="https://canvas.uva.nl/courses/8175/files/10453229/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453229" data-api-returntype="File" />
+
+            <!-- Content -->
+            <div class="contentblock">
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+            </div>
+
+        </div>
+    </div>
+
 </div>
+
+<!-- Content blocks: rij 2-->
+<div class="grid-row">
+
+    <!-- Feedback tools -->
+    <div class="col-xs block left">
+        <div class="styleguide-section__grid-demo-element">            
+            
+            <!-- Banner -->
+            <img class="imgbannerblock" src="https://canvas.uva.nl/courses/8175/files/10453228/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453228" data-api-returntype="File" />
+
+            <!-- Content -->
+            <div class="contentblock">
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Survey tools -->
+    <div class="col-xs block middle">
+        <div class="styleguide-section__grid-demo-element">            
+            
+            <!-- Banner -->
+            <img class="imgbannerblock" src="https://canvas.uva.nl/courses/8175/files/10453231/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453231" data-api-returntype="File" />
+
+            <!-- Content -->
+            <div class="contentblock">
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+            </div>
+        
+        </div>
+    </div>
+
+    <!-- Media-->
+    <div class="col-xs block right">
+        <div class="styleguide-section__grid-demo-element">            
+            
+            <!-- Banner -->
+            <img class="imgbannerblock" src="https://canvas.uva.nl/courses/8175/files/10453230/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453230" data-api-returntype="File" />
+
+            <!-- Content -->
+            <div class="contentblock">
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+                <i class="icon-mini-arrow-end"></i>&nbsp;content<br>
+            </div>
+        
+        </div>
+    </div>
+
+</div>
+
+<!-- FMG banner -->
+<img style="width: 100%; margin-top:40px" src="https://canvas.uva.nl/courses/8175/files/10453207/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453207" data-api-returntype="File" />
+
+<!-- Footer -->
+<div class="grid-row">
+    <div class="col-xs footer">
+        <div class="styleguide-section__grid-demo-element">
+            
+            <!-- Footer: header -->
+            <h2 style="line-height:1em">ICTO Social Sciences</h2>
+
+            <!-- Footer: content -->
+            <p class="footercontent">
+                ICTO Social Sciences consists of an enthusiastic team of student-assistants and regular employees. The student-assistants have a variable schedule of 16 hours per week as they combine their studies and ICTO. More contact information can be found <a href="https://canvas.uva.nl/courses/8175/pages/contact" target="_blank" >here</a>.
+            </p>
+            
+            <!-- Footer: links -->
+            <ul class="footer1" >
+                <li class="footer1"><i class="icon-marker"></i>&nbsp;&nbsp;REC B7.08</li>
+                <li class="footer1"><i class="icon-email"></i>&nbsp;&nbsp;<a href="mailto:icto-csw@uva.nl">icto-csw@uva.nl</a></li>
+                <li class="footer1"><i class="icon-calendar-days"></i>&nbsp;&nbsp;<a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank">Plan a meeting</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+</div>
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
