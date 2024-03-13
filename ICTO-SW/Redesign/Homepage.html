@@ -1,481 +1,398 @@
-<style>
+<head>
 
+    <style>
 
-    .page-title { display:none !important}
-    #right-side-wrapper {display:none !important}
+        #content-page /* Inhoud pagina */ {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            border-left: 1px solid #efefef !important;
+            border-right: 1px solid #efefef !important;
+        }
 
-    * { 
-        font-family: Arial, Helvetica, sans-serif; 
+        .page-title /* Geen titel zichtbaar */ { 
+            display: none !important;
+        } 
+
+        #right-side-wrapper /* Buttons rechter menu niet zichtbaar */ {
+            display: none !important;
+        } 
+
+        .external_link_icon {display:none !important}
+
+        body { 
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            box-sizing: border-box;
+        }
+
+        #banner-top /* Uva logo + enroll */ {
+            padding: 7pt 7pt 7pt 5pt;
+            font-size:10pt;
+            border-bottom: 0;
+            border: 1px solid #efefef;
+            border-bottom: 0
+        }
+
+        #banner-img {
+            border-right: 1px solid #efefef;
+            border-left: 1px solid #efefef;
+        }
+
+        .left { border-left:1px solid #efefef}
+
+        #navbar {
+            border: 1px solid #efefef;
+            border-top: 0;
+            width:100%
+        }
+
+        ul.menu {
+            margin: 0;
+            list-style-type: none;
+            background-color:#efefef;
+        }
+
+        .menu li{
+            float:left;
+            /* width: calc(100%/3) */
+        }
+
+        .menu li a{
+            display:block;
+            background-color: #efefef;
+            color:#555;
+            padding:10pt 15pt;
+            text-align: center;
+            border-bottom: 5px solid transparent;
+            text-transform:capitalize;
+            margin-right:1pt
+        }
+
+        .menu li a:hover {
+            background-color: white;
+            border-bottom: 5px solid #21A6CD;
+
+        }
+
+        .menu li a.active {
+            background-color:white;
+            color: #555;
+            border-bottom:5px solid #21A6CD;
+        }
+
+        .menu li a.active:hover {
+            cursor:default;
+
+        }
+
+        a.non-active, a.non-active:hover {
+            background-color:#efefef;
+            color: #efefef;
+            cursor:default;
+            padding:10pt 15pt;
+            text-align:center;
+            border-bottom: 5px solid #efefef;
+
+        }
+
+        a.active {  background-color:white;
+            color: #555;
+            border-bottom:5px solid #21A6CD;
+            padding:10pt 15pt;
+            text-align:center;
+        cursor: default}
+
+        .grid-row { width:100%; padding:0; margin:0; }
+        .col-md-8 { padding:0; margin:0; }
+        .col-md-4  {  padding:0; margin:0; }
+        .col-md-3  {  padding:0; margin:0; }
+        .col-md-9  {  padding:0; margin:0; }
+        .col-md {padding:0; margin:2pt}
+
+        .img-spotlight { 
+            padding:10pt;
+            width:40%;
+        }
+
+        #content-left { 
+            padding:10pt;
+            margin:10pt;
+            font-size:12pt;
+        }
+
+        #block-spotlight {
+            background-color: white; 
+            border-radius:7pt ;
+            border-right: 3px solid #dfdcdc;
+            border-bottom: 3px solid #dfdcdc;
+            border-left: 1px solid #dfdcdc;
+            border-top: 1px solid #dfdcdc;
+
+            padding:5pt;
+            text-align:center;
+            color:#555
+        }
+
+        #block-spotlight:hover {
+            background-color:#efefef
+        }
+
+        #block-spotlight a {
+            color:#555
+        }
+
+        #content-right { 
+            padding:10pt;
+            margin:10pt 10pt 10pt 0 
+        }
+
+        ul.shortcut {
+            list-style-type: none;
+            padding: 0;
+            margin:0;
+        }
+
+        li.shortcut {
+            width:100%;
+            margin:0;
+            margin-top:5pt;
+            font-size:11pt
+        }
+
+        li.shortcut a {
+            display: block;
+            color: #555;
+            padding: 10px 16px;
+            border-radius:30pt; 
+            border-right: 3px solid #dfdcdc;
+            border-bottom: 3px solid #dfdcdc;
+            border-left: 1px solid #dfdcdc;
+            border-top: 1px solid #dfdcdc;
+        }
+
+        li.shortcut a:hover {
+            background-color:#efefef;
+        }
+
+        .footer {
+            color:white; 
+            background-color:#21A6CD; 
+            padding:10px; 
+            margin: 0; 
+            font-size:10pt;
+            width: 100%;
+        }
+
+        ul.footer1 {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width:100%;
+            font-size:9pt; 
+            text-align: center
+        }
+
+        li.footer1 { 
+            font-size:10pt;
+            display: inline-block; 
+            cursor:default;
+            width:30%
+        }
+
+        li.footer1 a {
+            color:white;
+            cursor:pointer;
+        }
+
+        li.footer1 a:hover {
+            color:#bb143a;
+            cursor:pointer;
+        }
+
+        h1 {font-size:15pt}
+        h2 {font-size:12pt}
+
+        h2.icons1 {
+            color:#555;
+            font-size:11pt !important
         }
 
 
+    </style>
 
-    ul.menubar {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #104352;
-        width:100%;
-
-        }
-
-    li.menubar {
-        float: left;
-        border-right: 1px solid white
-        }
-
-    li.menubar a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 8pt 15pt;
-        }
-
-    li.menubar a:hover { 
-        background-color:#0A2932; 
-        }
-    
-    li.active a, li.active a:hover { 
-        background-color:#F5871F; 
-        }
-
-    li.active a { 
-        cursor:default; 
-        }
-
-    ul.shortcut {
-        list-style-type: none;
-        padding: 0;
-        margin:0;
-        margin-bottom:20px;
-        }
-
-    li.shortcut {
-        width:100%;
-        margin:0;
-        margin-top:5px;
-        }
-
-    li.shortcut a {
-        display: block;
-        color: #000;
-        padding: 14px 16px;
-        border-radius:30pt; 
-        background-color: white;
-        }
-
-    li.shortcut a:hover {
-        background-color:#d6d6d6;
-        }
-           
-    .grid-row {
-        margin:0;
-        padding:0;
-        }
-
-    .col-xs {
-        margin:0; 
-        padding:0; 
-        }
-
-
-        .shortcuts {
-            background-color:#D1E6ED;
-            padding:10pt; 
-            margin:0
-        }
-    .updates { 
-        margin: 0 ; 
-        background-color:#efefef; 
-        
-        padding:10pt; 
-        }
-
-    ul.update {
-        list-style-type: none;
-        padding: 0;
-        margin: 0
-        }
-
-    li.update {
-        margin: 2pt 0;
-        display:inline-block;
-        width:100%;
-        font-size:11pt;
-        }
-
-    li.update a{
-       color: #2D3B45;
-        }
-
-    li.update a:hover {
-       color: #BC0233;
-        }
-
-    .update-date {
-        padding: 0 3pt; 
-        float:right; 
-        border: 1px solid #0A2932;
-        border-radius:30pt;
-        font-size:9pt;
-        background-color: white;
-        cursor:default;
-    }
-
-    .block { 
-        background-color:#FDF3D8; 
-        border-radius:5pt; 
-        padding:0; 
-        }
-    
-    .left { 
-        margin:1px 0.5px 0 0;
-        }
-    
-    .middle {
-        margin:1px 0.25px 0.25px 0;
-        }
-    
-    .right {
-        margin:1px 0 0 0.5px;
-        }
-   
-    .footer {
-        color:white; 
-        background-color:#104352; 
-        padding:10px; 
-        margin: 0; 
-        font-size:10pt;
-        width: 100%;
-        }
-
-    ul.footer1 {
-        list-style-type: none; 
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        width:100%;
-        font-size:9pt; 
-        text-align: center
-        }
-
-    li.footer1 { 
-        font-size:10pt;
-        display: inline-block; 
-        cursor:default;
-        width:30%
-        }
-
-    li.footer1 a {
-        color:white;
-        cursor:pointer;
-        }
-
-    li.footer1 a:hover {
-        color:#cacaca;
-        cursor:pointer;
-        }
-
-    h1 {
-        font-size:15pt;
-        padding:0; 
-        margin:0; 
-        margin-bottom:5px
-        }
-
-    h2 {
-        font-size: 12pt;
-        padding:0; 
-        margin:0
-        }
-
-    .contentblock {
-        padding:5pt;
-        font-size:10pt;
-        line-height:2em;
-        border: 1px solid #104352;
-        border-top:0
-    }
-
-    .imgbannerblock {
-        width: 100%; 
-
-
-    }
-
-    .col-xs-4 { margin:0; padding:0}
-
-.external_link_icon { display:none !important}
-
-
-
-</style>
+</head>
 
 
 <body>
 
-<a id="top"></a> 
+
+        <!-- Banner UvA + enroll -->
+
+        <div id="banner-top">
+            <img style="height: 20px; padding-right:5pt;" src="https://canvas.uva.nl/courses/8175/files/10495487/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10495487" data-api-returntype="File" />Faculty of Social and Behavioural Sciences    <span style="float:right"><a style="text-decoration: none; color:#555"href="https://canvas.uva.nl/enroll/N3HMY8" target="_blank"><i class="icon-add"></i>&nbsp;Enroll in this Canvas page</a></span>
+        </div>
+
+        <!-- Banner image -->
+
+        <div id="banner-img">
+            <img style="width: 100%;" src="https://canvas.uva.nl/courses/8175/files/10522951/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10522951" data-api-returntype="File" />
+        </div>
+
+        <!-- Nav bar -->
 
 
+        <div class="grid-row" >
+
+            <div class="col-md-9" >
 
 
-<!-- Banner -->
-<img style="width: 100%;" src="https://canvas.uva.nl/courses/8175/files/10453380/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453380" data-api-returntype="File" />
+                <ul class="menu" >
+                    <li><a style="text-decoration:none;" class="active left" href="">HOME</a></li>
+                    <li><a style="text-decoration:none;" class="" href="about.html">ABOUT</a></li>
+                    <li><a style="text-decoration:none;" class="" href="contact.html">NEWS</a></li>
+                </ul>
+            </div>
 
-<!-- Navigation bar -->
-<ul class="menubar">
-    <li class="menubar active"><a style="text-decoration: none;">Home</a></li>
-    <li class="menubar"><a style="text-decoration: none;" href="https://canvas.uva.nl/enroll/N3HMY8">Enroll</a></li>
-    <li class="menubar"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/icto-newsletter">Newsletter</a></li>
-    <li class="menubar"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/contact">Contact</a></li>
-</ul>
+            <div class="col-md-3" >
+<a style="text-decoration:none;" class="non-active" href="contact.html">Contact Us</a>
+</div>
+</div>
 
-<div class="grid-row" >
+    
+    <div id="content-page">
 
-    <!-- Updates-->
-    <div class="col-xs-8 updates " >
-        <div class="styleguide-section__grid-demo-element" >
-
-            <!-- Updates: header -->
-            <h1><strong><i class="icon-star"></i>&nbsp;NEW</strong></h1>
-
-            <!-- Updates: content -->
-            <ul class="update">
-                <li class="update"><a href="https://canvas.uva.nl/courses/8175/discussion_topics/795576" style="text-decoration: none;">Newsletter (ed. Feb '24)</a><div class="update-date">04/02/24</div></li>
-                <li class="update">Update<div class="update-date">01/01/24</div></li>
-                <li class="update">Update<div class="update-date">01/01/24</div></li>
-                <li class="update">Update<div class="update-date">01/01/24</div></li>
-            </ul>
-
-               more updates...        
+        <div class="grid-row" >
             
-        </div>
-    </div>
+            <!-- Content: left -->
 
-    <!-- Shortcuts -->
-    <div class="col-xs-4 shortcuts" >
-        <div class="styleguide-section__grid-demo-element">
+            <div class="col-md-8" >
+                <div class="styleguide-section__grid-demo-element" >
 
-<div class="shortcuts">
- <!-- Shortcuts: header -->
- <h1><strong>&nbsp;<i class="icon-bookmark"></i>&nbsp;Useful shortcuts</strong></h1>
+                    <div id="content-left">
+                    <h1><i class="icon-star-light"></i>&nbsp;<strong>In the spotlight</strong></h1>
+           
+                    <!-- Blokjes  rij 1-->
 
- <!-- Shortcuts: buttons-->
- <ul class="shortcut">
-     <li class="shortcut"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool"><i class="icon-check-dark"></i>&nbsp;&nbsp;Set up Final Grades</a></li>
-     <li class="shortcut"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test"><i class="icon-quiz"></i>&nbsp;&nbsp;Create a digital exam</a></li>
-     <li class="shortcut"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/course-checklist"><i class="icon-assignment"></i>&nbsp;&nbsp;Course checklist</a></li>
- </ul>
-        
+                    <div class="grid-row" >
+                    
+                        <div class="col-md" id="block-spotlight">
+                            <a href="" style="text-decoration:none">
+                                <div class="styleguide-section__grid-demo-element" >
+                                    <img class="img-spotlight" src="https://canvas.uva.nl/courses/8175/files/10496358/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10496358" data-api-returntype="File" />
+                                    <h2 class="icons1">EXAMS</h2>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md" id="block-spotlight">
+                            <a href="" style="text-decoration:none">
+                                <div class="styleguide-section__grid-demo-element" >
+                                    <img class="img-spotlight" src="https://canvas.uva.nl/courses/8175/files/10496357/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10496357" data-api-returntype="File" />
+                                    <h2 class="icons1">ASSIGNMENTS</h2>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md" id="block-spotlight">
+                            <a href="" style="text-decoration:none">
+                                <div class="styleguide-section__grid-demo-element" >
+                                    <img class="img-spotlight" src="https://canvas.uva.nl/courses/8175/files/10496361/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10496361" data-api-returntype="File" />
+                                    <h2 class="icons1">GRADES</h2>
+                                </div>
+                            </a>
+                        </div>
+                    
                     </div>
-        </div>
-    </div>
-    </div>
-
-
-<div class="grid-row" >
-
-    <!-- Updates-->
-    <div class="col-xs-4">
-        <div class="styleguide-section__grid-demo-element" >
-            <div class="left">
-
-                                  <!-- Banner -->
-                                  <span class="element_toggler" aria-controls="exams" aria-expanded="false"> 
-
-                                    <a style="text-decoration:none;" title="click to unfold"><img class="imgbannerblock" src="https://canvas.uva.nl/courses/8175/files/10453227/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453227" data-api-returntype="File" /></a> 
                     
-                                </span>
-                    
-                    
-                    
-                                <!-- Content -->
-                                <div id="exams" style="display: none;">
-                    
-                                <div class="contentblock">
-                                    <i class="icon-mini-arrow-end"></i>&nbsp;TestVision<br>
-                                    <i class="icon-mini-arrow-end"></i>&nbsp;Ans Exam<br>
-                                    <i class="icon-mini-arrow-end"></i>&nbsp;The assessment cycle<br>
-                                    <i class="icon-mini-arrow-end"></i>&nbsp;Workshop test design<br>
+                    <!-- Blokjes rij 2 -->
+                    <div class="grid-row" >
+
+                        <div class="col-md" id="block-spotlight">
+                            <a href="" style="text-decoration:none">
+                                <div class="styleguide-section__grid-demo-element" >
+                                    <img class="img-spotlight" src="https://canvas.uva.nl/courses/8175/files/10496783/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10496783" data-api-returntype="File" />
+                                    <h2 class="icons1">MEDIA</h2>
                                 </div>
-                    
-                                </div>
-                                </div>
-                                
+                            </a>
+                        </div>
 
-                                <div class="left">
-                                    <!-- Banner -->
-                      <span class="element_toggler" aria-controls="media" aria-expanded="false"> 
-
-                        <a style="text-decoration:none;" title="click to unfold"><img class="imgbannerblock" src="https://canvas.uva.nl/courses/8175/files/10453230/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453230" data-api-returntype="File" /></a> 
-        
-                    </span>
+                        <div class="col-md" id="block-spotlight">
+                            <a href="" style="text-decoration:none">
+                                <div class="styleguide-section__grid-demo-element" >
+                                    <img class="img-spotlight" src="https://canvas.uva.nl/courses/8175/files/10496359/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10496359" data-api-returntype="File" />
+                                    <h2 class="icons1">FEEDBACK TOOLS</h2>
+                                </div>
+                            </a>
+                        </div>
                 
-                    <!-- Content -->
-                    <div id="media"  style="display: none;">
-        
-                        <div class="contentblock">
-                            <i class="icon-mini-arrow-end"></i>&nbsp;TestVision<br>
-                            <i class="icon-mini-arrow-end"></i>&nbsp;Ans Exam<br>
-                            <i class="icon-mini-arrow-end"></i>&nbsp;The assessment cycle<br>
-                            <i class="icon-mini-arrow-end"></i>&nbsp;Workshop test design<br>
+                        <div class="col-md" id="block-spotlight">
+                            <a href="" style="text-decoration:none">
+                                <div class="styleguide-section__grid-demo-element" >
+                                    <img class="img-spotlight" src="https://canvas.uva.nl/courses/8175/files/10496363/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10496363" data-api-returntype="File" />
+                                    <h2 class="icons1">SURVEY TOOLS</h2>
+                                </div>
+                            </a>
                         </div>
-            
-                        </div>
-        
-        </div>
-                   
-                                         
-
-                    
-            
-        </div>
-    </div>
-
-    <div class="col-xs-4" >
-        <div class="styleguide-section__grid-demo-element" >
-                    
-            <div class="middle">
-
-                                         <!-- Banner -->
-                                         <span class="element_toggler" aria-controls="grades" aria-expanded="false"> 
-                    
-                                            <a style="text-decoration:none;" title="click to unfold"><img class="imgbannerblock" src="https://canvas.uva.nl/courses/8175/files/10453229/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453229" data-api-returntype="File" /></a> 
-                            
-                                        </span>
-                            
-                            
-                            
-                                        <!-- Content -->
-                                        <div id="grades"  style="display: none;">
-                            
-                                        <div class="contentblock">
-                                            <i class="icon-mini-arrow-end"></i>&nbsp;TestVision<br>
-                                            <i class="icon-mini-arrow-end"></i>&nbsp;Ans Exam<br>
-                                            <i class="icon-mini-arrow-end"></i>&nbsp;The assessment cycle<br>
-                                            <i class="icon-mini-arrow-end"></i>&nbsp;Workshop test design<br>
-                                        </div>
-                            
-                                        </div>
-                                        </div>
-
-                                        <div class="middle">
-
-                                          <!-- Banner -->
-                     <span class="element_toggler" aria-controls="feedback-tools" aria-expanded="false"> 
-
-                        <a style="text-decoration:none;" title="click to unfold"><img class="imgbannerblock" src="https://canvas.uva.nl/courses/8175/files/10453228/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453228" data-api-returntype="File" /></a> 
-        
-                    </span>
-        
-        
-        
-                    <!-- Content -->
-                    <div id="feedback-tools"  style="display: none;">
-        
-                    <div class="contentblock">
-                        <i class="icon-mini-arrow-end"></i>&nbsp;TestVision<br>
-                        <i class="icon-mini-arrow-end"></i>&nbsp;Ans Exam<br>
-                        <i class="icon-mini-arrow-end"></i>&nbsp;The assessment cycle<br>
-                        <i class="icon-mini-arrow-end"></i>&nbsp;Workshop test design<br>
-                    </div>
-        
+                
                     </div>
 
-                   </div>
+                    </div>
+                </div>
+                                            
+            </div>
+
+            <!-- Content: right -->
+
+            <div class="col-md-4" >
+                <div class="styleguide-section__grid-demo-element" >
+                    
+                    <div id="content-right">
+                    <h1><i class="icon-bookmark"></i>&nbsp;<strong>Quick links</strong></h1>
+
+                    <div class="shortcuts">
+                        <!-- Shortcuts: header -->
+                        <ul class="shortcut">
+                            <li class="shortcut"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool"><i class="icon-check-dark"></i>&nbsp;&nbsp;Set up Final Grades</a></li>
+                            <li class="shortcut"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test"><i class="icon-quiz"></i>&nbsp;&nbsp;Create digital exam</a></li>
+                            <li class="shortcut"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/course-checklist"><i class="icon-assignment"></i>&nbsp;&nbsp;Course checklist</a></li>
+                        </ul>
+                               
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer img-->
+
+        <img style="width: 100%; margin-top:40px" src="https://canvas.uva.nl/courses/8175/files/10453207/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453207" data-api-returntype="File" />
+
+        </div>
+
+        <!-- Footer -->
+
+        <div class="grid-row">
+            <div class="col-xs footer">
+                <div class="styleguide-section__grid-demo-element">
+                    
+                    <!-- Footer: links -->
+                    <ul class="footer1" >
+                        <li class="footer1"><i class="icon-marker"></i>&nbsp;&nbsp;REC B7.08</li>
+                        <li class="footer1"><i class="icon-email"></i>&nbsp;&nbsp;<a href="mailto:icto-csw@uva.nl">icto-csw@uva.nl</a></li>
                         
-
-                    </div>
-                    </div>
-    <!-- Shortcuts -->
-    <div class="col-xs-4"  >
-        <div class="styleguide-section__grid-demo-element">
-
-
-            <div class="right">
-  <!-- Banner -->
-  <span class="element_toggler" aria-controls="assignments" aria-expanded="false"> 
-                    
-    <a style="text-decoration:none;" title="click to unfold"><img class="imgbannerblock" src="https://canvas.uva.nl/courses/8175/files/10453226/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453226" data-api-returntype="File" /></a> 
-
-</span>
-
-
-
-<!-- Content -->
-<div id="assignments"  style="display: none;">
-
-<div class="contentblock">
-    <i class="icon-mini-arrow-end"></i>&nbsp;TestVision<br>
-    <i class="icon-mini-arrow-end"></i>&nbsp;Ans Exam<br>
-    <i class="icon-mini-arrow-end"></i>&nbsp;The assessment cycle<br>
-    <i class="icon-mini-arrow-end"></i>&nbsp;Workshop test design<br>
-</div>
-
-</div>
-
-</div>
-
-<div class="right">
-
-
-  <!-- Banner -->
-  <span class="element_toggler" aria-controls="survey-tools" aria-expanded="false"> 
-
-    <a style="text-decoration:none;" title="click to unfold"><img class="imgbannerblock" src="https://canvas.uva.nl/courses/8175/files/10453231/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453231" data-api-returntype="File" /></a> 
-
-</span>
-
- <!-- Content -->
- <div id="survey-tools" class="content-instr" style="display: none;">
-
-    <div class="contentblock">
-        <i class="icon-mini-arrow-end"></i>&nbsp;TestVision<br>
-        <i class="icon-mini-arrow-end"></i>&nbsp;Ans Exam<br>
-        <i class="icon-mini-arrow-end"></i>&nbsp;The assessment cycle<br>
-        <i class="icon-mini-arrow-end"></i>&nbsp;Workshop test design<br>
-    </div>
-
-    </div>
-         
-    </div>               
+                            
+                            <li class="footer1"><i class="icon-calendar-days"></i>&nbsp;&nbsp;<a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank">Plan a meeting</a>
+                        </li>
+                    </ul>
         
+                </div>
         
-
-
+            </div>
         </div>
-    </div>
+ 
 
-</div>
-
-
-
-<!-- FMG banner -->
-<img style="width: 100%; margin-top:40px" src="https://canvas.uva.nl/courses/8175/files/10453207/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10453207" data-api-returntype="File" />
-
-<!-- Footer -->
-<div class="grid-row">
-    <div class="col-xs footer">
-        <div class="styleguide-section__grid-demo-element">
-            
-            <!-- Footer: links -->
-            <ul class="footer1" >
-                <li class="footer1"><i class="icon-marker"></i>&nbsp;&nbsp;REC B7.08</li>
-                <li class="footer1"><i class="icon-email"></i>&nbsp;&nbsp;<a style="text-decoration:none" href="mailto:icto-csw@uva.nl">icto-csw@uva.nl</a></li>
-                <li class="footer1"><i class="icon-calendar-days"></i>&nbsp;&nbsp;
-                    
-                    <a style="text-decoration:none" href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank">Plan a meeting</a>
-                </li>
-            </ul>
-
-        </div>
-
-    </div>
-</div>
-
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
+   
 </body>
