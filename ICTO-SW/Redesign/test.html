@@ -21,7 +21,7 @@
         .external_link_icon {display:none !important}
 
         body { 
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-family:helvetica, sans-serif;
             box-sizing: border-box;
         }
 
@@ -61,11 +61,12 @@
             display:block;
             background-color: #efefef;
             color:#555;
-            padding:10pt 15pt;
+            padding:10pt 15pt 8pt 15pt;
             text-align: center;
             border-bottom: 5px solid transparent;
             text-transform:capitalize;
-            margin-right:1pt
+            margin-right:1pt;
+            font-family:Arial
         }
 
         .menu li a:hover {
@@ -75,8 +76,8 @@
         }
 
         .menu li a.active {
-            background-color:white;
-            color: #555;
+            background-color:#21A6CD;
+            color: #fff;
             border-bottom:5px solid #21A6CD;
         }
 
@@ -97,10 +98,10 @@
 
         a.active2 {  background-color:#21A6CD;
             color: #fff;
-            border-bottom:5px solid #21A6CD;
-            padding:10pt 15pt;
-            text-align:center;
-        cursor: default}
+            padding:11pt 15pt;
+        cursor: default;
+    border-right: 1px solid #efefef;             font-family:Arial
+        }
 
         .grid-row { width:100%; padding:0; margin:0; }
         .col-md-8 { padding:0; margin:0; }
@@ -118,6 +119,8 @@
             padding:10pt;
             margin:10pt;
             font-size:12pt;
+            line-height:1.2em;
+            font-size:12pt
         }
 
         #block-spotlight {
@@ -210,7 +213,7 @@
             cursor:pointer;
         }
 
-        h1 {font-size:15pt}
+        h1 {font-size:15pt; }
         h2 {font-size:12pt}
 
         h2.icons1 {
@@ -222,6 +225,7 @@
             list-style-type: none;
             padding: 0;
             margin:0;
+            border-bottom: 1px solid #efefef
         }
 
         li.menu-right {
@@ -234,20 +238,26 @@
             display: block;
             color: #555;
             padding: 10px 16px;
-            border-bottom: 1px solid #dfdcdc;
             margin-left:0.5px;
-            border-left:  6px solid #dfdcdc;
+            margin-bottom: 1px;
+            background-color:#efefef;
+            border-left:6px solid #efefef;
+            
+
         }
 
         li.menu-right a:hover {
             color: #21A6CD;
             border-left:6px solid #21A6CD;
+            background-color:white
 
         }
 
         li.menu-right a.active {color:#21A6CD; text-align: left;             
+            cursor: default;
+            background-color:white;
             border-left:6px solid #21A6CD;
-            cursor: default
+
 
 }
 
@@ -288,15 +298,15 @@
 
 
                 <ul class="menu" >
-                    <li><a style="text-decoration:none;" class="left" href="">HOME</a></li>
-                    <li><a style="text-decoration:none;" class="" href="about.html">ABOUT</a></li>
-                    <li><a style="text-decoration:none;" class="" href="contact.html">NEWS</a></li>
+                    <li><a style="text-decoration:none;" class="left" href="">Home</a></li>
+                    <li><a style="text-decoration:none;" class="" href="about.html">About</a></li>
+                    <li><a style="text-decoration:none;" class="" href="contact.html">News</a></li>
                 </ul>
             </div>
 
             <div class="col-md-3" >
 
-<a style="text-decoration:none;" class="active2" href="contact.html">FINAL GRADES</a>
+<a style="text-decoration:none;" class="active2" href="contact.html">Final Grades</a>
 </div>
 </div>
 
