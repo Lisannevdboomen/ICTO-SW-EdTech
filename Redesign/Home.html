@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Stylesheet -->
+    <style>
+        * { box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+
+            ul.one {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width:100%;
+  position:fixed;
+  top:0;
+}
+
+li.two {
+  float: right;
+  border-right: 1px solid white
+}
+
+li.two a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.two a:hover {
+  display: block;
+  color: white;
+  background-color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.active a {
+  display: block;
+  color: white;
+  background-color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor:default;
+}
+
+
+ul.shortcuts5 {
+    list-style-type: none;
+  padding: 0;
+  margin:0;
+  margin-top:5px;
+}
+
+li.shortcut5 {
+    border-radius:5pt; margin-bottom:5px;
+    width:100%;
+
+
+}
+
+
+li.shortcut5 a {
+    display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius:5pt; 
+  background-color: #f1f1f1;
+
+
+
+}
+
+li.shortcut5 a:hover {
+  display: block;
+  color: white;
+  background-color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+           
+        .grid-row {margin-left:0px; margin-right:0px; }
+
+        .col-xs {margin:0; padding:0; }
+
+ 
+
+   
+        #footer {color:black; background-color:rgb(129, 129, 129); padding:50px; margin-top:40px}
+
+        .updates { margin:5px; background-color:green; border: 1px solid blue; border-radius:5pt; margin-left:0; padding:10pt; margin-right:15px}
+
+
+        .block-left {margin:10px 10px 10px 0px; background-color:green; border: 1px solid blue; border-radius:5pt; padding:10pt}
+        
+        .block-middle {margin:10px 5px 10px 5px; background-color:green; border: 1px solid blue; border-radius:5pt; padding:10pt}
+
+        .block-right {margin:10px 0px 10px 10px;  background-color:green; border: 1px solid blue; border-radius:5pt; padding:10pt}
+        
+        h1 {font-size:17pt;padding:0; margin:0; margin-bottom:5px}
+
+        h2 {font-size: 14pt;padding:0; margin:0}
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+<!-- Banner -->
+<a id="top"></a>
+<img style="width: 100%; " src="https://canvas.uva.nl/courses/8175/files/10240909/preview"/>
+
+<!-- Navigation bar-->
+
+
+<ul class="one">
+    <li class="two"><a href="default.asp" style="text-decoration:none;">Home</a></li>
+    <li class="two"><a href="news.asp">News</a></li>
+    <li class="two"><a href="contact.asp">Contact</a></li>
+    <li class="two active"><a>About</a></li>
+  </ul>
+
+
+
+
+<!-- Updates + snelkoppelingen-->
+
+<div class="grid-row">
+    
+    <!-- Updates -->
+    <div class="col-xs updates"><div class="styleguide-section__grid-demo-element">
+        <h1><strong><i class="icon-star"></i>&nbsp;NEW</strong></h1>
+        inhoud<br><br>inhoud
+    </div></div>
+    
+    <!-- Snelkoppelingen -->
+    <div class="col-xs" style="margin-top:15px"><div class="styleguide-section__grid-demo-element">
+            <h1><strong>&nbsp;<i class="icon-pin"></i>&nbsp;Useful shortcuts</strong></h1>        
+
+                <ul class="shortcuts5">
+                    <li class="shortcut5">
+                        <a href="default.asp" style="text-decoration:none;">Home</a>
+                    </li>
+                    <li class="shortcut5">
+                        <a href="default.asp" style="text-decoration:none;">Home</a>
+                    </li>
+                    <li class="shortcut5">
+                        <a href="default.asp" style="text-decoration:none;">Home</a>
+                    </li>
+                </ul>
+                <br><br><br>
+
+     
+    </div></div>
+
+</div>
+
+<!-- Exams, Assignments, Grades-->
+
+<div class="grid-row">
+    
+    <!-- Exams -->
+    <div class="col-xs block-left"><div class="styleguide-section__grid-demo-element">
+        <h2><strong>Exams</strong></h2>
+        <p>Inhoud</p>
+    </div></div>
+    
+    <!-- Assignments -->
+    <div class="col-xs block-middle"><div class="styleguide-section__grid-demo-element">
+        inhoud
+    </div></div>
+
+    <!-- Grades -->
+    <div class="col-xs block-right"><div class="styleguide-section__grid-demo-element">
+        Inhoud
+    </div></div>
+
+</div>
+
+<!-- Exams, Assignments, Grades-->
+
+<div class="grid-row">
+    
+    <!-- Exams -->
+    <div class="col-xs block-left"><div class="styleguide-section__grid-demo-element">
+        inhoud
+        
+    </div></div>
+    
+    <!-- Assignments -->
+    <div class="col-xs block-middle"><div class="styleguide-section__grid-demo-element">
+        inhoud
+    </div></div>
+
+    <!-- Grades -->
+    <div class="col-xs block-right"><div class="styleguide-section__grid-demo-element">
+        inhoud
+    </div></div>
+
+</div>
+
+<!-- Footer -->
+
+<div class="grid-row">
+    
+    <div class="col-xs"><div class="styleguide-section__grid-demo-element">
+        <div class="grid-row">
+    
+            <div class="col-xs"><div class="styleguide-section__grid-demo-element">
+                <div id="footer">inhoud</div></div></div>
+
+                <div class="col-xs"><div class="styleguide-section__grid-demo-element">
+                    <div id="footer">inhoud</div></div></div>
+                
+            </div></div>
+            
+        </div></div>
+    </div>
+    
+</div>
+
+
+
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+</body>
+</html>
