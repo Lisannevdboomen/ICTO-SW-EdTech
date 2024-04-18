@@ -1,0 +1,155 @@
+<p><br>Beste collega,<br><br>Het docent email van
+    <strong>@{items('Op_elk(e)_toepassen:_')?['Docenten']}</strong> is niet ingevoerd in de Toetsenlijst. Onderstaande
+    informatie graag doorsturen naar de betreffende docent.</p>
+<p>
+<strong
+    >--- Namens Tentamenvoorzieningen Sociale Wetenschappen --- </strong
+  ><br /><br />Beste docent,<br /><br />Over 6 weken (op
+  <strong>@{formatDateTime(outputs('ComposeDate2'), 'dd-MM-yyyy')}</strong>)
+  vindt het
+  <strong
+    >@{items('Op_elk(e)_toepassen:_')?['Platform/Value']}
+    @{items('Op_elk(e)_toepassen:_')?['Soort/Value']}</strong
+  >
+  voor <strong>@{items('Op_elk(e)_toepassen:_')?['Vaktitel']}</strong> plaats.
+<br />Bij dezen graag het verzoek om voortaan uiterlijk vier
+  weken van te voren surveillanten voor een tentamen willen aanvragen via:
+  tentamenvoorziening-sw@uva.nl<br /><br />De examencommissie heeft de volgende
+  richtlijnen vastgelegd inzake het aantal surveillanten bij een tentamen:
+</p>
+
+<ul>
+  <li>tot 50 deelnemers: min. 1 surveillant</li>
+  <li>50-150 deelnemers: min. 2 surveillanten</li>
+  <li>daarna voor elke 75 deelnemers: + 1 surveillant</li>
+</ul>
+<br />Docenten (hoofddocent en indien nodig werkgroepdocenten) dienen bij hun
+vak te surveilleren, o.a. i.v.m. mogelijk inhoudelijke vragen door
+tentamenkandidaten. In samenwerking met de opleidingsdirecteur organiseert het
+onderwijsbureau een surveillantenpool (in eerste instantie OWI-docenten en
+AIO’s), in geval er extra surveillanten nodig blijken te zijn. Voorafgaand aan
+het tentamen dienen docenten de surveillanten op te vangen en nadere instructies
+te geven over het af te leggen tentamen.<br /><br />In elk geval
+moeten aanwezig zijn:
+  <br />
+  <ul>
+  <li>Hoofddocent of een van de werkgroepdocenten</li>
+  <li>Student-assistent</li>
+</ul>
+<strong
+  >Voor vragen of opmerkingen, gelieve contact opnemen met tentamenvoorzieningen
+  via: tentamenvoorziening-sw@uva.nl </strong
+><br /><br /><i>Exam details:</i><br />
+  <br />
+  <ul>
+  <li>
+    <strong>Type:</strong> @{items('Op_elk(e)_toepassen:_')?['Soort/Value']}
+  </li>
+  <li>
+    <strong>Course:</strong> @{items('Op_elk(e)_toepassen:_')?['Vaktitel']}
+  </li>
+  <li>
+    <strong>Coursecode:</strong> @{items('Op_elk(e)_toepassen:_')?['Vakcode']}
+  </li>
+  <li>
+    <strong>Date:</strong> @{formatDateTime(outputs('ComposeDate2'), 'dddd
+    dd-MM-yyyy', 'en-US')}
+  </li>
+  <li>
+    <strong>Time:</strong> @{items('Op_elk(e)_toepassen:_')?['Start']} -
+    @{items('Op_elk(e)_toepassen:_')?['Einde']}
+  </li>
+  <li>
+    <strong>Platform:</strong>
+    @{items('Op_elk(e)_toepassen:_')?['Platform/Value']}
+  </li>
+  <li>
+    <strong>Location(s):</strong> @{items('Op_elk(e)_toepassen:_')?['Locatie']}
+  </li>
+  <li>
+    <strong>Size:</strong> @{items('Op_elk(e)_toepassen:_')?['Grootte']}
+    students
+  </li>
+  <li>
+    <strong>Teacher(s):</strong> @{items('Op_elk(e)_toepassen:_')?['Docenten']}
+  </li>
+</ul>
+<br />Namens de onderwijsadministratie en de tentamenvoorzieningen sociale
+wetenschappen.<br /><br /><br />
+<hr />
+<br />
+<p>
+<i>--- English ---</i> <br /><br /><strong
+    >--- On behalf of Tentamenvoorzieningen Social Sciences --- </strong
+  ><br /><br />Dear teacher,<br /><br />In 6 weeks (on
+  <strong>@{formatDateTime(outputs('ComposeDate2'), 'dd-MM-yyyy')}</strong>) the
+  <strong
+    >@{items('Op_elk(e)_toepassen:_')?['Platform/Value']}
+    @{items('Op_elk(e)_toepassen:_')?['Soort/Value']}</strong
+  >
+  for <strong>@{items('Op_elk(e)_toepassen:_')?['Vaktitel']}</strong> will take
+  place. <br />We hereby request you to apply for surveillance
+  no later than four weeks in advance to the exam by contacting:
+  tentamenvoorziening-sw@uva.nl <br /><br />The Examinations Board has
+  established the following guideluines regarding the number of surveillants to
+  be present during an exam:
+</p>
+
+<ul>
+  <li>&lt;50 candidates: 1 or more surveillant(s)</li>
+  <li>50-150 candidates: 2 or more surveillants</li>
+  <li>for every 75 candidates on top of this: 1 more surveillant</li>
+</ul>
+Teachers (coordinator and if necessary tutorial teachers) must be present
+during their exam to supervise (s.a. to answer any substantive questions from
+students). If additional surveillants are needed, the education desk will
+organise a pool of surveillants in cooperation with the program director
+(initially consisting of OWI-teachers and AIO's). Before the start of the exam,
+teachers welcome the surveillants and provide instructions about the exam in
+question.<br /><br />In any case, the following people must be
+present:
+<ul>
+  <li>Coordinator or tutorial teacher</li>
+  <li>Student-assistant</li>
+</ul>
+<strong
+  >For questions or comments, please refer to <i>tentamenvoorzieningen</i> at:
+  tentamenvoorziening-sw@uva.nl </strong
+><br />
+
+<br /><br /><br /><i>Exam details:</i><br />
+<ul>
+  <li>
+    <strong>Type:</strong> @{items('Op_elk(e)_toepassen:_')?['Soort/Value']}
+  </li>
+  <li>
+    <strong>Course:</strong> @{items('Op_elk(e)_toepassen:_')?['Vaktitel']}
+  </li>
+  <li>
+    <strong>Coursecode:</strong> @{items('Op_elk(e)_toepassen:_')?['Vakcode']}
+  </li>
+  <li>
+    <strong>Date:</strong> @{formatDateTime(outputs('ComposeDate2'), 'dddd
+    dd-MM-yyyy', 'en-US')}
+  </li>
+  <li>
+    <strong>Time:</strong> @{items('Op_elk(e)_toepassen:_')?['Start']} -
+    @{items('Op_elk(e)_toepassen:_')?['Einde']}
+  </li>
+  <li>
+    <strong>Platform:</strong>
+    @{items('Op_elk(e)_toepassen:_')?['Platform/Value']}
+  </li>
+  <li>
+    <strong>Location(s):</strong> @{items('Op_elk(e)_toepassen:_')?['Locatie']}
+  </li>
+  <li>
+    <strong>Size:</strong> @{items('Op_elk(e)_toepassen:_')?['Grootte']}
+    students
+  </li>
+  <li>
+    <strong>Teacher(s):</strong> @{items('Op_elk(e)_toepassen:_')?['Docenten']}
+  </li>
+</ul>
+<br />On behalf of the education desk and <i>tentamenvoorzieningen</i> social
+sciences.<br /><br />
