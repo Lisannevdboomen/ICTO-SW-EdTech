@@ -4,112 +4,313 @@
 
     <!-- Stylesheet -->
     <style>
-        * { box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-            }
+        
 
-            ul.one {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  width:100%;
-  position:fixed;
-  top:0;
+
+
+h1, h2, h3, h4, h5, h6 {
+    padding:0;
+    margin: 0;
 }
 
-li.two {
-  float: right;
-  border-right: 1px solid white
+#content-page {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #efefef;
+    font-family: helvetica, sans-serif;
+    
 }
 
-li.two a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.page-title  { 
+    display: none !important;
+} 
+
+#right-side-wrapper  {
+    display: none !important;
+} 
+
+.external_link_icon {
+    display:none !important
 }
 
-li.two a:hover {
-  display: block;
-  color: white;
-  background-color:black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.grid-row { 
+    width:100%; 
+    padding:0; 
+    margin:0; }
+
+.col-md, .col-md-1, .col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12 {
+    margin:0;
+    padding:0;
 }
 
-li.active a {
-  display: block;
-  color: white;
-  background-color:black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  cursor:default;
+p { 
+    margin:0;
+    padding:0;
 }
 
+#header-icto {
+    padding:0;
+    margin:0;
+    margin-bottom:20px;   
+}
 
-ul.shortcuts5 {
+ul.navbar-icto {
+    margin: 0;
     list-style-type: none;
-  padding: 0;
-  margin:0;
-  margin-top:5px;
 }
 
-li.shortcut5 {
-    border-radius:5pt; margin-bottom:5px;
+
+.navbar-icto li a {
+    float:left;
+    border-top:8px solid white;
+    border-bottom:8px solid white;
+    display:block;
+    text-align: center;
+    padding: 8pt 15pt;
+    margin:0;
+    font-family:Arial;
+}
+
+li.non-current a {
+    color:#004AAD;
+}
+
+li.non-current a:hover {
+    border-bottom: 8px solid #004AAD;
+}
+
+li.current a {
+   background-color: #004AAD;
+    border-bottom: 8px solid  #004AAD;
+    border-top: 8px solid  #004AAD;
+    color:#fff;
+    cursor:default;
+}
+
+li.enroll {
+border-top:5px solid white;
+float:right} 
+
+li.enroll a {
+    background-color: #ea8300;
+    color:#fff;
+    padding: 5pt 12pt;
+    margin:5pt;
+    text-align: center;
+    border-radius: 20pt;
+    border: 0;
+    margin-left:30pt;
+    margin-right:10pt;
+}
+
+li.enroll a:hover {
+    background-color: #cc7504;
+}
+
+
+
+.content-left { 
+    padding:10pt;
+    background-color:#efefef;
+}
+
+.content-right { 
+    padding:10pt;
+    font-size:12pt;
+    line-height:1.2em;
+    font-size:12pt
+}
+
+ul.shortcut {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+li.shortcut {
     width:100%;
-
-
+    margin:0;
+    margin-top:5pt;
+    font-size:11pt;
 }
 
-
-li.shortcut5 a {
+li.shortcut a {
     display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-  border-radius:5pt; 
-  background-color: #f1f1f1;
+    color: #555;
+    background-color:#fff;
+    padding: 10px 16px;
+    border-radius:30pt; 
+    border-right: 3px solid #dfdcdc;
+    border-bottom: 3px solid #dfdcdc;
+    border-left: 1px solid #dfdcdc;
+    border-top: 1px solid #dfdcdc;
+}
 
+li.shortcut a:hover {
+    background-color:#efefef;
+}
+
+.pagina-vullend {
+    background-color:#d2eef7;
+    padding:10pt;
+    justify-content: left;
+}
+
+.useful-topics {
+    margin-right:10pt;
+    margin-bottom:10pt;
+    max-width:15%;
+    text-align:center;
+    color:#555;
+    vertical-align: center;
+    background-color: #fff;
+    border-radius: 5pt;
+}
+
+.useful-topics a {
+    color:#555;
+}
+
+h3.useful-topic {
+    font-size:10pt;
+}
+
+.img-topics {
+    border-radius: 5pt 5pt 0 0;
+}
+
+.topics-content {
+    padding: 5pt 0;
+}
+
+.useful-topics:hover {
+    background-color: #efefef;
+}
+
+.block-spotlight {
+    background-color: white; 
+    border-radius:3pt;
+    border: 1px solid #dfdcdc;
+    color:#555;
+    margin-bottom:10pt;
+}
+
+.img-spotlight { 
+    width:100%;
+    border-radius: 3pt 0 0 3pt;
+}
+
+a.further {
+    float:right;
+    font-style: italic;
+    font-size: 8pt;
+    vertical-align: bottom;
+}
+
+.text-spotlight {
+    padding:5pt;
+}
+
+p.datum-spotlight {
+    float:right;
+    font-size:10pt;
+    display:inline;
+}
+
+h2.header-spotlight {
+    display:inline;
+    font-size: 14pt;
+}
+
+p.content-spotlight {
+    margin:0;
+    font-size:11pt;
+    line-height:1.2em;
+    display: inline;
+    float:left
+}
+
+.footer {
+    color:white; 
+    background-color:#203864; 
+    padding:10px; 
+    margin: 0; 
+    font-size:10pt;
+    width: 100%;
+}
+
+ul.footer1 {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width:100%;
+    font-size:9pt; 
+    text-align: center
+}
+
+li.footer1 { 
+    font-size:10pt;
+    display: inline-block; 
+    cursor:default;
+    width:30%
+}
+
+li.footer1 a {
+    color:white;
+    cursor:pointer;
+}
+
+li.footer1 a:hover {
+    color:#bb143a;
+    cursor:pointer;
+}
+
+ul.menu-right {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    border-bottom: 1px solid #efefef
+}
+
+li.menu-right {
+    width:100%;
+    margin:0;
+    font-size:11pt
+}
+
+li.menu-right a {
+    display: block;
+    color: #555;
+    padding: 10px 16px;
+    margin-left:0.5px;
+    margin-bottom: 1px;
+    background-color:#efefef;
+    border-left:6px solid #efefef;
+    
+
+}
+
+li.menu-right a:hover {
+    color: #21A6CD;
+    border-left:6px solid #21A6CD;
+    background-color:white
+
+}
+
+li.menu-right a.active {color:#21A6CD; text-align: left;             
+    cursor: default;
+    background-color:white;
+    border-left:6px solid #21A6CD;
 
 
 }
 
-li.shortcut5 a:hover {
-  display: block;
-  color: white;
-  background-color:black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+#content-menu-right {
+    padding:0;
+    margin:0 
 }
 
-           
-        .grid-row {margin-left:0px; margin-right:0px; }
-
-        .col-xs {margin:0; padding:0; }
-
- 
-
-   
-        #footer {color:black; background-color:rgb(129, 129, 129); padding:50px; margin-top:40px}
-
-        .updates { margin:5px; background-color:green; border: 1px solid blue; border-radius:5pt; margin-left:0; padding:10pt; margin-right:15px}
-
-
-        .block-left {margin:10px 10px 10px 0px; background-color:green; border: 1px solid blue; border-radius:5pt; padding:10pt}
-        
-        .block-middle {margin:10px 5px 10px 5px; background-color:green; border: 1px solid blue; border-radius:5pt; padding:10pt}
-
-        .block-right {margin:10px 0px 10px 10px;  background-color:green; border: 1px solid blue; border-radius:5pt; padding:10pt}
-        
-        h1 {font-size:17pt;padding:0; margin:0; margin-bottom:5px}
-
-        h2 {font-size: 14pt;padding:0; margin:0}
 
 
 
@@ -119,126 +320,220 @@ li.shortcut5 a:hover {
 </head>
 <body>
 
-<!-- Banner -->
-<a id="top"></a>
-<img style="width: 100%; " src="https://canvas.uva.nl/courses/8175/files/10240909/preview"/>
-
-<!-- Navigation bar-->
+<!-- Header ICTO Social Sciences -->
+<div id="header-icto">
 
 
-<ul class="one">
-    <li class="two"><a href="default.asp" style="text-decoration:none;">Home</a></li>
-    <li class="two"><a href="news.asp">News</a></li>
-    <li class="two"><a href="contact.asp">Contact</a></li>
-    <li class="two active"><a>About</a></li>
-  </ul>
-
-
-
-
-<!-- Updates + snelkoppelingen-->
-
-<div class="grid-row">
-    
-    <!-- Updates -->
-    <div class="col-xs updates"><div class="styleguide-section__grid-demo-element">
-        <h1><strong><i class="icon-star"></i>&nbsp;NEW</strong></h1>
-        inhoud<br><br>inhoud
-    </div></div>
-    
-    <!-- Snelkoppelingen -->
-    <div class="col-xs" style="margin-top:15px"><div class="styleguide-section__grid-demo-element">
-            <h1><strong>&nbsp;<i class="icon-pin"></i>&nbsp;Useful shortcuts</strong></h1>        
-
-                <ul class="shortcuts5">
-                    <li class="shortcut5">
-                        <a href="default.asp" style="text-decoration:none;">Home</a>
-                    </li>
-                    <li class="shortcut5">
-                        <a href="default.asp" style="text-decoration:none;">Home</a>
-                    </li>
-                    <li class="shortcut5">
-                        <a href="default.asp" style="text-decoration:none;">Home</a>
-                    </li>
-                </ul>
-                <br><br><br>
-
-     
-    </div></div>
+<img style="width:30px; padding-right: 5pt; display: inline; vertical-align:top" src="https://canvas.uva.nl/courses/8175/files/10495398/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10495398" data-api-returntype="File">
+<h1 style="display:inline; line-height:1.2em">ICTO Social Sciences</h1>
 
 </div>
 
-<!-- Exams, Assignments, Grades-->
+<ul class="navbar-icto">
 
-<div class="grid-row">
-    
-    <!-- Exams -->
-    <div class="col-xs block-left"><div class="styleguide-section__grid-demo-element">
-        <h2><strong>Exams</strong></h2>
-        <p>Inhoud</p>
-    </div></div>
-    
-    <!-- Assignments -->
-    <div class="col-xs block-middle"><div class="styleguide-section__grid-demo-element">
-        inhoud
-    </div></div>
-
-    <!-- Grades -->
-    <div class="col-xs block-right"><div class="styleguide-section__grid-demo-element">
-        Inhoud
-    </div></div>
-
-</div>
-
-<!-- Exams, Assignments, Grades-->
-
-<div class="grid-row">
-    
-    <!-- Exams -->
-    <div class="col-xs block-left"><div class="styleguide-section__grid-demo-element">
-        inhoud
-        
-    </div></div>
-    
-    <!-- Assignments -->
-    <div class="col-xs block-middle"><div class="styleguide-section__grid-demo-element">
-        inhoud
-    </div></div>
-
-    <!-- Grades -->
-    <div class="col-xs block-right"><div class="styleguide-section__grid-demo-element">
-        inhoud
-    </div></div>
-
-</div>
-
-<!-- Footer -->
-
-<div class="grid-row">
-    
-    <div class="col-xs"><div class="styleguide-section__grid-demo-element">
-        <div class="grid-row">
-    
-            <div class="col-xs"><div class="styleguide-section__grid-demo-element">
-                <div id="footer">inhoud</div></div></div>
-
-                <div class="col-xs"><div class="styleguide-section__grid-demo-element">
-                    <div id="footer">inhoud</div></div></div>
-                
-            </div></div>
             
-        </div></div>
-    </div>
+    <li class="current menu-item"><a style="text-decoration:none;" href=""><img style="width: 20px; " src="https://canvas.uva.nl/courses/8175/files/10739139/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10739139" data-api-returntype="File"></a></li>
+
+<li class="non-current menu-item"><a style="text-decoration:none;" href="#">About</a></li>
+    <li class="non-current menu-item"><a style="text-decoration:none;" href="#">News</a></li>
+    <li class="non-current menu-item"><a style="text-decoration:none;" href="#">Tools</a></li>
+    <li class="enroll"><a style="text-decoration:none;" href="https://canvas.uva.nl/enroll/N3HMY8"><i class="icon-add"></i>&nbsp;Enroll</a></li>
+
     
-</div>
+    
+    
+    
+    
+
+</ul>
+
+        
+
+        
+        
+
+        
+        <div id="banner-img">
+            <img style="width: 100%;" src="https://canvas.uva.nl/courses/8175/files/10564002/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10564002" data-api-returntype="File">
+        </div>
 
 
+        <div class="grid-row">
 
-</div>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+            
+            <div class="col-md-4 content-left">
+                <div class="styleguide-section__grid-demo-element">      
 
-<p>&nbsp;</p>
+                        
+                        <h1><strong>Quick links</strong></h1>
+
+                        
+                        <ul class="shortcut">
+                            <li class="shortcut"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/final-grades-tool" data-api-returntype="Page"><i class="icon-check-dark"></i>&nbsp;&nbsp;Set up Final Grades</a></li>
+                            <li class="shortcut"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/testvision-instructions-%257C-questions-and-test" data-api-returntype="Page"><i class="icon-quiz"></i>&nbsp;&nbsp;Create digital exam</a></li>
+                            <li class="shortcut"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/course-checklist" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/course-checklist" data-api-returntype="Page"><i class="icon-assignment"></i>&nbsp;&nbsp;Course checklist</a></li>
+                        </ul>                                    
+
+                </div>
+            </div>
+            
+            
+            <div class="col-md-8 content-right">
+                <div class="styleguide-section__grid-demo-element">
+
+                    
+                    <h1><strong>In the spotlight</strong></h1> 
+                    
+                                   
+                    <div class="block-spotlight">
+                        <div class="grid-row">
+                            <div class="col-md-3">
+                                <div class="styleguide-section__grid-demo-element">
+                                    <img class="img-spotlight" src="https://canvas.uva.nl/courses/8175/files/10564760/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10564760" data-api-returntype="File">
+                                </div>
+                            </div>
+                            <div class="col-md-9 text-spotlight">
+                                <div class="styleguide-section__grid-demo-element">
+                                    <h2 class="header-spotlight">Header</h2>
+                                    <p class="datum-spotlight">12-03-2024</p>
+                                    <p class="content-spotlight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id interdum tellus, eget dictum enim. Proin lobortis nisi nec tincidunt vulputate. Suspendisse potenti. Maecenas in pharetra leo, vel auctor mauris. Proin mattis...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block-spotlight">
+                        <div class="grid-row">
+                            <div class="col-md-3">
+                                <div class="styleguide-section__grid-demo-element">
+                                    <img class="img-spotlight" src="https://canvas.uva.nl/courses/8175/files/10564760/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10564760" data-api-returntype="File">
+                                </div>
+                            </div>
+
+                            <div class="col-md-9 text-spotlight">
+
+                                <div class="styleguide-section__grid-demo-element">
+                                    
+                                    <h2 class="header-spotlight">Header</h2>
+                                    <p class="datum-spotlight">12-03-2024</p>
+                                    <p class="content-spotlight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id interdum tellus, eget dictum enim. Proin lobortis nisi nec tincidunt vulputate. Suspendisse potenti. Maecenas in pharetra leo, vel auctor mauris. Proin mattis...
+                                    <a href="#" class="further">read more</a></p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+
+
+        
+
+        <div class="pagina-vullend">
+
+            
+            <h1><strong>Useful topics</strong></h1>
+
+            <div class="grid-row">
+
+                
+                <div class="col-md-2 useful-topics">
+                    <div class="styleguide-section__grid-demo-element">
+                        <a href="#" style="text-decoration: none;">
+                        <img class="img-topics" src="https://canvas.uva.nl/courses/8175/files/10564885/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10564885" data-api-returntype="File">
+                        <div class="topics-content">
+                            <h3 class="useful-topic">EXAMS</h3>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2 useful-topics">
+                    <div class="styleguide-section__grid-demo-element">
+                        <a href="#" style="text-decoration: none;">
+                        <img class="img-topics" src="https://canvas.uva.nl/courses/8175/files/10564886/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10564886" data-api-returntype="File">
+                        <div class="topics-content">
+                            <h3 class="useful-topic">ASSIGNMENTS</h3>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2 useful-topics">
+                    <div class="styleguide-section__grid-demo-element">
+                        <a href="#" style="text-decoration: none;">
+                        <img class="img-topics" src="https://canvas.uva.nl/courses/8175/files/10564888/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10564888" data-api-returntype="File">
+                        <div class="topics-content">
+                            <h3 class="useful-topic">FEEDBACK TOOLS</h3>
+                        </div>
+                        </a>                    
+                    </div>
+                </div>
+                <div class="col-md-2 useful-topics">
+                    <div class="styleguide-section__grid-demo-element">
+                        <a href="#" style="text-decoration: none;">
+                        <img class="img-topics" src="https://canvas.uva.nl/courses/8175/files/10564889/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10564889" data-api-returntype="File">
+                        <div class="topics-content">
+                            <h3 class="useful-topic">SURVEY TOOLS</h3>
+                        </div>   
+                        </a>                   
+                    </div>
+                </div>
+                <div class="col-md-2 useful-topics">
+                    <div class="styleguide-section__grid-demo-element">
+                        <a href="#" style="text-decoration: none;">
+                        <img class="img-topics" src="https://canvas.uva.nl/courses/8175/files/10564889/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10564889" data-api-returntype="File">
+                        <div class="topics-content">
+                            <h3 class="useful-topic">SURVEY TOOLS</h3>
+                        </div>   
+                        </a>                   
+                    </div>
+                </div>                
+                <div class="col-md-2 useful-topics">
+                    <div class="styleguide-section__grid-demo-element">
+                        <a href="#" style="text-decoration: none;">
+                        <img class="img-topics" src="https://canvas.uva.nl/courses/8175/files/10564889/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10564889" data-api-returntype="File">
+                        <div class="topics-content">
+                            <h3 class="useful-topic">SURVEY TOOLS</h3>
+                        </div>   
+                        </a>                   
+                    </div>
+                </div>
+                <div class="col-md-2 useful-topics">
+                    <div class="styleguide-section__grid-demo-element">
+                        <a href="#" style="text-decoration: none;">
+                        <img class="img-topics" src="https://canvas.uva.nl/courses/8175/files/10564889/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10564889" data-api-returntype="File">
+                        <div class="topics-content">
+                            <h3 class="useful-topic">SURVEY TOOLS</h3>
+                        </div>   
+                        </a>                   
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        
+        <div class="grid-row">
+            <div class="col-md footer">
+                <div class="styleguide-section__grid-demo-element">
+                    
+                    <ul class="footer1">
+                        <li class="footer1"><i class="icon-marker"></i>&nbsp;&nbsp;REC B7.08</li>
+                        <li class="footer1"><i class="icon-email"></i>&nbsp;&nbsp;<a href="mailto:icto-csw@uva.nl">icto-csw@uva.nl</a></li>
+                        <li class="footer1"><i class="icon-calendar-days"></i>&nbsp;&nbsp;<a href="https://outlook.office365.com/owa/calendar/ICTOSocialSciences@Amsuni.onmicrosoft.com/bookings/" target="_blank" class="external" rel="noreferrer noopener"><span>Plan a meeting</span><span class="external_link_icon" style="margin-inline-start: 5px; display: inline-block; text-indent: initial; " role="presentation"><svg viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" style="width:1em; height:1em; vertical-align:middle; fill:currentColor">
+    <path d="M1226.667 267c88.213 0 160 71.787 160 160v426.667H1280v-160H106.667v800C106.667 1523 130.56 1547 160 1547h1066.667c29.44 0 53.333-24 53.333-53.333v-213.334h106.667v213.334c0 88.213-71.787 160-160 160H160c-88.213 0-160-71.787-160-160V427c0-88.213 71.787-160 160-160Zm357.706 442.293 320 320c20.8 20.8 20.8 54.614 0 75.414l-320 320-75.413-75.414 228.907-228.906H906.613V1013.72h831.254L1508.96 784.707l75.413-75.414Zm-357.706-335.626H160c-29.44 0-53.333 24-53.333 53.333v160H1280V427c0-29.333-23.893-53.333-53.333-53.333Z" fill-rule="evenodd"></path>
+</svg>
+<span class="screenreader-only">Links to an external site.</span></span></a>
+                        </li>
+                    </ul>
+        
+                </div>
+        
+            </div>
+        </div>
+ 
 
 </body>
 </html>
