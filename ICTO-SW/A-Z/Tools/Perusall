@@ -13,19 +13,20 @@
 
 <!-- warning LTI 1.3 -->
 <span class="element_toggler " aria-controls="new-lti-warning" aria-label="Toggler toggle list visibility" aria-expanded="false"> 
-<div class="alert alert-info">
-    <i class="icon-announcement"></i><span style="font-size: 13pt;"><i> <a>Perusall 1.3 is live! Learn about new handy settings and how to reconfigure your assignments</a></i></span>
-</div>
+    <div class="alert alert-info">
+        <i class="icon-announcement"></i><span style="font-size: 13pt;"><i> <a>Perusall 1.3 is live! Learn about new handy settings and how to reconfigure your assignments</a></i></span>
+    </div>
+</span>
 <br>
 <ul id="new-lti-warning" style="font-size: 13pt; list-style: none; display: none;">
     As of July 18th 2023, the UvA has upgraded their version of Perusall to version 1.3. With the launch of 1.3, all existing 1.1 links are no longer operational. <strong>This means that all of your existing Perusall assignments will have to be reconfigured!</strong> Learn how to reconfigure your Perusall assignments for 1.3 <a href="https://canvas.uva.nl/courses/533/pages/perusall-upgrade-zomer-2023" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/533/pages/perusall-upgrade-zomer-2023" data-api-returntype="Page">in Dutch</a> or <a href="https://canvas.uva.nl/courses/169/pages/perusall-upgrade-summer-2023" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/169/pages/perusall-upgrade-summer-2023" data-api-returntype="Page">in English</a>. Need help? Do not hesitate to <a href="mailto:info.perusall@uva.nl?subject=Perusall">contact TLC</a> or <a href="https://uva.fra1.qualtrics.com/jfe/form/SV_5pE5nhmCrALnaGF" target="_blank" rel="noopener">book an appointment with them</a>!
         <p>Version 1.3 brings the following highly requested features:</p>
-        <ul>
+        <ol>
             <li>Students are now visible in Perusall right away, so you can already create groups prior to students opening Perusall.</li>
             <li>Persuall can now create groups based on Canvas groups.</li>
             <li>Assignment names no longer have to match between Perusall and Canvas for the grade sync to work.</li>
             <li>Students no longer have to open Perusall through the assignment link in Canvas for the grade sync to work. Opening Perusall through Canvas just once will suffice.</li>
-        </ul>
+        </ol>
 </ul>
 <br>
 
