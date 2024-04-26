@@ -113,22 +113,7 @@ li.enroll a:hover {
     background-color: #cc7504;
 }
 
-ul.subtopics-ul {
-    list-style-type: none;
-    padding: 0;
-    margin:0;
-}
 
-li.subtopic-li1,li.subtopic-li2 {
-    width:100%;
-    margin:0;
-    font-size:11pt;
-}
-
-li.current-sub a {
-    color:#ea8300 !important;
-    
-}
 
 i[class*=icon-], i[class^=icon-]
 {
@@ -147,8 +132,29 @@ ul.breadcrumbs1 li {
   display: inline;
 }
 
-ul.breadcrumbs1 li a {
-  color: #203349;
+.subtopics {
+    background-image: linear-gradient(to left, #efefef, white, white, white, white, white)
+}
+
+ul.subtopics-ul {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+li.subtopic-li1,li.subtopic-li2,li.subtopic-li3 {
+    width:100%;
+    margin:0;
+    font-size:10pt;
+    line-height:1;
+}
+
+li.current-sub a {
+    color:#303030 !important;
+    border-left:3px solid #203349 !important;
+    background-color:#ebf3fa !important;
+
+    
 }
 
 
@@ -158,31 +164,43 @@ ul.breadcrumbs1 li a {
 }
 
 li.current-sub a:hover {
-    background-color:#fff !important;
+    background-color:#ebf3fa !important;
     cursor:default;
     font-weight: bold;
 }
 
-li.subtopic-li1 a, li.subtopic-li2 a {
+li.subtopic-li1 a, li.subtopic-li2 a , li.subtopic-li3 a{
     display: block;
     color: #303030;
-    background-color:#fff;   
-    border-bottom: 1px solid #efefef;    
+    border-left:3px solid white;
+   
 }
 
-li.subtopic-li1 a:hover, li.subtopic-li2 a:hover {
-    background-color:#d9e5f2;
+li.subtopic-li1 a:hover, li.subtopic-li2 a:hover, li.subtopic-li3 a:hover {
+    background-color:#ebf3fa;
+    border-left:3px solid #ebf3fa;
+
+
+
 }
 
 li.subtopic-li1 a {
-    padding: 10px 10px;
+    padding: 10px 0 10px 10px;
 }
 
+
 li.subtopic-li2 a {
+    padding: 8px 0 8px 10px;
+    font-style: italic;
+
+}
+
+li.subtopic-li3 a {
     padding: 10px 0 10px 35px;
     font-style: italic;
 
 }
+
 
 
 .content-left { 
@@ -214,7 +232,8 @@ li.subtopic-li2 a {
     padding:10px;
     background-color:#d9e5f2;
     margin-bottom:15px;
-    line-height:1
+    line-height:1;
+    border-radius:3pt
 }
 
 .content-steps {
@@ -519,37 +538,69 @@ li.menu-right a.active {color:#21A6CD; text-align: left;
         <div class="grid-row">
 
             
-            <div class="col-md-4 subtopics">
+            <div class="col-md-3 subtopics">
                 <div class="styleguide-section__grid-demo-element">      
 
    
 
                         
                         <ul class="subtopics-ul">
-                            <li class="subtopic-li1"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/final-grades-tool" data-api-returntype="Page"><i class="icon-info subtopic-icon"></i>About</a></li>
-                            <li class="subtopic-li1"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/final-grades-tool" data-api-returntype="Page"><i class="icon-gradebook-import subtopic-icon"></i>Grade calculation</a></li>
-                            <li class="subtopic-li2 current-sub"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/testvision-instructions-%257C-questions-and-test" data-api-returntype="Page"><strong>Add assignments from Canvas</strong></a></li>
-                            <li class="subtopic-li2"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/testvision-instructions-%257C-questions-and-test" data-api-returntype="Page">Import from Excel</a></li>
-                            <li class="subtopic-li2"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/testvision-instructions-%257C-questions-and-test" data-api-returntype="Page">Insert grades manually</a></li>
-                            <li class="subtopic-li1"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/final-grades-tool" data-api-returntype="Page"><i class="icon-lock subtopic-icon"></i>Topic 2</a></li>
-                            <li class="subtopic-li2"><a style="text-decoration: none;" href="#" data-api-returntype="Page">Sub-topic 2.1</a></li>
-                            <li class="subtopic-li2"><a style="text-decoration: none;" href="#" data-api-returntype="Page">Sub-topic 2.2</a></li>
+                            <li class="subtopic-li1"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/final-grades-tool" data-api-returntype="Page">All tools</a></li>
+                            <li class="subtopic-li1"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/final-grades-tool" data-api-returntype="Page">About Final Grades</a></li>
+                            <li class="subtopic-li1"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/final-grades-tool" data-api-returntype="Page">Grade calculation</a></li>
+                            <li class="subtopic-li2 current-sub"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/testvision-instructions-%257C-questions-and-test" data-api-returntype="Page"><i class="icon-assignment subtopic-icon"></i>Add Canvas assignments</a></li>
+                            <li class="subtopic-li2"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/testvision-instructions-%257C-questions-and-test" data-api-returntype="Page"><i class="icon-ms-excel subtopic-icon"></i>Import from Excel</a></li>
+                            <li class="subtopic-li2"><a style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/testvision-instructions-%7C-questions-and-test" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/testvision-instructions-%257C-questions-and-test" data-api-returntype="Page"><i class="icon-compose subtopic-icon"></i>Insert grades manually</a></li>
+                            <li class="element_toggler subtopic-li2" aria-controls="basic-settings" aria expanded="false">
+                            <a style="text-decoration: none;"><i class="icon-settings subtopic-icon"></i>Basic settings<span style="float:right"><i class="icon-mini-arrow-down subtopic-icon"></i></span></a></li>
+                            <div id="basic-settings" style="display:none;">
+                                <li class="subtopic-li3"><a style="text-decoration: none;" href="#">Assign weight to grades</a></li>
+                                <li class="subtopic-li3"><a style="text-decoration: none;" href="#">Mimimum score required</a></li>
+                                <li class="subtopic-li3"><a style="text-decoration: none;" href="#">Make item mandatory</a></li>
+                                <li class="subtopic-li3"><a style="text-decoration: none;" href="#">Add or detract points</a></li>
+                                <li class="subtopic-li3"><a style="text-decoration: none;" href="#">Round to 1 decimal</a></li>
+                                <li class="subtopic-li3"><a style="text-decoration: none;" href="#">Add cesuur (5.5 breakpoint)</a></li>
+                            </div>
+
+
+                            
+                    
+
+
+
+
+                            <li class="element_toggler subtopic-li2" aria-controls="advanced-settings" aria expanded="false">
+                                <a style="text-decoration: none;"><i class="icon-star-light subtopic-icon"></i>Advanced settings<span style="float:right"><i class="icon-mini-arrow-down subtopic-icon"></i></span></a></li>
+                                <div id="advanced-settings" style="display:none;">
+                                    <li class="subtopic-li3"><a style="text-decoration: none;" href="#">Create calculated item</a></li>
+                                    <li class="subtopic-li3"><a style="text-decoration: none;" href="#">Use last attempt</a></li>
+                                    <li class="subtopic-li3"><a style="text-decoration: none;" href="#">Use weighted average</a></li>
+                                    <li class="subtopic-li3"><a style="text-decoration: none;" href="#">Use highest grade</a></li>
+                                    <li class="subtopic-li3"><a style="text-decoration: none;" href="#">Drop lowest grade</a></li>
+                                    <li class="subtopic-li3"><a style="text-decoration: none;" href="#">Convert total points to 10</a></li>
+                                </div>
+                            <li class="subtopic-li1"><a style="    margin-top:10px;
+                                 text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/pages/final-grades-tool" data-api-returntype="Page">Publish & submit grades</a></li>
+                            <li class="subtopic-li2"><a style="text-decoration: none;" href="#" data-api-returntype="Page"><i class="icon-peer-graded
+                                subtopic-icon"></i>To students</a></li>
+                            <li class="subtopic-li2"><a style="text-decoration: none;" href="#" data-api-returntype="Page"><i class="icon-post-to-sis
+                                subtopic-icon"></i>To SIS</a></li>
                         </ul>                                    
 
                 </div>
             </div>
             
             
-            <div class="col-md-8 content-right">
+            <div class="col-md-9 content-right">
                 <div class="styleguide-section__grid-demo-element">
                     <ul class="breadcrumbs1">
-                        <li><a href="#">Tools</a></li>
+                        <li><a href="#">All tools</a></li>
                         <li>/</li>
-                        <li><a href="#">Final Grades</a></li>
+                        <li><a href="#">About Final Grades</a></li>
                         <li>/</li>
                         <li><a href="">Grade calculation</a></li>
                         <li>/</li>
-                        <li><a href="">Add assignments from Canvas</a></li>
+                        <li><a href="">Add Canvas assignments</a></li>
                     </ul>
                     
                     <h1 class="header-subtopic-right"><strong>Add assignments from Canvas</strong></h1> 
@@ -557,8 +608,12 @@ li.menu-right a.active {color:#21A6CD; text-align: left;
                                    
                     <div class="content-instructions">
                         <div class="tldr">Directly import graded or ungraded items from Canvas. You can use Assignments, Quizzes, Discussions, or any other form of assessment or grade present in your Canvas course.</div>
-                        <div class="content-steps"><div class="step-nr">1</div>
-                        <div class="step-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                        <div class="content-steps"><div class="step-nr ui-priority-primary">1</div>
+                        <div class="step-content">
+                            <p class="ui-priority-primary">Instructions</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        
                         </div>
                         <div class="content-steps"><div class="step-nr">2</div>
                         <div class="step-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
