@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+
+        <!-- Stylesheet -->
+        <style>
+
+        /* Universal */
+        
+        h1, h2, h3, h4, h5, h6 {
+            padding:0;
+            margin: 0;
+        }
+
+        .page-title  { 
+            display: none !important;
+        } 
+
+        #right-side-wrapper  {
+            display: none !important;
+        } 
+
+        .external_link_icon {
+            display:none !important
+        }
+
+        .grid-row { 
+            width:100%; 
+            padding:0; 
+            margin:0; }
+
+        .col-md, .col-md-1, .col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12 {
+            margin:0;
+            padding:0;
+        }
+
+        p { 
+            margin:0;
+            padding:0;
+        }
+
+        i[class*=icon-], i[class^=icon-] {
+            line-height:1.3;
+        }
+
+        /* Page content */
+        .page-content {
+            border: 1px solid #efefef;
+            border-bottom:0;
+            font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        /* Header */
+        #header-icto {
+            padding:0;
+            margin:0;
+            margin-bottom:20px;   
+        }
+
+        #header-icto img {
+            width:50%
+        }
+
+        .banner-img {
+            width:100%;
+            border-bottom: 1px solid #f2f2f2
+        }
+
+        /* Top menu */
+        ul.topmenu-icto {
+            margin: 0;
+            list-style-type: none;
+        }
+
+        .topmenu-icto li a {
+            float:left;
+            border-top:5px solid white;
+            border-bottom:5px solid white;
+            display:block;
+            text-align: center;
+            padding: 8pt 15pt;
+            margin:0;
+            font-family:"Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        li.non-current a {
+            color:#203349;
+        }
+
+        li.non-current a:hover {
+            border-bottom: 5px solid #203349;
+        }
+
+        li.current a {
+            background-color: #203349;
+            border-bottom: 5px solid  #203349;
+            border-top: 5px solid  #203349;
+            color:#fff;
+            cursor:default;
+        }
+
+        li.enroll {
+            border-top:4px solid white;
+            float:right} 
+
+        li.enroll a {
+            background-color: #f48b01;
+            color:#fff;
+            padding: 5pt 12pt;
+            margin:5pt;
+            text-align: center;
+            border-radius: 20pt;
+            border: 0;
+            margin-left:30pt;
+            margin-right:10pt;
+        }
+
+        li.enroll a:hover {
+            background-color: #E98301;
+        }
+
+        /* Subtopics */
+        ul.subtopics-ul {
+            list-style-type: none;
+            padding: 0;
+            margin:0;
+        }
+
+        li.subtopic-li1,li.subtopic-li2,li.subtopic-li3 {
+            width:100%;
+            margin:0;
+            line-height:1;
+        }
+
+        li.subtopic-li1 {
+            font-size:11pt;
+        }
+
+        li.subtopic-li2,li.subtopic-li3 {
+            font-size:10pt; 
+        }
+
+        .subtopic-icon {
+            margin-right:10px;
+        }
+
+        li.current-sub a {
+            color:white !important;
+            background-color:#f48b01 !important;
+        }
+
+        li.current-sub a:hover {
+            background-color:#f48b01 !important;
+            cursor:default;
+            color:white
+        }
+
+        li.subtopic-li1 a, li.subtopic-li2 a , li.subtopic-li3 a {
+            display: block;
+            color: #303030;
+            border-bottom:1px solid #f2f2f2;
+        }
+
+        li.subtopic-li1 a, li.subtopic-li2 a {
+            padding: 12px 0 12px 10px;
+        }
+
+        li.subtopic-li3 a {
+            padding: 10px 0 10px 10px;
+            font-style: italic;
+        }
+
+        li.subtopic-li1 a:hover {
+            background-color:white !important;
+            cursor:default !important;
+        }
+
+        li.subtopic-li2 a:hover, li.subtopic-li3 a:hover {
+            background-color:#ebf3fa;
+        }
+
+        /* Content right */
+        .content-right { 
+            padding:10pt;
+            font-size:12pt;
+            line-height:1.1em;
+            font-size:12pt;
+            border-right:1px solid #f2f2f2;
+        }
+
+        ul.breadcrumbs1 {
+            list-style: none;
+            font-size:9pt;
+            margin:0;
+            margin-bottom:20px
+        }
+
+        ul.breadcrumbs1 li {
+            display: inline;
+        }
+
+        .header-subtopic-right {
+            font-size:18pt;
+            margin: 8px 0;
+            color:#303030;
+            font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        /* Instructions */
+
+        .content-instructions {
+            font-size:11pt;
+            line-height:1;
+        }
+
+        .tldr {
+            display:block;
+            padding:15px;
+            margin-bottom:30px;
+            line-height:1;
+            border-radius:5pt;
+            border-top:1px solid #f2f2f2;
+            border-left:1px solid #f2f2f2;
+            border-right:4px solid #f2f2f2;
+            border-bottom:4px solid #f2f2f2;
+        }
+
+        blockquote p { 
+            line-height:normal; 
+            font-size:11pt 
+        }
+
+        .content-steps {
+            display:flex;
+        }
+
+        .step-nr {
+            width:5%;
+            display:inline;
+            margin-left:10px
+        }
+
+        .step-content {
+            width:95%;
+            display:inline;
+            margin-bottom:20px
+        }
+
+        p.toelichting {
+            margin-bottom:10px;
+            font-size:11pt
+        }
+
+        p.header-step {
+            margin-bottom:10px;
+        }
+
+        a.back-to-top {
+            color:#555;
+            padding:8px 10px;
+            border-radius:5pt;
+            border-top:1px solid #f2f2f2;
+            border-left:1px solid #f2f2f2;
+            border-right:3px solid #f2f2f2;
+            border-bottom:3px solid #f2f2f2;
+            float:right;
+            font-size:11pt;
+            vertical-align:bottom;
+            margin:10pt;
+        }
+
+        a.back-to-top:hover {
+            background-color: #f2f2f2;
+        }
+
+        /* Footer */
+        .footer-icto {
+            color:white; 
+            background-color:#203349; 
+            padding:10px; 
+            margin: 0; 
+            font-size:10pt;
+            width: 100%;
+        }
+
+        ul.footer1 {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width:100%;
+            font-size:9pt; 
+        }
+
+        li.footer1 { 
+            font-size:10pt;
+            cursor:default;
+            text-align:right;
+            line-height:1.5em
+        }
+
+        li.footer1 a {
+            color:white;
+            cursor:pointer;
+        }
+
+        /*vanaf hier niet gebruikt op toolpage*/
+
+
+
+.content-about {
+    font-size:11pt;
+    line-height:1
+}
+
+
+
+
+
+h3.about {
+    line-height:1.5;
+    font-size:11pt;
+    font-style: italic;
+    
+    margin-right:5pt
+}
+
+
+
+.diff {
+    width:12%; 
+    border-radius: 10pt; 
+    background-color: #d9e5f2; 
+    display:inline-block;
+    margin:0;
+    margin-left:5px;
+    
+}
+
+.diff-percentage {
+    display:inline-block;
+    border-radius: 10pt 0 0 10pt; 
+    background-color:#203349; 
+    margin:0
+}
+
+ul.useful-links {
+    margin-left:17px
+}
+
+ul.useful-links li a {
+    color:#ea8300;
+    font-size:10pt
+}
+
+
+
+ul.shortcut {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+li.shortcut {
+    width:100%;
+    margin:0;
+    margin-top:5pt;
+    font-size:11pt;
+}
+
+li.shortcut a {
+    display: block;
+    color: #555;
+    background-color:#fff;
+    padding: 10px 16px;
+    border-radius:30pt; 
+    border-right: 3px solid #dfdcdc;
+    border-bottom: 3px solid #dfdcdc;
+    border-left: 1px solid #dfdcdc;
+    border-top: 1px solid #dfdcdc;
+}
+
+li.shortcut a:hover {
+    background-color:#efefef;
+}
+
+.pagina-vullend {
+    background-color:#d2eef7;
+    padding:10pt;
+    justify-content: left;
+}
+
+.useful-topics {
+    margin-right:10pt;
+    margin-bottom:10pt;
+    max-width:15%;
+    text-align:center;
+    color:#555;
+    vertical-align: center;
+    background-color: #fff;
+    border-radius: 5pt;
+}
+
+.useful-topics a {
+    color:#555;
+}
+
+h3.useful-topic {
+    font-size:10pt;
+}
+
+.img-topics {
+    border-radius: 5pt 5pt 0 0;
+}
+
+.topics-content {
+    padding: 5pt 0;
+}
+
+.useful-topics:hover {
+    background-color: #efefef;
+}
+
+.block-spotlight {
+    background-color: white; 
+    border-radius:3pt;
+    border: 1px solid #dfdcdc;
+    color:#555;
+    margin-bottom:10pt;
+}
+
+.img-spotlight { 
+    width:100%;
+    border-radius: 3pt 0 0 3pt;
+}
+
+a.further {
+    float:right;
+    font-style: italic;
+    font-size: 8pt;
+    vertical-align: bottom;
+}
+
+.text-spotlight {
+    padding:5pt;
+}
+
+p.datum-spotlight {
+    float:right;
+    font-size:10pt;
+    display:inline;
+}
+
+h2.header-spotlight {
+    display:inline;
+    font-size: 14pt;
+}
+
+p.content-spotlight {
+    margin:0;
+    font-size:11pt;
+    line-height:1.2em;
+    display: inline;
+    float:left
+}
+
+
+
+
+
+ul.menu-right {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    border-bottom: 1px solid #efefef
+}
+
+li.menu-right {
+    width:100%;
+    margin:0;
+    font-size:11pt
+}
+
+li.menu-right a {
+    display: block;
+    color: #555;
+    padding: 10px 16px;
+    margin-left:0.5px;
+    margin-bottom: 1px;
+    background-color:#efefef;
+    border-left:6px solid #efefef;
+    
+
+}
+
+li.menu-right a:hover {
+    color: #21A6CD;
+    border-left:6px solid #21A6CD;
+    background-color:white
+
+}
+
+li.menu-right a.active {color:#21A6CD; text-align: left;             
+    cursor: default;
+    background-color:white;
+    border-left:6px solid #21A6CD;
+
+
+}
+
+#content-menu-right {
+    padding:0;
+    margin:0 
+}
+
+    </style>
+
+</head>
+
+
+<body>
+
+<!-- Header ICTO Social Sciences -->
+<div id="header-icto">
+    <img src="https://canvas.uva.nl/courses/8175/files/10792892/preview">
+</div>
+
+<!-- Page content -->
+<div class="page-content">
+
+<!-- Top menu -->
+<ul class="topmenu-icto">
+    <li class="non-current"><a style="text-decoration:none;" href="#">Home</a></li>
+    <li class="non-current"><a style="text-decoration:none;" href="#">Contact</a></li>
+    <li class="non-current"><a style="text-decoration:none;" href="#">News</a></li>
+    <li class="non-current"><a style="text-decoration:none;" href="#">All tools</a></li>
+    <li class="current"><a style="text-decoration:none;" href="#">Final Grades</a></li>
+    <li class="enroll"><a style="text-decoration:none;" href="https://canvas.uva.nl/enroll/N3HMY8"><i class="icon-add subtopic-icon"></i>Enroll</a></li>
+</ul>
+
+<!-- Banner image -->
+<img class="banner-img" src="https://canvas.uva.nl/courses/8175/files/10792141/preview">
+
+<div class="grid-row"> 
+    
+    
+
+    <!-- Content right -->
+    <div class="col-md-9 content-right">
+        <div class="styleguide-section__grid-demo-element">
+
+            <!-- Breadcrumbs -->
+            <ul class="breadcrumbs1">
+                <li><a href="#">All tools</a></li>
+                <li>/</li>
+                <li><a href="#">Final Grades</a></li>
+                <li>/</li>
+                <li><a href="">Add Canvas assignments</a></li>
+            </ul>
+
+            <!-- Header content -->
+            <h1 class="header-subtopic-right ui-priority-primary">Add Canvas assignments</h1> 
+
+            <!-- Content instructions -->
+            <div class="content-instructions">
+            
+            <!-- TLDR -->
+            <blockquote class="tldr"><p>Directly import graded or ungraded items from Canvas. You can use Assignments, Quizzes, Discussions, or any other form of assessment or grade present in your Canvas course.</p></blockquote>
+
+            <!-- Steps instructions -->
+            <div class="content-steps">
+
+                <div class="step-nr ui-priority-primary header-step">1</div>
+
+                <div class="step-content">
+                    <p class="ui-priority-primary header-step">Short instructions</p>
+                    <p class="toelichting">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <img style="width: 50%;" src="https://canvas.uva.nl/courses/8175/files/9206389/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/9206389" data-api-returntype="File">
+                </div>
+
+            </div>
+                        
+            <div class="content-steps">
+                
+                <div class="step-nr ui-priority-primary header-step">2</div>
+                
+                <div class="step-content">
+                    <p class="ui-priority-primary header-step">Short instructions</p>
+                    <p class="toelichting">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <img style="width: 40%;" src="https://canvas.uva.nl/courses/8175/files/7459262/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/7459262" data-api-returntype="File">
+                </div>
+                        
+            </div>
+                        
+            </div>
+
+            <!-- Back to top knop -->
+            <a class="back-to-top" href="#header-icto" style="text-decoration:none"> <i class="icon-arrow-open-up subtopic-icon"></i>Back to top</a>
+
+
+        </div>
+    </div>
+
+    <!-- Subtopics left -->
+    <div class="col-md-3 subtopics">
+        <div class="styleguide-section__grid-demo-element">      
+            <ul class="subtopics-ul">
+                <li class="subtopic-li1"><a style="text-decoration: none;"><strong><i class="icon-info subtopic-icon"></i>Final Grades</strong></a></li>
+                    <li class="subtopic-li2"><a style="text-decoration: none;" href="#">About the tool</a></li>
+
+                <li class="subtopic-li1"><a style="text-decoration: none;"><strong><i class="icon-settings subtopic-icon"></i>Grade calculation</strong></a></li>
+                    <li class="subtopic-li2 current-sub"><a style="text-decoration: none;" href="#">Add Canvas assignments</a></li>
+                    <li class="subtopic-li2"><a style="text-decoration: none;" href="#">Import from Excel</a></li>
+                    <li class="subtopic-li2"><a style="text-decoration: none;" href="#">Insert grades manually</a></li>
+
+                    <!-- Toggle menu -->
+                    <li class="element_toggler subtopic-li2" aria-controls="basic-settings" aria expanded="false">
+                    <a style="text-decoration: none;">Basic settings<span style="float:right"><i class="icon-mini-arrow-down subtopic-icon"></i></span></a></li>
+                        
+                    <!-- Basic settings -->
+                    <div id="basic-settings" style="display:none;">
+                        <li class="subtopic-li3"><a style="text-decoration: none;" href="#"><i class="icon-mini-arrow-end subtopic-icon"></i>Assign weight to grades</a></li>
+                        <li class="subtopic-li3"><a style="text-decoration: none;" href="#"><i class="icon-mini-arrow-end subtopic-icon"></i>Mimimum score required</a></li>
+                        <li class="subtopic-li3"><a style="text-decoration: none;" href="#"><i class="icon-mini-arrow-end subtopic-icon"></i>Make item mandatory</a></li>
+                        <li class="subtopic-li3"><a style="text-decoration: none;" href="#"><i class="icon-mini-arrow-end subtopic-icon"></i>Add or detract points</a></li>
+                        <li class="subtopic-li3"><a style="text-decoration: none;" href="#"><i class="icon-mini-arrow-end subtopic-icon"></i>Round to 1 decimal</a></li>
+                        <li class="subtopic-li3"><a style="text-decoration: none;" href="#"><i class="icon-mini-arrow-end subtopic-icon"></i>Add cesuur (5.5 breakpoint)</a></li>
+                    </div>
+
+                    <!-- Toggle menu -->
+                    <li class="element_toggler subtopic-li2" aria-controls="advanced-settings" aria expanded="false">
+                    <a style="text-decoration: none;">Advanced settings<span style="float:right"><i class="icon-mini-arrow-down subtopic-icon"></i></span></a></li>
+
+                    <!-- Advanced settings -->
+                    <div id="advanced-settings" style="display:none;">
+                        <li class="subtopic-li3"><a style="text-decoration: none;" href="#"><i class="icon-mini-arrow-end subtopic-icon"></i>Create calculated item</a></li>
+                        <li class="subtopic-li3"><a style="text-decoration: none;" href="#"><i class="icon-mini-arrow-end subtopic-icon"></i>Use last attempt</a></li>
+                        <li class="subtopic-li3"><a style="text-decoration: none;" href="#"><i class="icon-mini-arrow-end subtopic-icon"></i>Use weighted average</a></li>
+                        <li class="subtopic-li3"><a style="text-decoration: none;" href="#"><i class="icon-mini-arrow-end subtopic-icon"></i>Use highest grade</a></li>
+                        <li class="subtopic-li3"><a style="text-decoration: none;" href="#"><i class="icon-mini-arrow-end subtopic-icon"></i>Drop lowest grade</a></li>
+                        <li class="subtopic-li3"><a style="text-decoration: none;" href="#"><i class="icon-mini-arrow-end subtopic-icon"></i>Convert total points to 10</a></li>
+                    </div>
+
+                    <li class="subtopic-li1"><a style="text-decoration: none;"><strong><i class="icon-post-to-sis subtopic-icon"></i>Submit grades to SIS</strong></a></li>
+                        <li class="subtopic-li2"><a style="text-decoration: none;" href="#" data-api-returntype="Page">Submit final grades</a></li>
+                        <li class="subtopic-li2"><a style="text-decoration: none;" href="#" data-api-returntype="Page">Submit retake grades</a></li>
+                        <li class="subtopic-li2"><a style="text-decoration: none;" href="#" data-api-returntype="Page">Make a correction</a></li>
+
+                    <li class="subtopic-li1"><a style="text-decoration: none;"><strong><i class="icon-peer-graded subtopic-icon"></i>Publish grades to students</strong></a></li>
+                        <li class="subtopic-li2"><a style="text-decoration: none;" href="#" data-api-returntype="Page">Publish final grades</a></li>
+                        <li class="subtopic-li2"><a style="text-decoration: none;" href="#" data-api-returntype="Page">Publish retake grades</a></li>
+            </ul>                                    
+        </div>
+    </div>
+
+
+</div>
+
+</div>
+
+<!-- Footer -->
+<div class="grid-row">
+    <div class="col-md-4 footer-icto">
+        <div class="styleguide-section__grid-demo-element">
+            <img style="width: 100%;" src="https://canvas.uva.nl/courses/8175/files/10792989/preview" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/10792989" data-api-returntype="File">
+        </div>
+    </div>
+
+    <div class="col-md-8 footer-icto">
+        <div class="styleguide-section__grid-demo-element">
+            <ul class="footer1">
+                <li class="footer1">REC B7.08&nbsp;&nbsp;&nbsp;<i class="icon-marker"></i></li>
+                <li class="footer1"><a style="text-decoration:none" href="mailto:icto-csw@uva.nl">icto-csw@uva.nl</a>&nbsp;&nbsp;&nbsp;<i class="icon-email"></i></li>
+            </ul>
+        </div>
+    </div>
+</div>
+        
+</body>
+</html>
