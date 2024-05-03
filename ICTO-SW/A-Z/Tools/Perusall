@@ -14,7 +14,7 @@
 <!-- warning LTI 1.3 -->
 <span class="element_toggler " aria-controls="new-lti-warning" aria-label="Toggler toggle list visibility" aria-expanded="false"> 
     <div class="alert alert-info">
-        <i class="icon-announcement"></i><span style="font-size: 13pt;"><i> <a>Perusall 1.3 is live! Learn about new handy settings and how to reconfigure your assignments</a></i></span>
+        <i class="icon-announcement"></i><span style="font-size: 13pt;"><i> <a>Perusall 1.3 is live! Click here to learn about new handy settings and how to reconfigure your assignments</a></i></span>
     </div>
 </span>
 <br>
