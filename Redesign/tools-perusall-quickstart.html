@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* Universal */
+
+.ic-app-crumbs, #section-tabs, .page-title, #right-side-wrapper, .external_link_icon {
+        display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding:0;
+    margin: 0;
+}
+
+.grid-row { 
+    width:100%; 
+    padding:0; 
+    margin:0; }
+
+.col-md, .col-md-1, .col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12 {
+    margin:0;
+    padding:0;
+}
+
+p { 
+    margin:0;
+    padding:0;
+}
+
+i[class*=icon-], i[class^=icon-] {
+    line-height:1.3;
+}
+
+/* Page content */
+
+.page-content {
+    border: 1px solid #efefef;
+    border-bottom:0;
+    font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-bottom:20px
+}
+
+/* Header */
+
+#header-icto {
+    padding:0;
+    margin:0;
+    margin-bottom:20px;   
+}
+
+#header-icto img {
+    width:45%
+}
+
+.banner-img {
+    width:100%;
+    border-bottom: 1px solid #f2f2f2
+}
+
+/* Top menu */
+
+ul.topmenu-icto {
+    margin: 0;
+    list-style-type: none;
+}
+
+.topmenu-icto li a {
+    float:left;
+    border-top:5px solid white;
+    border-bottom:5px solid white;
+    display:block;
+    text-align: center;
+    padding: 8pt 15pt;
+    margin:0;
+    font-family:"Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+li.non-current a {
+    color:#203349;
+}
+
+li.non-current a:hover {
+    border-bottom: 5px solid #f48b01;
+}
+
+li.current a {
+    background-color: #203349;
+    border-bottom: 5px solid  #203349;
+    border-top: 5px solid  #203349;
+    color:#fff;
+    cursor:default;
+}
+
+li.enroll {
+    border-top:4px solid white;
+    float:right} 
+
+li.enroll a {
+    background-color: #f48b01;
+    color:#fff;
+    padding: 5pt 12pt;
+    margin:5pt;
+    text-align: center;
+    border-radius: 20pt;
+    border: 0;
+    margin-left:30pt;
+    margin-right:10pt;
+}
+
+li.enroll a:hover {
+    background-color: #E98301;
+}
+
+/* Overview */
+.overview-icto {
+    background-color: #f5f4f4;
+    padding:20px;
+}
+
+.blockquote-overview {
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+.blockquote-overview p {
+    line-height:1.3em;
+    font-size:12pt;
+    margin-bottom:10px;
+}
+
+.content-icto {
+    display:block
+}
+
+/* Subtopics */
+
+ul.subtopics-ul {
+    list-style-type: none;
+    padding: 10px 10px 0 0;
+    margin-left:15px
+}
+
+li.subtopic-li {
+    width:100%;
+    margin:0;
+    line-height:1;
+}
+
+li.subtopic-li1 {
+    font-size:11pt;
+}
+
+
+.subtopic-icon {
+    margin-right:10px;
+}
+
+li.current-sub a {
+    color:white !important;
+    background-color:#f48b01 !important;
+    border-color:#E98301 !important;
+}
+
+li.current-sub a:hover {
+    background-color:#f48b01 !important;
+    cursor:default;
+    color:white;
+    border-color:#E98301 
+}
+
+li.subtopic-li a {
+    display: block;
+    color: #303030;
+    border-bottom:3px solid #f2f2f2;
+    border-right:3px solid #f2f2f2;
+    border-left:1px solid #f2f2f2;
+    border-top:1px solid #f2f2f2;
+    border-radius:5pt;
+    margin:5pt;
+    padding: 12px 0 12px 15px;
+}
+
+li.subtopic-li a:hover {
+    background-color:#dce5ef;
+    border-color: #b9cbdf;
+}
+
+/* Content left */
+
+.header-subtopic-left {
+    font-size:18pt;
+    margin: 0 0 10px 0;
+    color:#303030;
+    font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Instructions */
+
+#container-content {
+    display:block
+}
+
+#left-container {
+    padding:15px;
+    font-size:12pt;
+    line-height:1.1em;
+    font-size:12pt;
+}
+
+#right-container {
+    width:30%;
+    float:right;
+    padding:0;
+    font-size:12pt;
+    line-height:1.1em;
+}
+
+.content-instructions {
+    font-size:11pt;
+    line-height:1.1em;
+    margin-left:17px
+}
+
+.primary-step {
+    padding-left:10px;
+    margin-top:15px;
+}
+
+p.toelichting-step {
+    margin: 10px 0 10px 10px;
+    font-size:11pt;
+    margin-left:10px;
+}
+
+img.toelichting-step {
+    border: 1px solid #dadada;
+    margin: 10px 0;
+}
+
+.further-instructions {
+    font-size:11pt;
+    line-height:1.4em;
+    margin-left:25px
+}
+
+.button-ref {
+    border:1px solid grey;
+    color: grey;
+    border-radius: 2px;
+    font-family: monospace;
+    padding: 0 5px;
+    font-size:10pt;
+}
+
+.link-color {
+    color:#5690e4;
+}
+
+.link-color:hover {
+    text-decoration:underline;
+}
+
+/* Back to top knop */
+
+p.back-to-top {
+    margin:100px 10px 20px;
+}
+
+a.back-to-top {
+    color:#2D3B45;
+    padding:8px 10px;
+    border-radius:5pt;
+    border-top:1px solid #f2f2f2;
+    border-left:1px solid #f2f2f2;
+    border-right:3px solid #f2f2f2;
+    border-bottom:3px solid #f2f2f2;
+    font-size:11pt;
+}
+
+a.back-to-top:hover {
+    background-color:#dce5ef;
+    border-color: #b9cbdf;
+}
+
+/* Footer */
+.footer-icto {
+    color:white; 
+    background-color:#203349; 
+    margin: 0; 
+    font-size:11pt;
+}
+
+.right-footer {
+    width:30%;
+    padding:15px;
+    float:right;
+}
+
+.left-footer {
+    width:40%;
+    display:inline-block;
+    padding:20px;
+}
+
+.left-footer a {
+    color:white
+}
+
+.icons-footer {
+    width:8%; 
+    background-color: white; padding:8px; border-radius:5px;  border-bottom:3px solid #f2f2f2;
+    border-right:3px solid #f2f2f2;
+    border-left:1px solid #f2f2f2;
+    border-top:1px solid #f2f2f2;
+    margin: 0 0 0 8px;   
+}
+
+.icons-footer:hover {
+    background-color: #f2f2f2;    
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Header ICTO Social Sciences -->
+<div id="header-icto">
+    <img src="https://canvas.uva.nl/courses/8175/files/10792892/preview">
+</div>
+
+<!-- Page content -->
+<div class="page-content">
+
+<!-- Top menu -->
+<ul class="topmenu-icto">
+    <li class="non-current"><a style="text-decoration:none;" href="#">Home</a></li>
+    <li class="non-current"><a style="text-decoration:none;" href="#">Contact</a></li>
+    <li class="non-current"><a style="text-decoration:none;" href="#">News</a></li>
+    <li class="non-current"><a style="text-decoration:none;" href="#">All tools</a></li>
+    <li class="current"><a style="text-decoration:none;" href="#">Perusall</a></li>
+    <li class="enroll"><a style="text-decoration:none;" href="https://canvas.uva.nl/enroll/N3HMY8"><i class="icon-add subtopic-icon"></i>Enroll</a></li>
+</ul>
+
+<!-- Banner image -->
+<img class="banner-img" src="https://canvas.uva.nl/courses/8175/files/10793956/preview">
+
+<!-- Overview -->
+<div class="overview-icto">
+    <blockquote class="blockquote-overview"><p> 
+        Perusall enables students to collaboratively annotate documents of your choice. Students can start a new annotation thread in Perusall by simply selecting a piece of text or an image and typing a question or comment, which other students can reply to or upvote. Perusall's intended use is to stimulate students to complete the required reading before lectures, so that you can continue discussions or address questions from the annotations during the lecture itself.
+    </p></blockquote>
+</div>
+
+<!-- Container met content -->
+<div id="container-content"> 
+
+    <!-- Rechts: subtopics-->
+    <div id="right-container">
+        <ul class="subtopics-ul">
+            <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-info subtopic-icon"></i>About</a></li>
+            <li class="subtopic-li current-sub"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-quiz subtopic-icon"></i>Quickstart</a></li>
+            <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-standards subtopic-icon"></i>Copyright</a></li>
+            <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-group subtopic-icon"></i>Grouping</a></li>
+            <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-stats subtopic-icon"></i>Analysis</a></li>
+            <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-assignment subtopic-icon"></i>Grading</a></li>
+            <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-collection subtopic-icon"></i>Plagiarism</a></li>
+        </ul>                                    
+    </div>
+
+    <!-- Links: Instructies in vorm van stappen-->
+    <div id="left-container">
+
+        <!-- Header content -->
+        <h1 class="header-subtopic-left ui-priority-primary">Quickstart</h1> 
+
+        <!-- Stappen -->
+        <ol class="content-instructions">
+
+            <li class="ui-priority-primary"><p class="primary-step link-color">
+                <span class="element_toggler " aria-controls="step1" aria-label="Toggler toggle list visibility" aria-expanded="false">Create a Perusall assignment in Canvas</span>
+            </p></li>
+            <div id="step1" style="display:none" >
+            <p class="toelichting-step">
+                Please do not skip any of the steps below. If you do, your Perusall set up might not function.
+            </p>
+                <ol class="further-instructions">
+                    <li>Go to the <i>Assignments</i> page in your Canvas course</li>
+                    <li>Click on <span class="button-ref">+ Assignment</span></li>
+                    <li>Fill in 10 as the maximum number of points</li>
+                    <li>Select <span class="button-ref">External tool</span> as the submission type</li>
+                    <li>Choose <span class="button-ref">Perusall 1.3</span> from the list of external tools</li>
+                    <li>Select <span class="button-ref">Load this tool in a new tab</span>
+                    <br>Your submission type should now be set up as shown in the image below.                        
+                    </li>
+                    <img class="toelichting-step" style="width: 50%;" src="https://canvas.uva.nl/courses/45162/files/10818478/preview">
+                    <li>Assign the assignment to everyone, fill in a due date and click <span class="button-ref">Save</span></li>                
+                </ol>
+            </div>
+
+            <li class="ui-priority-primary"><p class="primary-step link-color">
+                <span class="element_toggler " aria-controls="step2" aria-label="Toggler toggle list visibility" aria-expanded="false"> 
+                Add assignments and documents to Perusall
+                </span>
+            </p></li>
+            <div id="step2" style="display:none" >
+            <p class="toelichting-step">
+                Before you can create an assignment in Perusall, you'll have to upload the documents which students have to annotate to your Perusall library.
+            </p>
+                <ol class="further-instructions">
+                    <li>Go to the Perusall assignment you've just created in Canvas</li>
+                    <li>Click on <span class="button-ref">Load [assignment name here] in a new window</span> to open Perusall</li>
+                    <li>Go to the <i>Library</i> tab and click <span class="button-ref">+ Add content</span></li>
+                    <li>Click on <span class="button-ref">Documents from my device</span> to upload from your own computer, but feel free to try out the other options.</li>
+                    <a href="https://canvas.uva.nl/courses/45162/files/10818993?wrap=1" target="_blank" title="Click to expand"><img class="toelichting-step" style="width: 65%;" src="https://canvas.uva.nl/courses/45162/files/10818993/preview"></a>
+                    <li>Select the document you wish to upload to Perusall.
+                    <br>You've added your document to Perusall! The next step is to create an assignment to which the document is attached</li>
+                    <li>Go to the <i>Assignments</i> tab</li>
+                    <li>Click on <span class="button-ref">+ Add assignment</span></li> 
+                    <a href="https://canvas.uva.nl/courses/45162/files/10818993?wrap=1" target="_blank" title="Click to expand">
+                    <img class="toelichting-step" style="width: 90%;" src="https://canvas.uva.nl/courses/45162/files/10818992/preview"></a>    
+                    <li>Select the document you wish to link to this assignment. You can add as many documents to an assignment as you wish.</li>
+                    <li>Customize the settings to your liking and click <span class="button-ref">OK</span> to create the assignment</li>         
+                </ol>
+            </div>
+
+            <li class="ui-priority-primary"><p class="primary-step link-color">
+                <span class="element_toggler " aria-controls="step3" aria-label="Toggler toggle list visibility" aria-expanded="false"> 
+                Create groups within Perusall
+                </span>
+            </p></li>
+            <div id="step3" style="display:none" >
+            <p class="toelichting-step">
+                If all students were to annotate one and the same document in Perusall, it'd quickly turn unreadable as a result of all the highlighted pieces of text from the annotations. To prevent this, Perusall has a grouping feature which distributes students across groups. Students can only see the annotations of their fellow group members.
+            </p>
+                <ol class="further-instructions">
+                    <li>test</li>         
+                </ol>
+            </div>
+
+            <li class="ui-priority-primary"><p class="primary-step link-color">
+                <span class="element_toggler " aria-controls="step4" aria-label="Toggler toggle list visibility" aria-expanded="false"> 
+                    Configure the scoring settings
+                </span>
+            </p></li>
+            <div id="step4" style="display:none" >
+            <p class="toelichting-step">
+                Before configuring the grade calculation, you'll need to configure a few scoring settings which influence how and when grades are sent to Canvas.
+            </p>
+                <ol class="further-instructions">
+                    <li>test</li>         
+                </ol>
+            </div>
+
+            <li class="ui-priority-primary"><p class="primary-step link-color">
+                <span class="element_toggler " aria-controls="step5" aria-label="Toggler toggle list visibility" aria-expanded="false"> 
+                    Select the correct annotation language
+                </span>
+            </p></li>
+            <div id="step5" style="display:none" >
+            <p class="toelichting-step">
+                Perusall can automatically score both Dutch and English annotation content, so it's important to select the correct language before your assignments start.
+            </p>
+                <ol class="further-instructions">
+                    <li>test</li>         
+                </ol>
+            </div>
+
+            <li class="ui-priority-primary"><p class="primary-step link-color">
+                <span class="element_toggler " aria-controls="step6" aria-label="Toggler toggle list visibility" aria-expanded="false"> 
+                    Inform your students
+                </span>
+            </p></li>
+            <div id="step6" style="display:none" >
+            <p class="toelichting-step">
+                Since many students might not have used a application like Perusall before, it's important to properly inform the students about how Perusall works and what is expected of them. We recommend the following:
+            </p>
+                <ol class="further-instructions">
+                    <li>test</li>         
+                </ol>
+            </div>
+
+        </ol>
+
+    </div>
+    
+</div>
+
+<!-- Back to top knop -->
+<p class="back-to-top">
+    <a class="back-to-top" href="#header-icto" style="text-decoration:none"> <i class="icon-arrow-open-up subtopic-icon"></i>Back to top</a>
+</p>
+
+</div>
+
+<!-- Footer -->
+<div class="footer-icto">
+
+    <!-- Snelkoppelingen -->
+    <div class="left-footer">
+        <p><i class="icon-message subtopic-icon"></i><a href="#">Contact ICTO</a></p>
+        <p><i class="icon-comment subtopic-icon"></i><a href="#">Sign up for notifications</a></p>
+    </div>
+
+    <!-- Logo UvA -->
+    <div class="right-footer">
+        <img style="float:right; width:100%; padding:5px" src="https://canvas.uva.nl/courses/45162/files/10817649/preview">
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
