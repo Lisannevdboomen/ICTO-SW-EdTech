@@ -139,8 +139,8 @@ li.enroll a:hover {
 
 ul.subtopics-ul {
     list-style-type: none;
-    padding: 10px 10px 0 0;
-    margin-left:15px
+    padding: 0;
+    margin:0
 }
 
 li.subtopic-li {
@@ -179,7 +179,7 @@ li.subtopic-li a {
     border-left:1px solid #f2f2f2;
     border-top:1px solid #f2f2f2;
     border-radius:5pt;
-    margin:5pt;
+    margin:0 0 5px 0;
     padding: 12px 0 12px 15px;
 }
 
@@ -198,22 +198,15 @@ li.subtopic-li a:hover {
 }
 
 /* Instructions */
-
-#container-content {
-    display:block
-}
-
-#left-container {
+.left-container {
     padding:15px;
     font-size:12pt;
     line-height:1.1em;
     font-size:12pt;
 }
 
-#right-container {
-    width:30%;
-    float:right;
-    padding:0;
+.right-container {
+    padding:15px;
     font-size:12pt;
     line-height:1.1em;
 }
@@ -230,20 +223,30 @@ li.subtopic-li a:hover {
 }
 
 p.toelichting-step {
-    margin: 10px 0 10px 10px;
+    margin: 20px 0 20px 10px;
     font-size:11pt;
+    line-height:1.1em;
     margin-left:10px;
+}
+
+p.toelichting-step-2 {
+   line-height:1.1em;
+   margin: 10px 0 0 0;
 }
 
 img.toelichting-step {
     border: 1px solid #dadada;
-    margin: 10px 0;
+    margin: 0 0 20px 0;
 }
 
 .further-instructions {
     font-size:11pt;
-    line-height:1.4em;
+    line-height:1em;
     margin-left:25px
+}
+
+.further-instructions li {
+    margin: 0 0 20px 0
 }
 
 .button-ref {
@@ -251,8 +254,9 @@ img.toelichting-step {
     color: grey;
     border-radius: 2px;
     font-family: monospace;
-    padding: 0 5px;
+    padding: 1px 5px;
     font-size:10pt;
+    margin: 0 2px;
 }
 
 .link-color {
@@ -266,7 +270,7 @@ img.toelichting-step {
 /* Back to top knop */
 
 p.back-to-top {
-    margin:100px 10px 20px;
+    margin:50px 0 10px 0;
 }
 
 a.back-to-top {
@@ -355,145 +359,254 @@ a.back-to-top:hover {
     </p></blockquote>
 </div>
 
-<!-- Container met content -->
-<div id="container-content"> 
-
-    <!-- Rechts: subtopics-->
-    <div id="right-container">
-        <ul class="subtopics-ul">
-            <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-info subtopic-icon"></i>About</a></li>
-            <li class="subtopic-li current-sub"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-quiz subtopic-icon"></i>Quickstart</a></li>
-            <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-standards subtopic-icon"></i>Copyright</a></li>
-            <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-group subtopic-icon"></i>Grouping</a></li>
-            <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-stats subtopic-icon"></i>Analysis</a></li>
-            <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-assignment subtopic-icon"></i>Grading</a></li>
-            <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-collection subtopic-icon"></i>Plagiarism</a></li>
-        </ul>                                    
-    </div>
-
+<div class="grid-row">
+    
     <!-- Links: Instructies in vorm van stappen-->
-    <div id="left-container">
-
+    <div class="col-md-9 left-container">
+        <div class="styleguide-section__grid-demo-element">
+    
         <!-- Header content -->
         <h1 class="header-subtopic-left ui-priority-primary">Quickstart</h1> 
 
         <!-- Stappen -->
         <ol class="content-instructions">
 
-            <li class="ui-priority-primary"><p class="primary-step link-color">
-                <span class="element_toggler " aria-controls="step1" aria-label="Toggler toggle list visibility" aria-expanded="false">Create a Perusall assignment in Canvas</span>
-            </p></li>
+            <!-- Step 1 -->
+            <li class="ui-priority-primary">
+                <p class="primary-step link-color">
+                    <span class="element_toggler " aria-controls="step1" aria-label="Toggler toggle list visibility" aria-expanded="false">Create a Perusall assignment in Canvas</span>
+                </p>
+            </li>
+
+            <!-- Step 1 (uitklapbaar) -->
             <div id="step1" style="display:none" >
-            <p class="toelichting-step">
-                Please do not skip any of the steps below. If you do, your Perusall set up might not function.
-            </p>
+
+                <!-- Intro -->
+                <p class="toelichting-step">
+                    Please do not skip any of the steps below. If you do, your Perusall set up might not function.
+                </p>
+
+                <!-- Substeps -->
                 <ol class="further-instructions">
-                    <li>Go to the <i>Assignments</i> page in your Canvas course</li>
+                    <li>Go to the <i>Assignments</i> page in your Canvas course.</li>
                     <li>Click on <span class="button-ref">+ Assignment</span></li>
-                    <li>Fill in 10 as the maximum number of points</li>
-                    <li>Select <span class="button-ref">External tool</span> as the submission type</li>
-                    <li>Choose <span class="button-ref">Perusall 1.3</span> from the list of external tools</li>
+                    <li>Fill in 10 as the maximum number of points.</li>
+                    <li>Select <span class="button-ref">External tool</span> as the submission type.</li>
+                    <li>Choose <span class="button-ref">Perusall 1.3</span> from the list of external tools.</li>
                     <li>Select <span class="button-ref">Load this tool in a new tab</span>
-                    <br>Your submission type should now be set up as shown in the image below.                        
+                    <p class="toelichting-step-2">Your submission type should now be set up as shown in the image below.</p>
                     </li>
-                    <img class="toelichting-step" style="width: 50%;" src="https://canvas.uva.nl/courses/45162/files/10818478/preview">
+                    <img class="toelichting-step" style="width: 70%;" src="https://canvas.uva.nl/courses/45162/files/10818478/preview">
                     <li>Assign the assignment to everyone, fill in a due date and click <span class="button-ref">Save</span></li>                
                 </ol>
             </div>
 
-            <li class="ui-priority-primary"><p class="primary-step link-color">
-                <span class="element_toggler " aria-controls="step2" aria-label="Toggler toggle list visibility" aria-expanded="false"> 
-                Add assignments and documents to Perusall
-                </span>
-            </p></li>
+            <!-- Step 2 -->
+            <li class="ui-priority-primary">
+                <p class="primary-step link-color">
+                    <span class="element_toggler " aria-controls="step2" aria-label="Toggler toggle list visibility" aria-expanded="false">Add assignments and documents to Perusall</span>
+                </p>
+            </li>
+
+            <!-- Step 2 (uitklapbaar) -->
             <div id="step2" style="display:none" >
-            <p class="toelichting-step">
-                Before you can create an assignment in Perusall, you'll have to upload the documents which students have to annotate to your Perusall library.
-            </p>
+
+                <!-- Intro -->
+                <p class="toelichting-step">
+                    Before you can create an assignment in Perusall, you'll have to upload the documents which students have to annotate to your Perusall library.
+                </p>
+
+                <!-- Substeps -->
                 <ol class="further-instructions">
-                    <li>Go to the Perusall assignment you've just created in Canvas</li>
-                    <li>Click on <span class="button-ref">Load [assignment name here] in a new window</span> to open Perusall</li>
-                    <li>Go to the <i>Library</i> tab and click <span class="button-ref">+ Add content</span></li>
+                    <li>Go to the Perusall assignment you've just created in Canvas.</li>
+                    <li>Click on <span class="button-ref">Load [assignment name here] in a new window</span> to open Perusall.</li>
+                    <li>Click on the <span class="button-ref">Library</span> tab and select <span class="button-ref">+ Add content</span></li>
                     <li>Click on <span class="button-ref">Documents from my device</span> to upload from your own computer, but feel free to try out the other options.</li>
-                    <a href="https://canvas.uva.nl/courses/45162/files/10818993?wrap=1" target="_blank" title="Click to expand"><img class="toelichting-step" style="width: 65%;" src="https://canvas.uva.nl/courses/45162/files/10818993/preview"></a>
+                    <a href="https://canvas.uva.nl/courses/45162/files/10818993?wrap=1" target="_blank" title="Click to expand"><img class="toelichting-step" style="width: 95%;" src="https://canvas.uva.nl/courses/45162/files/10818993/preview"></a>
                     <li>Select the document you wish to upload to Perusall.
-                    <br>You've added your document to Perusall! The next step is to create an assignment to which the document is attached</li>
-                    <li>Go to the <i>Assignments</i> tab</li>
+                    <p class="toelichting-step-2">You've added your document to Perusall! The next step is to create an assignment to which the document is attached</p></li>
+                    <li>Click on the <span class="button-ref">Assignments</span> tab.</li>
                     <li>Click on <span class="button-ref">+ Add assignment</span></li> 
                     <a href="https://canvas.uva.nl/courses/45162/files/10818993?wrap=1" target="_blank" title="Click to expand">
-                    <img class="toelichting-step" style="width: 90%;" src="https://canvas.uva.nl/courses/45162/files/10818992/preview"></a>    
+                    <img class="toelichting-step" style="width: 95%;" src="https://canvas.uva.nl/courses/45162/files/10818992/preview"></a>    
                     <li>Select the document you wish to link to this assignment. You can add as many documents to an assignment as you wish.</li>
-                    <li>Customize the settings to your liking and click <span class="button-ref">OK</span> to create the assignment</li>         
+                    <li>Customize the settings to your liking and click <span class="button-ref">OK</span> to create the assignment.</li>         
                 </ol>
             </div>
 
-            <li class="ui-priority-primary"><p class="primary-step link-color">
-                <span class="element_toggler " aria-controls="step3" aria-label="Toggler toggle list visibility" aria-expanded="false"> 
-                Create groups within Perusall
-                </span>
-            </p></li>
-            <div id="step3" style="display:none" >
-            <p class="toelichting-step">
-                If all students were to annotate one and the same document in Perusall, it'd quickly turn unreadable as a result of all the highlighted pieces of text from the annotations. To prevent this, Perusall has a grouping feature which distributes students across groups. Students can only see the annotations of their fellow group members.
-            </p>
+            <!-- Step 3 -->
+            <li class="ui-priority-primary">
+                <p class="primary-step link-color">
+                    <span class="element_toggler " aria-controls="step3" aria-label="Toggler toggle list visibility" aria-expanded="false">Establish groups within Perusall</span>
+                </p>
+            </li>
+
+            <!-- Step 3 (uitklapbaar) -->
+            <div id="step3" style="display:none">
+
+                <!-- Intro -->
+                <p class="toelichting-step">
+                    If all students were to annotate one and the same document in Perusall, it'd quickly turn unreadable as a result of all the highlighted pieces of text from the annotations. To prevent this, Perusall has a grouping feature which distributes students across groups. Students can only see the annotations of their fellow group members.
+                </p>
+
+                <!-- Substeps -->
                 <ol class="further-instructions">
-                    <li>test</li>         
+                    <li>Go to the <i>Settings</i> menu in Perusall.</li>  
+                    <li>Click on the <span class="button-ref">Grouping</span> tab</li>  
+                    <a href="https://canvas.uva.nl/courses/45162/files/10939984?wrap=1" target="_blank" title="Click to expand">
+                    <img class="toelichting-step" style="width: 95%;" src="https://canvas.uva.nl/courses/45162/files/10939984/preview"></a>
+                    <li>You can choose to either let Perusall distribute students randomly or specify groups yourself.
+                    <p class="toelichting-step-2"><strong>a) Distribute students randomly:</strong> Simply fill in the number of students in your course and the desired group size. Note: Perusall will create new group distributions for every single document when using the automatic group distribution feature. If you want students to stay in the same group throughout the course, you must specify the groups yourself.</p>
+                    <p class="toelichting-step-2"><strong>b) Specify groups:</strong> Simply fill in a group number in front of the student name to assign a student to that group or copy over the groups from Canvas.</p>
+                    </li>
+                    <li>Click <span class="button-ref">Save changes</span> to save the group settings.</li>
                 </ol>
             </div>
 
-            <li class="ui-priority-primary"><p class="primary-step link-color">
-                <span class="element_toggler " aria-controls="step4" aria-label="Toggler toggle list visibility" aria-expanded="false"> 
-                    Configure the scoring settings
-                </span>
-            </p></li>
+            <!-- Step 4 -->
+            <li class="ui-priority-primary">
+                <p class="primary-step link-color">
+                    <span class="element_toggler " aria-controls="step4" aria-label="Toggler toggle list visibility" aria-expanded="false">Configure scoring settings</span>
+                </p>
+            </li>
+
+            <!-- Step 4 (uitklapbaar) -->
             <div id="step4" style="display:none" >
-            <p class="toelichting-step">
-                Before configuring the grade calculation, you'll need to configure a few scoring settings which influence how and when grades are sent to Canvas.
-            </p>
+
+                <!-- Intro -->
+                <p class="toelichting-step">
+                    Before configuring the grade calculation, you'll need to configure a few scoring settings which influence how and when grades are sent to Canvas.
+                </p>
+
+                <!-- Substeps -->
                 <ol class="further-instructions">
-                    <li>test</li>         
+                    <li>Go to the <i>Settings</i> menu in Perusall.</li>  
+                    <li>Click on the <span class="button-ref">Scoring</span> tab</li>  
+                    <li>Set release score to students to either:
+                    <p class="toelichting-step-2"><strong>a) After instructor manually releases:</strong> if you want to press a button in the Perusall gradebook to release the grades.</p>
+                    <p class="toelichting-step-2"><strong>b) After the assignment deadline has passed:</strong> if you want the grades to be automatically released in Perusall once the assignment deadline has passed. Releasing the scores immediately after submitting is discouraged, as this incentivizes students to game Perusall's scoring before the deadline.</p>
+                    </li>
+                    <li>Make sure the lowest possible score is 0 and the maximum score is equal to the number of points the assignment is worth in Canvas. If these numbers do not match, the grades in Perusall and Canvas will differ!</li> 
+                    <li>Set grade sync to LMS to either:
+                    <p class="toelichting-step-2"><strong>a) Manually sync assignment scores to LMS:</strong> if you want to press a button in the Perusall gradebook to send the grades to Canvas.</p>
+                    <p class="toelichting-step-2"><strong>b) Automatically sync assignment score to LMS:</strong> if you want the grades to be automatically sent to Canvas once the assignment deadline has passed. (Please note that it can take up to two hours before the grades are automatically sent to Canvas.) The image below shows our recommended scoring settings.</p>
+                    </li> 
+                    <a href="https://canvas.uva.nl/courses/45162/files/10940048?wrap=1" target="_blank" title="Click to expand">
+                    <img class="toelichting-step" style="width: 95%;" src="https://canvas.uva.nl/courses/45162/files/10940048/preview"></a>              
                 </ol>
             </div>
 
-            <li class="ui-priority-primary"><p class="primary-step link-color">
-                <span class="element_toggler " aria-controls="step5" aria-label="Toggler toggle list visibility" aria-expanded="false"> 
-                    Select the correct annotation language
-                </span>
-            </p></li>
+            <!-- Step 5 -->
+            <li class="ui-priority-primary">
+                <p class="primary-step link-color">
+                    <span class="element_toggler " aria-controls="step5" aria-label="Toggler toggle list visibility" aria-expanded="false">Set up automatic grading</span>
+                </p>
+            </li>
+
+            <!-- Step 5 (uitklapbaar) -->
             <div id="step5" style="display:none" >
-            <p class="toelichting-step">
-                Perusall can automatically score both Dutch and English annotation content, so it's important to select the correct language before your assignments start.
-            </p>
+
+                <!-- Intro -->
+                <p class="toelichting-step">
+                    Now that the general scoring settings have been configured, you can start configuring the automatic grading.
+                </p>
+
+                <!-- Substeps -->
                 <ol class="further-instructions">
-                    <li>test</li>         
+                    <li>Select a scoring preset. <i>Hollistic</i> is generally a good starting point.</li>  
+                    <li>Tweak the scoring preset. We suggest the following:
+                    <p class="toelichting-step-2"><strong>a) Check whether the options of all scoring criteria fit your texts.</strong> For example, if your texts are very short, you might want to lower the active engagement time and the number of required comments.</p>
+                    <p class="toelichting-step-2"><strong>b) Have the scoring weights exceed 100% by about 10 to 40 percent.</strong> This way students have various ways to earn full credits.</p>
+                    <p class="toelichting-step-2"><strong>c) Modify the number of high quality comments under the annotation content options</strong> to a number of comments that fits the length, complexity and discussability of your text.</p>
+                    <p class="toelichting-step-2"><strong>d) Have annotation content, getting responses and upvoting make up the largest bulk of your scoring.</strong></p>
+                    <p class="toelichting-step-2"><strong>e) Make sure it's possible to attain a (near) 100% score without active reading time, reading to the end and opening the assignment.</strong> Some students might prefer to read on paper rather than from Perusall.</p>
+                    <p class="toelichting-step-2"><strong>f) Have the scoring weights exceed 100% by about 10 to 40 percent</strong> so that students have various ways to earn full credits.</p>
+                    <p class="toelichting-step-2">You can also modify your scoring per assignment in the assignment settings instead, in case your texts vary greatly. The image below shows and example of a recommended scoring set up.</p>
+                    </li>   
+                    <a href="https://canvas.uva.nl/courses/45162/files/10940163?wrap=1" target="_blank" title="Click to expand">
+                    <img class="toelichting-step" style="width: 95%;" src="https://canvas.uva.nl/courses/45162/files/10940163/preview"></a>      
                 </ol>
             </div>
 
-            <li class="ui-priority-primary"><p class="primary-step link-color">
-                <span class="element_toggler " aria-controls="step6" aria-label="Toggler toggle list visibility" aria-expanded="false"> 
-                    Inform your students
-                </span>
-            </p></li>
+            <!-- Step 6 -->
+            <li class="ui-priority-primary">
+                <p class="primary-step link-color">
+                    <span class="element_toggler " aria-controls="step6" aria-label="Toggler toggle list visibility" aria-expanded="false">Select the correct annotation language</span>
+                </p>
+            </li>
+
+            <!-- Step 6 (uitklapbaar) -->
             <div id="step6" style="display:none" >
-            <p class="toelichting-step">
-                Since many students might not have used a application like Perusall before, it's important to properly inform the students about how Perusall works and what is expected of them. We recommend the following:
-            </p>
+
+                <!-- Intro -->
+                <p class="toelichting-step">
+                    Perusall can automatically score both Dutch and English annotation content, so it's important to select the correct language before your assignments start.
+                </p>
+
+                <!-- Substeps -->
                 <ol class="further-instructions">
-                    <li>test</li>         
+                    <li>Go to the <i>Settings</i> menu in Perusall.</li>
+                    <li>Click on the <span class="button-ref">General</span> tab</li>  
+                    <li>Select your desired annotation language.</li> 
+                    <a href="https://canvas.uva.nl/courses/45162/files/10940227?wrap=1" target="_blank" title="Click to expand">
+                    <img class="toelichting-step" style="width: 95%;" src="https://canvas.uva.nl/courses/45162/files/10940227/preview"></a>  
+                    <li>Click <span class="button-ref">Save changes</span> at the bottom of the page.</li>
+
                 </ol>
+            </div>
+
+            <!-- Step 7 -->
+            <li class="ui-priority-primary">
+                <p class="primary-step link-color">
+                    <span class="element_toggler " aria-controls="step7" aria-label="Toggler toggle list visibility" aria-expanded="false">Inform your students</span>
+                </p>
+            </li>
+
+            <!-- Step 7 (uitklapbaar) -->
+            <div id="step7" style="display:none" >
+
+                <!-- Intro -->
+                <p class="toelichting-step">
+                    Since many students might not have used a application like Perusall before, it's important to properly inform the students about how Perusall works and what is expected of them. We recommend the following:
+                </p>
+
+                <!-- Substeps -->
+                <ul class="further-instructions">
+                    <li><strong>Communicate the number of high quality comments needed</strong> to receive the maximum score on annotation content.</li> 
+                    <li><strong>Do not inform students of the other criteria thresholds for a maximum score.</strong> You don't have to specify exactly how many minutes students should spend reading a document, as this might invite students to try to game the system. It's also beyond the purpose of Perusall, i.e. starting discussions and asking questions.</li>  
+                    <li><strong>Define what a high quality comment is.</strong> You can share <a href="https://support.perusall.com/hc/en-us/sections/16176743952919" target="_blank">this page</a> with students, which explains how to write high quality comments.</li>  
+                    <li><strong>Advise students to annotate well before the deadline</strong>, as they are unlikely to receive responses and/or upvotes when placing comments a few hours before the deadline.</li>  
+                    <li><strong>Instruct students to flag annotatoins in cases of plagiarism or inappropriate content.</strong> You will receive an e-mail with the flagged comment, so you can assess it.</li>  
+                    <li><strong>Inform students that they can view how their annotations were scored</strong> when the deadline has passed under 'My scores' in Perusall.</li>  
+                    <li><strong>Communicate to students that you will be reading the comments</strong> to use them for your lectures and to manually adjust scores (if applicable).</li>  
+                    <li><strong>Inform students that they have to open Perusall via Canvas at least once.</strong> If they don't, their grade might not propagate to the Canvas gradebook, in which case you'll have to do this manually.</li>          
+                </ul>
             </div>
 
         </ol>
 
+        <!-- Back to top knop -->
+        <p class="back-to-top">
+            <a class="back-to-top" href="#header-icto" style="text-decoration:none"> <i class="icon-arrow-open-up subtopic-icon"></i>Back to top</a>
+        </p>
+
+        </div>
     </div>
-    
-</div>
 
-<!-- Back to top knop -->
-<p class="back-to-top">
-    <a class="back-to-top" href="#header-icto" style="text-decoration:none"> <i class="icon-arrow-open-up subtopic-icon"></i>Back to top</a>
-</p>
-
+    <!-- Rechts: subtopics-->
+    <div class="col-md-3 right-container">
+        <div class="styleguide-section__grid-demo-element">
+            <ul class="subtopics-ul">
+                <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-info subtopic-icon"></i>About</a></li>
+                <li class="subtopic-li current-sub"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-quiz subtopic-icon"></i>Quickstart</a></li>
+                <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-standards subtopic-icon"></i>Copyright</a></li>
+                <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-group subtopic-icon"></i>Grouping</a></li>
+                <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-stats subtopic-icon"></i>Analysis</a></li>
+                <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-assignment subtopic-icon"></i>Grading</a></li>
+                <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-collection subtopic-icon"></i>Plagiarism</a></li>
+            </ul>                                    
+        </div>
+    </div>
 </div>
 
 <!-- Footer -->
@@ -511,8 +624,6 @@ a.back-to-top:hover {
     </div>
 
 </div>
-
-
 
 </body>
 </html>
