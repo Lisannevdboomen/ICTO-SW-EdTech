@@ -343,6 +343,50 @@ a.back-to-top:hover {
     border-color: #b9cbdf;
 }
 
+/* About */
+h3.about-header {
+    font-size:12pt;
+    font-style: italic;
+    border-bottom:1px solid #555;
+    padding: 5pt 0;
+}
+
+h3.about-header i {
+    padding: 4pt 0 0 0;
+}
+
+.content-about {
+    padding: 10px 0;
+    font-size:11pt;
+}
+
+.inshort {
+    display:flex;
+    font-size:11pt;
+    margin-bottom:15px;
+}
+
+.inshort-text {
+    width:80%;
+}
+
+.inshort-difficulty {
+    width:20%;
+    padding:20px 30px;
+}
+
+td.checkbox-yes {
+    color:green;
+    width:3%;
+    vertical-align: top;
+}
+
+td.checkbox-no {
+    color:red;
+    width:3%;
+    vertical-align: top;
+}
+
 /* Footer */
 .footer-icto {
     color:white; 
@@ -422,7 +466,61 @@ a.back-to-top:hover {
     
         <!-- Header content -->
         <h1 class="header-subtopic-left ui-priority-primary">About</h1> 
-            inhoud
+            <div class="inshort">
+                <div class="inshort-text">
+                    Perusall enables you to get insight into student participation, both quantitatively and qualitatively. Additionally, it encourages students to closely read course materials, which leads to a deeper understanding of the material prior to the lecture. Another advantage is that the tool provides you with insight into possible stumbling blocks, which can be a good starting point of your lecture. Lastly, it allows you to transparently grade student annotations using set criteria.
+                </div>
+                <div class="inshort-difficulty">
+                    <img src="https://canvas.uva.nl/courses/45162/files/10981565/preview">
+                </div>
+            </div>
+
+            <span class="element_toggler link-color" aria-controls="when" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">When should I use this tool?<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span></h3></span>
+
+            
+            <div id="when" style="display:none" class="content-about">
+                <table class="when-to-use">
+                    <tr>
+                        <td class="checkbox-yes"><i class="icon-check-dark subtopic-icon"></i></td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                    </tr>
+                    <tr>
+                        <td class="checkbox-yes"><i class="icon-check-dark subtopic-icon"></i></td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                    </tr>
+                    <tr>
+                        <td class="checkbox-no"><i class="icon-end subtopic-icon"></i></td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                    </tr>
+                </table>
+            </div>
+
+            <span class="element_toggler link-color" aria-controls="impression" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">Get an impression<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span></h3></span>
+            
+            <div id="impression" style="display:none" class="content-about">
+                <iframe title="YouTube video player" src="https://www.youtube.com/embed/CvQxNSIzJHE" width="100%" height="330px" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
+
+            <span class="element_toggler link-color" aria-controls="useful-links" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">Useful links<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span></h3></span>
+            
+            <div id="useful-links" class="content-about" style="display:none" >
+                <ul>
+                    <li>Link 1</li>
+                    <li>Link 2</li>
+                </ul>
+            </div>
+
+            <span class="element_toggler link-color" aria-controls="extra-support" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">Need support using this tool?<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span></h3></span>
+            
+            <div id="extra-support" style="display:none"  class="content-about">
+                extra support
+            </div>
+
+            
+
+       
+
+
         </div>
     </div>
 
