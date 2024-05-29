@@ -379,14 +379,15 @@ h3.about-header i {
 .difficulty-total {
     width:50%;
     background-color: #f5f4f4;
-    border-radius: 5pt;
-    border:1px solid #203349
+    border-radius: 30px;
+    border:1px solid #203349;
+    margin-bottom:20px
 }
 
 .difficulty-percentage {
    background-color: #203349; 
    color: white;
-   border-radius: 3pt;
+   border-radius: 30px;
    border:1px solid #203349;
    margin:2px;
    padding:3px
@@ -485,13 +486,17 @@ td.checkbox-no {
         <h1 class="header-subtopic-left ui-priority-primary">About</h1> 
             <div class="inshort">
 
-                <p class="inshort">Perusall enables you to get insight into student participation, both quantitatively and qualitatively. Additionally, it encourages students to closely read course materials, which leads to a deeper understanding of the material prior to the lecture. Another advantage is that the tool provides you with insight into possible stumbling blocks, which can be a good starting point of your lecture. Lastly, it allows you to transparently grade student annotations using set criteria.</p>
+                <p class="inshort">This page contains general information about a tool. It tells you what the tool can be used for and for what it is less suited. A short video will give you an impression of how the tool works, and we encourage you to make use of the tips & tricks that are offered. At the bottom of the page, you will find who to contact if you need extra support.
+
+                    <div class="difficulty-total">
+                        <div class="difficulty-percentage" style="width:80%">
+                            <p class="difficulty-percentage">Difficulty: high</p>
+                        </div>
+                    </div> 
+
+                </p>
                     
-                <div class="difficulty-total">
-                    <div class="difficulty-percentage" style="width:80%">
-                        <p class="difficulty-percentage">Difficulty: high</p>
-                    </div>
-                </div> 
+                
 
             </div>
 
@@ -520,10 +525,58 @@ td.checkbox-no {
                     </div>
 
                 </div>
+
+                <div class="underline">
+                    
+                    <span class="element_toggler link-color" aria-controls="when-not" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">What is this tool less suitable for?<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
+                    </h3></span>
+
+                    <div id="when-not" style="display:none" class="content-about">
+                        <table>
+                            <tr>
+                                <td class="checkbox-yes"><i class="icon-check-dark subtopic-icon"></i></td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            </tr>
+                            <tr>
+                                <td class="checkbox-yes"><i class="icon-check-dark subtopic-icon"></i></td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            </tr>
+                            <tr>
+                                <td class="checkbox-no"><i class="icon-end subtopic-icon"></i></td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+
+                <div class="underline">
+                    
+                    <span class="element_toggler link-color" aria-controls="tips" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">Tips & tricks<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
+                    </h3></span>
+
+                    <div id="tips" style="display:none" class="content-about">
+                        <table>
+                            <tr>
+                                <td class="checkbox-yes"><i class="icon-check-dark subtopic-icon"></i></td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            </tr>
+                            <tr>
+                                <td class="checkbox-yes"><i class="icon-check-dark subtopic-icon"></i></td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            </tr>
+                            <tr>
+                                <td class="checkbox-no"><i class="icon-end subtopic-icon"></i></td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
             
                 <div class="underline">
 
-                    <span class="element_toggler link-color" aria-controls="impression" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">Get an impression of Perusall<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span></h3></span>
+                    <span class="element_toggler link-color" aria-controls="impression" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">Get an impression<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span></h3></span>
                     
                     <div id="impression" style="display:none">
                         <iframe title="YouTube video player" src="https://www.youtube.com/embed/CvQxNSIzJHE" width="100%" height="430px" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
@@ -561,6 +614,7 @@ td.checkbox-no {
     <!-- Rechts: subtopics-->
     <div class="col-md-3 right-container">
         <div class="styleguide-section__grid-demo-element">
+            
             <ul class="subtopics-ul">
                 <li class="subtopic-li current-sub"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-info subtopic-icon"></i>About</a></li>
                 <li class="subtopic-li"><a href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-quickstart" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-quiz subtopic-icon"></i>Quickstart</a></li>
