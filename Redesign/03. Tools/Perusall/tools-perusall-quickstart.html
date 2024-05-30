@@ -232,7 +232,7 @@ p.toelichting-step {
     margin: 20px 0 20px 10px;
     font-size:11pt;
     line-height:1.1em;
-    margin-left:10px;
+    margin-left:15px;
 }
 
 p.toelichting-step-2 {
@@ -249,7 +249,7 @@ img.toelichting-step {
 .further-instructions {
     font-size:11pt;
     line-height:1em;
-    margin-left:25px;
+    margin-left:30px;
     margin-bottom:50px;
 }
 
@@ -343,6 +343,68 @@ a.back-to-top:hover {
     border-color: #b9cbdf;
 }
 
+/* About */
+.tool-topics {
+    border-top:1px solid #b9cbdf;
+    margin:50px 0;
+}
+.underline {
+    border-bottom:1px solid #b9cbdf;
+
+}
+
+h3.about-header {
+    font-size:12pt;
+    padding: 10pt;
+}
+
+h3.about-header:hover {
+    background-color: #f5f4f4;
+}
+
+h3.about-header i {
+    padding: 4pt 0 0 0;
+}
+
+.content-about {
+    padding: 5pt 5pt 15pt 10pt;
+    font-size:11pt;
+}
+
+.inshort {
+    font-size:11pt;
+    margin-bottom:20px;
+}
+
+.difficulty-total {
+    width:50%;
+    background-color: #f5f4f4;
+    border-radius: 30px;
+    border:1px solid #203349;
+    margin-bottom:20px
+}
+
+.difficulty-percentage {
+   background-color: #203349; 
+   color: white;
+   border-radius: 30px;
+   border:1px solid #203349;
+   margin:2px;
+   padding:3px
+}
+
+td.checkbox-yes {
+    color:green;
+    width:3%;
+    vertical-align: top;
+}
+
+td.checkbox-no {
+    color:red;
+    width:3%;
+    vertical-align: top;
+}
+
 /* Footer */
 .footer-icto {
     color:white; 
@@ -424,15 +486,25 @@ a.back-to-top:hover {
         <!-- Header content -->
         <h1 class="header-subtopic-left ui-priority-primary">Quickstart</h1> 
 
+        <div class="inshort">
+
+            <p class="inshort">This quickstart covers all the steps you need to complete to use the tool. If you skip any of the steps below, the tool might not function properly. For more information on specific topics, please check the menu on the right.            
+
+            </p>
+                
+            
+
+        </div>
+
         <!-- Stappen -->
-        <ol class="content-instructions">
+
+        <div class="tool-topics">
+        <div class="underline">
 
             <!-- Step 1 -->
-            <li>
-                <p class="primary-step link-color">
-                    <span class="element_toggler " aria-controls="step1" aria-label="Toggler toggle list visibility" aria-expanded="false">Create a Perusall assignment in Canvas</span>
-                </p>
-            </li>
+
+            <span class="element_toggler link-color" aria-controls="step1" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">1. Create a Perusall assignment in Canvas<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
+            </h3></span>
 
             <!-- Step 1 (uitklapbaar) -->
             <div id="step1" style="display:none" >
@@ -454,12 +526,15 @@ a.back-to-top:hover {
                 </ol>
             </div>
 
+        </div>
+
             <!-- Step 2 -->
-            <li>
-                <p class="primary-step link-color">
-                    <span class="element_toggler " aria-controls="step2" aria-label="Toggler toggle list visibility" aria-expanded="false">Add documents to Perusall</span>
-                </p>
-            </li>
+
+            <div class="underline">
+    
+                <span class="element_toggler link-color" aria-controls="step2" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">2. Add documents to Perusall<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
+                </h3></span>
+
 
             <!-- Step 2 (uitklapbaar) -->
             <div id="step2" style="display:none" >
@@ -476,13 +551,13 @@ a.back-to-top:hover {
                     <li>Select the document you wish to upload to Perusall</li>
                 </ol>
             </div>
-
+        </div>
             <!-- Step 3 -->
-            <li>
-                <p class="primary-step link-color">
-                    <span class="element_toggler " aria-controls="step3" aria-label="Toggler toggle list visibility" aria-expanded="false">Link your document(s) to an assignment</span>
-                </p>
-            </li>
+
+            <div class="underline">
+    
+                <span class="element_toggler link-color" aria-controls="step3" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">3. Link your document(s) to an assignment<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
+                </h3></span>
 
             <!-- Step 3 (uitklapbaar) -->
             <div id="step3" style="display:none" >
@@ -509,13 +584,13 @@ a.back-to-top:hover {
                     </li>                           
                 </ol>
             </div>
-
+        </div>
             <!-- Step 4 -->
-            <li>
-                <p class="primary-step link-color">
-                    <span class="element_toggler " aria-controls="step4" aria-label="Toggler toggle list visibility" aria-expanded="false">Establish groups within Perusall</span>
-                </p>
-            </li>
+
+            <div class="underline">
+    
+                <span class="element_toggler link-color" aria-controls="step4" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">4. Establish groups within Perusall<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
+                </h3></span>
 
             <!-- Step 4 (uitklapbaar) -->
             <div id="step4" style="display:none">
@@ -538,13 +613,13 @@ a.back-to-top:hover {
                     <li>Click <span class="button-ref perusall-green">Save changes</span> to save the group settings</li>
                 </ol>
             </div>
-
+        </div>
             <!-- Step 5 -->
-            <li>
-                <p class="primary-step link-color">
-                    <span class="element_toggler " aria-controls="step5" aria-label="Toggler toggle list visibility" aria-expanded="false">Configure scoring settings</span>
-                </p>
-            </li>
+
+            <div class="underline">
+    
+                <span class="element_toggler link-color" aria-controls="step5" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">5. Configure scoring settings<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
+                </h3></span>
 
             <!-- Step 5 (uitklapbaar) -->
             <div id="step5" style="display:none" >
@@ -574,13 +649,13 @@ a.back-to-top:hover {
                     </li>            
                 </ol>
             </div>
-
+        </div>
             <!-- Step 6 -->
-            <li>
-                <p class="primary-step link-color">
-                    <span class="element_toggler " aria-controls="step6" aria-label="Toggler toggle list visibility" aria-expanded="false">Set up automatic grading</span>
-                </p>
-            </li>
+
+            <div class="underline">
+    
+                <span class="element_toggler link-color" aria-controls="step6" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">6. Set up automatic grading<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
+                </h3></span>
 
             <!-- Step 6 (uitklapbaar) -->
             <div id="step6" style="display:none" >
@@ -609,13 +684,13 @@ a.back-to-top:hover {
                     </li>        
                 </ol>
             </div>
-
+        </div>
             <!-- Step 7 -->
-            <li>
-                <p class="primary-step link-color">
-                    <span class="element_toggler " aria-controls="step7" aria-label="Toggler toggle list visibility" aria-expanded="false">Select the correct annotation language</span>
-                </p>
-            </li>
+
+            <div class="underline">
+    
+                <span class="element_toggler link-color" aria-controls="step7" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">7. Select the correct annotation language<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
+                </h3></span>
 
             <!-- Step 7 (uitklapbaar) -->
             <div id="step7" style="display:none" >
@@ -636,13 +711,13 @@ a.back-to-top:hover {
 
                 </ol>
             </div>
-
+        </div>
             <!-- Step 8 -->
-            <li>
-                <p class="primary-step link-color">
-                    <span class="element_toggler " aria-controls="step8" aria-label="Toggler toggle list visibility" aria-expanded="false">Inform your students</span>
-                </p>
-            </li>
+
+            <div class="underline">
+    
+                <span class="element_toggler link-color" aria-controls="step8" aria-label="Toggler toggle list visibility" aria-expanded="false"><h3 class="about-header">8. Inform your students<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
+                </h3></span>
 
             <!-- Step 8 (uitklapbaar) -->
             <div id="step8" style="display:none" >
@@ -664,8 +739,8 @@ a.back-to-top:hover {
                     <li>Inform students that they have to open Perusall via Canvas at least once. If they don't, their grade might not propagate to the Canvas gradebook, in which case you'll have to do this manually.</li>          
                 </ul>
             </div>
-
-        </ol>
+        </div>
+        </div>
         </div>
     </div>
 
@@ -675,11 +750,8 @@ a.back-to-top:hover {
             <ul class="subtopics-ul">
                 <li class="subtopic-li"><a href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-about" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-info subtopic-icon"></i>About</a></li>
                 <li class="subtopic-li current-sub"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-quiz subtopic-icon"></i>Quickstart</a></li>
-                <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-standards subtopic-icon"></i>Copyright</a></li>
-                <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-group subtopic-icon"></i>Grouping</a></li>
-                <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-stats subtopic-icon"></i>Analysis</a></li>
-                <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-assignment subtopic-icon"></i>Grading</a></li>
-                <li class="subtopic-li"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-collection subtopic-icon"></i>Plagiarism</a></li>
+                <li class="subtopic-li"><a href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-faq" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-standards subtopic-icon"></i>Frequently Asked Questions</a></li>
+                <li class="subtopic-li"><a href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-grading" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-assignment subtopic-icon"></i>Grading</a></li>
             </ul>                                    
         </div>
     </div>
