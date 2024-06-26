@@ -149,31 +149,34 @@ li.enroll a:hover {
 
 .difficulty-total {
     float:right;
-    width:15%;
-    background-color: #f5f4f4;
-    border:1px solid #585858;
+    width:20%;
+    border:1px solid #203349;
+    border-radius:20pt;
+    margin-right:20px
 }
 
 .difficulty-percentage {
    display:block;
+   border-radius:20pt;
 }
 
 p.difficulty-percentage {
    color: white;
-   font-size:9pt;
-   padding:2px 6px
+   font-size:10pt;
+   padding:2px 10px;
+   cursor:default;
 }
 
 .beginner {
-    background-color: #00af0f; 
+    background-color: #00bf10; 
 }
 
 .intermediate {
-    background-color: #ce6300; 
+    background-color: #ff7b00; 
 }
 
 .advanced{
-    background-color: #910000; 
+    background-color: #d11800; 
 }
 
 /* In short: short introduction to page */
@@ -183,6 +186,14 @@ p.difficulty-percentage {
 }
 
 /* Uitvouwbare items */
+.icon-top {
+    vertical-align: top;
+}
+
+.padding-bottom {
+    padding-bottom:10px !important;
+}
+
 .uitklapbare-items {
     border-top:1px solid #b9cbdf;
     margin:50px 0;
@@ -428,13 +439,13 @@ a.back-to-top:hover {
 
 <!-- Top menu -->
 <ul class="topmenu-icto">
-    <li class="non-current"><a style="text-decoration:none;" href="#">Home</a></li>
-    <li class="non-current"><a style="text-decoration:none;" href="#">Contact</a></li>
-    <li class="non-current"><a style="text-decoration:none;" href="#">News</a></li>
-    <li class="non-current"><a style="text-decoration:none;" href="#">A-Z</a></li>
-    <li class="non-current"><a style="text-decoration:none;" href="#">All tools</a></li>
-    <li class="current"><a style="text-decoration:none;" href="#">Perusall</a></li>
-    <li class="enroll"><a style="text-decoration:none;" href="https://canvas.uva.nl/enroll/N3HMY8"><i class="icon-add subtopic-icon"></i>Enroll</a></li>
+    <li class="non-current"><a style="text-decoration:none;" title="Home" href="https://canvas.uva.nl/courses/45162/pages/homepage">Home</a></li>
+    <li class="non-current"><a style="text-decoration:none;" title="Contact" href="https://canvas.uva.nl/courses/45162/pages/contact-icto">Contact</a></li>
+    <li class="non-current"><a style="text-decoration:none;" title="News" href="https://canvas.uva.nl/courses/45162/pages/news">News</a></li>
+    <li class="non-current"><a style="text-decoration:none;" title="A-Z" href="https://canvas.uva.nl/courses/45162/pages/a-z">A-Z</a></li>
+    <li class="non-current"><a style="text-decoration:none;" title="All tools" href="https://canvas.uva.nl/courses/45162/pages/all-tools">All tools</a></li>
+    <li class="current"><a style="text-decoration:none;" title="" href="#">Perusall</a></li>
+    <li class="enroll"><a style="text-decoration:none;" title="Enroll in this Canvas page" href="https://canvas.uva.nl/enroll/N3HMY8" target="_blank"><i class="icon-add subtopic-icon"></i>Enroll</a></li>
 </ul>
 
 <!-- Banner image -->
@@ -469,7 +480,7 @@ a.back-to-top:hover {
             <div class="underline">
 
                 <!-- Header item -->
-                <span class="element_toggler link-color" aria-controls="step1" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                <span class="element_toggler link-color" title="Click to unfold" aria-controls="step1" aria-label="Toggler toggle list visibility" aria-expanded="false">
                     <h3 class="about-header">1. Create a Perusall assignment in Canvas<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
                     </h3>
                 </span>
@@ -503,7 +514,7 @@ a.back-to-top:hover {
             <div class="underline">
 
                 <!-- Header item -->    
-                <span class="element_toggler link-color" aria-controls="step2" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                <span class="element_toggler link-color" title="Click to unfold" aria-controls="step2" aria-label="Toggler toggle list visibility" aria-expanded="false">
                     <h3 class="about-header">2. Add documents to Perusall<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
                     </h3>
                 </span>
@@ -534,7 +545,7 @@ a.back-to-top:hover {
             <div class="underline">
     
                 <!-- Header item -->
-                <span class="element_toggler link-color" aria-controls="step3" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                <span class="element_toggler link-color" title="Click to unfold" aria-controls="step3" aria-label="Toggler toggle list visibility" aria-expanded="false">
                     <h3 class="about-header">3. Link your document(s) to an assignment<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
                     </h3>
                 </span>
@@ -578,7 +589,7 @@ a.back-to-top:hover {
             <div class="underline">
     
                 <!-- Header item -->
-                <span class="element_toggler link-color" aria-controls="step4" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                <span class="element_toggler link-color" title="Click to unfold" aria-controls="step4" aria-label="Toggler toggle list visibility" aria-expanded="false">
                     <h3 class="about-header">4. Establish groups within Perusall<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
                     </h3>
                 </span>
@@ -619,7 +630,7 @@ a.back-to-top:hover {
             <div class="underline">
 
                 <!-- Header item -->    
-                <span class="element_toggler link-color" aria-controls="step5" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                <span class="element_toggler link-color" title="Click to unfold" aria-controls="step5" aria-label="Toggler toggle list visibility" aria-expanded="false">
                     <h3 class="about-header">5. Configure scoring settings<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
                     </h3>
                 </span>
@@ -675,7 +686,7 @@ a.back-to-top:hover {
             <div class="underline">
 
                 <!-- Header item -->    
-                <span class="element_toggler link-color" aria-controls="step6" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                <span class="element_toggler link-color" title="Click to unfold" aria-controls="step6" aria-label="Toggler toggle list visibility" aria-expanded="false">
                     <h3 class="about-header">6. Set up automatic grading<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
                     </h3>
                 </span>
@@ -720,7 +731,7 @@ a.back-to-top:hover {
             <div class="underline">
 
                 <!-- Header item -->    
-                <span class="element_toggler link-color" aria-controls="step7" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                <span class="element_toggler link-color" title="Click to unfold" aria-controls="step7" aria-label="Toggler toggle list visibility" aria-expanded="false">
                     <h3 class="about-header">7. Select the correct annotation language<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
                     </h3>
                 </span>
@@ -755,7 +766,7 @@ a.back-to-top:hover {
             <div class="underline">
     
                 <!-- Header item -->
-                <span class="element_toggler link-color" aria-controls="step8" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                <span class="element_toggler link-color" title="Click to unfold" aria-controls="step8" aria-label="Toggler toggle list visibility" aria-expanded="false">
                     <h3 class="about-header">8. Inform your students<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
                     </h3>
                 </span>
@@ -794,12 +805,12 @@ a.back-to-top:hover {
         <div class="styleguide-section__grid-demo-element">
 
             <ul class="subtopics-ul">
-                <li class="subtopic-li"><a href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-about" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-info subtopic-icon"></i>About</a></li>
-                <li class="subtopic-li current-sub"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-quiz subtopic-icon"></i>Quickstart</a></li>
-                <li class="subtopic-li"><a href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-grouping" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-group subtopic-icon"></i>Grouping</a></li>
-                <li class="subtopic-li"><a href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-analysis" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-stats subtopic-icon"></i>Analysis</a></li>
-                <li class="subtopic-li"><a href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-grading" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-assignment subtopic-icon"></i>Grading</a></li>
-                <li class="subtopic-li"><a href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-copyright-plagiarism" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-collection subtopic-icon"></i>Copyright & Plagiarism</a></li>
+                <li class="subtopic-li"><a title="About" href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-about" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-info subtopic-icon"></i>About</a></li>
+                <li class="subtopic-li current-sub"><a title="" href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-quiz subtopic-icon"></i>Quickstart</a></li>
+                <li class="subtopic-li"><a title="Grouping" href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-grouping" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-group subtopic-icon"></i>Grouping</a></li>
+                <li class="subtopic-li"><a title="Anlaysis" href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-analysis" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-stats subtopic-icon"></i>Analysis</a></li>
+                <li class="subtopic-li"><a title="Grading" href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-grading" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-assignment subtopic-icon"></i>Grading</a></li>
+                <li class="subtopic-li"><a title="Copyright & plagiarism" href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-copyright-plagiarism" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-collection subtopic-icon"></i>Copyright & Plagiarism</a></li>
             </ul> 
 
         </div>
@@ -814,7 +825,7 @@ a.back-to-top:hover {
     <a class="back-to-top" title="Go back to the top of this page" href="#header-icto" style="text-decoration:none"><i class="icon-arrow-open-up"></i></a>
 
     <!-- Support button-->
-    <a class="back-to-top" href="#extra-support" style="text-decoration:none">Need help?</a>
+    <a class="back-to-top" title="Click here for extra help" href="#extra-support" style="text-decoration:none">Need help?</a>
     
 </p>
 
@@ -837,10 +848,9 @@ a.back-to-top:hover {
 
     <!-- Snelkoppelingen -->
     <div class="left-footer">
-        <p><i class="icon-message subtopic-icon"></i><a href="#">Contact ICTO</a></p>
-        <p><i class="icon-comment subtopic-icon"></i><a href="#">Sign up for notifications</a></p>
+        <p><i class="icon-message subtopic-icon"></i><a title="Contact your ICTO team" href="https://canvas.uva.nl/courses/45162/pages/contact-icto">Contact ICTO</a></p>
+        <p><i class="icon-comment subtopic-icon"></i><a title="Sign up for notifications" href="https://canvas.uva.nl/enroll/N3HMY8" target="_blank">Sign up for notifications</a></p>
     </div>
-
     <!-- Logo UvA -->
     <div class="right-footer">
         <img style="float:right; width:100%; padding:5px" src="https://canvas.uva.nl/courses/45162/files/10817649/preview">

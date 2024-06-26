@@ -149,31 +149,34 @@ li.enroll a:hover {
 
 .difficulty-total {
     float:right;
-    width:15%;
-    background-color: #f5f4f4;
-    border:1px solid #585858;
+    width:20%;
+    border:1px solid #203349;
+    border-radius:20pt;
+    margin-right:20px
 }
 
 .difficulty-percentage {
    display:block;
+   border-radius:20pt;
 }
 
 p.difficulty-percentage {
    color: white;
-   font-size:9pt;
-   padding:2px 6px
+   font-size:10pt;
+   padding:2px 10px;
+   cursor:default;
 }
 
 .beginner {
-    background-color: #00af0f; 
+    background-color: #00bf10; 
 }
 
 .intermediate {
-    background-color: #ce6300; 
+    background-color: #ff7b00; 
 }
 
 .advanced{
-    background-color: #910000; 
+    background-color: #d11800; 
 }
 
 /* In short: short introduction to page */
@@ -183,6 +186,14 @@ p.difficulty-percentage {
 }
 
 /* Uitvouwbare items */
+.icon-top {
+    vertical-align: top;
+}
+
+.padding-bottom {
+    padding-bottom:10px !important;
+}
+
 .uitklapbare-items {
     border-top:1px solid #b9cbdf;
     margin:50px 0;
@@ -428,13 +439,13 @@ a.back-to-top:hover {
 
 <!-- Top menu -->
 <ul class="topmenu-icto">
-    <li class="non-current"><a style="text-decoration:none;" href="https://canvas.uva.nl/courses/45162/pages/homepage">Home</a></li>
-    <li class="non-current"><a style="text-decoration:none;" href="https://canvas.uva.nl/courses/45162/pages/contact-icto">Contact</a></li>
-    <li class="non-current"><a style="text-decoration:none;" href="https://canvas.uva.nl/courses/45162/pages/news">News</a></li>
-    <li class="non-current"><a style="text-decoration:none;" href="https://canvas.uva.nl/courses/45162/pages/a-z">A-Z</a></li>
-    <li class="non-current"><a style="text-decoration:none;" href="https://canvas.uva.nl/courses/45162/pages/all-tools">All tools</a></li>
-    <li class="current"><a style="text-decoration:none;" href="#">Perusall</a></li>
-    <li class="enroll"><a style="text-decoration:none;" href="https://canvas.uva.nl/enroll/N3HMY8" target="_blank"><i class="icon-add subtopic-icon"></i>Enroll</a></li>
+    <li class="non-current"><a style="text-decoration:none;" title="Home" href="https://canvas.uva.nl/courses/45162/pages/homepage">Home</a></li>
+    <li class="non-current"><a style="text-decoration:none;" title="Contact" href="https://canvas.uva.nl/courses/45162/pages/contact-icto">Contact</a></li>
+    <li class="non-current"><a style="text-decoration:none;" title="News" href="https://canvas.uva.nl/courses/45162/pages/news">News</a></li>
+    <li class="non-current"><a style="text-decoration:none;" title="A-Z" href="https://canvas.uva.nl/courses/45162/pages/a-z">A-Z</a></li>
+    <li class="non-current"><a style="text-decoration:none;" title="All tools" href="https://canvas.uva.nl/courses/45162/pages/all-tools">All tools</a></li>
+    <li class="current"><a style="text-decoration:none;" title="" href="#">Perusall</a></li>
+    <li class="enroll"><a style="text-decoration:none;" title="Enroll in this Canvas page" href="https://canvas.uva.nl/enroll/N3HMY8" target="_blank"><i class="icon-add subtopic-icon"></i>Enroll</a></li>
 </ul>
 
 <!-- Banner image -->
@@ -481,8 +492,8 @@ a.back-to-top:hover {
             <div class="underline">
 
                 <!-- Header item -->
-                <span class="element_toggler link-color" aria-controls="when" aria-label="Toggler toggle list visibility" aria-expanded="false">
-                    <h3 class="about-header">When should I use this tool?<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
+                <span class="element_toggler link-color" title="Click to unfold" aria-controls="when" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                    <h3 class="about-header">When to use Perusall?<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
                     </h3>
                 </span>
 
@@ -490,16 +501,20 @@ a.back-to-top:hover {
                 <div id="when" style="display:none" class="content-uitvouwbaar">
                     <table>
                         <tr>
-                            <td class="checkbox-yes"><i class="icon-check-dark subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            <td class="checkbox-yes icon-top"><i class="icon-check-dark subtopic-icon"></i></td>
+                            <td class="padding-bottom"><strong>To generate an overview of student participation</strong> and the quality of annotations posted. These give you a good understanding of student participation, both quantitatively and qualitatively.</td>
                         </tr>
                         <tr>
-                            <td class="checkbox-yes"><i class="icon-check-dark subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            <td class="checkbox-yes icon-top"><i class="icon-check-dark subtopic-icon"></i></td>
+                            <td class="padding-bottom"><strong>To encourage students to engage in close reading</strong> and deeper understanding of the material, even prior to the lecture and with fellow students.</td>
                         </tr>
                         <tr>
-                            <td class="checkbox-yes"><i class="icon-check-dark subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            <td class="checkbox-yes icon-top"><i class="icon-check-dark subtopic-icon"></i></td>
+                            <td class="padding-bottom"><strong>To identify ambiguities in the literature</strong> prior to the lecture. This can be the starting point of the meeting.</td>
+                        </tr>
+                        <tr>
+                            <td class="checkbox-yes icon-top"><i class="icon-check-dark subtopic-icon"></i></td>
+                            <td class="padding-bottom"><strong>To assess student annotations using criteria</strong>, which are also visible to students.</td>
                         </tr>
                     </table>
                 </div>
@@ -510,8 +525,8 @@ a.back-to-top:hover {
             <div class="underline">
                 
                 <!-- Header item -->
-                <span class="element_toggler link-color" aria-controls="when-not" aria-label="Toggler toggle list visibility" aria-expanded="false">
-                    <h3 class="about-header">What is this tool less suitable for?<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
+                <span class="element_toggler link-color" title="Click to unfold" aria-controls="when-not" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                    <h3 class="about-header">What is Perusall less suitable for?<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
                     </h3>
                 </span>
 
@@ -519,16 +534,16 @@ a.back-to-top:hover {
                 <div id="when-not" style="display:none" class="content-uitvouwbaar">
                     <table>
                         <tr>
-                            <td class="checkbox-no"><i class="icon-end subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            <td class="checkbox-no icon-top"><i class="icon-end subtopic-icon"></i></td>
+                            <td class="padding-bottom"><strong>If you're looking for a tool that will take little time and energy to set up. </strong> Perusall is a complex tool and it generally takes teachers quite some effort.</td>
                         </tr>
                         <tr>
-                            <td class="checkbox-no"><i class="icon-end subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            <td class="checkbox-no icon-top"><i class="icon-end subtopic-icon"></i></td>
+                            <td class="padding-bottom"><strong>If you're trying to enhance student collaboration.</strong> Despite the fact that the tool makes interaction easy and encourages it, it is not a tool in which students actively collaborate with each other. Students learn from each other but each have their own self-study.</td>
                         </tr>
                         <tr>
-                            <td class="checkbox-no"><i class="icon-end subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            <td class="checkbox-no icon-top"><i class="icon-end subtopic-icon"></i></td>
+                            <td class="padding-bottom"><strong>If you're planning on using it for rather large groups of students.</strong> It takes time to discover all the possibilities and settings of Perusall; the tool has many options which can make it less convenient to use with larger groups of students.</td>
                         </tr>
                     </table>
                 </div>
@@ -539,7 +554,7 @@ a.back-to-top:hover {
             <div class="underline">
 
                 <!-- Header item -->
-                <span class="element_toggler link-color" aria-controls="tips" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                <span class="element_toggler link-color" title="Click to unfold" aria-controls="tips" aria-label="Toggler toggle list visibility" aria-expanded="false">
                     <h3 class="about-header">Tips & tricks<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
                     </h3>
                 </span>
@@ -548,16 +563,21 @@ a.back-to-top:hover {
                 <div id="tips" style="display:none" class="content-uitvouwbaar">
                     <table>
                         <tr>
-                            <td><i class="icon-quiz subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            <td class="icon-top"><i class="icon-quiz subtopic-icon"></i></td>
+                            <td class="padding-bottom"><strong>
+                                See Perusall in action by joining a demonstration course. </strong> You'll be able to participate in a course and see the tools available to instructors <a href="https://app.perusall.com/demo" target="_blank">here</a>.</td>
                         </tr>
                         <tr>
-                            <td><i class="icon-quiz subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            <td class="icon-top"><i class="icon-quiz subtopic-icon"></i></td>
+                            <td class="padding-bottom"><strong>Watch <a href="https://edu.nl/qden4" target="_blank">the TLC webinar</a> on using Perusall in your classes to get inspired.</strong> The webinar shows you not only what Perusall looks like on both student and teacher side, but also how and why it works.</td>
                         </tr>
                         <tr>
-                            <td><i class="icon-quiz subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+                            <td class="icon-top"><i class="icon-quiz subtopic-icon"></i></td>
+                            <td class="padding-bottom"><strong>Read about a teacher’s experience using the tool.</strong> Gijs Schumacher has used Perusall for his Politcs, Media and Communication course (3rd year Bachelor Political Science, 100 students) for a biweekly reading assignment during the pandemic. <a href="https://canvas.uva.nl/courses/8175/pages/perusall-tips" target="_blank">Here</a> you can read more about his experience and all the (dis)advantages.</td>
+                        </tr>
+                        <tr>
+                            <td class="icon-top"><i class="icon-quiz subtopic-icon"></i></td>
+                            <td class="padding-bottom"><strong>Check out TLC's in-depth manual on Perusall.</strong> It helps you to set up Perusall for your course. You can find it <a href="https://tlc.uva.nl/wp-content/uploads/2022/10/Perusall-Manual-EN-220904.pdf" target="_blank">here</a>.</td>
                         </tr>
                     </table>
                 </div>
@@ -568,14 +588,15 @@ a.back-to-top:hover {
             <div class="underline">
 
                 <!-- Header item -->
-                <span class="element_toggler link-color" aria-controls="impression" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                <span class="element_toggler link-color" title="Click to unfold" aria-controls="impression" aria-label="Toggler toggle list visibility" aria-expanded="false">
                     <h3 class="about-header">Get an impression<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
                     </h3>
                 </span>
 
                 <!-- Content item -->                
                 <div id="impression" style="display:none">
-                    <iframe title="YouTube video player" src="https://www.youtube.com/embed/CvQxNSIzJHE" width="100%" height="430px" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    <iframe title="YouTube video player" src="https://www.youtube.com/embed/Nbp-fmXAPds?si=tSo2xkNmMFDo1Cvn" width="100%" height="430px" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    
                 </div>
 
             </div> <!-- Underline -->
@@ -584,7 +605,7 @@ a.back-to-top:hover {
             <div class="underline">
 
                 <!-- Header item -->
-                <span class="element_toggler link-color" aria-controls="useful-links" aria-label="Toggler toggle list visibility" aria-expanded="false">
+                <span class="element_toggler link-color" title="Click to unfold" aria-controls="useful-links" aria-label="Toggler toggle list visibility" aria-expanded="false">
                     <h3 class="about-header">Useful links<span style="float:right"><i class="icon-arrow-open-down subtopic-icon"></i></span>
                     </h3>
                 </span>
@@ -593,16 +614,28 @@ a.back-to-top:hover {
                 <div id="useful-links" class="content-uitvouwbaar" style="display:none" >
                     <table>
                         <tr>
-                            <td><i class="icon-link subtopic-icon"></i></td>
-                            <td><a href="#" target="_blank">Link 1</a></td>
+                            <td class="icon-top"><i class="icon-link subtopic-icon"></i></td>
+                            <td class="padding-bottom"><a href="https://tlc.uva.nl/en/" target="_blank">Contact page Teaching & Learning Center</a></td>
                         </tr>
                         <tr>
-                            <td><i class="icon-link subtopic-icon"></i></td>
-                            <td><a href="#" target="_blank">Link 2</a></td>
+                            <td class="icon-top"><i class="icon-link subtopic-icon"></i></td>
+                            <td class="padding-bottom"><a href="https://canvas.uva.nl/courses/169/pages/perusall-assignments?module_item_id=529700" target="_blank">General Canvas guide for Perusall </a></td>
                         </tr>
                         <tr>
-                            <td><i class="icon-link subtopic-icon"></i></td>
-                            <td><a href="#" target="_blank">Link 3</a></td>
+                            <td class="icon-top"><i class="icon-link subtopic-icon"></i></td>
+                            <td class="padding-bottom"><a href="https://support.perusall.com/hc/en-us/categories/360002157414-Instructors" target="_blank">Official documentation Perusall</a></td>
+                        </tr>
+                        <tr>
+                            <td class="icon-top"><i class="icon-link subtopic-icon"></i></td>
+                            <td class="padding-bottom"><a href="https://support.perusall.com/hc/en-us/sections/360005183594-Scoring-and-grades" target="_blank">Scoring and grades documentation</a></td>
+                        </tr>
+                        <tr>
+                            <td class="icon-top"><i class="icon-link subtopic-icon"></i></td>
+                            <td class="padding-bottom"><a href="https://support.perusall.com/hc/en-us/articles/360034824694-How-is-comment-quality-defined-in-Perusall" target="_blank">How is comment quality defined in Perusall?</a></td>
+                        </tr>
+                        <tr>
+                            <td class="icon-top"><i class="icon-link subtopic-icon"></i></td>
+                            <td class="padding-bottom"><a href="https://support.perusall.com/hc/en-us/sections/16176743952919" target="_blank">How to write high quality comments?</a></td>
                         </tr>
                     </table>
                 </div>
@@ -619,12 +652,12 @@ a.back-to-top:hover {
         <div class="styleguide-section__grid-demo-element">
             
             <ul class="subtopics-ul">
-                <li class="subtopic-li current-sub"><a href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-info subtopic-icon"></i>About</a></li>
-                <li class="subtopic-li"><a href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-quickstart" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-quiz subtopic-icon"></i>Quickstart</a></li>
-                <li class="subtopic-li"><a href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-grouping" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-group subtopic-icon"></i>Grouping</a></li>
-                <li class="subtopic-li"><a href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-analysis" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-stats subtopic-icon"></i>Analysis</a></li>
-                <li class="subtopic-li"><a href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-grading" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-assignment subtopic-icon"></i>Grading</a></li>
-                <li class="subtopic-li"><a href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-copyright-plagiarism" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-collection subtopic-icon"></i>Copyright & Plagiarism</a></li>
+                <li class="subtopic-li current-sub"><a title="" href="#" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-info subtopic-icon"></i>About</a></li>
+                <li class="subtopic-li"><a title="Quickstart" href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-quickstart" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-quiz subtopic-icon"></i>Quickstart</a></li>
+                <li class="subtopic-li"><a title="Grouping" href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-grouping" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-group subtopic-icon"></i>Grouping</a></li>
+                <li class="subtopic-li"><a title="Analysis" href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-analysis" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-stats subtopic-icon"></i>Analysis</a></li>
+                <li class="subtopic-li"><a title="Grading" href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-grading" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-assignment subtopic-icon"></i>Grading</a></li>
+                <li class="subtopic-li"><a title="Copyright & plagiarism" href="https://canvas.uva.nl/courses/45162/pages/tools-perusall-copyright-plagiarism" style="text-decoration: none;" class="ui-priority-primary"><i class="icon-collection subtopic-icon"></i>Copyright & Plagiarism</a></li>
             </ul> 
 
         </div>
@@ -639,7 +672,7 @@ a.back-to-top:hover {
     <a class="back-to-top" title="Go back to the top of this page" href="#header-icto" style="text-decoration:none"><i class="icon-arrow-open-up"></i></a>
 
     <!-- Support button-->
-    <a class="back-to-top" href="#extra-support" style="text-decoration:none">Need help?</a>
+    <a class="back-to-top" title="Click here for extra help" href="#extra-support" style="text-decoration:none">Need help?</a>
     
 </p>
 
@@ -662,8 +695,8 @@ a.back-to-top:hover {
 
     <!-- Snelkoppelingen -->
     <div class="left-footer">
-        <p><i class="icon-message subtopic-icon"></i><a href="https://canvas.uva.nl/courses/45162/pages/contact-icto">Contact ICTO</a></p>
-        <p><i class="icon-comment subtopic-icon"></i><a href="https://canvas.uva.nl/enroll/N3HMY8" target="_blank">Sign up for notifications</a></p>
+        <p><i class="icon-message subtopic-icon"></i><a title="Contact your ICTO team" href="https://canvas.uva.nl/courses/45162/pages/contact-icto">Contact ICTO</a></p>
+        <p><i class="icon-comment subtopic-icon"></i><a title="Sign up for notifications" href="https://canvas.uva.nl/enroll/N3HMY8" target="_blank">Sign up for notifications</a></p>
     </div>
 
     <!-- Logo UvA -->
