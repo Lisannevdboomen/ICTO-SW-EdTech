@@ -203,16 +203,20 @@ p.difficulty-percentage {
     border-bottom:1px solid #b9cbdf;
 }
 
-h3.about-header {
+.about-header {
     font-size:12pt;
-    padding: 10pt;
+    padding: 10pt 7pt;
 }
 
-h3.about-header:hover {
+.summary::marker {
+    float:right;
+}
+
+.about-header:hover {
     background-color: #f5f4f4;
 }
 
-h3.about-header i {
+.about-header i {
     padding: 4pt 0 0 0;
 }
 
@@ -469,12 +473,41 @@ a.back-to-top:hover {
 
         <!-- Introduction text -->
         <div class="inshort">
-            <p class="inshort">[tekst]      
+            <p class="inshort">Find the most frequently asked questions about grouping in Perusall on this page.      
             </p>
         </div>
 
         <!-- Uitvouwbare items -->
         <div class="uitklapbare-items">
+
+            <!-- Header item -->   
+             
+            <details>
+                <summary class="about-header" title="Click to unfold" style="cursor:pointer">
+                    <span class="link-color" style="margin-left:10px">How can I adjust the groups for a single document?</span>              
+                </summary>
+
+
+                    <!-- Toelichting zonder nummering (geen inspring) -->
+            <p class="toelichting-step">
+                Please note it's not possible to modify groups for an <i>assignment</i>, but only for a <i>document</i>, as groups are inherently coupled to documents.
+                </p>
+    
+                <!-- Substeps -->
+                <ol class="further-instructions">
+                    <li>Go to the <span class="button-ref perusall-blue">Library</span> tab in Perusall</li>
+                    <li>Select the document for which you want to change the groups and click on <span class="button-ref canvas-white">Groups</span>
+    
+                        <!-- Afbeelding -->
+                        <img class="toelichting-step" style="width: 100%;" src="https://canvas.uva.nl/courses/45162/files/11244388/preview"> 
+    
+                    </li>                        
+                    <li>Drag student names to the desired groups. The groups will be saved automatically.</li>                           
+                </ol>
+
+            </details>
+ 
+
 
             <!-- Lijn onder item -->
             <div class="underline">
@@ -487,20 +520,24 @@ a.back-to-top:hover {
 
                 <!-- Content item-->
                 <div id="adjust" style="display:none" class="content-about">
-                    <table>
-                        <tr>
-                            <td class="checkbox-yes"><i class="icon-check-dark subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                        </tr>
-                        <tr>
-                            <td class="checkbox-yes"><i class="icon-check-dark subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                        </tr>
-                        <tr>
-                            <td class="checkbox-no"><i class="icon-end subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                        </tr>
-                    </table>
+                    
+                <!-- Toelichting zonder nummering (geen inspring) -->
+                <p class="toelichting-step">
+                Please note it's not possible to modify groups for an <i>assignment</i>, but only for a <i>document</i>, as groups are inherently coupled to documents.
+                </p>
+
+                <!-- Substeps -->
+                <ol class="further-instructions">
+                    <li>Go to the <span class="button-ref perusall-blue">Library</span> tab in Perusall</li>
+                    <li>Select the document for which you want to change the groups and click on <span class="button-ref canvas-white">Groups</span>
+
+                        <!-- Afbeelding -->
+                        <img class="toelichting-step" style="width: 100%;" src="https://canvas.uva.nl/courses/45162/files/11244388/preview"> 
+
+                    </li>                        
+                    <li>Drag student names to the desired groups. The groups will be saved automatically.</li>                           
+                </ol>
+
                 </div>
 
             </div> <!-- Underline -->
@@ -516,20 +553,11 @@ a.back-to-top:hover {
 
                 <!-- Content item-->
                 <div id="after" style="display:none" class="content-about">
-                    <table>
-                        <tr>
-                            <td class="checkbox-yes"><i class="icon-check-dark subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                        </tr>
-                        <tr>
-                            <td class="checkbox-yes"><i class="icon-check-dark subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                        </tr>
-                        <tr>
-                            <td class="checkbox-no"><i class="icon-end subtopic-icon"></i></td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
-                        </tr>
-                    </table>
+
+                    <p class="toelichting-step">
+                    Mostly, yes. The only exception is that students will no longer see given and received responses to annotations from their previous group members. This could negatively affect the student's grade, if responses and/or upvotes are weighed in your automatic scoring set up.
+                    </p>
+        
                 </div>
 
             </div> <!-- Underline -->
