@@ -1,0 +1,41 @@
+<!------------------------- Toets, naar: ICTO -------------------------->
+
+<p>Beste docent,<br><br>Gisteren vond een Ans toets plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}). Inloggen op Ans kan via <a href="https://ans.uva.nl">ans.uva.nl</a>.<br><br><strong>Hoe begin ik met nakijken?</strong><br>Aangezien Ans een nieuw programma is, raden wij sterk aan om <a href="https://outlook.office365.com/book/ICTOSocialSciences@Amsuni.onmicrosoft.com/">een (online) afspraak in te plannen met het ICTO-team</a>. Tijdens de afspraak lopen we je door het nakijken in Ans heen en kunnen we de cijferexport toelichten. Begin je liever zelf? Door in Ans naar de toets te navigeren en op 'Nakijken' te klikken, kun je al beginnen met nakijken. <a href="https://canvas.uva.nl/courses/45162/pages/tools-ans-quickstart#:~:text=When%20the%20taking,navigate%20through%20questions.">Deze instructies</a> lichten het nakijkproces verder toe.<br><br><strong>Kijken er meer mensen na?</strong><br>Nakijkers kunnen zelf toegevoegd worden in Ans door <a href="https://support.ans.app/hc/nl-nl/articles/360012081058-Beheer-vak-leden#:~:text=kun%20beheren%20uitgelegd.-,Beheer%20medewerkers,-Een%20vak%20bestaat">collega's toe te voegen aan het vak</a> en ze vervolgens <a href="https://support.ans.app/hc/nl-nl/articles/360034166593-Nakijkers-toewijzen">toe te wijzen aan de gewenste opdrachten</a>.<br><br><strong>Hoe krijg ik de cijfers in Canvas (Final Grades)?</strong><br>Ans en final grades zijn aan elkaar gekoppeld. Jouw toets kan hierdoor gelijk <a href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool#:~:text=How%20to%20add%20assignments%20from%20Canvas">geselecteerd worden in de final grades berekening</a>, zonder dat hier extra tussenstappen voor nodig zijn. Het staat je natuurlijk ook vrij om de resultaten handmatig te <a href="https://support.ans.app/hc/nl-nl/articles/360036410294-Exporteer-resultaten">exporteren</a> en vervolgens te <a href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool#excel-guide1">importeren</a>.<br><br>
+<b>Hoe organiseer ik een inzage?</b><br>
+Na de toetsafname volgt een inzage. Deze inzage kan, net als de toets, met technische ondersteuning en laptops plaatsvinden. Neem in dat geval contact op met jouw opleidingscoördinator om de inzage te roosteren. Vervolgens regelt ICTO de rest. Je kunt ook zelf een inzage instellen met behulp van <a href="https://canvas.uva.nl/courses/45162/pages/tools-ans-inspection">deze handleiding</a>, zodat je zelf kunt bepalen hoe, wat en wanneer. 
+<br><br><strong>Toetsinformatie:</strong></p>
+<ul>
+<li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
+<li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
+<li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
+<li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
+<li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+<li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+<li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
+<li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
+<li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
+<li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
+<li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
+</ul>
+<p><br>Heb je vragen? <a href="https://outlook.office365.com/book/ICTOSocialSciences@Amsuni.onmicrosoft.com/">Plan gerust een afspraak met het ICTO-team</a> of stuur een mail naar <a href="mailto:icto-csw@uva.nl">icto-csw@uva.nl</a>.<br><br>Met vriendelijke groet,<br>Het ICTO-team Sociale Wetenschappen<br><br><br><br><br><em>Dit is een geautomatiseerde mail. Mail ons gerust in het geval van vragen of suggesties. </em></p>
+<hr>
+<p><br><strong>----- English -----</strong></p>
+<br><br>
+<p>Beste docent,<br><br>Yesterday an Ans exam took place for @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}). You can log in to Ans at <a href="https://ans.uva.nl">ans.uva.nl</a>.<br><br><strong>How do I start grading?</strong><br>Because Ans is a brand new application, we strongly recommend <a href="https://outlook.office365.com/book/ICTOSocialSciences@Amsuni.onmicrosoft.com/">booking an (online) an online appointment with the ICTO team</a>. During the appointment we'll walk you through the grading process and the export of the grades. Would you rather get started yourself? By navigating to your exam and clicking 'Review', you can already start grading. <a href="https://canvas.uva.nl/courses/45162/pages/tools-ans-quickstart#:~:text=When%20the%20taking,navigate%20through%20questions.">These instructions</a> further detail the grading process in Ans.<br><br><strong>Are there other graders besides you?</strong><br>Graders are added in Ans by <a href="https://support.ans.app/hc/en-us/articles/360012081058-Manage-course-users#:~:text=users%20is%20described.-,Manage,-staff%20members">adding your colleagues to your course</a> and <a href="https://support.ans.app/hc/en-us/articles/360034166593-Assign-reviewers">assigning them excercises within the exam</a>.<br><br><strong>How do I get the grades in Canvas (Final Grades)?</strong><br>Ans and the final grades menu are linked. As a result, your exam can be <a href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool#:~:text=How%20to%20add%20assignments%20from%20Canvas">selected immediately in the final grades menu</a>, without any extra required steps. It's also still possible to manually <a href="https://support.ans.app/hc/en-us/articles/360036410294-Export-results">export</a> and <a href="https://canvas.uva.nl/courses/8175/pages/final-grades-tool#excel-guide1">import</a> the grades.<br><br>
+<b>How do I organize an inspection?</b><br>
+  After the exam, there will be a review session for students. This session, like the exam, may require technical support and laptops. In that case, contact your program coordinator to schedule the review session. ICTO will handle the rest. You can also set up a review session yourself using <a href="https://canvas.uva.nl/courses/45162/pages/tools-ans-inspection">this guide</a>, allowing you to determine how, what, and when.<br><br>
+<strong>Exam information:</strong></p>
+<ul>
+<li><strong>W-number</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
+<li><strong>Course</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
+<li><strong>Study</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
+<li><strong>Course code</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
+<li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+<li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+<li><strong>Date</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
+<li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
+<li><strong>End</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
+<li><strong>Location</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
+<li><strong>Teacher(s)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
+</ul>
+<p><br>If you have any remaining questions, do not hesitate to <a href="https://outlook.office365.com/book/ICTOSocialSciences@Amsuni.onmicrosoft.com/">book an appointment</a> with ICTO or mail us at <a href="mailto:icto-csw@uva.nl">icto-csw@uva.nl</a>.<br><br>Kind regards,<br>The ICTO-team Social Sciences<br><br><br><br><br><em>This is an automated e-mail. Feel free to contact us in case of questions or suggestions.</em></p>

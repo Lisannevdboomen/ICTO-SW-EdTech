@@ -1,0 +1,38 @@
+
+<!------------------------ Inzage met support, naar: DOCENT ------------------------->
+
+<p>Beste docent, <br><br>Over 2 weken vindt een Ans inzage plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}). Inloggen op Ans kan via <a href="https://ans.uva.nl">ans.uva.nl</a>. <br><br><strong>Wat kan ik verwachten?</strong><br>Net als bij de toets zullen er Assistant Floor Managers (AFM'ers) op locatie aanwezig zijn. Zij zullen het technische aspect van de inzage verzorgen, jij hoeft alleen aanwezig te zijn voor het inhoudelijke deel. De inzage is voorzien van een wachtwoord dat de AFM'er op jouw akkoord zal delen met de studenten, waarna de studenten de vragen, hun antwoorden en het aantal toegekende punten kunnen inzien.<br><br><strong>Hoe bereid ik de inzage voor?</strong><br>Het tijdvak van de inzage staat al ingesteld o.b.v. het rooster, dus dit hoef je niet in te stellen. In het geval dat je andere informatie wilt tonen aan de studenten dan hierboven beschreven, kun je de inzageinstellingen zelf aanpassen zoals in <a href="https://support.ans.app/hc/nl-nl/articles/360027351093-Plan-een-toetsinzage#:~:text=Toetsinzage%20instellingen">dit artikel</a> beschreven wordt. De effecten van deze aanpassingen op het studentenperspectief kun je in <a href="https://support.ans.app/hc/nl-nl/articles/4405724700945-Wat-studenten-zien-bij-de-verschillende-publicatie-instellingen-in-een-digitale-toets">dit artikel</a> bekijken. Indien je tevreden bent met de instellingen, hoef je geen actie te ondernemen.<br><br><strong>Inzageinformatie:</strong></p>
+<ul>
+<li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
+<li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
+<li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
+<li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
+<li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+<li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+<li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
+<li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
+<li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
+<li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
+<li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
+</ul>
+<p><br>Heb je vragen? <a href="https://outlook.office365.com/book/ICTOSocialSciences@Amsuni.onmicrosoft.com/">Plan gerust een afspraak met het ICTO-team</a> of stuur een mail naar <a href="mailto:icto-csw@uva.nl">icto-csw@uva.nl</a>.<br><br>Met vriendelijke groet,<br><br>Het ICTO-team Sociale Wetenschappen<br><br><br><br><em>Dit is een geautomatiseerde mail. Mail ons gerust in het geval van vragen of suggesties. </em></p>
+<hr>
+<p><br><strong>----- English -----</strong></p>
+<p><br>Dear teacher,<br><br>In two weeks an Ans inspection for @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}) will take place.<br><br><strong>What can I expect?</strong><br>Just like during the exam Assistant Floor Managers (AFM'ers) will be present on location. They will tend to the technical aspect of the inspection, while you're expected to take care of the content of the inspection. The inspection is protected with a password, which the AFM'er will share with the students when you're ready to start the inspection. After logging in, students will see the exam questions, their answers and the points they've been awarded. <br><br><strong>How do I prepare for the inspection?</strong><br>The timeslot during which the inspection will be available has been configured according to the timetable, so you will not have to configure this. If you wish for students to see other information than described above, you can adjust the inspection settings yourself as described in <a href="https://support.ans.app/hc/en-us/articles/360027351093-Publish-results#:~:text=Below%20you%20will%20find%20the%20publication%20options%20you%20can%20enable%20and%20disable%20for%20your%20publication.%20If%20you%20wish%20to%20see%20the%20students%20view%20for%20the%20different%20publication%20options%2C%20click%20here%20for%20the%20students%20view%20in%20a%20digital%20test%20and%20here%20for%20the%20students%20view%20in%20a%20written%20assignment">this article</a>. You can view different student perspectives of the inspection in <a href="https://support.ans.app/hc/en-us/articles/4405724700945-Students-view-for-different-publication-options-in-a-digital-test">this article</a>. If you are pleased with the settings, you do not have to take any further action.<br><br><strong>About the inspection:</strong></p>
+<ul>
+<li><strong>W-number</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
+<li><strong>Course</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
+<li><strong>Program</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
+<li><strong>Course code</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
+<li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
+<li><strong>Type</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
+<li><strong>Date</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
+<li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
+<li><strong>End</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
+<li><strong>Location</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
+<li><strong>Teacher(s)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
+</ul>
+<p>If you have any remaining questions, do not hesitate to <a href="https://outlook.office365.com/book/ICTOSocialSciences@Amsuni.onmicrosoft.com/">book an appointment</a> with ICTO or mail us at <a href="mailto:icto-csw@uva.nl">icto-csw@uva.nl</a>. <br><br>Kind regards,<br><br>The ICTO-team Social Sciences<br><br><br><br><em>This is an automated email. Feel free to contact us if you have any questions or suggestions.</em></p>
+
+
+
