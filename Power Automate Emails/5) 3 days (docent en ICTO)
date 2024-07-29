@@ -97,7 +97,7 @@ Beste docent, <br>
 Over 3 dagen vindt een Ans inzage plaats voor @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}).<br>
 <br>
 <strong>Wat kan ik verwachten bij een Ans inzage?</strong><br>
-Net als bij de toets, word je <u>45 minuten van tevoren</u> verwacht aanwezig te zijn. De Assistant Floor Manager (AFM'er) zal de technische aspecten van de inzage verzorgen. Jij hoeft alleen aanwezig te zijn voor het inhoudelijke deel van de inzage. De inzage is voorzien van een wachtwoord dat de AFM'er op jouw akkoord zal delen met de studenten, waarna de studenten toegang hebben tot de inzage.<br>
+Net als bij de toets, word je <u>45 minuten van tevoren</u> verwacht aanwezig te zijn. De Assistant Floor Manager (AFM'er) zal de technische aspecten van de inzage verzorgen. Jij hoeft alleen aanwezig te zijn voor het inhoudelijke deel van de inzage. De inzage is voorzien van een wachtwoord dat de AFM'er op jouw akkoord zal delen met de studenten, waarna de studenten toegang hebben tot de inzage. Bekijk <a href="https://canvas.uva.nl/courses/45162/pages/tools-ans-inspection">deze pagina</a> voor meer toelichting over inzages.<br>
 <br>
 <strong>Inzageinformatie:</strong>
 <ul>
@@ -132,7 +132,7 @@ Dear teacher,<br>
 In 3 days, your Ans inspection for @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']} (@{items('Apply_to_each_-_send_e-mails')?['Vakcode']}) will take place.<br>
 <br>
 <strong>What can I expect during an Ans inspection?</strong><br>
-Just like with the exam, you're expected to arrive <u>45 minutes prior</u> to the inspection. There will be an Assistant Floor Manager (AFM'er) on location who will tend to the technical aspect of the inspection, while you're expected to take care of the content. The inspection is protected with a password, which the AFM'er will share with the students when you're ready to start the inspection. 
+Just like with the exam, you're expected to arrive <u>45 minutes prior</u> to the inspection. There will be an Assistant Floor Manager (AFM'er) on location who will tend to the technical aspect of the inspection, while you're expected to take care of the content. The inspection is protected with a password, which the AFM'er will share with the students when you're ready to start the inspection. Please refer to <a href="https://canvas.uva.nl/courses/45162/pages/tools-ans-inspection">this page</a> for more information regarding inspections.
 <br>
 <br>
 <strong>Information about the inspection:</strong>
