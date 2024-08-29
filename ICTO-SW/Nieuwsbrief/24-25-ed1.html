@@ -35,7 +35,7 @@
             cursor:default
         }
 
-        .col-md-3, .col-md-6, .col-md-1 {
+        .col-md-3, .col-md-6, .col-md-1, .col-md-12 {
             padding:0
         }
 
@@ -52,19 +52,60 @@
         }
 
         .content-block {
-            border-width: 1px 3px 3px 1px; 
-            border-style: solid;
             padding:15px;
             border-radius:5px;
             margin-bottom:15px;
+
         }
 
         h4.header-icto {
             line-height:normal;
             margin:0;
             font-size:13pt;
+            margin-bottom:5px
         }
 
+        .multiple-columns {
+            display:flex;
+            text-align:justify;
+            justify-content: space-between;
+            align-content:flex-start;
+            align-items:flex-start
+        }
+
+        .intro-text {
+            width:50%;
+        }
+
+        .buttons-keywords {
+            margin-top:20px;
+        }
+
+        .keywords {
+            border-radius:30px;
+            padding:1px 8px;
+            background-color:#ff532b;
+            color:white;
+            display:inline;
+            margin-left:5px;
+            width:fit-content;
+            font-size:10pt;
+            float:right
+        }
+
+        .keywords:hover {
+            color:white;
+            cursor:pointer;
+        }
+
+        .external_link_icon {
+            display: none !important;
+        }
+
+        .content-item {
+            text-align: justify;
+            line-height:1.3em;
+        }
 
     </style>
 </head>
@@ -80,23 +121,179 @@
     <div class="col-md-3"><a href="https://canvas.uva.nl/courses/8175/pages/icto-newsletter-2023-24" target="_blank" class="topmenu buttons1" style="text-decoration: none;"><i class="icon-unmuted"></i>&nbsp;&nbsp;News 2023/24</a></div>
 </div>
 
-<!-- Blok 1 -->
+<!-- Meet ICTO -->
 <div class="grid-row">
-    <div class="col-md-12 content-block" style="border-color:#2d3b45; background-color: #f0f3f5;">
-        <h4 class="header-icto ui-priority-primary">Header</h4>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <div class="col-md-12 content-block" style="border: 1px solid #c7cdd1; background-color:#f5f5f5;">
+        <h4 class="header-icto ui-priority-primary">Meet the ICTO team</h4>
+        <div class="multiple-columns">
+            <!-- Introductie tekst -->
+            <div class="intro-text" style="line-height:1.3em">
+                <b>It may be that you have already been in contact with the ICTO team quite a lot, or perhaps you have heard about us in the corridors of the REC building. It is also possible you have never heard of us… That is why we wouldd like to introduce ourselves to you.</b>
+                <br><br>
+                You can find us at REC B7.08, and you’re free to walk in. Usually there is someone available at the office from Mondays to Thursdays. Of course, you can also e-mail us at <a href="mailto:icto-csw@uva.nl">icto-csw@uva.nl"</a>. We try our best to respond to your messages as soon as possible! If you'd like to make an appointment with the team, you can do so via the <a href="https://outlook.office365.com/book/ICTOSocialSciences@Amsuni.onmicrosoft.com/" target="_blank">booking form</a>. An appointment can take place online or at the office. 
+                <br><br>
+                <i>You can ask us anything about… </i>
+                <br>Canvas, (final) grades, digital exams, Qualtrics, blended learning, mastery paths or adaptive learning, portfolio teaching & learning, video in teaching & learning and rubrics.                    
+            </div>
+            <!-- Foto + naam tabel -->
+            <table style="width:50%; font-size:10pt; text-align:right">
+                <tbody>
+                    <tr>
+                        <td style="width:70%; vertical-align: top; padding: 0 10px; text-align:right"><strong>Lisanne van den Boomen</strong><br /><i>ICTO Coordinator<br />Working days: tue - fri</i></td>
+                        <td style="vertical-align: top;"><img style="width: auto; height: 100px;" src="https://canvas.uva.nl/courses/8175/files/7105585/preview" alt="shoot (231) kopie.jpg" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/7105585" data-api-returntype="File" /></td>
+                    </tr>
+                    <tr>
+                        <td style="width:70%; vertical-align: top; padding: 0 10px; text-align:right"><strong>Olivier Oude Booijink</strong> <br /><i>Team member ICTO <br />Variable working days</i></td>
+                        <td style="vertical-align: top;"><img style="width: auto; height: 100px;" src="https://canvas.uva.nl/courses/8175/files/7117427/preview" alt="olivier.jpg" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/7117427" data-api-returntype="File" /></td>
+                    </tr>
+                    <tr>
+                        <td style="width:70%; vertical-align: top; padding: 0 10px; text-align:right"><strong>Robyn Hamminga</strong> <br /><i>Student-assistant ICTO <br />Variable working days</i></td>
+                        <td style="vertical-align: top;"><img style="width: auto; height: 100px;" src="https://canvas.uva.nl/courses/8175/files/7105584/preview" alt="Robyn.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/7105584" data-api-returntype="File" /></td>
+                    </tr>
+                    <tr>
+                        <td style="width:70%; vertical-align: top; padding: 0 10px; text-align:right"><strong>Maaike de Hart</strong> <br /><i>Team member ICTO <br />Working days: wed - thu</i></td>
+                        <td style="vertical-align: top;"><img style="width: auto; height: 100px;" src="https://canvas.uva.nl/courses/8175/files/7105587/preview" alt="afbeeling_Maaike_H_2.jpg" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/7105587" data-api-returntype="File" /></td>                       
+                    </tr>
+                    <tr>
+                        <td style="width:70%; vertical-align: top; padding: 0 10px; text-align:right"><strong>Piotr Breedveld</strong> <br /><i>Team member ICTO <br />Working days: mon - thu</i></td>
+                        <td style="vertical-align: top;"><img style="width: auto; height: 100px;" src="https://canvas.uva.nl/courses/8175/files/7105583/preview" alt="Piotr.jpg" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/7105583" data-api-returntype="File" /></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>             
+        <!-- Buttons -->
+        <div class="buttons-keywords">
+            <a class="keywords" title="Contact ICTO" style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/contact" target="_blank">Contact ICTO</a>
+            <a class="keywords" title="Book an appointment" style="text-decoration: none;" href="https://outlook.office365.com/book/ICTOSocialSciences@Amsuni.onmicrosoft.com/" target="_blank">Book an appointment</a>
+            <a class="keywords" title="A-Z" style="text-decoration: none;" href="https://canvas.uva.nl/courses/8175/pages/a-z" target="_blank">A-Z</a>                    
+        </div>
     </div>
 </div>
 
-<!-- Blok 2 + 3 -->
-<div class="grid-row grid-row-blocks">
-    <div class="col-md-6 content-block" style="border-color:#c28400; background-color: #fff7e5;">
-        <h4 class="header-icto ui-priority-primary">Header</h4>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<!-- Banner: new -->
+<img style="width: 100%; border-radius:5px; margin-bottom:10px" src="https://canvas.uva.nl/courses/8175/files/11400457/preview" alt="new-banner.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/11400457" data-api-returntype="File" />
+
+<!-- Nieuw: Ans-->
+<div class="grid-row">
+    <div class="col-md-12">
+        <div class="content-block" style="background-color: #fff7e5; border: 1px solid #fff0cc ">
+            <h4 class="header-icto ui-priority-primary">Digital examination software: Ans</h4>
+            <div class="content-item">
+                <b>As you have probably already heard, the UvA will transition to a new software system for digital testing in September 2024: Ans!</b> 
+                <br><br>Will you be administering digital exams this semester? <a href="https://canvas.uva.nl/courses/45162/pages/tools-ans-training" target="_blank">Sign up</a> for the Ans training sessions offered by the ICTO teams of the Faculty of Society & Behaviour. Two training sessions will be given at various moments: one training session is about creating an exam and the other about reviewing an exam.   
+                <br><br>
+                In addition to the general training sessions, walk-ins are also organized. As a teacher you can just walk in with your laptop so we can answer your questions on the spot. Click the button below for the available dates.
+            </div>
+            <div class="buttons-keywords">
+                <a class="keywords" title="Ans" style="text-decoration: none;" href="https://ans.uva.nl/" target="_blank">Log in on Ans</a>
+                <a class="keywords" title="Trainings & walk-ins" style="text-decoration: none;" href="https://canvas.uva.nl/courses/45162/pages/tools-ans-training" target="_blank">Trainings & walk-ins</a>
+            </div>
+        </div>
     </div>
-    <div class="col-md-6 content-block" style="border-color:#287547; background-color: #ecf8f1;">
-        <h4 class="header-icto ui-priority-primary">Header</h4>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+
+<!-- Nieuw: CRA 2.0 & modules aan secties toekennen -->
+<div class="grid-row grid-row-blocks" style="align-items: flex-start;">
+    <!-- CRA 2.0 -->
+     <div class="col-md-6">
+        <div class="content-block" style="background-color: #fff7e5; border: 1px solid #fff0cc">
+            <h4 class="header-icto ui-priority-primary">Final Grades update</h4>
+            <div class="content-item">
+                <b>The grade calculation tool within Canvas has undergone an update this year. The tool works largely the same but looks a little different than you may be used to. One benefit of the update is that the tool now works a lot faster, especially in courses with a large number of students.  </b> 
+                <br><br>Did you have difficulty preparing the calculation set-up last year? Or did you run into some issues submitting the grades to SIS? Perhaps you just have some very complicated ideas on how you’d like to calculate the final grade. Whatever the case, we strongly encourage you to set up a meeting with us by making an appointment in our <a title="Book an appointment" href="https://outlook.office365.com/book/ICTOSocialSciences@Amsuni.onmicrosoft.com/" target="_blank">booking form</a> (by selecting 'Final Grades support'). 
+                <br><br>You can make an appointment via the link below. This can be done online or on location. 
+            </div>
+            <div class="buttons-keywords">
+                <a class="keywords" title="Book an appointment" style="text-decoration: none;" href="https://outlook.office365.com/book/ICTOSocialSciences@Amsuni.onmicrosoft.com/" target="_blank">Book an appointment</a>
+            </div>
+        </div>
+    </div>    
+    <!-- Secties toekennen aan modules -->
+    <div class="col-md-6">
+        <div class="content-block" style="background-color: #fff7e5; border: 1px solid #fff0cc">
+            <h4 class="header-icto ui-priority-primary">Assigning modules by section</h4>
+            <div class="content-item">
+                <b>A new functionality within Canvas that we would like to point out to you is the ability to assign modules to certain sections of students.</b> 
+                <br><br>This works in a similar way that you can assign assign assignments or quizzes to sections, and it allows you to organize your Canvas course even more conveniently. The button below will take you to instructions that explain more about how you can structure your Canvas course.
+            </div>
+            <div class="buttons-keywords">
+                <a class="keywords" title="Ans" style="text-decoration: none;" href="https://canvas.uva.nl/courses/169/pages/structuring-your-course-using-modules?module_item_id=1400" target="_blank">Using modules to structure your course</a>
+            </div>
+        </div>
+        <!-- Afbeelding grading -->        
+        <img style="width: 100%; border-radius:5px; margin-bottom:10px" src="https://canvas.uva.nl/courses/8175/files/11399347/preview" alt="grading.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/11399347" data-api-returntype="File" />
+    </div>
+</div>
+
+<!-- Banner: updates -->
+<img style="width: 100%; border-radius:5px; margin-bottom:10px" src="https://canvas.uva.nl/courses/8175/files/11400479/preview" alt="new-banner.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/11400479" data-api-returntype="File" />
+
+<!-- Updates: Oefenmateriaal Ans & Final Grades support-->
+<div class="grid-row grid-row-blocks" style="align-items: flex-start;">
+
+    <!-- Links -->
+    <div class="col-md-6">
+        <!-- Zelftoetsen en oefenmateriaal beschikbaar stellen via Ans en Canvas -->
+        <div class="content-block" style="background-color: #ecfdf0; border: 1px solid #d5edda">
+            <h4 class="header-icto ui-priority-primary">Creating practice materials in Ans & Canvas</h4>
+            <div class="content-item">
+                <b>Did you know that it is possible to create practice tests in Ans, as well as creating Canvas quizzes for students to practice?</b> 
+                <br><br>This allows you to familiarize students with the way of testing and introduce them to the ANS platform. By offering practice tests, students can better prepare and get used to the examination software, which can improve their performance during the actual exam. Want to get started with this? Contact ICTO for support and more information. 
+            </div>
+        </div>
+        <!-- Afbeelding Ans -->        
+        <img style="width: 100%; border-radius:5px; margin-bottom:10px" src="https://canvas.uva.nl/courses/8175/files/11400510/preview" alt="ans.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/11400510" data-api-returntype="File" />
+    </div>
+
+    <!-- Rechts -->
+    <div class="col-md-6">
+        <!-- Updates: webcolleges -->
+        <div class="content-block" style="background-color: #ecfdf0; border: 1px solid #d5edda">
+            <h4 class="header-icto ui-priority-primary">Web lectures</h4>
+            <div class="content-item">
+                <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </b> 
+                <br><br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+            </div>
+        </div>
+        <!-- Peerceptive / feedback tools -->
+        <div class="content-block" style="background-color: #ecfdf0; border: 1px solid #d5edda">
+            <h4 class="header-icto ui-priority-primary">Using feedback tools</h4>
+            <div class="content-item">
+                <b>Did you know you can easily organize peer reviews in Canvas?</b> 
+                <br><br>This allows students to give each other feedback on their work, which provides a valuable learning experience. Students develop their critical thinking skills and learn to give and receive feedback constructively, which can significantly improve their learning process. If you are interested in incorporating this into your course, please contact ICTO for more information and support.   
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Banner: accessibility & privacy -->
+<img style="width: 100%; border-radius:5px; margin-bottom:10px" src="https://canvas.uva.nl/courses/8175/files/11400539/preview" alt="new-banner.png" data-api-endpoint="https://canvas.uva.nl/api/v1/courses/8175/files/11400539" data-api-returntype="File" />
+
+<!-- Accessibility & privacy -->
+<div class="grid-row grid-row-blocks" style="align-items: flex-start;">
+    <div class="col-md-6">
+        <!-- Toegankelijkheid in digitaal onderwijs -->
+        <div class="content-block" style="background-color: #fff7e5;">
+            <h4 class="header-icto ui-priority-primary">Accessibility in digital education</h4>
+            <div class="content-item">
+                <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </b> 
+                <br><br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <!-- Privacy en AVG bij het gebruik van ICT in het onderwijs   -->
+        <div class="content-block" style="background-color: #fff7e5;">
+            <h4 class="header-icto ui-priority-primary">Privacy in digital education</h4>
+            <div class="content-item">
+                <b>All teachers at the university need to handle personal data of students and colleagues with care, in line with the General Data Protection Regulation (GDPR). It is strongly discouraged to store such data locally, on private devices, such as personal laptops or smartphones.</b> 
+                <br><br>Instead, always use the secure university laptop and solutions within the Office 365 package for storing and processing personal data.  When sharing files related to groups, such as student lists or results, it is essential to send as little information as possible. Avoid sharing entire email lists or other sensitive data in emails, espaecially when communicating with students. Use secure platforms and only share strictly necessary information. These practices help protect the privacy of everyone involved and meet the GDPR requirements. For more information on the ICT Code of Conduct, please click the button below.
+            </div>
+            <!-- Buttons -->
+            <div class="buttons-keywords">
+                <a class="keywords" title="Book an appointment" style="text-decoration: none;" href="https://extranet.uva.nl/en/content/a-z/ict-code-of-conduct/ict-code-of-conduct.html" target="_blank">ICT Code of Conduct</a>
+            </div>
+        </div>
     </div>
 </div>
 
