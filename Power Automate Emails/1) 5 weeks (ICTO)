@@ -1,42 +1,13 @@
-<!---------------------- Toets, naar: ICTO ---------------------->
-
-<p>Beste ICTO collega,<br><br>Over 5 weken is er een digitoets. <strong>Zorg dat <u>deze week</u> de volgende taken zijn volbracht:</strong></p>
-<ol>
-<li>Zet het e-mailadres van de docent(en) in de <a href="https://amsuni.sharepoint.com/sites/FMG_ORG_AFD_EOSS/Lists/2425%20EOSS%20Toetsenoverzicht/AllItems.aspx?viewid=868b6dc4%2D651b%2D465b%2Dad41%2D3b87927e06d0&amp;env=WebViewList">EOSS toetsenlijst</a>, zodat Power Automate de docent herinneringen kan sturen.</li>
-<li>De afname wordt automatisch klaargezet o.b.v. het roostersysteem. Controleer of het afnamemoment in <a href="https://ans.uva.nl">Ans</a> en de <a href="https://amsuni.sharepoint.com/sites/FMG_ORG_AFD_EOSS/Lists/2425%20EOSS%20Toetsenoverzicht/AllItems.aspx?viewid=868b6dc4%2D651b%2D465b%2Dad41%2D3b87927e06d0&amp;env=WebViewList">EOSS toetsenlijst</a> overeenkomen. Indien de tijden niet overeenkomen, neem de tijd over van <a href="https://rooster.uva.nl/schedule">rooster.uva.nl</a> en corrigeer de tijd in de EOSS toetsenlijst. Mist de afname volledig? Vertel de OPC'er dat ze de 'Ans Exam' capability moeten toevoegen aan de desbetreffende toets in TermTime.</li>
-<li>Zet vraagtitels uit in Ans onder de toets > Layout bewerken > Opmaak aanpassen > Titels van opgaven weergeven.</li>
-<li>Zet "Voortgang Ans" op "Afname gereed" in de <a href="https://amsuni.sharepoint.com/sites/FMG_ORG_AFD_EOSS/Lists/2425%20EOSS%20Toetsenoverzicht/AllItems.aspx?viewid=868b6dc4%2D651b%2D465b%2Dad41%2D3b87927e06d0&amp;env=WebViewList">EOSS toetsenlijst</a> als de afname in orde is.</li>
-</ol>
-<p>&nbsp;</p>
-<hr>
-<p><br><strong>Inzageinformatie:</strong></p>
-<ul>
-<li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
-<li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
-<li><strong>Opleiding</strong>: @{items('Apply_to_each_-_send_e-mails')?['Opleiding']}</li>
-<li><strong>Vakcode</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vakcode']}</li>
-<li><strong>Platform</strong>: @{items('Apply_to_each_-_send_e-mails')?['Platform/Value']}</li>
-<li><strong>Soort</strong>: @{items('Apply_to_each_-_send_e-mails')?['Soort/Value']}</li>
-<li><strong>Datum</strong>: @{formatDateTime(items('Apply_to_each_-_send_e-mails')?['Datum'], 'dd-MM-yyyy')}</li>
-<li><strong>Start</strong>: @{items('Apply_to_each_-_send_e-mails')?['Start']}</li>
-<li><strong>Einde</strong>: @{items('Apply_to_each_-_send_e-mails')?['Einde']}</li>
-<li><strong>Locatie</strong>: @{items('Apply_to_each_-_send_e-mails')?['Locatie']}</li>
-<li><strong>Docent(en)</strong>: @{items('Apply_to_each_-_send_e-mails')?['Docenten']}</li>
-</ul>
-
-
-
-
-<!---------------------- Inzage, naar: ICTO ---------------------->
-<p>Beste ICTO collega,<br><br>Over 5 weken is er een digitale inzage. <strong>Zorg dat <u>deze week</u> de volgende taken zijn volbracht:</strong></p>
+<p>Beste ICTO collega, Over 5 weken is er een digitale inzage. <strong>Zorg dat <u>deze week</u> de volgende taken zijn volbracht:</strong></p>
 <ol>
 <li>Zet het e-mailadres van de docent(en) in de <a href="https://amsuni.sharepoint.com/sites/FMG_ORG_AFD_EOSS/Lists/2425%20EOSS%20Toetsenoverzicht/AllItems.aspx?viewid=868b6dc4%2D651b%2D465b%2Dad41%2D3b87927e06d0&amp;env=WebViewList">EOSS toetsenlijst</a>, zodat Power Automate de docent herinneringen kan sturen.</li>
 <li>Stel het afnamemoment in <a href="https://ans.uva.nl">Ans</a> in o.b.v. de <a href="https://amsuni.sharepoint.com/sites/FMG_ORG_AFD_EOSS/Lists/2425%20EOSS%20Toetsenoverzicht/AllItems.aspx?viewid=868b6dc4%2D651b%2D465b%2Dad41%2D3b87927e06d0&amp;env=WebViewList">EOSS toetsenlijst</a>.</li>
+<li><strong>Let op:</strong> Zet bij instellen van het afnamemoment "Evaluation critera" aan en selecteer de juiste locatie onderaan de pagina (Chromebooks UvA voor decentrale toetsen).</li>
 <li>Zet "Voortgang Ans" op "Afname gereed" in de <a href="https://amsuni.sharepoint.com/sites/FMG_ORG_AFD_EOSS/Lists/2425%20EOSS%20Toetsenoverzicht/AllItems.aspx?viewid=868b6dc4%2D651b%2D465b%2Dad41%2D3b87927e06d0&amp;env=WebViewList">EOSS toetsenlijst</a>.</li>
 </ol>
 <p>&nbsp;</p>
-<hr>
-<p><br><strong>Inzageinformatie:</strong></p>
+<hr />
+<p><strong>Inzageinformatie:</strong></p>
 <ul>
 <li><strong>W-nummer</strong>: @{items('Apply_to_each_-_send_e-mails')?['W_x002d_nummer']}</li>
 <li><strong>Vaktitel</strong>: @{items('Apply_to_each_-_send_e-mails')?['Vaktitel']}</li>
