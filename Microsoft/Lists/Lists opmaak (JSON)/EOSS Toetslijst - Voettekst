@@ -1,0 +1,46 @@
+{
+    "elmType": "div",
+    "style": {
+        "width": "100%",
+        "text-align": "center", // Zorgt ervoor dat de links gecentreerd weergegeven worden.
+        "overflow": "hidden",
+        "border-top-width": "1px"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "style": {
+                "width": "100%",
+                "padding-top": "10px",
+                "margin-bottom": "25px",
+                "padding-left": "0px",
+                "height": "24px"
+            },
+            "children": [
+                {
+                    "elmType": "a",
+                    "style": {
+                        "padding-right": "80px",
+                        "padding-left": "80px"
+                    },
+                    "txtContent": "='Neem contact op met ICTO (e-mail)' + '' ",
+                    "attributes": {
+                        "target": "_blank",
+                        // Na '?subject=' voer je tekst in die automatisch als onderwerp van de e-mail wordt weergegeven. 
+                        "href": "='mailto:icto-csw@uva.nl' + '?subject=' + 'Wijziging/opmerking: ' + [$W_x002d_nummer] + ' - ' + [$Vaktitel] + ', ' + [$Soort]",
+                        "class": "ms-fontColor-themePrimary ms-borderColor-themePrimary ms-fontWeight-semibold ms-fontSize-m ms-fontColor-neutralSecondary–hover ms-bgColor-themeLight–hover"
+                    }
+                },
+                {
+                    "elmType": "a",
+                    "txtContent": "='Neem contact op met de docent(en) (e-mail)' + '' ",
+                    "attributes": {
+                        "target": "_blank",
+                        "href": "='mailto:' + [$Docentemail] + '?subject=' + [$Soort] + ' - ' + [$Vaktitel]",
+                        "class": "ms-fontColor-themePrimary ms-borderColor-themePrimary ms-fontWeight-semibold ms-fontSize-m ms-fontColor-neutralSecondary–hover ms-bgColor-themeLight–hover"
+                    }
+                }
+            ]
+        }
+    ]
+}

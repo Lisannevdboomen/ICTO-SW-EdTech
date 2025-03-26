@@ -1,0 +1,93 @@
+{
+    "sections": [
+        // Vul bij 'displayname' de naam van de sectie in
+        {
+            "displayname": "Algemeen",
+            // Vul bij 'fields' de fieldnames van de kolommen in.
+                // Als je in de List-instellingen op een kolom klikt, staat de fieldname aan het einde van de URL.
+            "fields": [
+                "W-nummer",
+                "Voortgang Ans",
+                "Status"
+            ]
+        },
+        {
+            "displayname": "Soort & software",
+            "fields": [
+                "Soort",
+                "Platform",
+                "Software"
+            ]
+        },
+        {
+            "displayname": "Vak",
+            "fields": [
+                "Vaktitel",
+                "Studiegidsnummer",
+                "Opleiding"
+            ]
+        },
+        {
+            "displayname": "Datum",
+            "fields": [
+                "Datum",
+                "Blok",
+                "Week",
+                "Einddatum"
+            ]
+        },
+        {
+            "displayname": "Tijd",
+            "fields": [
+                "Start",
+                "Einde",
+                "Duur"
+            ]
+        },
+        {
+            "displayname": "Locatie & grootte",
+            "fields": [
+                "Locatie(s)",
+                "Grootte"
+            ]
+        },
+        {
+            "displayname": "Docent(en)",
+            "fields": [
+                "Docent(en)",
+                "Docent email"
+            ]
+        },
+        {
+            "displayname": "Opmerkingen",
+            "fields": [
+                "Toelichting soort",
+                "Opmerkingen TermTime"
+            ]
+        },
+        {
+            "displayname": "Surveillance",
+            "fields": [
+                "Surveillance aangevraagd?",
+                "Mail gepland op",
+                "Mail verstuurd op"
+            ]
+        },
+        {
+            "displayname": "Storing?",
+            "fields": [
+                "Storing?",
+                "Beschrijving storing"
+            ]
+        },
+        {
+            "displayname": "Overig",
+            "fields": [
+                "TermTime ID",
+                "Teamsmeeting",
+                "Deelnemerslijst gestuurd?"
+            ]
+        }
+    ]
+}
+// Alles kolommen die je niet hebt toegewezen aan een bepaalde sectie, of nieuw-aangemaakte kolommen, worden automatisch aan de laatste sectie toegevoegd. 

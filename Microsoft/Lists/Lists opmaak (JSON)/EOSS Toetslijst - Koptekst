@@ -1,0 +1,64 @@
+{
+    "elmType": "div",
+    "attributes": {
+        "class": "ms-borderColor-neutralTertiary"
+    },
+    "style": {
+        "width": "99%",
+        "border-top-width": "0px",
+        "border-bottom-width": "1px",
+        "border-left-width": "0px",
+        "border-right-width": "0px",
+        "border-style": "solid",
+        "margin-bottom": "16px"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "style": {
+                "display": "flex",
+                "box-sizing": "border-box",
+                "align-items": "center"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "attributes": {
+                        // Bij 'iconName' kan het icoon gewijzigd worden.
+                        // Raadpleeg hiervoor de Windows GUI icon database.
+                        "iconName": "Event12",
+                        // Via de class hieronder kan je de grootte van het icoon wijzigen.
+                        // LET OP: hij accepteert alleen specifieke waarden (bijv.: 28, 24, 36, 42, etc.), dus dit is een kwestie van uitproberen welke werkt (maar het staat ook vast ergens gedocumenteerd).
+                        "class": "ms-fontSize-28 ms-fontWeight-regular ms-fontColor-themePrimary",
+                        "title": "Details"
+                    },
+                    "style": {
+                        "flex": "none",
+                        "padding": "0px",
+                        "padding-left": "0px",
+                        "height": "26px"
+                    }
+                }
+            ]
+        },
+        {
+            "elmType": "div",
+            "attributes": {
+                "class": "ms-fontColor-neutralSecondary ms-fontWeight-bold ms-fontSize-20"
+            },
+            "style": {
+                "box-sizing": "border-box",
+                "width": "100%",
+                "text-align": "left",
+                "padding": "21px 12px",
+                "overflow": "hidden"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "txtContent": "= [$Soort] + ' - ' + [$Vaktitel] + ' - ' + [$W_x002d_nummer]"
+                }
+            ]
+        }
+    ]
+}
