@@ -1,0 +1,22 @@
+##### Content box
+```html
+<!-- Box 1 -->
+<div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #ffefef; border-color: #bc0031; padding: 20px; margin-top: 25px;">
+    <span style="color: #c71f23;"><h3>At alias ipsam in tempore maiores ea quidem dolor.</h3></span>
+    <p>Eum eveniet molestiae in fugiat illum ut unde molestiae eum autem expedita et corporis officia. Aut pariatur voluptas eum similique omnis sed rerum officia. Sed laudantium quae ut omnis dolore hic aspernatur pariatur et quaerat voluptatem est tempora natus. Est magni deleniti sed consequatur harum et explicabo modi? At praesentium debitis ut illum quam quo sunt fugit non voluptatem corrupti qui impedit perspiciatis.</p>
+</div>
+
+<!-- Box 2 -->
+<div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #ffffff; border-color: #bc0031; padding: 20px; margin-top: 25px;">
+    <h3>Ab itaque voluptatibus qui reprehenderit autem.</h3>
+    <p>Lorem ipsum dolor sit amet. Ab omnis voluptatem ex atque exercitationem qui illo maiores. Qui velit quod est Quis nemo qui deleniti deserunt ut commodi aperiam et saepe nihil et necessitatibus odit et reiciendis commodi. Et accusamus laudantium sit sequi voluptatum ea voluptas odio! Sed galisum voluptatibus ut aliquid ipsam et nisi sint et maxime ipsam rem possimus consectetur ut porro accusamus. Eum adipisci veniam eos corrupti accusantium et nisi aliquam ab deserunt voluptas aut architecto corporis aut velit quasi. Quo dolore fugit vel nisi veritatis aut optio vero et rerum neque sit quod fuga. In magni placeat est quaerat voluptate aut dicta tenetur.</p>
+    <p>Lorem ipsum dolor sit amet. Est voluptatibus quidem est quos reprehenderit ea blanditiis nisi sit quia rerum. Quo nihil incidunt a laudantium voluptatum ut quia fugiat. Non similique molestiae qui voluptas impedit rem aspernatur nesciunt. Ab soluta consequatur qui laborum corporis ut dolorem nihil At consequatur nihil qui internos delectus et ratione minus est Quis provident. </p>
+</div>
+
+<!-- Box 3 -->
+<div class="content-box pad-box-mini border border-trbl border-round" style="background-color: #ffffff; border-color: #bc0031; padding: 20px; margin-top: 25px;">
+    <h3>Et fugit fugiat est velit voluptatem vel recusandae.</h3>
+    <p>Sed sunt nihil et voluptatibus doloribus sed dolorem fuga. In veritatis incidunt non voluptas natus et quaerat consectetur ut eveniet voluptatem non placeat libero id doloremque corrupti et temporibus dolor. Qui omnis quaerat et voluptate rerum rem nulla alias nam voluptatem maxime non corrupti veritatis ut dolor quas. Qui doloribus laboriosam et voluptas quisquam et enim corrupti non corporis aliquam ut natus ratione qui repudiandae nihil vel deserunt ipsum. Ab fugiat veritatis ut sunt cumque qui quas excepturi qui porro laboriosam aut inventore recusandae ad dolore error. Qui quidem eveniet et cupiditate omnis qui quod delectus est libero quae sed nulla laborum et atque laudantium sit incidunt sint. Sed facilis accusantium et quae autem in inventore voluptas a possimus labore. </p>
+</div>
+
+```
