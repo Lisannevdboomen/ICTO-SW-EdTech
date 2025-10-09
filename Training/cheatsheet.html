@@ -9,6 +9,11 @@
     <li><a href="#Icons">Icons</a></li>
     <li><a href="#Links">Links</a></li>
     <li><a href="#Anchor">Anchor links</a></li>
+    <li><a href="#Grid">Grid-row</a></li>
+    <li><a href="#Toggle">Toggle</a></li>
+    <li><a href="#Popup">Pop-up box</a></li>
+    <li><a href="#Image">Images</a></li>
+
 </ul>
 
 <!-- Cheatsheet -->
@@ -255,5 +260,197 @@
         <tr>
             <td style="text-align: right;" colspan="2"><a class="btn btn-mini btn-secondary" href="#Top">Terug naar boven</a></td>
         </tr>
+
+        <!-- Grid -->
+        <tr style="border-bottom: 1px solid #ccc; vertical-align: top;">
+            <td colspan="2">
+                <h2 id="Grid" style="padding-top: 20px; margin-top: 40px;">Grid-row</h2>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; border-bottom: 1px solid #ccc; padding: 16px;">
+                <div class="grid-row">
+                    <div class="col-xs-12 col-md-6">
+                        <div style="height:100%; border-radius:8px; border: 1px solid #e7e7e7; background-color: #fafafa; padding:12px; margin-bottom:24px">
+                            <h2>Box 1</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div style="height:100%; border-radius:8px; border: 1px solid #366636; background-color: #e2ffde; padding:12px; margin-bottom:24px">
+                            <h2>Box 2</h2>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                        <div style="height:100%; border-radius:8px; border: 1px solid #2f4d75; background-color: #dff0fd; padding:12px; margin-bottom:24px">
+                            <h2>Box 3</h2>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-8">
+                        <div style="height:100%; border-radius:8px; border: 1px solid #c78202; background-color: #ffe5c3; padding:12px; margin-bottom:24px">
+                            <h2>Box 4</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div style="height:100%; border-radius:8px; border: 1px solid #e7e7e7; background-color: #fafafa; padding:12px; margin-bottom:24px">
+                            <h2>Box 5</h2>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        </div>
+                    </div>
+                </div>
+            </td>
+
+            <td style="vertical-align: top; border-bottom: 1px solid #ccc; padding: 16px;">
+                <pre>
+&lt;div class="grid-row"&gt;
+
+    &lt;div class="col-xs-12 col-md-6"&gt;
+        &lt;div style="height:100%; border-radius:8px; border: 1px solid #e7e7e7; background-color: #fafafa; padding:12px; margin-bottom:24px"&gt;
+            &lt;h2&gt;Box 1&lt;/h2&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-xs-12 col-md-6"&gt;
+        &lt;div style="height:100%; border-radius:8px; border: 1px solid #366636; background-color: #e2ffde; padding:12px; margin-bottom:24px"&gt;
+            &lt;h2&gt;Box 2&lt;/h2&gt;
+            &lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-xs-12 col-md-12"&gt;
+        &lt;div style="height:100%; border-radius:8px; border: 1px solid #2f4d75; background-color: #dff0fd; padding:12px; margin-bottom:24px"&gt;
+            &lt;h2&gt;Box 3&lt;/h2&gt;
+            &lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-xs-12 col-md-8"&gt;
+        &lt;div style="height:100%; border-radius:8px; border: 1px solid #c78202; background-color: #ffe5c3; padding:12px; margin-bottom:24px"&gt;
+            &lt;h2&gt;Box 4&lt;/h2&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-xs-12 col-md-4"&gt;
+        &lt;div style="height:100%; border-radius:8px; border: 1px solid #e7e7e7; background-color: #fafafa; padding:12px; margin-bottom:24px"&gt;
+            &lt;h2&gt;Box 5&lt;/h2&gt;
+            &lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+</pre>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td style="text-align: right;" colspan="2"><a class="btn btn-mini btn-secondary" href="#Top">Terug naar boven</a></td>
+        </tr>
+
+        <!-- Toggle -->
+        <tr style="border-bottom: 1px solid #ccc; vertical-align: top;">
+            <td colspan="2">
+                <h2 id="Toggle" style="padding-top: 20px; margin-top: 40px;">Toggle</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="vertical-align: top; border-bottom: 1px solid #ccc; padding: 16px;">
+                <details style="border: 1px solid #efefef; border-width: 1px 0;">
+    <summary style="cursor:pointer; padding:10px;" title="Click to unfold"><strong>Header</strong></summary>
+    <p style="padding:12px; margin: 0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt...</p>
+</details>
+            </td>
+
+            <td style="vertical-align: top; border-bottom: 1px solid #ccc; padding: 16px;">
+<pre>
+&lt;details style="border: 1px solid #efefef; border-width: 1px 0;"&gt;
+    &lt;summary style="cursor:pointer; padding:10px;" title="Click to unfold"&gt;
+        &lt;strong&gt;Header&lt;/strong&gt;
+    &lt;/summary&gt;
+    &lt;p style="padding:12px; margin: 0"&gt;
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur...
+    &lt;/p&gt;
+&lt;/details&gt;
+</pre>
+
+
+            </td>
+        </tr>
+
+        <tr>
+            <td style="text-align: right;" colspan="2"><a class="btn btn-mini btn-secondary" href="#Top">Terug naar boven</a></td>
+        </tr>
+
+        <!-- Popup -->
+        <tr style="border-bottom: 1px solid #ccc; vertical-align: top;">
+            <td colspan="2">
+                <h2 id="Popup" style="padding-top: 20px; margin-top: 40px;">Pop-up box</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="vertical-align: top; border-bottom: 1px solid #ccc; padding: 16px;">
+                
+                <a class="btn" href="#popupbox">Click here to open the pop-up box!</a>
+                <div id="popupbox" class="enhanceable_content dialog" title="This is a pop-up box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+            </td>
+
+            <td style="vertical-align: top; border-bottom: 1px solid #ccc; padding: 16px;">
+<pre>
+&lt;a class="btn" href="#popupbox"&gt;Click here to open the pop-up box!&lt;/a&gt;
+&lt;div id="popupbox" class="enhanceable_content dialog" title="This is a pop-up box"&gt;
+    &lt;p&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    &lt;/p&gt;
+&lt;/div&gt;
+</pre>
+
+
+
+            </td>
+        </tr>
+
+        <tr>
+            <td style="text-align: right;" colspan="2"><a class="btn btn-mini btn-secondary" href="#Top">Terug naar boven</a></td>
+        </tr>
+
+        <!-- Images -->
+        <tr style="border-bottom: 1px solid #ccc; vertical-align: top;">
+            <td colspan="2">
+                <h2 id="Image" style="padding-top: 20px; margin-top: 40px;">Images</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="vertical-align: top; border-bottom: 1px solid #ccc; padding: 16px;">
+                
+                <img src="/courses/56888/files/13879180/preview" alt="roeters.jpg" style="width:50%; border: 1px solid #ccc; border-radius:5px"/>
+
+            </td>
+
+            <td style="vertical-align: top; border-bottom: 1px solid #ccc; padding: 16px;">
+<pre>
+&lt;img src="/courses/56888/files/13879180/preview" alt="roeters.jpg" style="width:50%; border: 1px solid #ccc; border-radius:5px"/&gt;
+
+</pre>
+
+
+
+            </td>
+        </tr>
+
+        <tr>
+            <td style="text-align: right;" colspan="2"><a class="btn btn-mini btn-secondary" href="#Top">Terug naar boven</a></td>
+        </tr>
+
     </tbody>
 </table>
