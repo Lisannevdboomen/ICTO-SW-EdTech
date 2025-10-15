@@ -1,0 +1,15 @@
+<p>Hé Christine,</p> 
+<p>Je ontvangt deze e-mail omdat het aanmeldformulier voor de meeloopdagen incorrect is ingevuld. Hierdoor is er geen bevestiging naar de student verstuurd en is de aanmelding niet in de lijst verwerkt. Hieronder staan de ingevulde gegevens. Wil je deze in onze lijst toevoegen en de student daarna een bevestiging sturen?</p> 
+
+<ul> 
+    <li><strong>Voornaam:</strong> @{variables('response_details')?['Voornaam']}</li> 
+    <li><strong>Achternaam:</strong> @{variables('response_details')?['Achternaam']}</li> 
+    <li><strong>Email:</strong> @{variables('response_details')?['Email_aanmelder']}</li> 
+    <li><strong>Telefoon:</strong> @{variables('response_details')?['Telefoonnummer']}</li> 
+    <li><strong>Opleiding:</strong> @{variables('opleiding')}</li> 
+    <li><strong>Gemaakte keuze:</strong> @{variables('keuze_forms')}</li> 
+</ul> 
+
+<p>Groetjes,</br> 
+Power Automate</p> 
+<hr> 

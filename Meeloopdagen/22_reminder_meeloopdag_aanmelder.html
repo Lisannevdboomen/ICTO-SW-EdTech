@@ -1,0 +1,22 @@
+<p><strong>[English follows]</strong></p> 
+
+<p>Beste @{items('Apply_to_each')?['Title']},</p> 
+<p>Bedankt voor je interesse in een Meeloopdag voor de Bachelor @{items('Apply_to_each')?['Opleiding/Value']}. Hierbij sturen we je een herinnering voor je deelname aan de Meeloopdag voor deze opleiding op @{variables('nederlands')?['datum']} van @{variables('nederlands')?['starttijd']} tot @{variables('nederlands')?['eindtijd']} uur op onze UvA-locatie @{items('For_each')?['Locatie']}, met wat meer informatie over de student die je gaat begeleiden.</p> 
+<p>Tijdens het meelopen volg je samen met een eerstejaarsstudent van de opleiding van jouw interesse een echt hoorcollege. Je zit tussen andere studenten en krijgt zo een goede indruk van de opleiding, de UvA en het studentenleven. Je wordt rondgeleid door de volgende eerstejaarsstudent(en): 
+    @{if(or(empty(items('For_each')?['voornaam_2']), less(length(outputs('Get_items_[aanmeldingen]')?['body/value']), 5)), concat(items('For_each')?['voornaam_1'], ' ', items('For_each')?['achternaam_1']), concat(items('For_each')?['voornaam_1'], ' ', items('For_each')?['achternaam_1'], ' en ', items('For_each')?['voornaam_2'], ' ', items('For_each')?['achternaam_2']))}. 
+Hij of zij neemt contact met je op via Whatsapp/sms/mail om de exacte locatie samen met de routebeschrijving aan je door te geven. Dus houd je telefoon en mail goed in de gaten.</p> 
+<p>De voertaal van de rondleiding is in het Nederlands, tenzij de student-begeleider Engelstalig is of iemand in je groepje Engelstalig is. Het hoorcollege zal in het Engels gegeven worden, met uitzondering op twee colleges van Politicologie.</p> 
+<p>Mocht je nog verdere vragen hebben, de datum van je meeloopdag willen wijzigen, of niet langer deel willen of kunnen nemen aan deze Meeloopdag, neem dan contact op met de evenementencoördinator Christine Yan op +31 6 81963438 of via r.yan@uva.nl.</p> 
+<p>Met vriendelijke groet,</br> 
+Christine Yan</p> 
+
+<hr> 
+
+<p>Dear @{items('Apply_to_each')?['Title']},</p> 
+<p>Thank you for your interest in Student for a Day for the Bachelor @{variables('opleiding_en')} at the University of Amsterdam. This is a reminder that your Student for a Day event will take place on @{variables('engels')?['datum']}, from @{variables('engels')?['starttijd']} to @{variables('engels')?['eindtijd']} at our UvA location of @{items('For_each')?['Locatie']}.</p> 
+<p>During this day, you will join a current first year student in attending a lecture and a tour around the campus. Experiencing the Bachelor’s programme alongside other students will give you real-life insight into university life and whether the programme suits you! The first year student that you will be meeting with can also answer any questions that you may have about the programme, studying at the UvA and student life in general. You will be guided by the following first-year student(s): 
+    @{if(or(empty(items('For_each')?['voornaam_2']), less(length(outputs('Get_items_[aanmeldingen]')?['body/value']), 5)), concat(items('For_each')?['voornaam_1'], ' ', items('For_each')?['achternaam_1']), concat(items('For_each')?['voornaam_1'], ' ', items('For_each')?['achternaam_1'], ' and ', items('For_each')?['voornaam_2'], ' ', items('For_each')?['achternaam_2']))}. 
+He or she will contact you via WhatsApp/text/email to provide you with the exact location along with the directions. So please keep an eye out for incoming messages on your phone.</p> 
+<p>If you have any further questions, want to change the date of Student for a Day, or are no longer interested or able to participate in Student for a Day, please inform us of this decision in advance by contacting the event coordinator Christine Yan on +31 6 81963438 or via r.yan@uva.nl.</p> 
+<p>Kind regards,</br> 
+Christine Yan</p>
